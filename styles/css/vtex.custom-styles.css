@@ -1,3 +1,7 @@
+.notificationBarInner {
+    height: 2.9rem;
+}
+
 .flexCol--logoCol img {
     width: 130px;
     max-width: 130px;

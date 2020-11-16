@@ -79,14 +79,14 @@
     },
     "flex-layout.col#logo-desktop": {
         "props": {
-            "verticalAlign": "middle",
-            "blockClass": "logoCol"
+            "verticalAlign": "center",
+            "blockClass": "logoCol" 
         },
         "children": ["image#logo-desktop"]
     },
     "flex-layout.col#category-menu": {
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "center"
         }
         // "children": ["vtex.menu@2.x:menu#category-menu"]
     },
