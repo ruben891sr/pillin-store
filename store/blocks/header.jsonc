@@ -28,6 +28,7 @@
     "notification.bar#home": {
         "props": {
             "content": "Por compras sobre $50.000 tienes despacho gratis"
+
         }
     },
     // "flex-layout.row#3-desktop": {
@@ -64,11 +65,13 @@
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": false
         },
         "children": [
             "flex-layout.col#logo-desktop",
+            "flex-layout.col#spacer",
             "flex-layout.col#category-menu",
+            "flex-layout.col#spacer",
             "search-bar",
             "login",
             "minicart.v2"
@@ -76,7 +79,8 @@
     },
     "flex-layout.col#logo-desktop": {
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "blockClass": "logoCol"
         },
         "children": ["image#logo-desktop"]
     },
@@ -90,10 +94,20 @@
         "props": {
             "title": "Pillin",
             "href": "/",
-            "src": "/assets/logo-pillin.png",
-            "width": "180"
-        } 
+            "src": "assets/img/logo-pillin.png",
+            "width": "90",
+            "max-width":"100%",
+            "height": "auto",
+            "alt": "Logo-Pillin"
+        }
     },
+
+    "flex-layout.col#spacer": {
+        "props": {
+          "width": "grow"
+        }
+      },
+
     //   "header-layout.mobile": {
     //     "children": ["sticky-layout#1-mobile"]
     //   },
