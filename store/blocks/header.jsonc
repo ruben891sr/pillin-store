@@ -132,6 +132,17 @@
             "fullWidth": true
         }
     },
+
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+      },
     //   "drawer": {
     //     "children": ["menu#drawer"]
     //   },
