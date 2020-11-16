@@ -80,7 +80,7 @@
     "flex-layout.col#logo-desktop": {
         "props": {
             "verticalAlign": "center",
-            "blockClass": "logoCol" 
+            "blockClass": "logoCol"
         },
         "children": ["image#logo-desktop"]
     },
@@ -97,8 +97,12 @@
             "src": "assets/img/logo-pillin.png",
             "width": "90",
             "max-width":"100%",
-            "height": "auto",
-            "alt": "Logo-Pillin"
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "alt": "Logo-Pillin",
+            "blockClass": "logoCol",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
         }
     },
 

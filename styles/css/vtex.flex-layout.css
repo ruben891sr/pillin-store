@@ -1,0 +1,8 @@
+.flexCol--logoCol {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--main-header {
+    border-bottom: 1px solid rgb(204 204 204 / 0.4);
+}
