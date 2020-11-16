@@ -78,7 +78,7 @@
         "props": {
             "verticalAlign": "middle"
         },
-        "children": ["logo#desktop"]
+        "children": ["image#logo-desktop"]
     },
     "flex-layout.col#category-menu": {
         "props": {
@@ -86,13 +86,13 @@
         }
         // "children": ["vtex.menu@2.x:menu#category-menu"]
     },
-    "logo#desktop": {
+    "image#logo-desktop": {
         "props": {
-            "title": "Logo",
+            "title": "Pillin",
             "href": "/",
-            "src": "/store/assets/logo-pillin.png",
+            "src": "assets/logo-pillin.png",
             "width": "180"
-        }
+        } 
     },
     //   "header-layout.mobile": {
     //     "children": ["sticky-layout#1-mobile"]
