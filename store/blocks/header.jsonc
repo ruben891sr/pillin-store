@@ -90,7 +90,7 @@
         "props": {
             "title": "Pillin",
             "href": "/",
-            "src": "assets/logo-pillin.png",
+            "src": "/assets/logo-pillin.png",
             "width": "180"
         } 
     },
