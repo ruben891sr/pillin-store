@@ -22,7 +22,7 @@
     "flex-layout.row#2-desktop": {
         "children": ["notification.bar#home"],
         "props": {
-            "fullWidth": "true"
+            "fullWidth": true
         }
     },
     "notification.bar#home": {
@@ -87,8 +87,8 @@
     "flex-layout.col#category-menu": {
         "props": {
             "verticalAlign": "center"
-        }
-        // "children": ["vtex.menu@2.x:menu#category-menu"]
+        },
+        "children": ["vtex.menu@2.x:menu#category-menu"]
     },
     "image#logo-desktop": {
         "props": {
