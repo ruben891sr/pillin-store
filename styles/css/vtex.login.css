@@ -1,15 +1,11 @@
-.imageElement--logoCol {
-    width: 130px;
-}
-
-.notificationBarInner {
-    min-height: 2.5rem;
-}
-
-.searchIcon {
+.profileIcon {
     overflow: visible !important;
     width: 15px;
     height: auto;
     fill: #3f2016;
     margin-top: -4px;
+}
+
+.label {
+    display: none;
 }

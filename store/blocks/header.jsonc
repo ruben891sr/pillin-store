@@ -140,7 +140,8 @@
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
+          "showIconProfile": true,
+          "blockClass": "userColHeader"
         }
       },
     //   "drawer": {

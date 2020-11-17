@@ -1,7 +1,7 @@
 .cartIcon {
-    overflow: visible!important;
-    width: 15px;
-    height: auto;
-    fill: #3F2016;
-    margin-top: -6px;
-} 
+    overflow: visible !important;
+    width: 15px !important;
+    height: auto !important;
+    fill: #3F2016 !important;
+    margin-top: -6px !important;
+}

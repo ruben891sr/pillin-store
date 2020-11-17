@@ -1,7 +1,37 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      
+      "slider-layout#text-test"
     ]
+  },
+
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1", "image#2", "image#3"]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "assets/img/slider.jpg"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/img/slider.jpg"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "assets/img/slider.jpg"
+    }
   }
 }
