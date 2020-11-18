@@ -13,3 +13,29 @@
     fill: #3f2016;
     margin-top: -4px;
 }
+
+.infoCardHeadline--info-card-search-by {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.infoCardTextContainer--info-card-search-by .infoCardCallActionContainer--info-card-search-by {
+    text-transform: capitalize !important;
+    background-color: #fff !important;
+    color: saddlebrown !important;
+    margin-top: .5rem;
+}
+
+.infoCardTextContainer--info-card-search-by .t-action, 
+.infoCardTextContainer--info-card-search-by .t-action--small {
+    text-transform: capitalize !important;
+}
+
+.infoCardTextContainer--info-card-search-by {
+    padding: 6rem 0;
+}
+
+.infoCardContainer--info-card-search-by {
+    border-radius: 10px;
+    overflow: hidden;  
+}

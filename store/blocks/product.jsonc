@@ -1,6 +1,106 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main"
+      // "shelf.relatedProducts"
     ]
+  },
+
+
+  // BreadCrumb
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+
+  // Generales detalle del producto
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+  },
+
+  // Imagen del producto
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": ["product-images"]
+  },
+
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-hover"
+    }
+  },
+
+  // Detalles del Producto
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-separator",
+      "product-quantity",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "shipping-simulator"
+    ]
+  },
+  
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": true,
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true,
+      "initialSelection": "empty",
+      "visibleVariations": ["Talla", "Color"]
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["buy-button"]
   }
+
+
+  //Productos Relacionados
+  // "shelf.relatedProducts": {
+  //   "props": {
+  //     "recommendation": "view",
+  //     "productList": {
+  //       "titleText": "Who saw also saw",
+  //       "itemsPerPage": 3
+  //     }
+  //   }
+  // }
+
+
 }

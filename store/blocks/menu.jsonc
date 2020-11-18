@@ -1,52 +1,152 @@
 {
-    "vtex.menu@2.x:menu#category-menu": {
+    // Declarcion del Menú Principal
+    "vtex.menu@2.x:menu#navegacion": {
         "children": [
-            "menu-item#shop",
-            "menu-item#about-us"
-        ]
+            "menu-item#nueva-temporada",
+            "menu-item#recien-nacido",
+            "menu-item#bebe",
+            "menu-item#ninos",
+            "menu-item#tween-way",
+            "menu-item#zapatos",
+            "menu-item#ofertas"
+        ],
+        "props":{
+            "verticalAlign": "center",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center",
+            "height": "100%"
+        }
     },
-    "menu-item#shop": {
+
+    // Nueva Temporada
+    "menu-item#nueva-temporada": {
         "props": {
-            "id": "menu-item-shop",
+            "verticalAlign": "center",
+            "id": "menu-item-nueva-temporada",
             "type": "custom",
             "highlight": false,
+            "height": "100%",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Shop",
-                "text": "Shop"
-            },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+                "tagTitle": "Nueva Temporada",
+                "text": "Nueva Temporada"
+            }
         }
     },
-    "menu-item#about-us": {
+
+    //Recien Nacido
+    "menu-item#recien-nacido": {
         "props": {
-            "id": "menu-item-about-us",
+            "verticalAlign": "center",
+            "id": "menu-item-nueva-temporada",
             "type": "custom",
             "highlight": false,
+            "blockClass": "menuItemSubtitulo",
+            "height": "100%",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "About Us",
-                "text": "About Us"
-            },
-            "iconProps": {
-                "id": "bnd-logo",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+                "tagTitle": "Nueva Temporada",
+                "text": "Recién Nacido"
+            }
         }
-    }
+    },
+
+    // Bebe
+    "menu-item#bebe": {
+        "props": {
+            "verticalAlign": "center",
+            "id": "menu-item-bebe",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menuItemSubtitulo",
+            "height": "100%",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Bebe",
+                "text": "Bebé"
+            }
+        }
+    },
+    // Ninos
+    "menu-item#ninos": {
+        "props": {
+            "verticalAlign": "center",
+            "id": "menu-item-ninos",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menuItemSubtitulo",
+            "height": "100%",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ninos",
+                "text": "Niños"
+            }
+        }
+    },
+
+    // Tween Way
+    "menu-item#tween-way": {
+        "props": {
+            "verticalAlign": "center",
+            "id": "menu-item-tween-way",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menuItemSubtitulo",
+            "height": "100%",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "tween-way",
+                "text": "Tween Way"
+            }
+        }
+    },
+
+    // Zapatos
+    "menu-item#zapatos": {
+        "props": {
+            "verticalAlign": "center",
+            "id": "menu-item-zapatos",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menuItemSubtitulo",
+            "height": "100%",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "zapatos",
+                "text": "Zapatos"
+            }
+        }
+    },
+
+    // Ofertas
+    "menu-item#ofertas": {
+        "props": {
+            "verticalAlign": "center",
+            "id": "menu-item-ofertas",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "botonDestacadoMenu",
+            "height": "100%",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ofertas",
+                "text": "Ofertas"
+            }
+        }
+    } 
+
 }

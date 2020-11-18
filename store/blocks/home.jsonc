@@ -1,10 +1,15 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#text-test"
+      "slider-layout#text-test",
+      "flex-layout.row#infocards",
+      "shelf",
+      "flex-layout.row#banners"
     ]
   },
 
+
+  // Slider Principal
   "slider-layout#text-test": {
     "props": {
       "showNavigationArrows": "desktopOnly",
@@ -22,6 +27,7 @@
     "children": ["image#1", "image#2", "image#3"]
   },
 
+  // Slides
   "image#1": {
     "props": {
       "src": "assets/img/slider.jpg",
@@ -42,5 +48,155 @@
       "width": "100%",
       "blockClass": "sliderImage"
     }
+  },
+
+
+  // Seccion Infocard
+  "flex-layout.row#infocards": {
+    "children": [
+      "flex-layout.col#vestuario",
+      "flex-layout.col#calzado",
+      "flex-layout.col#accesorios"
+    ],
+    "props": {
+      "colGap": 7
+    }
+  },
+
+  "flex-layout.col#vestuario": {
+    "children": ["info-card#vestuario"]
+  },
+  "flex-layout.col#calzado": {
+    "children": ["info-card#calzado"]
+  },
+  "flex-layout.col#accesorios": {
+    "children": ["info-card#accesorios"]
+  },
+
+  "info-card#vestuario": {
+    "props": {
+      "id": "info-card-vestuario",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-vestuario.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Vestuario",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-search-by",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#calzado": {
+    "props": {
+      "id": "info-card-calzado",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-calzado.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Calzado",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-search-by",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#accesorios": {
+    "props": {
+      "id": "info-card-accesorios",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-accesorios.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Accesorios",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-search-by",
+      "textAlignment": "center"
+    }
+  },
+
+
+  //Banners
+  //Delaracion de Row y Cols
+  "flex-layout.row#banners": {
+    "children": [
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2",
+      "flex-layout.col#banner3",
+      "flex-layout.col#banner4"
+    ],
+    "props": {
+      "blockClass": "gridClass"
+    }
+  },
+
+  "flex-layout.col#banner1": {
+    "children": [
+      "image#banner1"
+    ],
+    "props":{
+      "blockClass": "wrapperBannerGrid"
+    }
+  },
+
+  "flex-layout.col#banner2": {
+    "children": [
+      "image#banner2"
+    ],
+    "props":{
+      "blockClass": "wrapperBannerGrid"
+    }
+  },
+
+  "flex-layout.col#banner3": {
+    "children": [
+      "image#banner3"
+    ],
+    "props":{
+      "blockClass": "wrapperBannerGrid"
+    }
+  },
+
+  "flex-layout.col#banner4": {
+    "children": [
+      "image#banner4"
+    ],
+    "props":{
+      "blockClass": "wrapperBannerGrid"
+    }
+  },
+
+  // Declaracion de Image - Banners
+  "image#banner1": {
+    "props": {
+      "src": "assets/img/banner-home1.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+  "image#banner2": {
+    "props": {
+      "src": "assets/img/banner-home2.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+  "image#banner3": {
+    "props": {
+      "src": "assets/img/banner-home3.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+  "image#banner4": {
+    "props": {
+      "src": "assets/img/banner-home4.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
   }
+
 }

@@ -1,0 +1,17 @@
+.styledLinkContent {
+    font-weight: 800;
+    font-size: .95rem;
+}
+
+.styledLinkContent--botonDestacadoMenu {
+    color: #fff;
+    background-color: #ffaa71;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+
+.menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
