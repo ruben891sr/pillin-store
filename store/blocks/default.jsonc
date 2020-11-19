@@ -24,14 +24,33 @@
 
   "product-summary.shelf": {
     "children": [
+      "product-summary-image",
       "product-summary-add-to-list-button",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "product-identifier.summary",
       "product-summary-sku-selector",
       "product-summary-buy-button"
     ]
+  },
+
+  "product-summary-buy-button": {
+    "props":{
+      "displayBuyButton": "displayButtonHover"
+    }
+  },
+
+  "product-summary-sku-selector": {
+    "props":{
+      "hideImpossibleCombinations": true,
+      "showValueForVariation": "none",
+      "showVariationsErrorMessage": true,
+      "showVariationsLabels": false,
+      "initialSelection": "empty",
+      "visibleVariations": ["Talla", "Color"],
+      "variationsSpacing": 0,
+      "displayMode": "slider"
+    }
   }
 }

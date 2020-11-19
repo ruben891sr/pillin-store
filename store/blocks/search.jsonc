@@ -56,6 +56,7 @@
       "search-not-found-layout"
     ]
   },
+
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
@@ -81,7 +82,7 @@
 
 
   // Declaracion de columnas principales
-  "flex-layout.row#result": {
+  "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"

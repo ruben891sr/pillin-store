@@ -1,8 +1,10 @@
+/* Logo */
 .flexCol--logoCol {
     display: flex;
     justify-content: center;
 }
 
+/* Header */
 .flexRow--main-header {
     border-bottom: 1px solid rgb(204 204 204 / 0.4);
     box-shadow: 7px 7px 5px 0 rgba(107, 107, 107, 0.15);
@@ -12,4 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flexRowContent--centerBannersRow {
+    justify-content: center;
 }

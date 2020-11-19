@@ -5,3 +5,7 @@
     fill: #3F2016 !important;
     margin-top: -6px !important;
 }
+
+.openIconContainer {
+    padding-left: 0 !important;
+}

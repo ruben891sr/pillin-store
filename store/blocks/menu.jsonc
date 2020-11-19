@@ -10,7 +10,7 @@
             "menu-item#zapatos",
             "menu-item#ofertas"
         ],
-        "props":{
+        "props": {
             "verticalAlign": "center",
             "preventVerticalStretch": true,
             "horizontalAlign": "center",
@@ -39,21 +39,112 @@
     //Recien Nacido
     "menu-item#recien-nacido": {
         "props": {
-            "verticalAlign": "center",
-            "id": "menu-item-nueva-temporada",
             "type": "custom",
             "highlight": false,
-            "blockClass": "menuItemSubtitulo",
-            "height": "100%",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Nueva Temporada",
+                "tagTitle": "recien-nacido",
                 "text": "Recién Nacido"
             }
-        }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#reciennacido"] // Defining a submenu
     },
+    "vtex.menu@2.x:submenu#reciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#submenureciennacido"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenureciennacido": {
+        "children": [
+            "flex-layout.row#submenureciennacido"
+        ]
+    },
+    "flex-layout.row#submenureciennacido": {
+        "children": [
+            "flex-layout.col#ninoreciennacido",
+            "flex-layout.col#ninareciennacido",
+            "flex-layout.col#imagenreciennacido"
+        ]
+    },
+
+    "flex-layout.col#ninoreciennacido": {
+        "children": [
+            // "rich-text#nino",
+            // "menu-item#major-appliances",
+            // "menu-item#small-appliances",
+            // "menu-item#electronics"
+        ]
+    },
+    "flex-layout.col#ninareciennacido": {
+        "children": [
+            // "rich-text#nina",
+            // "menu-item#major-appliances",
+            // "menu-item#small-appliances",
+            // "menu-item#electronics"
+        ]
+    },
+    "flex-layout.col#imagenreciennacido": {
+        "children": [
+            // "image#example"
+        ]
+    },
+
+    // "rich-text#nino": {
+    //     "props": {
+    //         "textAlignment": "LEFT",
+    //         "textPosition": "LEFT",
+    //         "text": "***Niño***"
+    //     }
+    // },
+    // "rich-text#nina": {
+    //     "props": {
+    //         "textAlignment": "LEFT",
+    //         "textPosition": "LEFT",
+    //         "text": "***Niña***"
+    //     }
+    // },
+
+    // "image#example": {
+    //     "props": {
+    //       "src": "assets/img/menu-ejemplo.jpg",
+    //       "maxHeight": 24
+    //     }
+    //   },
+
+
+
+
+
+    // "menu-item#recien-nacido": {
+    //     "props": {
+    //         "verticalAlign": "center",
+    //         "type": "custom",
+    //         "highlight": false,
+    //         "blockClass": "menuItemSubtitulo",
+    //         "height": "100%",
+    //         "itemProps": {
+    //             "type": "internal",
+    //             "href": "#",
+    //             "noFollow": false,
+    //             "tagTitle": "Nueva Temporada",
+    //             "text": "Recién Nacido"
+    //         },
+    //         "blocks": ["vtex.menu@2.x:submenu#reciennacido"]
+    //     }
+    // },
+
+
+    // "vtex.menu@2.x:submenu#reciennacido": {
+    //     "children": ["vtex.menu@2.x:menu#submenureciennacido"]
+    // },
+
+    // "vtex.menu@2.x:menu#submenureciennacido": {
+    //     "children": [
+    //         "menu-item#major-appliances"
+    //     ]
+    // },
 
     // Bebe
     "menu-item#bebe": {
@@ -147,6 +238,6 @@
                 "text": "Ofertas"
             }
         }
-    } 
+    }
 
 }
