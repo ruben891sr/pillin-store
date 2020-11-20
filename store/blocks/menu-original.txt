@@ -17,6 +17,7 @@
             "height": "100%"
         }
     },
+
     // Nueva Temporada
     "menu-item#nueva-temporada": {
         "props": {
@@ -34,6 +35,7 @@
             }
         }
     },
+
     //Recien Nacido
     "menu-item#recien-nacido": {
         "props": {
@@ -51,99 +53,43 @@
     },
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
+            "vtex.menu@2.x:menu#submenureciennacido"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenureciennacido": {
+        "children": [
             "flex-layout.row#submenureciennacido"
         ]
     },
     "flex-layout.row#submenureciennacido": {
         "children": [
             "flex-layout.col#ninoreciennacido",
-            "flex-layout.col#nino1reciennacido",
-            "flex-layout.col#nino2reciennacido"
+            "flex-layout.col#ninareciennacido",
+            "flex-layout.col#imagenreciennacido"
         ]
     },
+
     "flex-layout.col#ninoreciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#ninosubmenureciennacido",
-            "rich-text#nino"
+            "rich-text#nino",
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
         ]
     },
-    "vtex.menu@2.x:menu#ninosubmenureciennacido": {
+    "flex-layout.col#ninareciennacido": {
         "children": [
+            "rich-text#nina",
             "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-
-
-
-
-    "flex-layout.col#nino1reciennacido": {
-        "children": [
-            "vtex.menu@2.x:menu#nino1submenureciennacido",
-            "rich-text#nino"
+            "menu-item#small-appliances",
+            "menu-item#electronics"
         ]
     },
-    "vtex.menu@2.x:menu#nino1submenureciennacido": {
+    "flex-layout.col#imagenreciennacido": {
         "children": [
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-
-
-
-
-    "flex-layout.col#nino2reciennacido": {
-        "children": [
-            "vtex.menu@2.x:menu#nino2submenureciennacido",
-            "rich-text#nino"
+            "image#example"
         ]
     },
-    "vtex.menu@2.x:menu#nino2submenureciennacido": {
-        "children": [
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-
-
-
-
-
-
-
-
-    "image#example": {
-        "props": {
-            "src": "assets/img/menu-ejemplo.jpg",
-            "maxHeight": 24
-        }
-    },
-
 
     "rich-text#nino": {
         "props": {
@@ -152,6 +98,22 @@
             "text": "***Niño***"
         }
     },
+    "rich-text#nina": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "***Niña***"
+        }
+    },
+
+    "image#example": {
+        "props": {
+          "src": "assets/img/menu-ejemplo.jpg",
+          "maxHeight": 24
+        }
+      },
+
+
 
 
 
@@ -172,14 +134,18 @@
     //         "blocks": ["vtex.menu@2.x:submenu#reciennacido"]
     //     }
     // },
+
+
     // "vtex.menu@2.x:submenu#reciennacido": {
     //     "children": ["vtex.menu@2.x:menu#submenureciennacido"]
     // },
+
     // "vtex.menu@2.x:menu#submenureciennacido": {
     //     "children": [
     //         "menu-item#major-appliances"
     //     ]
     // },
+
     // Bebe
     "menu-item#bebe": {
         "props": {
@@ -216,6 +182,7 @@
             }
         }
     },
+
     // Tween Way
     "menu-item#tween-way": {
         "props": {
@@ -234,6 +201,7 @@
             }
         }
     },
+
     // Zapatos
     "menu-item#zapatos": {
         "props": {
@@ -252,6 +220,7 @@
             }
         }
     },
+
     // Ofertas
     "menu-item#ofertas": {
         "props": {
@@ -270,4 +239,5 @@
             }
         }
     }
+
 }

@@ -1,43 +1,176 @@
 {
-    "footer": {
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-    },
-    "footer-layout.desktop": {
-      "children": [
-        "flex-layout.row#footer-desktop"
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.row#seo-section",
+      "flex-layout.row#main-footer",
+      "social-networks",
+      "accepted-payment-methods",
+      "powered-by"
+    ]
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "social-networks",
+      "accepted-payment-methods",
+      "powered-by"
+    ]
+  },
+
+
+
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [{
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        }
       ]
-    },
-    "footer-layout.mobile": {
-      "children": [
-        "flex-layout.row#footer-mobile"
-      ]
-    },
-    "flex-layout.row#footer-desktop": {
-      "children": [
-        "social-networks",
-        "accepted-payment-methods",
-        "powered-by"
-      ]
-    },
-    "flex-layout.row#footer-mobile": {
-      "children": [
-        "social-networks",
-        "accepted-payment-methods",
-        "powered-by"
-      ]
-    },
-    "social-networks": {
-      "props": {
-        "socialNetworks": [
-          { "url": "https://facebook.com/foo", "name": "Facebook" },
-          { "url": "https://twitter.com/foo", "name": "Twitter" }
-        ]
-      }
-    },
-    "accepted-payment-methods": {
-      "props": {
-        "paymentMethods": ["mastercard", "visa", "diners club"]
-      }
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  },
+
+
+  // SEO Section
+  "flex-layout.row#seo-section": {
+    "children": [
+      "rich-text#categorias-mas-buscadas"
+    ]
+  },
+
+  "rich-text#categorias-mas-buscadas": {
+    "props": {
+      "blockClass": "main-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Categorías más buscadas"
+    }
+  },
+
+  // Main Footer
+  "flex-layout.row#main-footer": {
+    "children": [
+      "flex-layout.row#main-content",
+      "flex-layout.row#partner-content"
+    ]
+  },
+
+  "flex-layout.row#main-content": {
+    "children": [
+      "flex-layout.col#sac",
+      "flex-layout.col#cor",
+      "flex-layout.col#cue",
+      "flex-layout.col#sos",
+      "flex-layout.col#news",
+      "flex-layout.col#despa"
+    ]
+  },
+
+  "flex-layout.row#partner-content": {
+
+  },
+
+
+  "flex-layout.col#sac": {
+    "children": [
+      "rich-text#title-sac"
+    ]
+  },
+  "flex-layout.col#cor": {
+    "children": [
+      "rich-text#title-cor"
+    ]
+  },
+  "flex-layout.col#cue": {
+    "children": [
+      "rich-text#title-cue"
+    ]
+  },
+  "flex-layout.col#sos": {
+    "children": [
+      "rich-text#title-sos"
+    ]
+  },
+  "flex-layout.col#news": {
+    "children": [
+      "rich-text#title-news"
+    ]
+  },
+  "flex-layout.col#despa": {
+    "children": [
+      "rich-text#title-despa"
+    ]
+  },
+
+  "rich-text#title-sac": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Servicio al Cliente"
+    }
+  },
+  "rich-text#title-cor": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Corporativo"
+    }
+  },
+  "rich-text#title-cue": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Mi Cuenta"
+    }
+  },
+  "rich-text#title-sos": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Redes Sociales"
+    }
+  },
+  "rich-text#title-news": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Suscríbete a nuestro Newsletter"
+    }
+  },
+  "rich-text#title-despa": {
+    "props": {
+      "blockClass": "footer-titles",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Simulador de despacho"
     }
   }
-  
+
+
+}
