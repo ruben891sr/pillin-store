@@ -14,28 +14,28 @@
     margin-top: -4px;
 }
 
-.infoCardHeadline--info-card-search-by {
+.infoCardHeadline--infoCardSearchBy {
     color: #fff;
     font-size: 1rem;
 }
 
-.infoCardTextContainer--info-card-search-by .infoCardCallActionContainer--info-card-search-by {
+.infoCardContainer--infoCardSearchBy .infoCardCallActionContainer--infoCardSearchBy .vtex-button__label {
     text-transform: capitalize !important;
     background-color: #fff !important;
     color: saddlebrown !important;
     margin-top: .5rem;
 }
 
-.infoCardTextContainer--info-card-search-by .t-action, 
-.infoCardTextContainer--info-card-search-by .t-action--small {
+.infoCardTextContainer--infoCardSearchBy .t-action, 
+.infoCardTextContainer--infoCardSearchBy .t-action--small {
     text-transform: capitalize !important;
 }
 
-.infoCardTextContainer--info-card-search-by {
+.infoCardTextContainer--infoCardSearchBy {
     padding: 6rem 0;
 }
 
-.infoCardContainer--info-card-search-by {
+.infoCardContainer--infoCardSearchBy {
     border-radius: 10px;
     overflow: hidden;  
 }
@@ -46,4 +46,23 @@
 
 .searchBarContainer {
     margin-right: 1rem;
+}
+
+.skuSelectorTextContainer {
+    display: none;
+}
+
+.skuSelectorSubcontainer {
+    padding: 0;
+    margin: 0;
+}
+
+.frameAround {
+    margin: 0;
+}
+
+.skuSelectorItem {
+    margin: 0;
+    height: auto;
+    width: auto;
 }

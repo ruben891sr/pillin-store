@@ -51,25 +51,91 @@
     },
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
-            "flex-layout.row#submenureciennacido"
-        ]
+            "flex-layout.row#submenureciennacido",
+            "flex-layout.row#imagereciennacido"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
     },
     "flex-layout.row#submenureciennacido": {
         "children": [
             "flex-layout.col#ninoreciennacido",
-            "flex-layout.col#nino1reciennacido",
-            "flex-layout.col#nino2reciennacido"
+            "flex-layout.col#ninareciennacido"
         ]
     },
+
+    // Niño
     "flex-layout.col#ninoreciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#ninosubmenureciennacido",
-            "rich-text#nino"
+            "rich-text#nino",
+            "flex-layout.row#submenuninoreciennacido"
+
         ]
     },
-    "vtex.menu@2.x:menu#ninosubmenureciennacido": {
+
+    "flex-layout.row#submenuninoreciennacido": {
         "children": [
+            "flex-layout.col#submenuninovestuarioreciennacido",
+            "flex-layout.col#submenuninocalzadoreciennacido",
+            "flex-layout.col#submenuninoaccesoriosreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninovestuarioreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninovestuarioreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninocalzadoreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninoaccesoriosreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
+        ]
+    },
+
+    "vtex.menu@2.x:menu#subsubmenuninovestuarioreciennacido": {
+        "children": [
+            "menu-item#rn-nino-vestuario",
+            "menu-item#rn-nino-vestuario-abrigosychaquetas",
+            "menu-item#rn-nino-vestuario-bermudasyshorts",
+            "menu-item#rn-nino-vestuario-camisas",
+            "menu-item#rn-nino-vestuario-body",
+            "menu-item#rn-nino-vestuario-chalecosypolerones",
+            "menu-item#rn-nino-vestuario-jardinerasyenteritos",
+            "menu-item#rn-nino-vestuario-jeanspantalonesycalzas",
+            "menu-item#rn-nino-vestuario-ositosbusosyconjuntos",
+            "menu-item#rn-nino-vestuario-poleras",
+            "menu-item#rn-nino-vestuario-ropainteriorypillamas",
+            "menu-item#rn-nino-vestuario-trajesdebano"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
+        "children": [
+            "menu-item#rn-nino-calzado",
             "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido": {
+        "children": [
+            "menu-item#rn-nino-accesorios",
             "menu-item#major-appliances",
             "menu-item#major-appliances",
             "menu-item#major-appliances",
@@ -82,18 +148,72 @@
         }
     },
 
-
-
-
-    "flex-layout.col#nino1reciennacido": {
+    // Niña
+    "flex-layout.col#ninareciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#nino1submenureciennacido",
-            "rich-text#nino"
+            "rich-text#nina",
+            "flex-layout.row#submenuninareciennacido"
+
         ]
     },
-    "vtex.menu@2.x:menu#nino1submenureciennacido": {
+
+    "flex-layout.row#submenuninareciennacido": {
         "children": [
+            "flex-layout.col#submenuninavestuarioreciennacido",
+            "flex-layout.col#submenuninacalzadoreciennacido",
+            "flex-layout.col#submenuninaaccesoriosreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninavestuarioreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninacalzadoreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido"
+        ]
+    },
+
+    "flex-layout.col#submenuninaaccesoriosreciennacido": {
+        "children": [
+            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
+        ]
+    },
+
+    "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido": {
+        "children": [
+            "menu-item#rn-nina-vestuario",
             "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
+        "children": [
+            "menu-item#rn-nina-calzado",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances",
+            "menu-item#major-appliances"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido": {
+        "children": [
+            "menu-item#rn-nina-accesorios",
             "menu-item#major-appliances",
             "menu-item#major-appliances",
             "menu-item#major-appliances",
@@ -106,81 +226,14 @@
         }
     },
 
-
-
-
-    "flex-layout.col#nino2reciennacido": {
+    // Imagen
+    "flex-layout.row#imagereciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#nino2submenureciennacido",
-            "rich-text#nino"
+            "image#reciennacido"
         ]
     },
-    "vtex.menu@2.x:menu#nino2submenureciennacido": {
-        "children": [
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
 
-
-
-
-
-
-
-
-    "image#example": {
-        "props": {
-            "src": "assets/img/menu-ejemplo.jpg",
-            "maxHeight": 24
-        }
-    },
-
-
-    "rich-text#nino": {
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "***Niño***"
-        }
-    },
-
-
-
-    // "menu-item#recien-nacido": {
-    //     "props": {
-    //         "verticalAlign": "center",
-    //         "type": "custom",
-    //         "highlight": false,
-    //         "blockClass": "menuItemSubtitulo",
-    //         "height": "100%",
-    //         "itemProps": {
-    //             "type": "internal",
-    //             "href": "#",
-    //             "noFollow": false,
-    //             "tagTitle": "Nueva Temporada",
-    //             "text": "Recién Nacido"
-    //         },
-    //         "blocks": ["vtex.menu@2.x:submenu#reciennacido"]
-    //     }
-    // },
-    // "vtex.menu@2.x:submenu#reciennacido": {
-    //     "children": ["vtex.menu@2.x:menu#submenureciennacido"]
-    // },
-    // "vtex.menu@2.x:menu#submenureciennacido": {
-    //     "children": [
-    //         "menu-item#major-appliances"
-    //     ]
-    // },
-    // Bebe
+    // Bebé
     "menu-item#bebe": {
         "props": {
             "verticalAlign": "center",

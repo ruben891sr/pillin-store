@@ -97,12 +97,21 @@
 }
 
 .skuSelectorInternalBox {
-    width: 40px;
-    height: 40px;
+    width: 33px;
+    height: 33px;
     border-radius: 50px;
+    border: 1px solid #3f2016;
 }
 
 .skuSelectorItemTextValue {
     padding: 0;
     font-size: .8rem;
+}
+
+.frameAround {
+    margin: 0 !important;
+}
+
+.skuSelectorItemTextValue {
+    font-weight: 800;
 }
