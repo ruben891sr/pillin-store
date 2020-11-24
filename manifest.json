@@ -1,5 +1,5 @@
 {
-  "vendor": "pilli",
+  "vendor": "pillin",
   "name": "pillin-store",
   "version": "0.1.0-beta.0",
   "builders": {
@@ -44,6 +44,5 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x"
   },
-
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
