@@ -64,7 +64,8 @@
             "flex-layout.col#ninareciennacido"
         ],
         "props":{
-            "blockClass": "colItemsClass"
+            "blockClass": "colItemsClass",
+            "colGap": 4
         }
     },
 
@@ -249,7 +250,10 @@
     "flex-layout.row#imagereciennacido": {
         "children": [
             "image#reciennacido"
-        ]
+        ],
+        "props":{
+            "colGap": 4
+        }
     },
 
     // Bebé
