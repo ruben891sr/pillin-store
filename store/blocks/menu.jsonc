@@ -47,7 +47,7 @@
                 "text": "Recién Nacido"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#reciennacido"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#reciennacido"]
     },
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
@@ -62,7 +62,10 @@
         "children": [
             "flex-layout.col#ninoreciennacido",
             "flex-layout.col#ninareciennacido"
-        ]
+        ],
+        "props":{
+            "blockClass": "colItemsClass"
+        }
     },
 
     // Niño
@@ -122,12 +125,14 @@
     "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
         "children": [
             "menu-item#rn-nino-calzado",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
+            "menu-item#rn-nino-calzado-botasbotinesybototos",
+            "menu-item#rn-nino-calzado-gateadores",
+            "menu-item#rn-nino-calzado-reinasyballerinas",
+            "menu-item#rn-nino-calzado-sandalias",
+            "menu-item#rn-nino-calzado-zapatillas",
+            "menu-item#rn-nino-calzado-zapatitosreciennacido",
+            "menu-item#rn-nino-calzado-zapatos"
+            
         ],
         "props": {
             "orientation": "vertical"
@@ -136,12 +141,14 @@
     "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido": {
         "children": [
             "menu-item#rn-nino-accesorios",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
+            "menu-item#rn-nino-accesorios-baberos",
+            "menu-item#rn-nino-accesorios-calcetines",
+            "menu-item#rn-nino-accesorios-gorrosybufandas",
+            "menu-item#rn-nino-accesorios-setropainteriorybodys",
+            "menu-item#rn-nino-accesorios-peluches",
+            "menu-item#rn-nino-accesorios-pinchesycintillos",
+            "menu-item#rn-nino-accesorios-toallasytutos"
+
         ],
         "props": {
             "orientation": "vertical"
@@ -153,7 +160,6 @@
         "children": [
             "rich-text#nina",
             "flex-layout.row#submenuninareciennacido"
-
         ]
     },
 
@@ -168,7 +174,10 @@
     "flex-layout.col#submenuninavestuarioreciennacido": {
         "children": [
             "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido"
-        ]
+        ],
+        "props": {
+            "horizontalAlign": "left"
+        }
     },
 
     "flex-layout.col#submenuninacalzadoreciennacido": {
@@ -186,12 +195,18 @@
     "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido": {
         "children": [
             "menu-item#rn-nina-vestuario",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
+            "menu-item#rn-nina-vestuario-abrigosychaquetas",
+            "menu-item#rn-nina-vestuario-bermudasyshorts",
+            "menu-item#rn-nina-vestuario-camisas",
+            "menu-item#rn-nina-vestuario-body",
+            "menu-item#rn-nina-vestuario-chalecosypolerones",
+            "menu-item#rn-nina-vestuario-jardinerasyenteritos",
+            "menu-item#rn-nina-vestuario-jeanspantalonesycalzas",
+            "menu-item#rn-nina-vestuario-ositosbusosyconjuntos",
+            "menu-item#rn-nina-vestuario-poleras",
+            "menu-item#rn-nina-vestuario-ropainteriorypillamas",
+            "menu-item#rn-nina-vestuario-trajesdebano"
+
         ],
         "props": {
             "orientation": "vertical"
@@ -200,12 +215,14 @@
     "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
         "children": [
             "menu-item#rn-nina-calzado",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
+            "menu-item#rn-nina-calzado-botasbotinesybototos",
+            "menu-item#rn-nina-calzado-gateadores",
+            "menu-item#rn-nina-calzado-reinasyballerinas",
+            "menu-item#rn-nina-calzado-sandalias",
+            "menu-item#rn-nina-calzado-zapatillas",
+            "menu-item#rn-nina-calzado-zapatitosreciennacido",
+            "menu-item#rn-nina-calzado-zapatos"
+
         ],
         "props": {
             "orientation": "vertical"
@@ -214,12 +231,14 @@
     "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido": {
         "children": [
             "menu-item#rn-nina-accesorios",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances",
-            "menu-item#major-appliances"
+            "menu-item#rn-nina-accesorios-baberos",
+            "menu-item#rn-nina-accesorios-calcetines",
+            "menu-item#rn-nina-accesorios-gorrosybufandas",
+            "menu-item#rn-nina-accesorios-setropainteriorybodys",
+            "menu-item#rn-nina-accesorios-peluches",
+            "menu-item#rn-nina-accesorios-pinchesycintillos",
+            "menu-item#rn-nina-accesorios-toallasytutos"
+
         ],
         "props": {
             "orientation": "vertical"
