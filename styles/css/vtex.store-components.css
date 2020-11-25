@@ -66,3 +66,9 @@
     height: auto;
     width: auto;
 }
+
+.imageElement--imageMenu {
+    margin-top: 2rem;
+    padding-top: 0;
+    object-fit: contain;
+}

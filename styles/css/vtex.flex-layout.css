@@ -19,3 +19,7 @@
 .flexRowContent--centerBannersRow {
     justify-content: center;
 }
+
+.flexCol--colNino {
+    border-right: 1px solid #ccc;
+}

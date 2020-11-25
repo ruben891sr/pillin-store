@@ -1,4 +1,4 @@
-.styledLinkContent {
+.menuItem--mainMenu .styledLinkContent {
     font-weight: 800;
     font-size: .95rem;
 }
@@ -28,9 +28,111 @@
 .submenuWrapper {
     left: 50%;
     transform: translateX(-50%);
-    width: 80vw;
+    width: 85vw;
     top: 104px !important;
     border-top: 1px solid rgb(204 204 204 / 40%);
     border-radius: 0 0 6px 6px;
     box-shadow: 2px 4px 13px -6px #33333342;
+    padding: 2.5rem 3rem 5rem 3rem;
 }
+
+.submenuWrapper .menuItem {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.styledLinkContent--subSubMenuItem {
+    color: #3f2016;
+    font-size: .87rem !important;
+    font-weight: 500 !important;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.styledLinkContent--subSubMenuItem::before {
+    content: '';
+    width: 12px;
+    height: 18px;
+    background-image: url(assets/img/arrow-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.styledLinkContent--subcatTitulo {
+    font-weight: 800;
+    font-size: .97rem;
+    color: #3f2016;
+    margin-bottom: .7rem;
+} 
+
+.styledLink--newSeason {
+    width: 6em;
+    display: block;
+    text-align: center;
+}
+
+.styledLinkContent--newSeason {
+    word-break: break-word;
+    white-space: normal;
+}
+
+.styledLinkContainer--mainMenu-rn,
+.styledLinkContainer--mainMenu-nin,
+.styledLinkContainer--mainMenu-tw,
+.styledLinkContainer--mainMenu-za {
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+}
+
+.styledLinkContainer--mainMenu-nin,
+.styledLinkContainer--mainMenu-bb {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+
+.styledLinkContent--mainMenu-rn,
+.styledLinkContent--mainMenu-bb,
+.styledLinkContent--mainMenu-nin,
+.styledLinkContent--mainMenu-tw,
+.styledLinkContent--mainMenu-za {
+    position: relative;
+}
+
+.styledLinkContent--mainMenu-rn::before,
+.styledLinkContent--mainMenu-bb::before,
+.styledLinkContent--mainMenu-nin::before,
+.styledLinkContent--mainMenu-tw::before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: fit-content;
+    font-size: .6rem;
+    font-weight: 400;
+    color: #3f2016;
+}
+
+.styledLinkContent--mainMenu-rn::before {
+content: 'Desde 00 a 12m';
+}
+
+.styledLinkContent--mainMenu-bb::before {
+content: 'Desde 18m a 3a';
+}
+
+.styledLinkContent--mainMenu-nin::before {
+content: 'Desde 4a a 12a';
+}
+
+.styledLinkContent--mainMenu-tw::before {
+content: 'Desde 12a a 16a';
+}
+

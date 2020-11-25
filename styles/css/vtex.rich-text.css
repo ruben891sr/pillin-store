@@ -1,0 +1,32 @@
+.link--tituloMenuNino,
+.link--tituloMenuNina {
+    margin-left: 1.6rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    position: relative;
+    color: #3f2016;
+}
+
+.link--tituloMenuNino::before,
+.link--tituloMenuNina::before {
+    content: '';
+    width: 60px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.link--tituloMenuNino::before {
+    background-image: url(assets/img/mancha-nino.png);
+}
+
+.link--tituloMenuNina::before {
+    background-image: url(assets/img/mancha-nina.png);
+}

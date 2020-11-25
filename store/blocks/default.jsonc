@@ -35,12 +35,6 @@
     ]
   },
 
-  "product-summary-buy-button": {
-    "props":{
-      "displayBuyButton": "displayButtonHover"
-    }
-  },
-
   "product-summary-sku-selector": {
     "props":{
       "hideImpossibleCombinations": true,

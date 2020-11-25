@@ -11,6 +11,7 @@
             "menu-item#ofertas"
         ],
         "props": {
+            "blockClass": "mainMenu",
             "verticalAlign": "center",
             "preventVerticalStretch": true,
             "horizontalAlign": "center",
@@ -22,6 +23,7 @@
         "props": {
             "verticalAlign": "center",
             "id": "menu-item-nueva-temporada",
+            "blockClass": "newSeason",
             "type": "custom",
             "highlight": false,
             "height": "100%",
@@ -39,6 +41,7 @@
         "props": {
             "type": "custom",
             "highlight": false,
+            "blockClass": "mainMenu-rn",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -55,7 +58,8 @@
             "flex-layout.row#imagereciennacido"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#submenureciennacido": {
@@ -64,8 +68,7 @@
             "flex-layout.col#ninareciennacido"
         ],
         "props":{
-            "blockClass": "colItemsClass",
-            "colGap": 4
+            "blockClass": "colItemsClass"
         }
     },
 
@@ -74,8 +77,10 @@
         "children": [
             "rich-text#nino",
             "flex-layout.row#submenuninoreciennacido"
-
-        ]
+        ],
+        "props": {
+            "blockClass": "colNino"
+        }
     },
 
     "flex-layout.row#submenuninoreciennacido": {
@@ -161,7 +166,11 @@
         "children": [
             "rich-text#nina",
             "flex-layout.row#submenuninareciennacido"
-        ]
+        ],
+        "props": {
+            "paddingLeft": 8,
+            "blockClass": "colNina"
+        }
     },
 
     "flex-layout.row#submenuninareciennacido": {
@@ -252,7 +261,7 @@
             "image#reciennacido"
         ],
         "props":{
-            "colGap": 4
+            "preventVerticalStretch": true
         }
     },
 
@@ -263,7 +272,7 @@
             "id": "menu-item-bebe",
             "type": "custom",
             "highlight": false,
-            "blockClass": "menuItemSubtitulo",
+            "blockClass": "mainMenu-bb",
             "height": "100%",
             "itemProps": {
                 "type": "internal",
@@ -281,7 +290,7 @@
             "id": "menu-item-ninos",
             "type": "custom",
             "highlight": false,
-            "blockClass": "menuItemSubtitulo",
+            "blockClass": "mainMenu-nin",
             "height": "100%",
             "itemProps": {
                 "type": "internal",
@@ -299,7 +308,7 @@
             "id": "menu-item-tween-way",
             "type": "custom",
             "highlight": false,
-            "blockClass": "menuItemSubtitulo",
+            "blockClass": "mainMenu-tw",
             "height": "100%",
             "itemProps": {
                 "type": "internal",
@@ -317,7 +326,7 @@
             "id": "menu-item-zapatos",
             "type": "custom",
             "highlight": false,
-            "blockClass": "menuItemSubtitulo",
+            "blockClass": "mainMenu-za",
             "height": "100%",
             "itemProps": {
                 "type": "internal",

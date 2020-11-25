@@ -9,7 +9,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "[Niño](www.sr-consultores.com)",
-      "blockClass": "tituloMenu"
+      "blockClass": "tituloMenuNino"
     }
   },
 
@@ -18,7 +18,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "[Niña](www.sr-consultores.com)",
-      "blockClass": "tituloMenu"
+      "blockClass": "tituloMenuNina"
     }
   },
 
@@ -95,6 +95,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Abrigos y Chaquetas"
       }
@@ -105,6 +106,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Bermudas y Shorts"
       }
@@ -115,6 +117,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Camisas"
       }
@@ -125,6 +128,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Body"
       }
@@ -135,6 +139,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Chalecos y Polerones"
       }
@@ -145,6 +150,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Jardineras y Enteritos"
       }
@@ -155,6 +161,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Jeans, Pantalones y Calzas"
       }
@@ -165,6 +172,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Ositos, Busos y Conjuntos"
       }
@@ -175,6 +183,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Poleras"
       }
@@ -185,6 +194,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Ropa Interior y Pillamas"
       }
@@ -195,6 +205,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Trajes de baño"
       }
@@ -206,6 +217,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Botas, Botines y Bototos"
       }
@@ -216,6 +228,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Gateadores"
       }
@@ -226,6 +239,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Reinas y Ballerinas"
       }
@@ -236,6 +250,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Sandalias"
       }
@@ -246,6 +261,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Zapatillas"
       }
@@ -256,6 +272,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Zapatitos Recién Nacido"
       }
@@ -266,6 +283,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Zapatos"
       }
@@ -278,6 +296,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Baberos"
       }
@@ -288,6 +307,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Calcetines"
       }
@@ -298,6 +318,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Gorros y Bufandas"
       }
@@ -308,6 +329,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Set ropa interior y Bodys"
       }
@@ -318,6 +340,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Peluches"
       }
@@ -328,6 +351,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Pinches y Cintillos"
       }
@@ -338,6 +362,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
+      "blockClass": "subSubMenuItem",
       "itemProps": {
         "text": "Toallas y Tutos"
       }
@@ -345,258 +370,283 @@
   },
 
   // Recién Nacido - Niña - Vestuario
-"menu-item#rn-nina-vestuario-abrigosychaquetas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Abrigos y Chaquetas"
+  "menu-item#rn-nina-vestuario-abrigosychaquetas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Abrigos y Chaquetas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-bermudasyshorts": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Bermudas y Shorts"
+  "menu-item#rn-nina-vestuario-bermudasyshorts": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Bermudas y Shorts"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-camisas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Camisas"
+  "menu-item#rn-nina-vestuario-camisas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Camisas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-body": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Body"
+  "menu-item#rn-nina-vestuario-body": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Body"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-chalecosypolerones": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Chalecos y Polerones"
+  "menu-item#rn-nina-vestuario-chalecosypolerones": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Chalecos y Polerones"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-jardinerasyenteritos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Jardineras y Enteritos"
+  "menu-item#rn-nina-vestuario-jardinerasyenteritos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Jardineras y Enteritos"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-jeanspantalonesycalzas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Jeans, Pantalones y Calzas"
+  "menu-item#rn-nina-vestuario-jeanspantalonesycalzas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Jeans, Pantalones y Calzas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-ositosbusosyconjuntos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Ositos, Busos y Conjuntos"
+  "menu-item#rn-nina-vestuario-ositosbusosyconjuntos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Ositos, Busos y Conjuntos"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-poleras": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Poleras"
+  "menu-item#rn-nina-vestuario-poleras": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Poleras"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-ropainteriorypillamas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Ropa Interior y Pillamas"
+  "menu-item#rn-nina-vestuario-ropainteriorypillamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Ropa Interior y Pillamas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-vestuario-trajesdebano": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Trajes de baño"
+  "menu-item#rn-nina-vestuario-trajesdebano": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Trajes de baño"
+      }
     }
-  }
-},
+  },
 
-// Recién Nacido - Niña - Calzado
-"menu-item#rn-nina-calzado-botasbotinesybototos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Botas, Botines y Bototos"
+  // Recién Nacido - Niña - Calzado
+  "menu-item#rn-nina-calzado-botasbotinesybototos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Botas, Botines y Bototos"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-gateadores": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Gateadores"
+  "menu-item#rn-nina-calzado-gateadores": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Gateadores"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-reinasyballerinas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Reinas y Ballerinas"
+  "menu-item#rn-nina-calzado-reinasyballerinas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Reinas y Ballerinas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-sandalias": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Sandalias"
+  "menu-item#rn-nina-calzado-sandalias": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Sandalias"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-zapatillas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Zapatillas"
+  "menu-item#rn-nina-calzado-zapatillas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Zapatillas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-zapatitosreciennacido": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Zapatitos Recién Nacido"
+  "menu-item#rn-nina-calzado-zapatitosreciennacido": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Zapatitos Recién Nacido"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-calzado-zapatos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Zapatos"
+  "menu-item#rn-nina-calzado-zapatos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Zapatos"
+      }
     }
-  }
-},
+  },
 
 
-// Recién Nacido - Niña - Accesorios y Regalos
-"menu-item#rn-nina-accesorios-baberos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Baberos"
+  // Recién Nacido - Niña - Accesorios y Regalos
+  "menu-item#rn-nina-accesorios-baberos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Baberos"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-calcetines": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Calcetines"
+  "menu-item#rn-nina-accesorios-calcetines": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Calcetines"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-gorrosybufandas": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Gorros y Bufandas"
+  "menu-item#rn-nina-accesorios-gorrosybufandas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Gorros y Bufandas"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-setropainteriorybodys": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Set ropa interior y Bodys"
+  "menu-item#rn-nina-accesorios-setropainteriorybodys": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Set ropa interior y Bodys"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-peluches": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Peluches"
+  "menu-item#rn-nina-accesorios-peluches": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Peluches"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-pinchesycintillos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Pinches y Cintillos"
+  "menu-item#rn-nina-accesorios-pinchesycintillos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Pinches y Cintillos"
+      }
     }
-  }
-},
+  },
 
-"menu-item#rn-nina-accesorios-toallasytutos": {
-  "props": {
-    "type": "custom",
-    "highlight": true,
-    "itemProps": {
-      "text": "Toallas y Tutos"
+  "menu-item#rn-nina-accesorios-toallasytutos": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "text": "Toallas y Tutos"
+      }
     }
-  }
-},
+  },
 
 
 
@@ -609,7 +659,8 @@
     "props": {
       "src": "assets/img/menu-ejemplo.jpg",
       "width": "100%",
-      "height": "100%"
+      "height": "100%",
+      "blockClass": "imageMenu"
     }
   },
 
