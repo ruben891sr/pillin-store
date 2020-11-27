@@ -1,105 +1,991 @@
 {
+
+  // Configuración General
   "drawer": {
-      "children": [
+    "children": [
       "vtex.menu@2.x:menu#drawer"
-      ]
-    },
+    ]
+  },
 
   "vtex.menu@2.x:menu#drawer": {
-      "children": [
-        "menu-item#major-appliances-acc",
-        "menu-item#small-appliances-acc",
-        "menu-item#electronics-acc"
-      ],
-      "props":{
-          "orientation": "vertical"
-      }
-    },
-  "menu-item#major-appliances-acc": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 1, 
-        "text": "Major Appliances"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#major"
-    ]
-  },
-  "menu-item#small-appliances-acc": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 2, 
-        "text": "Small Appliances"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#small"
-    ]
-  },
-  "menu-item#electronics-acc": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 3, 
-        "text": "Electronics"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#electronics"
-    ]
-  },
-  "vtex.menu@2.x:submenu.accordion#major":{
-      "children":[
-          "vtex.menu@2.x:menu#major"
-      ]
-    },
-  "vtex.menu@2.x:submenu.accordion#small":{
-    "children":[
-        "vtex.menu@2.x:menu#small"
-    ]
-  },
-  "vtex.menu@2.x:submenu.accordion#electronics":{
-    "children":[
-        "vtex.menu@2.x:menu#electronics"
-    ]
-  },
-  "vtex.menu@2.x:menu#major":{
     "children": [
-        "menu-item#refrigerators",
-        "menu-item#ovens",
-        "menu-item#washers"
-      ],
-      "props":{
-          "orientation": "vertical"
+      // "menu-item#nueva-temporada-acc",
+      "menu-item#reciennacido-acc",
+      "menu-item#bb-acc",
+      "menu-item#ninn-acc"
+      // "menu-item#tween-way-acc",
+      // "menu-item#zapatos-acc",
+      // "menu-item#ofertas-acc"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  // Recién Nacido
+  "menu-item#reciennacido-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido",
+        "text": "Recién Nacido"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-nina-acc"]
   },
-  "vtex.menu@2.x:menu#small":{
-      "children": [
-          "menu-item#mixers",
-          "menu-item#toasters",
-          "menu-item#coffee"
-        ],
-        "props":{
-            "orientation": "vertical"
-        }
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nino-nina-acc": {
+    "children": [
+      "vtex.menu@2.x:menu#reciennacido-nino-nina-acc"
+    ]
   },
-  "vtex.menu@2.x:menu#electronics":{
-      "children": [
-          "menu-item#cameras",
-          "menu-item#laptops",
-          "menu-item#tvs"
-        ],
-        "props":{
-            "orientation": "vertical"
-        }
+
+  "vtex.menu@2.x:menu#reciennacido-nino-nina-acc": {
+    "children": [
+      "menu-item#reciennacido-nino-acc",
+      "menu-item#reciennacido-nina-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Recién Nacido - Niño
+  "menu-item#reciennacido-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido-nino",
+        "text": "Niño"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nino-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nino-acc"]
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nino-acc": {
+    "children": [
+      "menu-item#reciennacido-nino-vestuario-acc",
+      "menu-item#reciennacido-nino-calzado-acc",
+      "menu-item#reciennacido-nino-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "menu-item#reciennacido-nino-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nino-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Vestuarioo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-vestuario-acc"]
+  },
+
+  "menu-item#reciennacido-nino-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nino-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-calzado-acc"]
+  },
+
+  "menu-item#reciennacido-nino-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nino-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nino-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nino-vestuario-acc"],
+    "props": {
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nino-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nino-calzado-acc"],
+    "props": {
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nino-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nino-accesorios-acc"],
+    "props": {
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nino-vestuario-acc": {
+    "children": [
+      "menu-item#rn-nino-vestuario-abrigosychaquetas",
+      "menu-item#rn-nino-vestuario-bermudasyshorts",
+      "menu-item#rn-nino-vestuario-camisas",
+      "menu-item#rn-nino-vestuario-body",
+      "menu-item#rn-nino-vestuario-chalecosypolerones",
+      "menu-item#rn-nino-vestuario-jardinerasyenteritos",
+      "menu-item#rn-nino-vestuario-jeanspantalonesycalzas",
+      "menu-item#rn-nino-vestuario-ositosbusosyconjuntos",
+      "menu-item#rn-nino-vestuario-poleras",
+      "menu-item#rn-nino-vestuario-ropainteriorypillamas",
+      "menu-item#rn-nino-vestuario-trajesdebano"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nino-calzado-acc": {
+    "children": [
+      "menu-item#rn-nino-calzado-botasbotinesybototos",
+      "menu-item#rn-nino-calzado-gateadores",
+      "menu-item#rn-nino-calzado-sandalias",
+      "menu-item#rn-nino-calzado-zapatillas",
+      "menu-item#rn-nino-calzado-zapatitosreciennacido",
+      "menu-item#rn-nino-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nino-accesorios-acc": {
+    "children": [
+      "menu-item#rn-nino-accesorios-baberos",
+      "menu-item#rn-nino-accesorios-calcetines",
+      "menu-item#rn-nino-accesorios-gorrosybufandas",
+      "menu-item#rn-nino-accesorios-setropainteriorybodys",
+      "menu-item#rn-nino-accesorios-peluches",
+      "menu-item#rn-nino-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawerContainer"
+    }
+  },
+
+  // Recién Nacido - Niña
+  "menu-item#reciennacido-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido-nina",
+        "text": "Niña"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nina-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nina-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nina-acc"]
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nina-acc": {
+    "children": [
+      "menu-item#reciennacido-nina-vestuario-acc",
+      "menu-item#reciennacido-nina-calzado-acc",
+      "menu-item#reciennacido-nina-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#reciennacido-nina-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nina-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nina-vestuario",
+        "text": "Vestuario"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nina-vestuario-acc"]
+  },
+
+  "menu-item#reciennacido-nina-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nina-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nina-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nina-calzado-acc"]
+  },
+
+  "menu-item#reciennacido-nina-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-nina-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nina-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nina-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nina-vestuario-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nina-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nina-calzado-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#reciennacido-nina-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#reciennacido-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nina-vestuario-acc": {
+    "children": [
+      "menu-item#rn-nina-vestuario-abrigosychaquetas",
+      "menu-item#rn-nina-vestuario-bermudasyshorts",
+      "menu-item#rn-nina-vestuario-camisas",
+      "menu-item#rn-nina-vestuario-body",
+      "menu-item#rn-nina-vestuario-chalecosypolerones",
+      "menu-item#rn-nina-vestuario-jardinerasyenteritos",
+      "menu-item#rn-nina-vestuario-jeanspantalonesycalzas",
+      "menu-item#rn-nina-vestuario-ositosbusosyconjuntos",
+      "menu-item#rn-nina-vestuario-poleras",
+      "menu-item#rn-nina-vestuario-ropainteriorypillamas",
+      "menu-item#rn-nina-vestuario-trajesdebano",
+      "menu-item#rn-nina-vestuario-vestidosyfaldas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nina-calzado-acc": {
+    "children": [
+      "menu-item#rn-nina-calzado-botasbotinesybototos",
+      "menu-item#rn-nina-calzado-gateadores",
+      "menu-item#rn-nina-calzado-reinasyballerinas",
+      "menu-item#rn-nina-calzado-sandalias",
+      "menu-item#rn-nina-calzado-zapatillas",
+      "menu-item#rn-nina-calzado-zapatitosreciennacido",
+      "menu-item#rn-nina-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#reciennacido-nina-accesorios-acc": {
+    "children": [
+      "menu-item#rn-nina-accesorios-baberos",
+      "menu-item#rn-nina-accesorios-calcetines",
+      "menu-item#rn-nina-accesorios-gorrosybufandas",
+      "menu-item#rn-nina-accesorios-peluches",
+      "menu-item#rn-nina-accesorios-pinchesycintillos",
+      "menu-item#rn-nina-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Bebé
+  "menu-item#bb-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bebe",
+        "text": "Bebé"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-nina-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nino-nina-acc": {
+    "children": [
+      "vtex.menu@2.x:menu#bb-nino-nina-acc"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#bb-nino-nina-acc": {
+    "children": [
+      "menu-item#bb-nino-acc",
+      "menu-item#bb-nina-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Bebé - Niño
+  "menu-item#bb-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bebe-nino",
+        "text": "Niño"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nino-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nino-acc"]
+  },
+
+  "vtex.menu@2.x:menu#bb-nino-acc": {
+    "children": [
+      "menu-item#bb-nino-vestuario-acc",
+      "menu-item#bb-nino-calzado-acc",
+      "menu-item#bb-nino-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#bb-nino-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nino-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-vestuario",
+        "text": "Vestuarioo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-vestuario-acc"]
+  },
+
+  "menu-item#bb-nino-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nino-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-calzado-acc"]
+  },
+
+  "menu-item#bb-nino-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nino-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nino-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nino-vestuario-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nino-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nino-calzado-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nino-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nino-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:menu#bb-nino-vestuario-acc": {
+    "children": [
+      "menu-item#bb-nino-vestuario-abrigosychaquetas",
+      "menu-item#bb-nino-vestuario-bermudasyshorts",
+      "menu-item#bb-nino-vestuario-camisas",
+      "menu-item#bb-nino-vestuario-body",
+      "menu-item#bb-nino-vestuario-chalecosypolerones",
+      "menu-item#bb-nino-vestuario-jardinerasyenteritos",
+      "menu-item#bb-nino-vestuario-jeanspantalonesycalzas",
+      "menu-item#bb-nino-vestuario-ositosbusosyconjuntos",
+      "menu-item#bb-nino-vestuario-poleras",
+      "menu-item#bb-nino-vestuario-ropainteriorypillamas",
+      "menu-item#bb-nino-vestuario-trajesdebano"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#bb-nino-calzado-acc": {
+    "children": [
+      "menu-item#bb-nino-calzado-botasbotinesybototos",
+      "menu-item#bb-nino-calzado-gateadores",
+      "menu-item#bb-nino-calzado-sandalias",
+      "menu-item#bb-nino-calzado-zapatillas",
+      "menu-item#bb-nino-calzado-zapatitos",
+      "menu-item#bb-nino-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#bb-nino-accesorios-acc": {
+    "children": [
+      "menu-item#bb-nino-accesorios-baberos",
+      "menu-item#bb-nino-accesorios-calcetines",
+      "menu-item#bb-nino-accesorios-gorrosybufandas",
+      "menu-item#bb-nino-accesorios-peluches",
+      "menu-item#bb-nino-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Bebé - Niña
+  "menu-item#bb-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bebe-nina",
+        "text": "Niña"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nina-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nina-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nina-acc"]
+  },
+
+  "vtex.menu@2.x:menu#bb-nina-acc": {
+    "children": [
+      "menu-item#bb-nina-vestuario-acc",
+      "menu-item#bb-nina-calzado-acc",
+      "menu-item#bb-nina-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#bb-nina-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nina-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-vestuario",
+        "text": "Vestuario"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nina-vestuario-acc"]
+  },
+
+  "menu-item#bb-nina-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nina-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nina-calzado-acc"]
+  },
+
+  "menu-item#bb-nina-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-nina-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nina-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nina-vestuario-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nina-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nina-calzado-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#bb-nina-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#bb-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:menu#bb-nina-vestuario-acc": {
+    "children": [
+      "menu-item#bb-nina-vestuario-abrigosychaquetas",
+      "menu-item#bb-nina-vestuario-bermudasyshorts",
+      "menu-item#bb-nina-vestuario-camisas",
+      "menu-item#bb-nina-vestuario-body",
+      "menu-item#bb-nina-vestuario-chalecosypolerones",
+      "menu-item#bb-nina-vestuario-jardinerasyenteritos",
+      "menu-item#bb-nina-vestuario-jeanspantalonesycalzas",
+      "menu-item#bb-nina-vestuario-ositosbusosyconjuntos",
+      "menu-item#bb-nina-vestuario-poleras",
+      "menu-item#bb-nina-vestuario-ropainteriorypillamas",
+      "menu-item#bb-nina-vestuario-trajesdebano",
+      "menu-item#bb-nina-vestuario-vestidosyfaldas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#bb-nina-calzado-acc": {
+    "children": [
+      "menu-item#bb-nina-calzado-botasbotinesybototos",
+      "menu-item#bb-nina-calzado-gateadores",
+      "menu-item#bb-nina-calzado-reinasyballerinas",
+      "menu-item#bb-nina-calzado-sandalias",
+      "menu-item#bb-nina-calzado-zapatillas",
+      "menu-item#bb-nina-calzado-zapatitos",
+      "menu-item#bb-nina-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#bb-nina-accesorios-acc": {
+    "children": [
+      "menu-item#bb-nina-accesorios-baberos",
+      "menu-item#bb-nina-accesorios-calcetines",
+      "menu-item#bb-nina-accesorios-gorrosybufandas",
+      "menu-item#bb-nina-accesorios-peluches",
+      "menu-item#bb-nina-accesorios-pinchesycintillos",
+      "menu-item#bb-nina-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  // Kids
+  "menu-item#ninn-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Kids",
+        "text": "Niños"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-nina-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nino-nina-acc": {
+    "children": [
+      "vtex.menu@2.x:menu#ninn-nino-nina-acc"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#ninn-nino-nina-acc": {
+    "children": [
+      "menu-item#ninn-nino-acc",
+      "menu-item#ninn-nina-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Kids - Niño
+  "menu-item#ninn-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bebe-nino",
+        "text": "Niño"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nino-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nino-acc"]
+  },
+
+  "vtex.menu@2.x:menu#ninn-nino-acc": {
+    "children": [
+      "menu-item#ninn-nino-vestuario-acc",
+      "menu-item#ninn-nino-calzado-acc",
+      "menu-item#ninn-nino-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#ninn-nino-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nino-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-vestuario",
+        "text": "Vestuarioo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-vestuario-acc"]
+  },
+
+  "menu-item#ninn-nino-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nino-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-calzado-acc"]
+  },
+
+  "menu-item#ninn-nino-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nino-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nino-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nino-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nino-vestuario-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nino-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nino-calzado-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nino-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nino-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:menu#ninn-nino-vestuario-acc": {
+    "children": [
+      "menu-item#ninn-nino-vestuario-abrigosychaquetas",
+      "menu-item#ninn-nino-vestuario-bermudasyshorts",
+      "menu-item#ninn-nino-vestuario-camisas",
+      "menu-item#ninn-nino-vestuario-buzosyconjuntos",
+      "menu-item#ninn-nino-vestuario-chalecosypolerones",
+      "menu-item#ninn-nino-vestuario-jardinerasyenteritos",
+      "menu-item#ninn-nino-vestuario-jeanspantalonesycalzas",
+      "menu-item#ninn-nino-vestuario-poleras",
+      "menu-item#ninn-nino-vestuario-ropainteriorypillamas",
+      "menu-item#ninn-nino-vestuario-trajesdebano"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#ninn-nino-calzado-acc": {
+    "children": [
+      "menu-item#ninn-nino-calzado-botasbotinesybototos",
+      "menu-item#ninn-nino-calzado-gateadores",
+      "menu-item#ninn-nino-calzado-sandalias",
+      "menu-item#ninn-nino-calzado-zapatillas",
+      "menu-item#ninn-nino-calzado-zapatitos",
+      "menu-item#ninn-nino-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#ninn-nino-accesorios-acc": {
+    "children": [
+      "menu-item#ninn-nino-accesorios-baberos",
+      "menu-item#ninn-nino-accesorios-calcetines",
+      "menu-item#ninn-nino-accesorios-gorrosybufandas",
+      "menu-item#ninn-nino-accesorios-peluches",
+      "menu-item#ninn-nino-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Kids - Niña
+  "menu-item#ninn-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bebe-nina",
+        "text": "Niña"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nina-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nina-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nina-acc"]
+  },
+
+  "vtex.menu@2.x:menu#ninn-nina-acc": {
+    "children": [
+      "menu-item#ninn-nina-vestuario-acc",
+      "menu-item#ninn-nina-calzado-acc",
+      "menu-item#ninn-nina-accesorios-acc"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#ninn-nina-vestuario-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nina-ves-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-vestuario",
+        "text": "Vestuario"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nina-vestuario-acc"]
+  },
+
+  "menu-item#ninn-nina-calzado-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nina-calz-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-calzadoo",
+        "text": "Calzado"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nina-calzado-acc"]
+  },
+
+  "menu-item#ninn-nina-accesorios-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nina-acs-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bb-nina-accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nina-vestuario-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nina-vestuario-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nina-calzado-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nina-calzado-acc"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#ninn-nina-accesorios-acc": {
+    "children": ["vtex.menu@2.x:menu#ninn-nina-accesorios-acc"]
+  },
+
+  "vtex.menu@2.x:menu#ninn-nina-vestuario-acc": {
+    "children": [
+      "menu-item#ninn-nina-vestuario-abrigosychaquetas",
+      "menu-item#ninn-nina-vestuario-bermudasyshorts",
+      "menu-item#ninn-nina-vestuario-camisas",
+      "menu-item#ninn-nina-vestuario-chalecosypolerones",
+      "menu-item#ninn-nina-vestuario-jardinerasyenteritos",
+      "menu-item#ninn-nina-vestuario-jeanspantalonesycalzas",
+      "menu-item#ninn-nina-vestuario-ositosbusosyconjuntos",
+      "menu-item#ninn-nina-vestuario-poleras",
+      "menu-item#ninn-nina-vestuario-ropainteriorypillamas",
+      "menu-item#ninn-nina-vestuario-trajesdebano"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#ninn-nina-calzado-acc": {
+    "children": [
+      "menu-item#ninn-nina-calzado-botasbotinesybototos",
+      "menu-item#ninn-nina-calzado-gateadores",
+      "menu-item#ninn-nina-calzado-reinasyballerinas",
+      "menu-item#ninn-nina-calzado-sandalias",
+      "menu-item#ninn-nina-calzado-zapatillas",
+      "menu-item#ninn-nina-calzado-zapatitos",
+      "menu-item#ninn-nina-calzado-zapatos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#ninn-nina-accesorios-acc": {
+    "children": [
+      "menu-item#ninn-nina-accesorios-baberos",
+      "menu-item#ninn-nina-accesorios-calcetines",
+      "menu-item#ninn-nina-accesorios-gorrosybufandas",
+      "menu-item#ninn-nina-accesorios-peluches",
+      "menu-item#ninn-nina-accesorios-pinchesycintillos",
+      "menu-item#ninn-nina-accesorios-toallasytutos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
   }
+
 }

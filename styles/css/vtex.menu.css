@@ -136,3 +136,57 @@ content: 'Desde 4a a 12a';
 content: 'Desde 12a a 16a';
 }
 
+.menuItem--mainMenu-rn-acc,
+.menuItem--mainMenu-vv-acc,
+.menuItem--mainMenu-ninn-acc,
+.menuItem--mainMenu-rn-nino-acc,
+.menuItem--mainMenu-rn-nina-acc,
+.menuItem--mainMenu-vv-nino-acc,
+.menuItem--mainMenu-vv-nina-acc,
+.menuItem--mainMenu-ninn-nino-acc,
+.menuItem--mainMenu-ninn-nina-acc,
+.menuItem--mainMenu-rn-nino-ves-acc,
+.menuItem--mainMenu-rn-nino-calz-acc,
+.menuItem--mainMenu-rn-nino-acs-acc,
+.menuItem--mainMenu-vv-nino-ves-acc,
+.menuItem--mainMenu-vv-nino-calz-acc,
+.menuItem--mainMenu-vv-nino-acs-acc,
+.menuItem--mainMenu-ninn-nino-ves-acc,
+.menuItem--mainMenu-ninn-nino-calz-acc,
+.menuItem--mainMenu-ninn-nino-acs-acc,
+.menuItem--mainMenu-rn-nina-ves-acc,
+.menuItem--mainMenu-rn-nina-calz-acc,
+.menuItem--mainMenu-rn-nina-acs-acc,
+.menuItem--mainMenu-vv-nina-ves-acc,
+.menuItem--mainMenu-vv-nina-calz-acc,
+.menuItem--mainMenu-vv-nina-acs-acc,
+.menuItem--mainMenu-ninn-nina-ves-acc,
+.menuItem--mainMenu-ninn-nina-calz-acc,
+.menuItem--mainMenu-ninn-nina-acs-acc { 
+    display: block !important;
+    width: 100%;
+}
+
+.menuContainerNav--drawerContainer,
+.menuContainer--drawerContainer {
+    width: 100%;
+}
+
+.menuItem--mainMenu-rn-acc,
+.menuItem--mainMenu-vv-acc,
+.menuItem--mainMenu-ninn-acc {
+    margin-bottom: .5rem;
+}
+
+
+.styledLinkContent--mainMenu-rn-acc,
+.styledLinkContent--mainMenu-vv-acc,
+.styledLinkContent--mainMenu-ninn-acc {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+.menuContainer--drawerContainer .menuItem--subSubMenuItem {
+    display: block;
+}

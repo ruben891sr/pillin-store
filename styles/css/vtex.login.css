@@ -9,3 +9,15 @@
 .label {
     display: none;
 }
+
+
+@media (max-width: 991px) {
+   .profileIcon {
+        width: 12px;
+    }
+
+    .buttonLink {
+        width: 44px;
+        overflow: hidden;
+    }
+} 

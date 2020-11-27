@@ -1,4 +1,6 @@
 {
+
+    // Header Declaraciones Generales
     "header": {
         "blocks": [
             "header-layout.desktop",
@@ -11,15 +13,19 @@
             "header-layout.mobile"
         ]
     },
+
+
+
+    // Header Desktop
     "header-layout.desktop": {
         "children": [
-            "flex-layout.row#2-desktop",
-            // "flex-layout.row#3-desktop",
-            "flex-layout.row#4-desktop"
+            "flex-layout.row#notification-bar",
+            "flex-layout.row#main-header"
         ]
     },
 
-    "flex-layout.row#2-desktop": {
+    // Header Desktop - Top Bar
+    "flex-layout.row#notification-bar": {
         "children": ["notification.bar#home"],
         "props": {
             "fullWidth": true
@@ -31,34 +37,9 @@
 
         }
     },
-    // "flex-layout.row#3-desktop": {
-    //     "props": {
-    //         "blockClass": "menu-link",
-    //         "horizontalAlign": "center",
-    //         "preventHorizontalStretch": true,
-    //         "preventVerticalStretch": true,
-    //         "fullWidth": true
-    //     },
-    //     "children": [
-    //         "vtex.menu@2.x:menu#websites",
-    //         "flex-layout.col#spacer",
-    //         "vtex.menu@2.x:menu#institutional"
-    //     ]
-    // },
 
-    // "flex-layout.col#spacer": {
-    //     "props": {
-    //         "width": "grow"
-    //     }
-    // },
-
-    //   "sticky-layout#4-desktop": {
-    //     "props": {
-    //       "blockClass": "sticky-header"
-    //     },
-    //     "children": ["flex-layout.row#4-desktop"]
-    //   },
-    "flex-layout.row#4-desktop": {
+    // Header Desktop - Main Header 
+    "flex-layout.row#main-header": {
         "props": {
             "blockClass": "main-header",
             "horizontalAlign": "center",
@@ -75,10 +56,11 @@
             "search-bar",
             "telemarketing",
             "login",
-            "minicart.v2" 
+            "minicart.v2"
         ]
     },
 
+    // Header Desktop - Main Header - Logo
     "flex-layout.col#logo-desktop": {
         "props": {
             "verticalAlign": "center",
@@ -87,6 +69,30 @@
         "children": ["image#logo-desktop"]
     },
 
+    "image#logo-desktop": {
+        "props": {
+            "title": "Pillin",
+            "href": "/",
+            "src": "assets/img/logo-pillin.png",
+            "width": "90",
+            "max-width": "100%",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "alt": "Logo-Pillin",
+            "blockClass": "logoCol",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    // Header - Desktop - Espaciado
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+
+    // Header Desktop - Main Header - Menu Navegación
     "flex-layout.col#category-menu": {
         "props": {
             "verticalAlign": "center",
@@ -99,38 +105,38 @@
         "children": ["vtex.menu@2.x:menu#navegacion"]
     },
 
-    "image#logo-desktop": {
+    // Header Desktop - Main Header - Login
+    "login": {
         "props": {
-            "title": "Pillin",
-            "href": "/",
-            "src": "assets/img/logo-pillin.png",
-            "width": "90",
-            "max-width":"100%",
-            "horizontalAlign": "center",
-            "verticalAlign": "center",
-            "alt": "Logo-Pillin",
-            "blockClass": "logoCol",
-            "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "blockClass": "userColHeader"
         }
     },
 
-    "flex-layout.col#spacer": { 
-        "props": {
-          "width": "grow"
-        }
-      },
 
-    //   "header-layout.mobile": {
-    //     "children": ["sticky-layout#1-mobile"]
-    //   },
-    //   "sticky-layout#1-mobile": {
-    //     "children": ["flex-layout.row#1-mobile"]
-    //   },
-    "flex-layout.row#1-mobile": {
+
+    // Header Mobile
+    "header-layout.mobile": {
+        "children": [
+            "flex-layout.row#mobile",
+            "flex-layout.row#search-mobile"
+        ],
+        "props":{
+        "blockClass": "headerMobile"
+        }
+    },
+
+    "flex-layout.row#mobile": {
         "children": [
             "drawer",
-            "logo#mobile",
+            "flex-layout.col#logo-mobile",
+            "flex-layout.col#spacer",
+            "telemarketing",
             "login",
             "minicart.v2"
         ],
@@ -142,37 +148,29 @@
         }
     },
 
-    "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "blockClass": "userColHeader"
-        }
-      },
-    //   "drawer": {
-    //     "children": ["menu#drawer"]
-    //   },
+    "flex-layout.col#logo-mobile": {
+        "children": [
+            "image#logo-mobile"
+        ]
+    },
 
-    //   "menu#drawer": {
-    //     "children": [
-    //       "menu-item#category-apparel",
-    //       "menu-item#category-home",
-    //       "menu-item#more"
-    //     ],
-    //     "props": {
-    //       "orientation": "vertical"
-    //     }
-    //   },
-      "logo#mobile": {
+    "image#logo-mobile": {
         "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-          "width": "70"
+            "title": "Pillin",
+            "href": "/",
+            "src": "assets/img/logo-pillin.png",
+            "width": "40",
+            "max-width": "100%",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "alt": "Logo-Pillin",
+            "blockClass": "logoCol",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
         }
-      }
+    },
+
+    "flex-layout.row#search-mobile": {
+        "children":["search-bar"]
+    }
 }

@@ -81,7 +81,7 @@
       "imageUrl": "assets/img/infocard-vestuario.jpg",
       "headline": "Buscar por:",
       "callToActionText": "Vestuario",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/vestuario",
       "blockClass": "infoCardSearchBy",
       "textAlignment": "center"
     }
@@ -95,7 +95,7 @@
       "imageUrl": "assets/img/infocard-calzado.jpg",
       "headline": "Buscar por:",
       "callToActionText": "Calzado",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/calzado",
       "blockClass": "infoCardSearchBy",
       "textAlignment": "center"
     }
@@ -109,7 +109,7 @@
       "imageUrl": "assets/img/infocard-accesorios.jpg",
       "headline": "Buscar por:",
       "callToActionText": "Accesorios",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/accesorios",
       "blockClass": "infoCardSearchBy",
       "textAlignment": "center"
     }

@@ -1,6 +1,6 @@
 .cartIcon {
     overflow: visible !important;
-    width: 15px !important;
+    width: 15px;
     height: auto !important;
     fill: #3F2016 !important;
     margin-top: -6px !important;
@@ -9,3 +9,9 @@
 .openIconContainer {
     padding-left: 0 !important;
 }
+
+@media (max-width: 991px) {
+    .cartIcon {
+         width: 12px !important;
+     }
+ } 

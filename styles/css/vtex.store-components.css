@@ -14,6 +14,10 @@
     margin-top: -4px;
 }
 
+.flexRow--main-header-mobile .searchIcon {
+    width: 12px;
+}
+
 .infoCardHeadline--infoCardSearchBy {
     color: #fff;
     font-size: 1rem;
@@ -72,3 +76,13 @@
     padding-top: 0;
     object-fit: contain;
 }
+
+@media (max-width: 991px) {
+    .searchIcon  {
+         width: 12px;
+     }
+
+     .imageElement--logoCol {
+        width: 95px;
+    }
+ } 
