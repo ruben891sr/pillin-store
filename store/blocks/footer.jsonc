@@ -4,21 +4,14 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-desktop"
+      "flex-layout.row#content-title-seo",
+      "flex-layout.row#content-text-seo",
+      "flex-layout.row#content-footer-general"
     ]
   },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-mobile"
-    ]
-  },
-  "flex-layout.row#footer-desktop": {
-    "children": [
-      "flex-layout.row#seo-section",
-      "flex-layout.row#main-footer",
-      "social-networks",
-      "accepted-payment-methods",
-      "powered-by"
     ]
   },
   "flex-layout.row#footer-mobile": {
@@ -28,149 +21,389 @@
       "powered-by"
     ]
   },
-
-
-
-
-  "social-networks": {
-    "props": {
-      "socialNetworks": [{
-          "url": "https://facebook.com/foo",
-          "name": "Facebook"
-        },
-        {
-          "url": "https://twitter.com/foo",
-          "name": "Twitter"
-        }
-      ]
-    }
-  },
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["mastercard", "visa", "diners club"]
     }
   },
-
-
-  // SEO Section
-  "flex-layout.row#seo-section": {
+  // Title SEO
+  "flex-layout.row#content-title-seo": {
     "children": [
-      "rich-text#categorias-mas-buscadas"
+      "flex-layout.col#text-title-seo"
     ]
   },
-
-  "rich-text#categorias-mas-buscadas": {
-    "props": {
-      "blockClass": "main-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "## Categorías más buscadas"
+    "flex-layout.col#text-title-seo": {
+      "children": [
+        "image#perrito-pillin",
+        "rich-text#categorias-mas-buscadas"
+      ]
+    },
+      "image#perrito-pillin": {
+        "props":{
+          "src": "",
+          "maxWidth": "",
+          "maxHeight": "",
+          "blockClass": "perritoPillin"
+        }
+      },
+      "rich-text#categorias-mas-buscadas": {
+        "props": {
+          "blockClass": "main-titles",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "## Categorías más buscadas"
+        }
+      },
+  // SEO Content
+  "flex-layout.row#content-text-seo": {
+    "children":["flex-layout.col#list-text-seo"]
+  },
+    "flex-layout.col#list-text-seo": {
+      "children":["rich-text#cat-1"]
+    },
+      "rich-text#cat-1": {
+        "props": {
+          "blockClass": "texto-seo",
+          "textAlignment":"LEFT",
+          "textPosition":"LEFT",
+          "text": "Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes."
+        }
+      },
+  // Footer general
+  "flex-layout.row#content-footer-general":{
+    "props":{
+      "blockClass": "footer-general"
+    },
+    "children":["flex-layout.col#contenido-footer"]
+  },
+    "flex-layout.col#contenido-footer": {
+      "children":["flex-layout.row#content-menu-footer", "flex-layout.row#content-partner"]
+    },
+      // Main Footer
+      "flex-layout.row#content-menu-footer": {
+        "props":{
+          "horizontalAlign": "left"
+        },
+        "children": [
+          "flex-layout.col#sac",
+          "flex-layout.col#corp",
+          "flex-layout.col#cuenta",
+          "flex-layout.col#rrss",
+          "flex-layout.col#simulador"
+          // "flex-layout.col#news"
+        ]
+      },
+        "flex-layout.col#sac": {
+          "children": [
+            "rich-text#title-sac",
+            "flex-layout.col#footer-menu-sac"
+          ]
+        },
+        "flex-layout.col#corp": {
+          "children": [
+            "rich-text#title-cor",
+            "flex-layout.col#footer-menu-cor"
+          ]
+        },
+        "flex-layout.col#cuenta": {
+          "children": [
+            "rich-text#title-cue",
+            "flex-layout.col#footer-menu-cuenta"
+          ]
+        },
+        "flex-layout.col#rrss": {
+          "children": [
+            "rich-text#title-sos",
+            "flex-layout.row#social-network-facebook",
+            "flex-layout.row#social-network-instagram"
+          ]
+        },
+        "flex-layout.col#simulador": {
+          "children": [
+            "rich-text#title-despa",
+            "flex-layout.row#Envio-Domicilio",
+            "flex-layout.row#Venta-Asistida"
+          ]
+        },
+        // "flex-layout.col#news": {
+        //   "children": [
+        //     "rich-text#title-news"
+        //   ]
+        // },
+          // Servicio Atención al Cliente SAC
+          "rich-text#title-sac": {
+            "props": {
+              "blockClass": "footer-titles",
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "### Servicio al Cliente"
+            }
+          },
+            // Menú SAC
+            "flex-layout.col#footer-menu-sac": {
+              "children":[
+                "rich-text#list-tyc",
+                "rich-text#list-despacho",
+                "rich-text#list-cambio",
+                "rich-text#list-retiro",
+                "rich-text#list-faq"
+              ]
+            },
+              "rich-text#list-tyc": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Términos y Condiciones](#)"
+                }
+              },
+              "rich-text#list-despacho": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Despachos](#)"
+                }
+              },
+              "rich-text#list-cambio": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Cambios y Devoluciones](#)"
+                }
+              },
+              "rich-text#list-retiro": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Retiro en tienda](#)"
+                }
+              },
+              "rich-text#list-faq": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Preguntas Frecuentes](#)"
+                }
+              },
+          // Corporativo COR
+          "rich-text#title-cor": {
+            "props": {
+              "blockClass": "footer-titles",
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "### Corporativo"
+            }
+          },
+            // Menu COR
+            "flex-layout.col#footer-menu-cor": {
+              "children": [
+                "rich-text#list-nosotros",
+                "rich-text#list-tiendas",
+                "rich-text#list-contacto",
+                "rich-text#list-trabaja"
+              ]
+            },
+              "rich-text#list-nosotros": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Nosotros](#)"
+                }
+              },
+              "rich-text#list-tiendas": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Tiendas](#)"
+                }
+              },
+              "rich-text#list-contacto": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Contacto](#)"
+                }
+              },
+              "rich-text#list-trabaja": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Trabaja con Nosotros](#)"
+                }
+              },
+          // Mi Cuenta CUE
+          "rich-text#title-cue": {
+            "props": {
+              "blockClass": "footer-titles",
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "### Mi Cuenta"
+            }
+          },
+            //Menu Cuenta CUE
+            "flex-layout.col#footer-menu-cuenta": {
+              "children": [
+                "rich-text#list-registro",
+                "rich-text#list-sesion",
+                "rich-text#list-recuperar",
+                "rich-text#list-favoritos"
+              ]
+            },
+              "rich-text#list-registro": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Regístrate](#)"
+                }
+              },
+              "rich-text#list-sesion": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Iniciar Sesión](#)"
+                }
+              },
+              "rich-text#list-recuperar": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Recuperar Contraseña](#)"
+                }
+              },
+              "rich-text#list-favoritos": {
+                "props": {
+                  "blockClass": "footer-list",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "- [Mis Favoritos](#)"
+                }
+              },
+          // Redes Sociales SOS
+          "rich-text#title-sos": {
+            "props": {
+              "blockClass": "footer-titles",
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "### Redes Sociales"
+            }
+          },
+            // Facebook
+            "flex-layout.row#social-network-facebook": {
+              "children": ["flex-layout.col#facebook"]
+            },
+              "flex-layout.col#facebook": {
+                "props": {
+                  "socialNetworks": [
+                    { "url": "https://facebook.com/foo", "name": "Facebook" }
+                  ]
+                }
+              },
+            // Instagram
+            "flex-layout.row#social-network-instagram": {
+              "children": ["flex-layout.col#facebook"]
+            },
+              "flex-layout.col#instagram": {
+                "props": {
+                  "socialNetworks": [
+                    { "url": "https://instagram.com/foo", "name": "Instagran" }
+                  ]
+                }
+              },
+            
+          // Simulador de Despacho
+          "rich-text#title-despa": {
+            "props": {
+              "blockClass": "footer-titles",
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "### Simulador de Despacho"
+            }
+          },
+          "flex-layout.row#Envio-Domicilio": {
+            "children":["flex-layout.col#EnvioDomicilio"]
+          },
+            "flex-layout.col#EnvioDomicilio": {
+              "children":["image#camion-envio","rich-text#text-envio-domicilio"]
+            },
+              "image#camion-envio": {
+                "props":{
+                  "src": "#",
+                  "maxWidth": "100%",
+                  "maxHeight": "100%",
+                  "blockClass": "iconoFooter"
+                }
+              },
+              "rich-text#text-envio-domicilio": {
+                "props":{
+                  "textAlignment":"LEFT",
+                  "textPosition":"LEFT",
+                  "text":"[Envío a Domicilio](#)"
+                }
+              },
+          // Venta Asistida
+          "flex-layout.row#Venta-Asistida":{
+            "children":["flex-layout.col#VentaAsistida"]
+          },
+            "flex-layout.col#VentaAsistida":{
+              "children":["image#Asistida","rich-text#text-venta-asistida"]
+            },
+              "image#Asistida":{
+                "props":{
+                  "src": "#",
+                  "maxWidth":"100%",
+                  "maxHeight":"100%",
+                  "blockClass": "iconoFooter"
+                }
+              },
+              "rich-text#text-venta-asistida":{
+                "props":{
+                  "textAlignment":"LEFT",
+                  "textPosition":"LEFT",
+                  "text":"[Venta Asistida](https://pillin.myvtex.com/checkout/#/cart)"
+                }
+              },
+          // Newsletter
+          // * Se debe agregar en las dependencias manifest.jsonc "vtex.store-newsletter": "1.x"
+          // "rich-text#title-news": {
+          //   "props": {
+          //     "blockClass": "footer-titles",
+          //     "textAlignment": "LEFT",
+          //     "textPosition": "LEFT",
+          //     "text": "### Suscríbete a nuestro Newsletter"
+          //   }
+          // }
+      // PARTNER DE PILLIN
+      "flex-layout.row#content-partner": {
+        "children":["flex-layout.col#image-partner"]
+      },
+        "flex-layout.col#image-partner":{
+          "props":{
+            "horizontalAlign": "CENTER",
+            "verticalAlign": "CENTER"
+          },
+          "children":["image#sr-consultores","powered-by"]
+        },
+          "image#sr-consultores":{
+            "props":{
+              "src": "#",
+              "maxWidth":"100%",
+              "maxHeight":"100%"
+            }
+          },
+          "powered-by":{
+            "props":{
+              "showInColor": "brown"
+            }
+          }
     }
-  },
-
-  // Main Footer
-  "flex-layout.row#main-footer": {
-    "children": [
-      "flex-layout.row#main-content",
-      "flex-layout.row#partner-content"
-    ]
-  },
-
-  "flex-layout.row#main-content": {
-    "children": [
-      "flex-layout.col#sac",
-      "flex-layout.col#cor",
-      "flex-layout.col#cue",
-      "flex-layout.col#sos",
-      "flex-layout.col#news",
-      "flex-layout.col#despa"
-    ]
-  },
-
-  "flex-layout.row#partner-content": {
-
-  },
-
-
-  "flex-layout.col#sac": {
-    "children": [
-      "rich-text#title-sac"
-    ]
-  },
-  "flex-layout.col#cor": {
-    "children": [
-      "rich-text#title-cor"
-    ]
-  },
-  "flex-layout.col#cue": {
-    "children": [
-      "rich-text#title-cue"
-    ]
-  },
-  "flex-layout.col#sos": {
-    "children": [
-      "rich-text#title-sos"
-    ]
-  },
-  "flex-layout.col#news": {
-    "children": [
-      "rich-text#title-news"
-    ]
-  },
-  "flex-layout.col#despa": {
-    "children": [
-      "rich-text#title-despa"
-    ]
-  },
-
-  "rich-text#title-sac": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Servicio al Cliente"
-    }
-  },
-  "rich-text#title-cor": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Corporativo"
-    }
-  },
-  "rich-text#title-cue": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Mi Cuenta"
-    }
-  },
-  "rich-text#title-sos": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Redes Sociales"
-    }
-  },
-  "rich-text#title-news": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Suscríbete a nuestro Newsletter"
-    }
-  },
-  "rich-text#title-despa": {
-    "props": {
-      "blockClass": "footer-titles",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Simulador de despacho"
-    }
-  }
-
-
-}
