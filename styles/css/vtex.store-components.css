@@ -77,6 +77,11 @@
     object-fit: contain;
 }
 
+.searchBarContainer {
+    padding: .7rem 0;
+    margin: 0;
+}
+
 @media (max-width: 991px) {
     .searchIcon  {
          width: 12px;
