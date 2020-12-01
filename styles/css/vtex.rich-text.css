@@ -41,3 +41,41 @@
     color: #3f2016;
     padding-left: 0!important;
 }
+
+.wrapper--sliderTopBarItem .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.87em;
+    padding: .5rem 0;
+    margin: 0;
+}
+
+.wrapper--sliderTopBarItem .link {
+    display: inline-block;
+    background: #3f2016;
+    margin-left: .7rem;
+    text-decoration: none;
+    padding: .2rem .7rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: .87em;
+}
+
+.list--footer-list{
+    padding-left: 0;
+    margin: 5px;
+    list-style: none!important;
+}
+.listItem--footer-list,
+.link--footer-list,
+.link--text-envio-domicilio,
+.link--text-venta-asistida {
+    text-decoration: none;
+    color: #3f2016;
+}
+
+.paragraph--text-envio-domicilio,
+.paragraph--text-venta-asistida {
+    margin: 0;
+}

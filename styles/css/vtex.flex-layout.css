@@ -29,3 +29,21 @@
     align-items: center;
     border-bottom: 1px solid rgb(204 204 204 / 0.3);
 }
+
+.flexRow--footer-general{
+    background: url(assets/img/background-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+.flexRowContent--row-partner-footer,
+.flexColChild--col-partner-footer,
+.poweredBy--logo-vtex,
+.flexCol--col-partner-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexCol--col-partner-footer {
+    flex-direction: inherit;
+}

@@ -18,15 +18,22 @@
     width: 12px;
 }
 
+
 .infoCardHeadline--infoCardSearchBy {
     color: #fff;
     font-size: 1rem;
 }
 
-.infoCardContainer--infoCardSearchBy .infoCardCallActionContainer--infoCardSearchBy .vtex-button__label {
-    text-transform: capitalize !important;
-    background-color: #fff !important;
-    color: saddlebrown !important;
+.infoCardHeadline--infoCardSearchBy-mobile {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.infoCardCallActionContainer--infoCardSearchBy {
+    margin-top: .5rem;
+}
+
+.infoCardCallActionContainer--infoCardSearchBy-mobile {
     margin-top: .5rem;
 }
 
@@ -39,9 +46,19 @@
     padding: 6rem 0;
 }
 
+.infoCardTextContainer--infoCardSearchBy-mobile {
+    padding: 2rem 1rem;
+}
+
 .infoCardContainer--infoCardSearchBy {
     border-radius: 10px;
     overflow: hidden;  
+}
+
+.infoCardContainer--infoCardSearchBy-mobile {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
 } 
 
 .skuSelectorOptionsList {
@@ -80,6 +97,15 @@
 .searchBarContainer {
     padding: .7rem 0;
     margin: 0;
+}
+
+.imageElement--logo-sr {
+    width: 65px;
+    margin-right: 1rem;
+}
+
+.imageElement--bannerPromoMobile {
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 991px) {

@@ -26,15 +26,48 @@
 
     // Header Desktop - Top Bar
     "flex-layout.row#notification-bar": {
-        "children": ["notification.bar#home"],
+        "children": [
+            "slider-layout#top-bar"
+        ],
         "props": {
             "fullWidth": true
         }
     },
-    "notification.bar#home": {
+    "slider-layout#top-bar": {
         "props": {
-            "content": "Para ver más información de las tiendas haga click aquí"
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel-topbar",
+            "showPaginationDots": "never"
+        },
+        "children": [
+            "rich-text#info-1",
+            "rich-text#info-2",
+            "rich-text#info-3"
+        ]
+    },
 
+    "rich-text#info-1": {
+        "props": {
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "sliderTopBarItem"
+        }
+    },
+    "rich-text#info-2": {
+        "props": {
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "sliderTopBarItem"
+        }
+    },
+    "rich-text#info-3": {
+        "props": {
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "sliderTopBarItem"
         }
     },
 
@@ -126,8 +159,8 @@
             "flex-layout.row#mobile",
             "flex-layout.row#search-mobile"
         ],
-        "props":{
-        "blockClass": "headerMobile"
+        "props": {
+            "blockClass": "headerMobile"
         }
     },
 
@@ -171,6 +204,6 @@
     },
 
     "flex-layout.row#search-mobile": {
-        "children":["search-bar"]
+        "children": ["search-bar"]
     }
 }

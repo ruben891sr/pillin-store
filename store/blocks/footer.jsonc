@@ -16,36 +16,23 @@
   },
   "flex-layout.row#footer-mobile": {
     "children": [
-      "social-networks",
-      "accepted-payment-methods",
-      "powered-by"
+      // "social-networks",
+      // "accepted-payment-methods",
+      // "powered-by"
+      "flex-layout.row#content-title-seo",
+      "flex-layout.row#content-text-seo",
+      "flex-layout.row#content-footer-general"
     ]
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"]
-    }
   },
   // Title SEO
   "flex-layout.row#content-title-seo": {
-    "children": [
-      "flex-layout.col#text-title-seo"
-    ]
+    "props": {"blockClass": "row-text-title-seo"},
+    "children": ["flex-layout.col#text-title-seo"]
   },
     "flex-layout.col#text-title-seo": {
-      "children": [
-        "image#perrito-pillin",
-        "rich-text#categorias-mas-buscadas"
-      ]
+      "props":{"blockClass": "col-text-title-seo"},
+      "children": ["rich-text#categorias-mas-buscadas"]
     },
-      "image#perrito-pillin": {
-        "props":{
-          "src": "",
-          "maxWidth": "",
-          "maxHeight": "",
-          "blockClass": "perritoPillin"
-        }
-      },
       "rich-text#categorias-mas-buscadas": {
         "props": {
           "blockClass": "main-titles",
@@ -71,9 +58,7 @@
       },
   // Footer general
   "flex-layout.row#content-footer-general":{
-    "props":{
-      "blockClass": "footer-general"
-    },
+    "props":{"blockClass": "footer-general"},
     "children":["flex-layout.col#contenido-footer"]
   },
     "flex-layout.col#contenido-footer": {
@@ -94,24 +79,32 @@
         ]
       },
         "flex-layout.col#sac": {
+          "props": {
+          },
           "children": [
             "rich-text#title-sac",
             "flex-layout.col#footer-menu-sac"
           ]
         },
         "flex-layout.col#corp": {
+          "props": {
+          },
           "children": [
             "rich-text#title-cor",
             "flex-layout.col#footer-menu-cor"
           ]
         },
         "flex-layout.col#cuenta": {
+          "props": {
+          },
           "children": [
             "rich-text#title-cue",
             "flex-layout.col#footer-menu-cuenta"
           ]
         },
         "flex-layout.col#rrss": {
+          "props": {
+          },
           "children": [
             "rich-text#title-sos",
             "flex-layout.row#social-network-facebook",
@@ -119,6 +112,8 @@
           ]
         },
         "flex-layout.col#simulador": {
+          "props": {
+          },
           "children": [
             "rich-text#title-despa",
             "flex-layout.row#Envio-Domicilio",
@@ -228,7 +223,7 @@
                   "blockClass": "footer-list",
                   "textAlignment": "LEFT",
                   "textPosition": "LEFT",
-                  "text": "- [Contacto](#)"
+                  "text": "- **[Contacto](#)**"
                 }
               },
               "rich-text#list-trabaja": {
@@ -306,18 +301,20 @@
                 "props": {
                   "socialNetworks": [
                     { "url": "https://facebook.com/foo", "name": "Facebook" }
-                  ]
+                  ],
+                  "blockClass": "rrss-facebook"
                 }
               },
             // Instagram
             "flex-layout.row#social-network-instagram": {
-              "children": ["flex-layout.col#facebook"]
+              "children": ["flex-layout.col#instagram"]
             },
               "flex-layout.col#instagram": {
                 "props": {
                   "socialNetworks": [
-                    { "url": "https://instagram.com/foo", "name": "Instagran" }
-                  ]
+                    { "url": "https://instagram.com/foo", "name": "Instagram" }
+                  ],
+                  "blockClass": "rrss-instagram"
                 }
               },
             
@@ -338,7 +335,7 @@
             },
               "image#camion-envio": {
                 "props":{
-                  "src": "#",
+                  "src": "assets/img/icon-camion-despacho.png",
                   "maxWidth": "100%",
                   "maxHeight": "100%",
                   "blockClass": "iconoFooter"
@@ -348,7 +345,8 @@
                 "props":{
                   "textAlignment":"LEFT",
                   "textPosition":"LEFT",
-                  "text":"[Envío a Domicilio](#)"
+                  "text":"[Envío a Domicilio](#)",
+                  "blockClass": "text-envio-domicilio"
                 }
               },
           // Venta Asistida
@@ -356,21 +354,14 @@
             "children":["flex-layout.col#VentaAsistida"]
           },
             "flex-layout.col#VentaAsistida":{
-              "children":["image#Asistida","rich-text#text-venta-asistida"]
+              "children":["rich-text#text-venta-asistida"]
             },
-              "image#Asistida":{
-                "props":{
-                  "src": "#",
-                  "maxWidth":"100%",
-                  "maxHeight":"100%",
-                  "blockClass": "iconoFooter"
-                }
-              },
               "rich-text#text-venta-asistida":{
                 "props":{
                   "textAlignment":"LEFT",
                   "textPosition":"LEFT",
-                  "text":"[Venta Asistida](https://pillin.myvtex.com/checkout/#/cart)"
+                  "text":"[Venta Asistida](https://pillin.myvtex.com/checkout/#/cart)",
+                  "blockClass": "text-venta-asistida"
                 }
               },
           // Newsletter
@@ -385,25 +376,35 @@
           // }
       // PARTNER DE PILLIN
       "flex-layout.row#content-partner": {
+        "props":{
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true,
+          "horizontalAlign": "CENTER",
+          "blockClass": "row-partner-footer"
+        },
         "children":["flex-layout.col#image-partner"]
       },
         "flex-layout.col#image-partner":{
           "props":{
             "horizontalAlign": "CENTER",
-            "verticalAlign": "CENTER"
+            "verticalAlign": "CENTER",
+            "blockClass": "col-partner-footer"
           },
           "children":["image#sr-consultores","powered-by"]
         },
           "image#sr-consultores":{
             "props":{
-              "src": "#",
+              "src": "assets/img/logo-SRconsultores-transp.png",
               "maxWidth":"100%",
-              "maxHeight":"100%"
+              "maxHeight":"100%",
+              "alt": "SR Consultores",
+              "blockClass": "logo-sr"
             }
           },
           "powered-by":{
             "props":{
-              "showInColor": "brown"
+              "showInColor": "brown",
+              "blockClass": "logo-vtex"
             }
           }
     }

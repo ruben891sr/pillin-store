@@ -28,12 +28,12 @@
 .submenuWrapper {
     left: 50%;
     transform: translateX(-50%);
-    width: 85vw;
-    top: 104px !important;
+    width: 95vw;
+    top: 102px !important;
     border-top: 1px solid rgb(204 204 204 / 40%);
     border-radius: 0 0 6px 6px;
     box-shadow: 2px 4px 13px -6px #33333342;
-    padding: 2.5rem 3rem 5rem 3rem;
+    padding: 2.5rem 2rem 5rem 2rem;
 }
 
 .submenuWrapper .menuItem {
@@ -44,15 +44,15 @@
 
 .styledLinkContent--subSubMenuItem {
     color: #3f2016;
-    font-size: .87rem !important;
+    font-size: .9em !important;
     font-weight: 500 !important;
     position: relative;
-    padding-left: 1.5rem;
+    padding-left: 1.3rem;
 }
 
 .styledLinkContent--subSubMenuItem::before {
     content: '';
-    width: 12px;
+    width: 10px;
     height: 18px;
     background-image: url(assets/img/arrow-menu.png);
     background-position: center;
@@ -67,9 +67,9 @@
 
 .styledLinkContent--subcatTitulo {
     font-weight: 800;
-    font-size: .97rem;
+    font-size: .95em;
     color: #3f2016;
-    margin-bottom: .7rem;
+    margin-bottom: .4rem;
 } 
 
 .styledLink--newSeason {

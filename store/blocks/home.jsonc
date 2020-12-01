@@ -1,6 +1,14 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+
+  // Desktop Version
+  "responsive-layout.desktop": {
+    "children": [
       "slider-layout#text-test",
       "flex-layout.row#infocards",
       "shelf",
@@ -9,7 +17,7 @@
   },
 
 
-  // Slider Principal
+  // Desktop - Slider Principal
   "slider-layout#text-test": {
     "props": {
       "showNavigationArrows": "desktopOnly",
@@ -51,7 +59,7 @@
   },
 
 
-  // Seccion Infocard
+  // Desktop - Seccion Infocard
   "flex-layout.row#infocards": {
     "children": [
       "flex-layout.col#vestuario",
@@ -116,8 +124,7 @@
   },
 
 
-  //Banners
-  //Delaracion de Row y Cols
+  // Desktop - Banners
   "flex-layout.row#banners": {
     "children": [
       "flex-layout.col#banner-left",
@@ -165,7 +172,6 @@
     }
   },
 
-  // Declaracion de Image - Banners
   "image#banner1": {
     "props": {
       "src": "assets/img/banner-home1.jpg",
@@ -198,6 +204,171 @@
       "blockClass": "sliderImage",
       "marginTop": 2
     }
+  },
+
+
+  // Mobile Version
+  "responsive-layout.mobile": {
+    "children": [
+      "slider-layout#text-test-mobile",
+      "flex-layout.row#infocards-mobile",
+      "shelf",
+      "flex-layout.row#banners-mobile"
+    ]
+  },
+
+  // Mobile - Slider
+  "slider-layout#text-test-mobile": {
+    "props": {
+      "showNavigationArrows": "always",
+      "blockClass": "carouselMobile",
+      "usePagination": true,
+      "infinite": true,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": false,
+      "marginTop": 3
+    },
+    "children": ["image#1-mobile", "image#2-mobile", "image#3-mobile"]
+  },
+
+  "image#1-mobile": {
+    "props": {
+      "src": "assets/img/slider-movil.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+  "image#2-mobile": {
+    "props": {
+      "src": "assets/img/slider-movil.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+  "image#3-mobile": {
+    "props": {
+      "src": "assets/img/slider-movil.jpg",
+      "width": "100%",
+      "blockClass": "sliderImage"
+    }
+  },
+
+
+  // Mobile - Seccion Infocard
+  "flex-layout.row#infocards-mobile": {
+    "children": [
+      "flex-layout.col#vestuario-mobile",
+      "flex-layout.col#calzado-mobile",
+      "flex-layout.col#accesorios-mobile"
+    ],
+    "props": {
+      "colGap": 7
+    }
+  },
+
+  "flex-layout.col#vestuario-mobile": {
+    "children": ["info-card#vestuario-mobile"]
+  },
+  "flex-layout.col#calzado-mobile": {
+    "children": ["info-card#calzado-mobile"]
+  },
+  "flex-layout.col#accesorios-mobile": {
+    "children": ["info-card#accesorios-mobile"]
+  },
+
+  "info-card#vestuario-mobile": {
+    "props": {
+      "id": "info-card-vestuario",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-vestuario-mobile.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Vestuario",
+      "callToActionUrl": "/vestuario",
+      "blockClass": "infoCardSearchBy-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#calzado-mobile": {
+    "props": {
+      "id": "info-card-calzado",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-calzado-mobile.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Calzado",
+      "callToActionUrl": "/calzado",
+      "blockClass": "infoCardSearchBy-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#accesorios-mobile": {
+    "props": {
+      "id": "info-card-accesorios",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/infocard-accesorios-mobile.jpg",
+      "headline": "Buscar por:",
+      "callToActionText": "Accesorios",
+      "callToActionUrl": "/accesorios",
+      "blockClass": "infoCardSearchBy-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+
+  // Mobile - Banners
+  "flex-layout.row#banners-mobile": {
+    "children": [
+      "image#banner1-mobile",
+      "image#banner2-mobile",
+      "image#banner3-mobile",
+      "image#banner4-mobile"
+    ]
+  },
+
+  "image#banner1-mobile": {
+    "props": {
+      "src": "assets/img/banner-home1-mobile.jpg",
+      "width": "100%",
+      "blockClass": "bannerPromoMobile",
+      "maxWidth": "100%"
+    }
+  },
+
+  "image#banner2-mobile": {
+    "props": {
+      "src": "assets/img/banner-home2-mobile.jpg",
+      "width": "100%",
+      "blockClass": "bannerPromoMobile"
+    }
+  },
+
+  "image#banner3-mobile": {
+    "props": {
+      "src": "assets/img/banner-home3-mobile.jpg",
+      "width": "100%",
+      "blockClass": "bannerPromoMobile"
+    }
+  },
+
+  "image#banner4-mobile": {
+    "props": {
+      "src": "assets/img/banner-home4-mobile.jpg",
+      "width": "100%",
+      "blockClass": "bannerPromoMobile",
+      "marginTop": 2
+    }
   }
+
+
 
 }
