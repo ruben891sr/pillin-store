@@ -108,10 +108,6 @@
     margin-bottom: 1rem;
 }
 
-.autoCompleteOuterContainer {
-    
-}
-
 @media (max-width: 991px) {
     .searchIcon  {
          width: 12px;
