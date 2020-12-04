@@ -207,14 +207,14 @@
     }
   },
 
-  "menu-item#rn-nino-vestuario-ropainteriorypillamas": {
+  "menu-item#rn-nino-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },
@@ -487,14 +487,14 @@
     }
   },
 
-  "menu-item#rn-nina-vestuario-ropainteriorypillamas": {
+  "menu-item#rn-nina-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },
@@ -901,14 +901,14 @@
     }
   },
 
-  "menu-item#bb-nino-vestuario-ropainteriorypillamas": {
+  "menu-item#bb-nino-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },
@@ -1169,14 +1169,14 @@
     }
   },
 
-  "menu-item#bb-nina-vestuario-ropainteriorypillamas": {
+  "menu-item#bb-nina-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },
@@ -1576,14 +1576,14 @@
     }
   },
 
-  "menu-item#ninn-nino-vestuario-ropainteriorypillamas": {
+  "menu-item#ninn-nino-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },
@@ -1844,14 +1844,14 @@
     }
   },
 
-  "menu-item#ninn-nina-vestuario-ropainteriorypillamas": {
+  "menu-item#ninn-nina-vestuario-ropainteriorypijamas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "",
-        "text": "Ropa Interior y Pillamas"
+        "text": "Ropa Interior y pijamas"
       }
     }
   },

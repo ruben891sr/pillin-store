@@ -124,7 +124,7 @@
             "menu-item#rn-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#rn-nino-vestuario-ositosbusosyconjuntos",
             "menu-item#rn-nino-vestuario-poleras",
-            "menu-item#rn-nino-vestuario-ropainteriorypillamas",
+            "menu-item#rn-nino-vestuario-ropainteriorypijamas",
             "menu-item#rn-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -214,7 +214,7 @@
             "menu-item#rn-nina-vestuario-jeanspantalonesycalzas",
             "menu-item#rn-nina-vestuario-ositosbusosyconjuntos",
             "menu-item#rn-nina-vestuario-poleras",
-            "menu-item#rn-nina-vestuario-ropainteriorypillamas",
+            "menu-item#rn-nina-vestuario-ropainteriorypijamas",
             "menu-item#rn-nina-vestuario-trajesdebano",
             "menu-item#rn-nina-vestuario-vestidosyfaldas"
 
@@ -354,7 +354,7 @@
             "menu-item#bb-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#bb-nino-vestuario-ositosbusosyconjuntos",
             "menu-item#bb-nino-vestuario-poleras",
-            "menu-item#bb-nino-vestuario-ropainteriorypillamas",
+            "menu-item#bb-nino-vestuario-ropainteriorypijamas",
             "menu-item#bb-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -444,7 +444,7 @@
             "menu-item#bb-nina-vestuario-jeanspantalonesycalzas",
             "menu-item#bb-nina-vestuario-ositosbusosyconjuntos",
             "menu-item#bb-nina-vestuario-poleras",
-            "menu-item#bb-nina-vestuario-ropainteriorypillamas",
+            "menu-item#bb-nina-vestuario-ropainteriorypijamas",
             "menu-item#bb-nina-vestuario-trajesdebano",
             "menu-item#bb-nina-vestuario-vestidosyfaldas"
 
@@ -587,7 +587,7 @@
             "menu-item#ninn-nino-vestuario-jardinerasyenteritos",
             "menu-item#ninn-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#ninn-nino-vestuario-poleras",
-            "menu-item#ninn-nino-vestuario-ropainteriorypillamas",
+            "menu-item#ninn-nino-vestuario-ropainteriorypijamas",
             "menu-item#ninn-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -676,7 +676,7 @@
             "menu-item#ninn-nina-vestuario-jeanspantalonesycalzas",
             "menu-item#ninn-nina-vestuario-ositosbusosyconjuntos",
             "menu-item#ninn-nina-vestuario-poleras",
-            "menu-item#ninn-nina-vestuario-ropainteriorypillamas",
+            "menu-item#ninn-nina-vestuario-ropainteriorypijamas",
             "menu-item#ninn-nina-vestuario-trajesdebano"
 
         ],

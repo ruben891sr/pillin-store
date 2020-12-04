@@ -68,88 +68,88 @@
       "flex-layout.col#cards",
       "flex-layout.col#polices"
     ],
-    "props":{
+    "props": {
       "blockClass": "infoIcons"
     }
   },
 
   "flex-layout.col#box": {
-    "children":[
+    "children": [
       "info-card#box"
     ]
   },
 
   "flex-layout.col#truck": {
-    "children":[
+    "children": [
       "info-card#truck"
     ]
   },
 
   "flex-layout.col#cards": {
-    "children":[
+    "children": [
       "info-card#cards"
     ]
   },
 
   "flex-layout.col#polices": {
-    "children":[
+    "children": [
       "info-card#polices"
     ]
   },
 
 
-"info-card#box": {
-  "props": {
-    "id": "info-card-box",
-    "textPosition": "center",
-    "imageUrl": "assets/img/info-box.png",
-    "headline": "Despacho Gratis",
-    "subhead": "Por compras sobre $30.000",
-    "callToActionMode": "link",
-    "blockClass": "infoCardIcons",
-    "textAlignment": "center"
-  }
-},
+  "info-card#box": {
+    "props": {
+      "id": "info-card-box",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-box.png",
+      "headline": "Despacho Gratis",
+      "subhead": "Por compras sobre $30.000",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons",
+      "textAlignment": "center"
+    }
+  },
 
-"info-card#truck": {
-  "props": {
-    "id": "info-card-truck",
-    "textPosition": "center",
-    "imageUrl": "assets/img/info-truck.png",
-    "headline": "Envío a todo Chile",
-    "subhead": "o retira GRATIS en tienda",
-    "callToActionMode": "link",
-    "blockClass": "infoCardIcons",
-    "textAlignment": "center"
-  }
-},
+  "info-card#truck": {
+    "props": {
+      "id": "info-card-truck",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-truck.png",
+      "headline": "Envío a todo Chile",
+      "subhead": "o retira GRATIS en tienda",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons",
+      "textAlignment": "center"
+    }
+  },
 
-"info-card#cards": {
-  "props": {
-    "id": "info-card-cards",
-    "textPosition": "center",
-    "imageUrl": "assets/img/info-cards.png",
-    "headline": "Paga en 3 Cuotas",
-    "subhead": "Sin interés",
-    "callToActionMode": "link",
-    "blockClass": "infoCardIcons",
-    "textAlignment": "center"
-  }
-},
+  "info-card#cards": {
+    "props": {
+      "id": "info-card-cards",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-cards.png",
+      "headline": "Paga en 3 Cuotas",
+      "subhead": "Sin interés",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons",
+      "textAlignment": "center"
+    }
+  },
 
-"info-card#polices": {
-  "props": {
-    "id": "info-card-polices",
-    "isFullModeStyle": false,
-    "textPosition": "center",
-    "imageUrl": "assets/img/info-polices.png",
-    "headline": "Extendemos los Cambios",
-    "subhead": "Puedes realizarlos hasta el 28 de Febrero",
-    "callToActionMode": "link",
-    "blockClass": "infoCardIcons",
-    "textAlignment": "center"
-  }
-},
+  "info-card#polices": {
+    "props": {
+      "id": "info-card-polices",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-polices.png",
+      "headline": "Extendemos los Cambios",
+      "subhead": "Puedes realizarlos hasta el 28 de Febrero",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons",
+      "textAlignment": "center"
+    }
+  },
 
 
 
@@ -306,6 +306,7 @@
   "responsive-layout.mobile": {
     "children": [
       "slider-layout#text-test-mobile",
+      "flex-layout.row#infocards-icons-mobile",
       "flex-layout.row#infocards-mobile",
       "shelf",
       "flex-layout.row#banners-mobile"
@@ -462,8 +463,116 @@
       "blockClass": "bannerPromoMobile",
       "marginTop": 2
     }
-  }
+  },
 
+
+
+  // Mobile - Infocards Icons
+  "flex-layout.row#infocards-icons-mobile": {
+    "children": [
+      "flex-layout.col#box-mobile",
+      "flex-layout.col#truck-mobile",
+      "flex-layout.col#cards-mobile",
+      "flex-layout.col#polices-mobile"
+    ],
+    "props": {
+      "blockClass": "infoIcons-mobile",
+      "colSizing": "auto"
+    }
+  }, 
+
+  "flex-layout.col#box-mobile": {
+    "children": [
+      "info-card#box-mobile"
+    ],
+    "props": {
+      "blockClass": "col-box-mobile",
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#truck-mobile": {
+    "children": [
+      "info-card#truck-mobile"
+    ],
+    "props": {
+      "blockClass": "col-truck-mobile",
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#cards-mobile": {
+    "children": [ 
+      "info-card#cards-mobile"
+    ],
+    "props": {
+      "blockClass": "col-cards-mobile",
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#polices-mobile": {
+    "children": [
+      "info-card#polices-mobile"
+    ],
+    "props": {
+      "blockClass": "col-polices-mobile",
+      "width": "25%"
+    }
+  },
+
+  "info-card#box-mobile": {
+    "props": {
+      "id": "info-card-box",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-box.png",
+      "headline": "Despacho Gratis",
+      "subhead": "Por compras sobre $30.000",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#truck-mobile": {
+    "props": {
+      "id": "info-card-truck",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-truck.png",
+      "headline": "Envío a todo Chile",
+      "subhead": "o retira GRATIS en tienda",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#cards-mobile": {
+    "props": {
+      "id": "info-card-cards",
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-cards.png",
+      "headline": "Paga en 3 Cuotas",
+      "subhead": "Sin interés",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#polices-mobile": {
+    "props": {
+      "id": "info-card-polices",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/img/info-polices.png",
+      "headline": "Extendemos los Cambios",
+      "subhead": "Puedes realizarlos hasta el 28 de Febrero",
+      "callToActionMode": "link",
+      "blockClass": "infoCardIcons-mobile",
+      "textAlignment": "center"
+    }
+  }
 
 
 }
