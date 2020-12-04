@@ -99,19 +99,18 @@
             "verticalAlign": "center",
             "blockClass": "logoCol"
         },
-        "children": ["image#logo-desktop"]
+        "children": ["logo#logo-desktop"]
     },
 
-    "image#logo-desktop": {
+    "logo#logo-desktop": {
         "props": {
             "title": "Pillin",
             "href": "/",
-            "src": "assets/img/logo-pillin.png",
-            "width": "90",
+            "url": "https://pillin.vteximg.com.br/arquivos/logo-pillin.png",
+            "width": "120",
             "max-width": "100%",
             "horizontalAlign": "center",
             "verticalAlign": "center",
-            "alt": "Logo-Pillin",
             "blockClass": "logoCol",
             "preventHorizontalStretch": true,
             "preserveLayoutOnMobile": true
@@ -183,27 +182,37 @@
 
     "flex-layout.col#logo-mobile": {
         "children": [
-            "image#logo-mobile"
+            "logo#logo-mobile"
         ]
     },
 
-    "image#logo-mobile": {
+    "logo#logo-mobile": {
         "props": {
             "title": "Pillin",
             "href": "/",
-            "src": "assets/img/logo-pillin.png",
-            "width": "40",
+            "url": "https://pillin.vteximg.com.br/arquivos/logo-pillin.png",
+            "width": "90",
             "max-width": "100%",
             "horizontalAlign": "center",
             "verticalAlign": "center",
-            "alt": "Logo-Pillin",
             "blockClass": "logoCol",
             "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true            
         }
     },
 
     "flex-layout.row#search-mobile": {
         "children": ["search-bar"]
+    },
+
+    "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    },
+
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
     }
 }

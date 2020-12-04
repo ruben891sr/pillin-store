@@ -10,6 +10,7 @@
   "responsive-layout.desktop": {
     "children": [
       "slider-layout#text-test",
+      "flex-layout.row#infocards-icons",
       "flex-layout.row#infocards",
       "shelf",
       "flex-layout.row#banners"
@@ -57,6 +58,100 @@
       "blockClass": "sliderImage"
     }
   },
+
+
+  // Desktop - Infocards Icons
+  "flex-layout.row#infocards-icons": {
+    "children": [
+      "flex-layout.col#box",
+      "flex-layout.col#truck",
+      "flex-layout.col#cards",
+      "flex-layout.col#polices"
+    ],
+    "props":{
+      "blockClass": "infoIcons"
+    }
+  },
+
+  "flex-layout.col#box": {
+    "children":[
+      "info-card#box"
+    ]
+  },
+
+  "flex-layout.col#truck": {
+    "children":[
+      "info-card#truck"
+    ]
+  },
+
+  "flex-layout.col#cards": {
+    "children":[
+      "info-card#cards"
+    ]
+  },
+
+  "flex-layout.col#polices": {
+    "children":[
+      "info-card#polices"
+    ]
+  },
+
+
+"info-card#box": {
+  "props": {
+    "id": "info-card-box",
+    "textPosition": "center",
+    "imageUrl": "assets/img/info-box.png",
+    "headline": "Despacho Gratis",
+    "subhead": "Por compras sobre $30.000",
+    "callToActionMode": "link",
+    "blockClass": "infoCardIcons",
+    "textAlignment": "center"
+  }
+},
+
+"info-card#truck": {
+  "props": {
+    "id": "info-card-truck",
+    "textPosition": "center",
+    "imageUrl": "assets/img/info-truck.png",
+    "headline": "Envío a todo Chile",
+    "subhead": "o retira GRATIS en tienda",
+    "callToActionMode": "link",
+    "blockClass": "infoCardIcons",
+    "textAlignment": "center"
+  }
+},
+
+"info-card#cards": {
+  "props": {
+    "id": "info-card-cards",
+    "textPosition": "center",
+    "imageUrl": "assets/img/info-cards.png",
+    "headline": "Paga en 3 Cuotas",
+    "subhead": "Sin interés",
+    "callToActionMode": "link",
+    "blockClass": "infoCardIcons",
+    "textAlignment": "center"
+  }
+},
+
+"info-card#polices": {
+  "props": {
+    "id": "info-card-polices",
+    "isFullModeStyle": false,
+    "textPosition": "center",
+    "imageUrl": "assets/img/info-polices.png",
+    "headline": "Extendemos los Cambios",
+    "subhead": "Puedes realizarlos hasta el 28 de Febrero",
+    "callToActionMode": "link",
+    "blockClass": "infoCardIcons",
+    "textAlignment": "center"
+  }
+},
+
+
 
 
   // Desktop - Seccion Infocard

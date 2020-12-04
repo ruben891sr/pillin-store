@@ -65,10 +65,6 @@
     margin-left: 0;
 }
 
-.searchBarContainer {
-    margin-right: 1rem;
-}
-
 .skuSelectorTextContainer {
     display: none;
 }
@@ -97,6 +93,7 @@
 .searchBarContainer {
     padding: .7rem 0;
     margin: 0;
+    margin-right: 1.3rem;
 }
 
 .imageElement--logo-sr {
@@ -106,6 +103,67 @@
 
 .imageElement--bannerPromoMobile {
     margin-bottom: 1rem;
+}
+
+.vtex-input-prefix__group {
+    border: 1px solid #ccc !important;
+}
+
+.vtex-input__suffix {
+    background-color: #f9f9f9;
+}
+
+.infoCardTextContainer--infoCardIcons {
+    width: 100%;
+}
+
+.infoCardContainer--infoCardIcons {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.infoCardImageContainer--infoCardIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoCardImage--infoCardIcons {
+    width: 75px;
+    height: auto;
+}
+
+.infoCardHeadline--infoCardIcons {
+    font-size: 1.2em;
+    margin-top: .7rem;
+}
+
+.infoCardSubhead--infoCardIcons {
+    margin-top: .3rem;
+    font-weight: 500;
+    font-size: .95em;
+}
+
+.infoCardContainer--infoCardIcons .infoCardCallActionContainer {
+    display: none;
+}
+
+.infoCardCallActionContainer--infoCardSearchBy-mobile :global(.vtex-button),
+.infoCardCallActionContainer--infoCardSearchBy :global(.vtex-button) {
+    background-color: #fff;
+    border: 1px solid #fff;
+    transition: all .5s ease;
+}
+
+.infoCardCallActionContainer--infoCardSearchBy-mobile :global(.vtex-button__label),
+.infoCardCallActionContainer--infoCardSearchBy :global(.vtex-button__label) {
+    font-weight: 800;
+    color: #3f2016;
+    transition: all .5s ease;
+}
+
+.searchBarContainer :global(.vtex-input__suffix){
+    background-color: #f9f9f9;
 }
 
 @media (max-width: 991px) {

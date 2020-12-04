@@ -10,6 +10,7 @@
       }
     }
   },
+
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -19,6 +20,7 @@
       }
     }
   },
+
   "store.search#brand": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -28,6 +30,7 @@
       }
     }
   },
+
   "store.search#department": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -37,6 +40,7 @@
       }
     }
   },
+
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -47,8 +51,6 @@
     }
   },
 
-
-
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -57,10 +59,36 @@
     ]
   },
 
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+
+
+// Search - Desktop
+
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
       "search-title.v2",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
@@ -70,7 +98,6 @@
       "preventRouteChange": true
     }
   },
-
 
   // Row Total y Orden Productos
   "flex-layout.row#top": {
@@ -116,12 +143,13 @@
     "blocks": ["product-summary.shelf"]
   },
 
-
-
   "search-result-layout.mobile": {
     "children": [
       "breadcrumb.search",
       "search-title.v2",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",

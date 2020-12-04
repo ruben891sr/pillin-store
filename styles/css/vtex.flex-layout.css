@@ -47,3 +47,7 @@
 .flexCol--col-partner-footer {
     flex-direction: inherit;
 }
+
+.flexRow--infoIcons {
+    margin: 4rem 0;
+}
