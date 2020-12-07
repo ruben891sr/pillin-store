@@ -27,12 +27,15 @@
     // Header Desktop - Top Bar
     "flex-layout.row#notification-bar": {
         "children": [
-            "slider-layout#top-bar"
+            "flex-layout.col#left-list-topBar",
+            "slider-layout#top-bar",
+            "flex-layout.col#right-list-topBar"
         ],
         "props": {
             "fullWidth": true
         }
     },
+
     "slider-layout#top-bar": {
         "props": {
             "itemsPerPage": {
@@ -49,6 +52,22 @@
             "rich-text#info-1",
             "rich-text#info-2",
             "rich-text#info-3"
+        ]
+    },
+
+    "flex-layout.col#left-list-topBar": {
+        "children": [
+            "rich-text#fono",
+            "rich-text#faq",
+            "rich-text#contacto"
+        ]
+    },
+
+    "flex-layout.col#right-list-topBar": {
+        "children": [
+            "rich-text#mis-pedidos",
+            "rich-text#tiendas",
+            "rich-text#whishlist"
         ]
     },
 
@@ -70,6 +89,61 @@
             "blockClass": "sliderTopBarItem"
         }
     },
+
+    "rich-text#fono": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[+569 7865 3462](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
+    "rich-text#faq": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Faq](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
+    "rich-text#contacto": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Contáctanos](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
+    "rich-text#mis-pedidos": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "[Mis Pedidos](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
+    "rich-text#tiendas": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "[Tiendas](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
+    "rich-text#whishlist": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "[help](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "blockClass": "topBarList"
+          }
+    },
+
 
     // Header Desktop - Main Header 
     "flex-layout.row#main-header": {
@@ -197,7 +271,7 @@
             "verticalAlign": "center",
             "blockClass": "logoCol",
             "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true            
+            "preserveLayoutOnMobile": true
         }
     },
 

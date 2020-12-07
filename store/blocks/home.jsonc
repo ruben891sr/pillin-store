@@ -487,7 +487,7 @@
     ],
     "props": {
       "blockClass": "col-box-mobile",
-      "width": "25%"
+      "width": "50%" 
     }
   },
 
@@ -497,7 +497,7 @@
     ],
     "props": {
       "blockClass": "col-truck-mobile",
-      "width": "25%"
+      "width": "50%"
     }
   },
 
@@ -507,7 +507,7 @@
     ],
     "props": {
       "blockClass": "col-cards-mobile",
-      "width": "25%"
+      "width": "50%"
     }
   },
 
@@ -517,7 +517,7 @@
     ],
     "props": {
       "blockClass": "col-polices-mobile",
-      "width": "25%"
+      "width": "50%"
     }
   },
 

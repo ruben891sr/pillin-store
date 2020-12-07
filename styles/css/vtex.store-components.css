@@ -168,11 +168,6 @@
     background-color: #f9f9f9;
 }
 
-.flexRowContent--infoIcons-mobile {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .infoCardTextContainer--infoCardIcons-mobile {
     width: 100%;
 }
@@ -204,8 +199,8 @@
     font-size: .95em;
 }
 
-.infoCardContainer--infoCardIcons-mobile .infoCardCallActionContainer-mobile {
-    display: none; 
+.infoCardCallActionContainer--infoCardIcons-mobile {
+    display: none;
 }
 
 

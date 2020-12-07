@@ -51,4 +51,14 @@
 .flexRow--infoIcons {
     margin: 4rem 10rem;
 }
- 
+
+.flexRowContent--infoIcons-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+}
+
+.flexRowContent--infoIcons-mobile .stretchChildrenWidth {
+    width: 50% !important;
+    margin: 1rem 0;
+}
