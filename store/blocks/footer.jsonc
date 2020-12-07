@@ -24,6 +24,7 @@
       "flex-layout.row#content-footer-general"
     ]
   },
+
   // Title SEO
   "flex-layout.row#content-title-seo": {
     "props": {"blockClass": "row-text-title-seo"},
@@ -74,12 +75,13 @@
           "flex-layout.col#corp",
           "flex-layout.col#cuenta",
           "flex-layout.col#rrss",
-          "flex-layout.col#simulador"
-          // "flex-layout.col#news"
+          "flex-layout.col#simulador",
+          "flex-layout.col#news"
         ]
       },
         "flex-layout.col#sac": {
           "props": {
+
           },
           "children": [
             "rich-text#title-sac",
@@ -88,6 +90,7 @@
         },
         "flex-layout.col#corp": {
           "props": {
+
           },
           "children": [
             "rich-text#title-cor",
@@ -96,6 +99,7 @@
         },
         "flex-layout.col#cuenta": {
           "props": {
+
           },
           "children": [
             "rich-text#title-cue",
@@ -104,6 +108,7 @@
         },
         "flex-layout.col#rrss": {
           "props": {
+
           },
           "children": [
             "rich-text#title-sos",
@@ -113,6 +118,7 @@
         },
         "flex-layout.col#simulador": {
           "props": {
+
           },
           "children": [
             "rich-text#title-despa",
@@ -184,6 +190,7 @@
                   "text": "- [Preguntas Frecuentes](#)"
                 }
               },
+
           // Corporativo COR
           "rich-text#title-cor": {
             "props": {
@@ -234,6 +241,7 @@
                   "text": "- [Trabaja con Nosotros](#)"
                 }
               },
+
           // Mi Cuenta CUE
           "rich-text#title-cue": {
             "props": {
@@ -295,9 +303,9 @@
           },
             // Facebook
             "flex-layout.row#social-network-facebook": {
-              "children": ["flex-layout.col#facebook"]
+              "children": ["social-networks#facebook","rich-text#text-facebook"]
             },
-              "flex-layout.col#facebook": {
+              "social-networks#facebook": {
                 "props": {
                   "socialNetworks": [
                     { "url": "https://facebook.com/foo", "name": "Facebook" }
@@ -305,16 +313,32 @@
                   "blockClass": "rrss-facebook"
                 }
               },
+              "rich-text#text-facebook": {
+                "props": {
+                  "blockClass": "footer-titles",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "[Facebook](#)"
+                }
+              },
             // Instagram
             "flex-layout.row#social-network-instagram": {
-              "children": ["flex-layout.col#instagram"]
+              "children": ["social-networks#instagram","rich-text#text-instagram"]
             },
-              "flex-layout.col#instagram": {
+              "social-networks#instagram": {
                 "props": {
                   "socialNetworks": [
                     { "url": "https://instagram.com/foo", "name": "Instagram" }
                   ],
                   "blockClass": "rrss-instagram"
+                }
+              },
+              "rich-text#text-instagram": {
+                "props": {
+                  "blockClass": "footer-titles",
+                  "textAlignment": "LEFT",
+                  "textPosition": "LEFT",
+                  "text": "[Instagram](#)"
                 }
               },
             
@@ -335,7 +359,7 @@
             },
               "image#camion-envio": {
                 "props":{
-                  "src": "assets/img/icon-camion-despacho.png",
+                  "src": "/assets/img/icon-camion-despacho.png",
                   "maxWidth": "100%",
                   "maxHeight": "100%",
                   "blockClass": "iconoFooter"
@@ -394,7 +418,7 @@
         },
           "image#sr-consultores":{
             "props":{
-              "src": "assets/img/logo-SRconsultores-transp.png",
+              "src": "/assets/img/logo-SRconsultores-transp.png",
               "maxWidth":"100%",
               "maxHeight":"100%",
               "alt": "SR Consultores",
