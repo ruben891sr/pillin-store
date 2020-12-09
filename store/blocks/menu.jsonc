@@ -616,7 +616,8 @@
             "menu-item#ninn-nino-accesorios-calcetines",
             "menu-item#ninn-nino-accesorios-gorrosybufandas",
             "menu-item#ninn-nino-accesorios-peluches",
-            "menu-item#ninn-nino-accesorios-toallasytutos"
+            "menu-item#ninn-nino-accesorios-toallasytutos",
+            "menu-item#ninn-nino-accesorios-mochila"
 
         ],
         "props": {
@@ -708,7 +709,8 @@
             "menu-item#ninn-nina-accesorios-gorrosybufandas",
             "menu-item#ninn-nina-accesorios-peluches",
             "menu-item#ninn-nina-accesorios-pinchesycintillos",
-            "menu-item#ninn-nina-accesorios-toallasytutos"
+            "menu-item#ninn-nina-accesorios-toallasytutos",
+            "menu-item#ninn-nina-accesorios-mochila"
 
         ],
         "props": {

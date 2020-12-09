@@ -31,11 +31,17 @@
 }
 
 .flexRow--footer-general{
-    background: url(assets/img/background-footer.png);
+    background: url(https://pillin.vteximg.com.br/arquivos/background-footer.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5rem;
+    background-position: top right;
+    padding-top: 8rem;
 }
+
+.flexRowContent--rowMainFooter {
+    padding: 0 12rem;
+}
+
 .flexRowContent--row-partner-footer,
 .flexColChild--col-partner-footer,
 .poweredBy--logo-vtex,
@@ -46,6 +52,12 @@
 }
 .flexCol--col-partner-footer {
     flex-direction: inherit;
+}
+
+.flexRowContent--row-partner-footer {
+    padding: 1.7rem 0;
+    border-top: .7px solid #4021178a;
+    margin-top: 2rem;
 }
 
 .flexRow--infoIcons {
@@ -61,4 +73,34 @@
 .flexRowContent--infoIcons-mobile .stretchChildrenWidth {
     width: 50% !important;
     margin: 1rem 0;
+}
+
+.flexCol--topBar-leftCol,
+.flexCol--topBar-rightCol,
+.flexColChild--topBar-leftCol,
+.flexColChild--topBar-rightCol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexCol--topBar-rightCol {
+    justify-content: flex-end;
+}
+
+.flexRow--notification-bar {
+    background-color: #ede3ce;
+}
+
+.flexRow--rowHomeShelf {
+    margin: 6rem 0;
+}
+
+.flexRow--clubPillin {
+    margin: 4rem 0; 
+    padding: 3rem 0 7rem 0;
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-clubPillin.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

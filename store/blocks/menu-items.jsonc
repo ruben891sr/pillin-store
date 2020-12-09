@@ -105,7 +105,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "",
+        "href": "/vestuario?map=c,specificationFilter_48:recien-nacido-(00-a-12M),specificationFilter_45:nino,specificationFilter_33:chaqueta,specificationFilter_33:abrigo",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -117,7 +117,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "",
+        "href": "/vestuario?map=c,specificationFilter_48:recien-nacido-(00-a-12M),specificationFilter_45:nino,specificationFilter_33:bermuda,specificationFilter_33:short",
         "text": "Bermudas y Shorts"
       }
     }
@@ -1735,6 +1735,19 @@
     }
   },
 
+  "menu-item#ninn-nino-accesorios-mochila": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "",
+        "text": "Mochilas"
+      }
+    }
+  },
+
+
   // Kids - Niña - Vestuario
   "menu-item#ninn-nina-vestuario-abrigosychaquetas": {
     "props": {
@@ -2035,6 +2048,18 @@
       "itemProps": {
         "href": "",
         "text": "Toallas y Tutos"
+      }
+    }
+  },
+
+  "menu-item#ninn-nina-accesorios-mochila": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "",
+        "text": "Mochilas"
       }
     }
   },

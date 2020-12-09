@@ -1,0 +1,32 @@
+.slide {
+    margin: 0 .5rem;
+}
+
+.title--vitrinaHome {
+    font-size: 1.5em;
+    color: #402117;
+    font-weight: 800;
+    text-align: left;
+    justify-content: flex-start;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    z-index: 1;
+    padding-left: 3.7rem;
+}
+
+.title--vitrinaHome::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 85px;
+    height: 80px;
+    position: absolute; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

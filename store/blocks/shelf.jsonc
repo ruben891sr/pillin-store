@@ -5,14 +5,14 @@
         "visibleVariations": ["Talla", "Color"],
         "category": 3,
         "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "desktopOnly",
+        "blockClass": "vitrinaHome",
         "productList": {
-          "maxItems": 8,
+          "maxItems": 12,
           "itemsPerPage": 5,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
           "arrows": true,
-          "titleText": "Top sellers"
+          "titleText": "Productos Recomendados"
         }
       }
     }

@@ -35,6 +35,14 @@
     ]
   },
 
+  "product-summary-buy-button": {
+    "props": {
+      "displayBuyButton": "displayButtonHover",
+      "buyButtonText": "Agregar al Carro",
+      "buyButtonBehavior": "alwaysAddToTheCart"
+    }
+  },
+
   "product-summary-sku-selector": {
     "props":{
       "hideImpossibleCombinations": true,
@@ -47,4 +55,5 @@
       "displayMode": "slider"
     }
   }
+
 }

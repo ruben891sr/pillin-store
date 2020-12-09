@@ -42,6 +42,20 @@
     padding-left: 0!important;
 }
 
+.wrapper--rrss-insta,
+.wrapper--rrss-face {
+    margin: 0;
+}
+
+
+.link--rrss-face,
+.link--rrss-insta {
+    margin: 0;
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+}
+
 .wrapper--sliderTopBarItem .paragraph {
     display: flex;
     justify-content: center;
@@ -62,12 +76,19 @@
     font-size: .87em;
 }
 
+.headingLevel3--footer-titles {
+    font-size: 1.3em;
+}
+
+
 .list--footer-list{
     padding-left: 0;
     margin: 5px;
+    font-size: 1em;
+    font-weight: 500;
     list-style: none!important;
 }
-.listItem--footer-list,
+.listItem--footer-list, 
 .link--footer-list,
 .link--text-envio-domicilio,
 .link--text-venta-asistida {
@@ -75,7 +96,112 @@
     color: #3f2016;
 }
 
+/*Simulador de despacho*/
 .paragraph--text-envio-domicilio,
 .paragraph--text-venta-asistida {
     margin: 0;
+}
+
+.paragraph--topBarList-phone,
+.paragraph--topBarList-faq,
+.paragraph--topBarList-contact,
+.paragraph--topBarList-orders,
+.paragraph--topBarList-store,
+.paragraph--topBarList-wishlist  {
+    margin: 0;
+}
+
+.link--topBarList-phone,
+.link--topBarList-faq,
+.link--topBarList-contact,
+.link--topBarList-orders,
+.link--topBarList-store,
+.link--topBarList-wishlist {
+    margin: 0 1.5rem;
+    color: #3f2016;
+    font-size: .87em;
+    text-decoration: none;
+    position: relative;
+}
+
+.link--topBarList-wishlist {
+    margin-right: 0;
+}
+
+.link--topBarList-phone::before, 
+.link--topBarList-faq::before, 
+.link--topBarList-contact::before, 
+.link--topBarList-orders::before, 
+.link--topBarList-store::before, 
+.link--topBarList-wishlist::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 103%;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.link--topBarList-phone::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-phone.png);
+}
+
+.link--topBarList-faq::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-faq.png);
+}
+
+.link--topBarList-contact::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-contact.png);
+}
+
+.link--topBarList-orders::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-box.png);
+}
+
+.link--topBarList-store::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-store.png);
+}
+
+.link--topBarList-wishlist::before {
+    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-wishlist.png);
+}
+
+.link--cp-buttonVerMas {
+    background: #3f2016;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    padding: .5rem 3.3rem;
+}
+
+.headingLevel3--cp-titleClub {
+    position: relative;
+    padding-left: 6rem;
+    padding-right: 4rem;
+}
+
+.headingLevel3--cp-titleClub::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/logo-cabeza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 83%;
+}
+
+.paragraph--cp-textClub {
+    margin-top: 0;
+    font-weight: 500;
 }

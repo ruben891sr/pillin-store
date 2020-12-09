@@ -204,6 +204,18 @@
 }
 
 
+.imageElementLink--cp-image1,
+.imageElementLink--cp-image2,
+.imageElementLink--cp-image3 {
+    margin: .5rem;
+    display: inline-block;
+}
+
+.imageElement--logo-sr,
+.imageElement--logo-vtex {
+    margin: 0 1rem;
+    display: inline-block;
+}
 
 
 @media (max-width: 991px) {
@@ -213,5 +225,29 @@
 
     .imageElement--logoCol {
         width: 95px;
+    }
+
+    .flexRow--footer-general {
+        background: url(assets/img/background-mobile-footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 4rem;
+    }
+
+    .heading--footer-titles {
+        font-size: 1.3rem;
+        margin: 1.6rem 0 1rem 0;
+        padding-left: 1rem;
+    }
+
+    .wrapper--footer-list {
+        border-bottom: 1px solid #8a71687d;
+        display: block !important;
+        padding: .2rem 0 .2rem .5rem;
+        width: 100%;
+    }
+
+    .link--footer-list {
+        font-weight: 500;
     }
 }
