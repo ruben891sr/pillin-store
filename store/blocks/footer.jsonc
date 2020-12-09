@@ -5,8 +5,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#club-pillin",
-      "flex-layout.row#content-title-seo",
-      "flex-layout.row#content-text-seo",
+      "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
     ]
   },
@@ -20,8 +19,6 @@
       // "social-networks",
       // "accepted-payment-methods",
       // "powered-by"
-      "flex-layout.row#content-title-seo",
-      "flex-layout.row#content-text-seo",
       "flex-layout.row#content-footer-general"
     ]
   },
@@ -159,44 +156,38 @@
   },
 
 
-
-
-  // Title SEO
-  "flex-layout.row#content-title-seo": {
+  //SEO
+  "flex-layout.row#seo": {
+    "children": [
+      "rich-text#categorias-mas-buscadas",
+      "rich-text#cat-1"
+    ],
     "props": {
-      "blockClass": "row-text-title-seo"
-    },
-    "children": ["flex-layout.col#text-title-seo"]
+      "blockClass": "rowSeo",
+      "colSizing": "auto"
+    }
   },
-  "flex-layout.col#text-title-seo": {
-    "props": {
-      "blockClass": "col-text-title-seo"
-    },
-    "children": ["rich-text#categorias-mas-buscadas"]
-  },
+
   "rich-text#categorias-mas-buscadas": {
     "props": {
       "blockClass": "main-titles",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "## Categorías más buscadas"
+      "text": "## Categorías más buscadas",
+      "width": "100%"
     }
   },
-  // SEO Content
-  "flex-layout.row#content-text-seo": {
-    "children": ["flex-layout.col#list-text-seo"]
-  },
-  "flex-layout.col#list-text-seo": {
-    "children": ["rich-text#cat-1"]
-  },
+
   "rich-text#cat-1": {
     "props": {
       "blockClass": "texto-seo",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes."
+      "width": "100%",
+      "text": "Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes."
     }
   },
+
   // Footer general
   "flex-layout.row#content-footer-general": {
     "props": {
@@ -218,7 +209,7 @@
       "flex-layout.col#corp",
       "flex-layout.col#cuenta",
       "flex-layout.col#rrss",
-      "flex-layout.col#simulador"
+      "flex-layout.col#simulador-despacho"
       // "flex-layout.col#news"
     ]
   },
@@ -226,7 +217,7 @@
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
-      
+
     },
     "children": [
       "rich-text#title-sac",
@@ -237,7 +228,7 @@
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
-      
+
     },
     "children": [
       "rich-text#title-cor",
@@ -248,7 +239,7 @@
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
-      
+
     },
     "children": [
       "rich-text#title-cue",
@@ -259,7 +250,7 @@
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
-      
+
     },
     "children": [
       "rich-text#title-sos",
@@ -267,23 +258,18 @@
       "flex-layout.row#social-network-instagram"
     ]
   },
-  "flex-layout.col#simulador": {
+  "flex-layout.col#simulador-despacho": {
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
-      
+
     },
     "children": [
       "rich-text#title-despa",
-      "flex-layout.row#Envio-Domicilio",
-      "flex-layout.row#Venta-Asistida"
+      "flex-layout.col#simulador-despacho-col"
     ]
   },
-  // "flex-layout.col#news": {
-  //   "children": [
-  //     "rich-text#title-news"
-  //   ]
-  // },
+  
   // Servicio Atención al Cliente SAC
   "rich-text#title-sac": {
     "props": {
@@ -302,7 +288,7 @@
       "rich-text#list-retiro",
       "rich-text#list-faq"
     ],
-    "props":{
+    "props": {
       "preventHorizontalStretch": true
     }
   },
@@ -467,10 +453,10 @@
 
   "rich-text#text-facebook": {
     "props": {
-      "blockClass": "rrss-face",
+      "blockClass": "footer-list-face",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Facebook](#)"
+      "text": "- [Facebook](#)"
     }
   },
   // Instagram
@@ -479,17 +465,26 @@
       "rich-text#text-instagram"
     ]
   },
-  
+
   "rich-text#text-instagram": {
     "props": {
-      "blockClass": "rrss-insta",
+      "blockClass": "footer-list-insta",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Instagram](#)"
+      "text": "- [Instagram](#)"
     }
   },
 
+
   // Simulador de Despacho
+  "flex-layout.col#simulador-despacho-col": {
+    "children": [
+      "rich-text#text-envio-domicilio",
+      "rich-text#text-venta-asistida"
+    ]
+  },
+
+
   "rich-text#title-despa": {
     "props": {
       "blockClass": "footer-titles",
@@ -498,43 +493,27 @@
       "text": "### Simulador de Despacho"
     }
   },
-  "flex-layout.row#Envio-Domicilio": {
-    "children": ["flex-layout.col#EnvioDomicilio"]
-  },
-  "flex-layout.col#EnvioDomicilio": {
-    "children": ["image#camion-envio", "rich-text#text-envio-domicilio"]
-  },
-  "image#camion-envio": {
-    "props": {
-      "src": "/assets/img/icon-camion-despacho.png",
-      "maxWidth": "100%",
-      "maxHeight": "100%",
-      "blockClass": "iconoFooter"
-    }
-  },
+
   "rich-text#text-envio-domicilio": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Envío a Domicilio](#)",
-      "blockClass": "text-envio-domicilio"
+      "text": "- [Envío a Domicilio](#)",
+      "blockClass": "footer-list-envio"
     }
   },
-  // Venta Asistida
-  "flex-layout.row#Venta-Asistida": {
-    "children": ["flex-layout.col#VentaAsistida"]
-  },
-  "flex-layout.col#VentaAsistida": {
-    "children": ["rich-text#text-venta-asistida"]
-  },
+
   "rich-text#text-venta-asistida": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Venta Asistida](https://pillin.myvtex.com/checkout/#/cart)",
-      "blockClass": "text-venta-asistida"
+      "text": "- [Venta Asistida](#)",
+      "blockClass": "footer-list-asistida"
     }
   },
+
+
+
   // PARTNER DE PILLIN
   "flex-layout.row#content-partner": {
     "props": {

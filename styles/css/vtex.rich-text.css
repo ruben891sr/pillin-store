@@ -31,39 +31,85 @@
     background-image: url(assets/img/mancha-nina.png);
 }
 
-.wrapper--footer-list{
+.wrapper--footer-list {
     height: auto;
     list-style: none;
     text-decoration: none;
 }
+
+ 
+
+
+
+.headingLevel3--footer-titles {
+    font-size: 1.3em;
+}
+
+.link--footer-list-face,
+.link--footer-list-insta,
+.link--footer-list-envio,
+.link--footer-list-asistida,
 .link--footer-list {
-    text-decoration: none;
-    color: #3f2016;
-    padding-left: 0!important;
-}
-
-.wrapper--rrss-insta,
-.wrapper--rrss-face {
-    margin: 0;
-}
-
-
-.link--rrss-face,
-.link--rrss-insta {
-    margin: 0;
-    text-decoration: none;
-    color: red;
+    padding-left: 0;
+    margin: 5px;
+    font-size: 1em;
     font-weight: 500;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    color: #402117;
+    text-decoration: none !important;
+    list-style-type: none !important;
 }
 
-.wrapper--sliderTopBarItem .paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.87em;
-    padding: .5rem 0;
-    margin: 0;
+.link--footer-list-face,
+.link--footer-list-insta,
+.link--footer-list-envio,
+.link--footer-list-asistida {
+    padding-left: 37px !important;
+    display: inline-block;
 }
+
+.listItem--footer-list-face,
+.listItem--footer-list-insta,
+.listItem--footer-list-envio,
+.listItem--footer-list-asistida {
+    margin-bottom: 1rem !important;
+}
+
+
+.link--footer-list-face::before,
+.link--footer-list-insta::before,
+.link--footer-list-envio::before,
+.link--footer-list-asistida::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.link--footer-list-face::before {
+    background-image: url(assets/img/rrss-face.png);
+}
+
+.link--footer-list-insta::before {
+    background-image: url(assets/img/rrss-insta.png);
+}
+
+.link--footer-list-envio::before {
+    background-image: url(assets/img/truck-footer.png);
+}
+
+.link--footer-list-asistida::before {
+    background-image: url(assets/img/truck-footer.png);
+}
+
 
 .wrapper--sliderTopBarItem .link {
     display: inline-block;
@@ -74,27 +120,13 @@
     border-radius: 4px;
     color: #fff;
     font-size: .87em;
-}
+} 
 
 .headingLevel3--footer-titles {
     font-size: 1.3em;
 }
 
 
-.list--footer-list{
-    padding-left: 0;
-    margin: 5px;
-    font-size: 1em;
-    font-weight: 500;
-    list-style: none!important;
-}
-.listItem--footer-list, 
-.link--footer-list,
-.link--text-envio-domicilio,
-.link--text-venta-asistida {
-    text-decoration: none;
-    color: #3f2016;
-}
 
 /*Simulador de despacho*/
 .paragraph--text-envio-domicilio,
@@ -107,7 +139,7 @@
 .paragraph--topBarList-contact,
 .paragraph--topBarList-orders,
 .paragraph--topBarList-store,
-.paragraph--topBarList-wishlist  {
+.paragraph--topBarList-wishlist {
     margin: 0;
 }
 
@@ -128,11 +160,11 @@
     margin-right: 0;
 }
 
-.link--topBarList-phone::before, 
-.link--topBarList-faq::before, 
-.link--topBarList-contact::before, 
-.link--topBarList-orders::before, 
-.link--topBarList-store::before, 
+.link--topBarList-phone::before,
+.link--topBarList-faq::before,
+.link--topBarList-contact::before,
+.link--topBarList-orders::before,
+.link--topBarList-store::before,
 .link--topBarList-wishlist::before {
     content: '';
     width: 20px;
@@ -204,4 +236,45 @@
 .paragraph--cp-textClub {
     margin-top: 0;
     font-weight: 500;
+}
+
+
+.headingLevel2--main-titles {
+    font-size: 1.5em;
+    color: #402117;
+    font-weight: 800;
+    text-align: left;
+    justify-content: flex-start;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    z-index: 1;
+    padding-left: 3.7rem;
+}
+
+.headingLevel2--main-titles::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 85px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paragraph--texto-seo {
+    text-align: center;
+    color: #666;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.container--texto-seo {
+    padding: 0 4rem;
 }
