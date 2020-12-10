@@ -36,7 +36,7 @@
     margin: 4rem 0;
 }
 
-.flexRow--footer-general{
+.flexRow--footer-general {
     background: url(https://pillin.vteximg.com.br/arquivos/background-footer.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,11 +51,12 @@
 .flexRowContent--row-partner-footer,
 .flexColChild--col-partner-footer,
 .poweredBy--logo-vtex,
-.flexCol--col-partner-footer{
+.flexCol--col-partner-footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .flexCol--col-partner-footer {
     flex-direction: inherit;
 }
@@ -96,6 +97,7 @@
 
 .flexRow--notification-bar {
     background-color: #ede3ce;
+    padding: .4rem;
 }
 
 .flexRow--rowHomeShelf {
@@ -103,7 +105,7 @@
 }
 
 .flexRow--clubPillin {
-    margin: 4rem 0; 
+    margin: 4rem 0;
     padding: 3rem 0 7rem 0;
     background-image: url(https://pillin.vteximg.com.br/arquivos/bg-clubPillin.jpg);
     background-position: center bottom;

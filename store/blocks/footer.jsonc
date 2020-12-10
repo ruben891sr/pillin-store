@@ -269,7 +269,7 @@
       "flex-layout.col#simulador-despacho-col"
     ]
   },
-  
+
   // Servicio Atención al Cliente SAC
   "rich-text#title-sac": {
     "props": {

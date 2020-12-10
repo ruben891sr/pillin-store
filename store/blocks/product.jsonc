@@ -26,7 +26,7 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+    "children": ["flex-layout.col#product-image", "flex-layout.col#pdp-right-col"]
   },
 
   // Imagen del producto
@@ -46,13 +46,13 @@
   },
 
   // Detalles del Producto
-  "flex-layout.col#right-col": {
+  "flex-layout.col#pdp-right-col": {
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",

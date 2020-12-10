@@ -45,6 +45,14 @@
     font-size: 1.3em;
 }
 
+.list--footer-list-face,
+.list--footer-list-insta,
+.list--footer-list-envio,
+.list--footer-list-asistida,
+.list--footer-list {
+    padding: 0;
+}
+
 .link--footer-list-face,
 .link--footer-list-insta,
 .link--footer-list-envio,
@@ -54,8 +62,6 @@
     margin: 5px;
     font-size: 1em;
     font-weight: 500;
-    text-decoration: none;
-    list-style-type: none;
     position: relative;
     color: #402117;
     text-decoration: none !important;
@@ -70,11 +76,18 @@
     display: inline-block;
 }
 
+.listItem--footer-list {
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
 .listItem--footer-list-face,
-.listItem--footer-list-insta,
+.listItem--footer-list-insta, 
 .listItem--footer-list-envio,
 .listItem--footer-list-asistida {
     margin-bottom: 1rem !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
 }
 
 
@@ -126,12 +139,17 @@
     font-size: 1.3em;
 }
 
-
-
-/*Simulador de despacho*/
 .paragraph--text-envio-domicilio,
 .paragraph--text-venta-asistida {
     margin: 0;
+}
+
+
+
+
+.paragraph--sliderTopBarItem {
+    margin: 0;
+    display: flex;
 }
 
 .paragraph--topBarList-phone,
