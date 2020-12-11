@@ -61,7 +61,8 @@
       "sku-selector",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "product-availability"
     ]
   },
   
@@ -88,6 +89,16 @@
       "marginBottom": 7
     },
     "children": ["buy-button"]
+  },
+
+  //Productos Disponibles
+  "product-availability": {
+    "props": {
+      "threshold": "5",
+      "lowStockMessage": "Sólo quedan {quantity} productos!",
+      "highStockMessage": "Item in stock!"
+    },
+    "component": "ProductAvailability"
   }
 
 
