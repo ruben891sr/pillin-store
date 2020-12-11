@@ -304,10 +304,10 @@
 
   // Desktop - Shelf
   "flex-layout.row#shelf-home": {
-    "children":[
+    "children": [
       "shelf"
     ],
-    "props":{
+    "props": {
       "blockClass": "rowHomeShelf"
     }
   },
@@ -490,7 +490,7 @@
       "blockClass": "infoIcons-mobile",
       "colSizing": "auto"
     }
-  }, 
+  },
 
   "flex-layout.col#box-mobile": {
     "children": [
@@ -498,7 +498,7 @@
     ],
     "props": {
       "blockClass": "col-box-mobile",
-      "width": "50%" 
+      "width": "50%"
     }
   },
 
@@ -513,7 +513,7 @@
   },
 
   "flex-layout.col#cards-mobile": {
-    "children": [ 
+    "children": [
       "info-card#cards-mobile"
     ],
     "props": {

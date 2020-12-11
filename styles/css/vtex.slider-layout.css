@@ -1,23 +1,23 @@
 .sliderLayoutContainer--carousel {
-    max-width: 96rem; 
+    max-width: 96rem;
     margin: 2rem auto 0 auto;
     padding: 0 !important;
-} 
+}
 
 .slideChildrenContainer--carousel-topbar {
     background-color: #ede3ce;
 }
 
 
-.caretIcon--carousel-topbar { 
+.caretIcon--carousel-topbar {
     width: 11px;
 }
 
 .sliderLayoutContainer--carouselMobile {
-    max-width: 90rem; 
+    max-width: 90rem;
     margin: 0rem auto 1rem auto;
     padding: 0 1rem !important;
-} 
+}
 
 .caretIcon--carousel,
 .caretIcon--carouselMobile {

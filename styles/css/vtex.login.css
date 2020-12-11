@@ -12,7 +12,7 @@
 
 
 @media (max-width: 991px) {
-   .profileIcon {
+    .profileIcon {
         width: 12px;
     }
 
@@ -20,4 +20,4 @@
         width: 44px;
         overflow: hidden;
     }
-} 
+}

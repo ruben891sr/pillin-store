@@ -44,7 +44,7 @@
   },
 
   "product-summary-sku-selector": {
-    "props":{
+    "props": {
       "hideImpossibleCombinations": true,
       "showValueForVariation": "none",
       "showVariationsErrorMessage": true,

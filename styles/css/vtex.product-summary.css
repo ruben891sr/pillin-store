@@ -14,7 +14,7 @@
     background: #fff;
 }
 
-.imageContainer::before{
+.imageContainer::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -42,11 +42,11 @@
 
 .productNameContainer.nameWrapper {
     text-align: left;
-    padding: .5rem 0 .3rem 0!important;
+    padding: .5rem 0 .3rem 0 !important;
 }
 
 .nameContainer {
-    padding: 0!important;
+    padding: 0 !important;
     justify-content: left;
 }
 
@@ -81,7 +81,7 @@
     font-size: .97rem;
     color: #b3b3b3;
     padding-right: .5rem;
-} 
+}
 
 .skuSelectorContainer {
     flex-flow: column-reverse;
@@ -91,6 +91,7 @@
 .price_sellingPriceContainer {
     padding: 0;
 }
+
 .frameAround {
     margin: 0;
     padding: 0;
@@ -113,5 +114,5 @@
 }
 
 .skuSelectorItemTextValue {
-    font-weight: 800;
-} 
+    font-weight: 800; 
+}

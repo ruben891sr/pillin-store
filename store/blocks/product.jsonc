@@ -64,7 +64,7 @@
       "shipping-simulator"
     ]
   },
-  
+
   "product-price#product-details": {
     "props": {
       "showInstallments": true,

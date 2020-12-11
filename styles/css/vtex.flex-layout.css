@@ -88,7 +88,7 @@
 .flexColChild--topBar-rightCol {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
 .flexCol--topBar-rightCol {

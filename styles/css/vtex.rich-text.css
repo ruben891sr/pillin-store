@@ -37,7 +37,7 @@
     text-decoration: none;
 }
 
- 
+
 
 
 
@@ -82,7 +82,7 @@
 }
 
 .listItem--footer-list-face,
-.listItem--footer-list-insta, 
+.listItem--footer-list-insta,
 .listItem--footer-list-envio,
 .listItem--footer-list-asistida {
     margin-bottom: 1rem !important;
@@ -133,7 +133,7 @@
     border-radius: 4px;
     color: #fff;
     font-size: .87em;
-} 
+}
 
 .headingLevel3--footer-titles {
     font-size: 1.3em;
