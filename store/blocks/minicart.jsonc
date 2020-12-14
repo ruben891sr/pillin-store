@@ -68,7 +68,7 @@
     },
     "rich-text#minicart-default-empty-state": {
       "props": {
-        "text": "[Ir al carro](https://www.pillinchile.cl/checkout#/cart)"
+        "text": "[Ir al carro](/checkout#/cart)"
       }
     }
   }

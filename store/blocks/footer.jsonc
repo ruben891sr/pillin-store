@@ -507,7 +507,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Venta Asistida](https://www.pillinchile.cl/checkout#/cart)",
+      "text": "- [Venta Asistida](/checkout#/cart)",
       "blockClass": "footer-list-asistida"
     }
   },
