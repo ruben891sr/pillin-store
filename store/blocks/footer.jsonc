@@ -492,7 +492,7 @@
       "textPosition": "LEFT",
       "text": "### Simulador de Despacho"
     }
-  },
+  }, 
 
   "rich-text#text-envio-domicilio": {
     "props": {
@@ -507,7 +507,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Venta Asistida](#)",
+      "text": "- [Venta Asistida](https://www.pillinchile.cl/checkout#/cart)",
       "blockClass": "footer-list-asistida"
     }
   },
