@@ -80,21 +80,21 @@
 
     "rich-text#info-1": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-2": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-3": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
@@ -103,7 +103,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[+569 7865 3462](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[+569 7865 3462](/)",
             "blockClass": "topBarList-phone"
         }
     },
@@ -112,7 +112,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Faq](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[Faq](/)",
             "blockClass": "topBarList-faq"
         }
     },
@@ -121,7 +121,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Contáctanos](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[Contáctanos](/)",
             "blockClass": "topBarList-contact"
         }
     },
@@ -130,7 +130,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Mis Pedidos](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[Mis Pedidos](/)",
             "blockClass": "topBarList-orders"
         }
     },
@@ -139,7 +139,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Tiendas](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[Tiendas](/)",
             "blockClass": "topBarList-store"
         }
     },
@@ -148,7 +148,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Wish List](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "[Wish List](/)",
             "blockClass": "topBarList-wishlist"
         }
     },
@@ -292,7 +292,7 @@
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
             "openAutocompleteOnFocus": true
-        }
+        } 
     },
 
     "autocomplete-result-list.v2": {
