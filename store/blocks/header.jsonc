@@ -80,7 +80,7 @@
 
     "rich-text#info-1": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
+            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://www.pillin.com/tiendas/)",
             "blockClass": "sliderTopBarItem"
         }
     },
@@ -103,7 +103,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[+569 7865 3462](/)",
+            "text": "[+569 7865 3462](tel:56978653462)",
             "blockClass": "topBarList-phone"
         }
     },
@@ -112,7 +112,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Faq](/)",
+            "text": "[Faq](https://www.pillin.com/faq)",
             "blockClass": "topBarList-faq"
         }
     },
@@ -121,7 +121,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Contáctanos](/)",
+            "text": "[Contáctanos](https://www.pillin.com/contacto)",
             "blockClass": "topBarList-contact"
         }
     },
@@ -139,7 +139,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Tiendas](/)",
+            "text": "[Tiendas](https://www.pillin.com/tiendas/)",
             "blockClass": "topBarList-store"
         }
     },

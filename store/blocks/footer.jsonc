@@ -297,7 +297,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Términos y Condiciones](#)"
+      "text": "- [Términos y Condiciones](https://www.pillin.com/terminos-condiciones)"
     }
   },
   "rich-text#list-despacho": {
@@ -305,7 +305,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Despachos](#)"
+      "text": "- [Despachos](https://www.pillin.com/despacho)"
     }
   },
   "rich-text#list-cambio": {
@@ -313,7 +313,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Cambios y Devoluciones](#)"
+      "text": "- [Cambios y Devoluciones](https://www.pillin.com/cambios-devoluciones)"
     }
   },
   "rich-text#list-retiro": {
@@ -321,7 +321,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Retiro en tienda](#)"
+      "text": "- [Retiro en tienda](https://www.pillin.com/retiro-en-tienda)"
     }
   },
   "rich-text#list-faq": {
@@ -329,7 +329,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Preguntas Frecuentes](#)"
+      "text": "- [Preguntas Frecuentes](https://www.pillin.com/faq)"
     }
   },
 
@@ -380,7 +380,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Trabaja con Nosotros](#)"
+      "text": "- [Trabaja con Nosotros](https://www.pillin.com/nosotros)"
     }
   },
 
@@ -407,7 +407,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Regístrate](#)"
+      "text": "- [Regístrate](/login)"
     }
   },
   "rich-text#list-sesion": {
@@ -415,7 +415,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Iniciar Sesión](#)"
+      "text": "- [Iniciar Sesión](/login)"
     }
   },
   "rich-text#list-recuperar": {
@@ -423,7 +423,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Recuperar Contraseña](#)"
+      "text": "- [Recuperar Contraseña](/login)"
     }
   },
   "rich-text#list-favoritos": {
@@ -431,7 +431,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Mis Favoritos](#)"
+      "text": "- [Mis Favoritos](/login)"
     }
   },
   // Redes Sociales SOS
@@ -456,7 +456,7 @@
       "blockClass": "footer-list-face",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Facebook](#)"
+      "text": "- [Facebook](https://www.facebook.com/PillinChile)"
     }
   },
   // Instagram
@@ -471,7 +471,7 @@
       "blockClass": "footer-list-insta",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Instagram](#)"
+      "text": "- [Instagram](https://www.instagram.com/p/CI0vF_IpAhd/)"
     }
   },
 

@@ -678,8 +678,8 @@
             "menu-item#ninn-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#ninn-nina-vestuario-poleras",
             "menu-item#ninn-nina-vestuario-ropainteriorypijamas",
-            "menu-item#ninn-nina-vestuario-trajesdebano"
-
+            "menu-item#ninn-nina-vestuario-trajesdebano",
+            "menu-item#ninn-nina-vestuario-vestidosyfaldas"
         ],
         "props": {
             "orientation": "vertical"

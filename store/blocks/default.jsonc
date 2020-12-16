@@ -31,17 +31,17 @@
       "product-summary-space",
       "product-summary-price",
       "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
   },
 
-  "product-summary-buy-button": {
-    "props": {
-      "displayBuyButton": "displayButtonHover",
-      "buyButtonText": "Agregar al Carro",
-      "buyButtonBehavior": "alwaysAddToTheCart"
-    }
-  },
+  // "product-summary-buy-button": {
+  //   "props": {
+  //     "displayBuyButton": "displayButtonHover",
+  //     "buyButtonText": "Agregar al Carro",
+  //     "buyButtonBehavior": "alwaysAddToTheCart"
+  //   }
+  // },
 
   "product-summary-sku-selector": {
     "props": {
