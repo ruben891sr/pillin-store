@@ -99,9 +99,13 @@
 
 .skuSelectorInternalBox {
     width: 27px;
-    height: 27px;
+    height: 27px; 
     border-radius: 50px;
-    border: 1px solid #3f2016;
+    border: 1px solid #3f2016; 
+}
+
+.skuSelectorItemImage .skuSelectorInternalBox {
+    border: 0 !important;
 }
 
 .skuSelectorItemTextValue {
@@ -115,4 +119,78 @@
 
 .skuSelectorItemTextValue {
     font-weight: 800; 
+}
+
+.skuSelectorItem--rojo,
+.skuSelectorItem--naranjo,
+.skuSelectorItem--amarillo,
+.skuSelectorItem--azul,
+.skuSelectorItem--verde,
+.skuSelectorItem--morado,
+.skuSelectorItem--rosado,
+.skuSelectorItem--negro,
+.skuSelectorItem--blanco,
+.skuSelectorItem--celeste,
+.skuSelectorItem--gris,
+.skuSelectorItem--cafe,
+.skuSelectorItem--multicolor {
+    border-radius: 50px;
+    margin-right: .3rem !important;
+    box-shadow: 1px 1px 4px rgb(51 51 51 / 0.3);
+}
+
+.skuSelectorItem--rojo {
+    background: red;
+}
+
+.skuSelectorItem--naranjo {
+    background: orange;
+}
+
+.skuSelectorItem--amarillo {
+    background: yellow;
+}
+
+.skuSelectorItem--azul {
+    background: blue;
+}
+
+.skuSelectorItem--verde {
+    background: green;
+}
+
+.skuSelectorItem--morado {
+    background: purple;
+}
+
+.skuSelectorItem--rosado {
+    background: pink;
+}
+
+.skuSelectorItem--negro {
+    background: black;
+}
+
+.skuSelectorItem--blanco { 
+    background: white;
+}
+
+.skuSelectorItem--celeste {
+    background: lightblue;
+}
+
+.skuSelectorItem--gris {
+    background: gray;
+}
+
+.skuSelectorItem--cafe {
+    background: brown;
+}
+
+.skuSelectorItem--multicolor {
+    background: burlywood;
+}
+
+.element :global(.vtex-button) { 
+    margin-top: .7rem;
 }

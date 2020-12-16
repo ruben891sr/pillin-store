@@ -80,8 +80,9 @@
 
 .skuSelectorItem {
     margin: 0;
-    height: auto;
-    width: auto;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px !important;
 }
 
 .imageElement--imageMenu {
@@ -215,6 +216,10 @@
 .imageElement--logo-vtex {
     margin: 0 1rem;
     display: inline-block;
+}
+
+.skuSelectorItemImageValue {
+    display: none;
 }
 
 
