@@ -842,7 +842,6 @@
       "menu-item#ninn-nino-accesorios-baberos",
       "menu-item#ninn-nino-accesorios-calcetines",
       "menu-item#ninn-nino-accesorios-gorrosybufandas",
-      "menu-item#ninn-nino-accesorios-peluches",
       "menu-item#ninn-nino-accesorios-toallasytutos"
     ],
     "props": {
@@ -979,7 +978,6 @@
       "menu-item#ninn-nina-accesorios-baberos",
       "menu-item#ninn-nina-accesorios-calcetines",
       "menu-item#ninn-nina-accesorios-gorrosybufandas",
-      "menu-item#ninn-nina-accesorios-peluches",
       "menu-item#ninn-nina-accesorios-pinchesycintillos",
       "menu-item#ninn-nina-accesorios-toallasytutos"
     ],

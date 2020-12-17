@@ -77,7 +77,7 @@
       "hideImpossibleCombinations": true,
       "showValueForVariation": "image",
       "showVariationsErrorMessage": true,
-      "initialSelection": "empty",
+      "initialSelection": "complete",
       "visibleVariations": ["Talla", "Color"]
     }
   },

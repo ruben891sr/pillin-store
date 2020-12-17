@@ -80,9 +80,10 @@
 
 .skuSelectorItem {
     margin: 0;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     border-radius: 50px !important;
+    margin-right: .4rem;
 }
 
 .imageElement--imageMenu {
@@ -220,13 +221,120 @@
 
 .skuSelectorItemImageValue {
     display: none;
+} 
+
+.skuSelectorItem--rojo,
+.skuSelectorItem--naranjo,
+.skuSelectorItem--amarillo,
+.skuSelectorItem--azul,
+.skuSelectorItem--verde,
+.skuSelectorItem--morado,
+.skuSelectorItem--rosado,
+.skuSelectorItem--negro,
+.skuSelectorItem--blanco,
+.skuSelectorItem--celeste,
+.skuSelectorItem--gris,
+.skuSelectorItem--cafe,
+.skuSelectorItem--multicolor {
+    border-radius: 50px;
+    margin-right: .3rem !important;
+    box-shadow: 1px 1px 4px rgb(51 51 51 / 0.3);
 }
 
+.skuSelectorItem--rojo {
+    background: red;
+}
+
+.skuSelectorItem--naranjo {
+    background: orange;
+}
+
+.skuSelectorItem--amarillo {
+    background: yellow;
+}
+
+.skuSelectorItem--azul {
+    background: blue;
+}
+
+.skuSelectorItem--verde {
+    background: green;
+}
+
+.skuSelectorItem--morado {
+    background: purple;
+}
+
+.skuSelectorItem--rosado {
+    background: pink;
+}
+
+.skuSelectorItem--negro {
+    background: black;
+}
+
+.skuSelectorItem--blanco {
+    background: white;
+}
+
+.skuSelectorItem--celeste {
+    background: lightblue;
+}
+
+.skuSelectorItem--gris {
+    background: gray;
+}
+
+.skuSelectorItem--cafe {
+    background: brown;
+}
+
+.skuSelectorItem--multicolor { 
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(108, 114, 191, 1) 34%, rgba(186, 89, 189, 1) 72%, rgba(253, 187, 45, 1) 100%);
+}
+
+.skuSelectorInternalBox {
+    border: 0;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox {
+    border: 1px solid #3f2016;
+    border-radius: 50px !important;
+}
+
+.skuSelectorItemTextValue {
+    padding: 0;
+    font-size: .9em;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox,
+.skuSelectorSubcontainer--talla .skuSelectorItem {
+    width: auto !important;
+    height: auto !important;
+} 
+
+.skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
+    padding: .4rem .6rem;
+}
+
+/* .frameAround {
+    margin: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 7px #0000008f;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+} */
 
 @media (max-width: 991px) {
-    .searchIcon {
+    .searchIcon { 
         width: 12px;
-    }
+    } 
 
     .imageElement--logoCol {
         width: 95px;

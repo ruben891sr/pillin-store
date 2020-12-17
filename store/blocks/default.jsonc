@@ -35,25 +35,21 @@
     ]
   },
 
-  // "product-summary-buy-button": {
-  //   "props": {
-  //     "displayBuyButton": "displayButtonHover",
-  //     "buyButtonText": "Agregar al Carro",
-  //     "buyButtonBehavior": "alwaysAddToTheCart"
-  //   }
-  // },
+  "add-to-cart-button": {
+    "props": {
+      "displayBuyButton": "displayButtonHover",
+      "buyButtonText": "Agregar al Carro"
+    }
+  },
 
   "product-summary-sku-selector": {
     "props": {
       "hideImpossibleCombinations": true,
-      "showValueForVariation": "none",
       "showVariationsErrorMessage": true,
       "showVariationsLabels": false,
       "initialSelection": "empty",
-      "visibleVariations": ["Talla", "Color"],
-      "variationsSpacing": 0,
-      "displayMode": "slider"
+      "visibleVariations": ["Talla", "Color"]
     }
   }
 
-}
+} 

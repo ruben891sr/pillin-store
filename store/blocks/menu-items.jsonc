@@ -360,7 +360,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,tipo-producto,agrupacion&operator=and&query=/accesorios/nino/peluche/recien-nacido--00-a-12m-",
+        "href": "/peluche?map=ft",
         "text": "Peluches"
       }
     }
@@ -652,7 +652,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,tipo-producto,agrupacion&operator=and&query=/accesorios/nina/peluche/recien-nacido--00-a-12m-",
+        "href": "/peluche?map=ft",
         "text": "Peluches"
       }
     }
@@ -1042,7 +1042,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
+        "href": "/peluche?map=ft",
         "text": "Peluches"
       }
     }
@@ -1334,7 +1334,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "href": "/peluche?map=ft",
         "text": "Peluches"
       }
     }
@@ -1711,18 +1711,6 @@
     }
   },
 
-  "menu-item#ninn-nino-accesorios-peluches": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
-        "text": "Peluches"
-      }
-    }
-  },
-
   "menu-item#ninn-nino-accesorios-toallasytutos": {
     "props": {
       "type": "custom",
@@ -1859,7 +1847,7 @@
 
   "menu-item#ninn-nina-vestuario-ropainteriorypijamas": {
     "props": {
-      "type": "custom",
+      "type": "custom", 
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
@@ -2012,18 +2000,6 @@
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,category-2,genero,agrupacion&operator=and&query=/accesorios/gorros-y-bufandas/nina/ninos--4-a-16-",
         "text": "Gorros y Bufandas"
-      }
-    }
-  },
-
-  "menu-item#ninn-nina-accesorios-peluches": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
-        "text": "Peluches"
       }
     }
   },

@@ -151,7 +151,7 @@
       "blockClass": "cp-buttonVerMas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Conoce más](https://help.vtex.com/en/faq/what-is-vtex-io)"
+      "text": "[Conoce más](#"
     }
   },
 
@@ -297,7 +297,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Términos y Condiciones](https://www.pillin.com/terminos-condiciones)"
+      "text": "- [Términos y Condiciones](#"
     }
   },
   "rich-text#list-despacho": {
@@ -305,7 +305,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Despachos](https://www.pillin.com/despacho)"
+      "text": "- [Despachos](#)"
     }
   },
   "rich-text#list-cambio": {
@@ -313,7 +313,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Cambios y Devoluciones](https://www.pillin.com/cambios-devoluciones)"
+      "text": "- [Cambios y Devoluciones](#)"
     }
   },
   "rich-text#list-retiro": {
@@ -321,7 +321,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Retiro en tienda](https://www.pillin.com/retiro-en-tienda)"
+      "text": "- [Retiro en tienda](#)"
     }
   },
   "rich-text#list-faq": {
@@ -329,7 +329,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Preguntas Frecuentes](https://www.pillin.com/faq)"
+      "text": "- [Preguntas Frecuentes](#)"
     }
   },
 
@@ -380,7 +380,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Trabaja con Nosotros](https://www.pillin.com/nosotros)"
+      "text": "- [Trabaja con Nosotros](#)"
     }
   },
 

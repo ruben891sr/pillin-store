@@ -74,6 +74,7 @@
     color: red;
     font-size: 1em;
     padding-left: 0;
+    padding-bottom: .3rem;
 }
 
 .price_listPrice {
@@ -98,8 +99,8 @@
 }
 
 .skuSelectorInternalBox {
-    width: 27px;
-    height: 27px; 
+    width: 25px;
+    height: 25px; 
     border-radius: 50px;
     border: 1px solid #3f2016; 
 }
@@ -111,86 +112,39 @@
 .skuSelectorItemTextValue {
     padding: 0;
     font-size: .8em;
+    font-weight: 800; 
 }
 
 .frameAround {
     margin: 0 !important;
 }
 
-.skuSelectorItemTextValue {
-    font-weight: 800; 
-}
-
-.skuSelectorItem--rojo,
-.skuSelectorItem--naranjo,
-.skuSelectorItem--amarillo,
-.skuSelectorItem--azul,
-.skuSelectorItem--verde,
-.skuSelectorItem--morado,
-.skuSelectorItem--rosado,
-.skuSelectorItem--negro,
-.skuSelectorItem--blanco,
-.skuSelectorItem--celeste,
-.skuSelectorItem--gris,
-.skuSelectorItem--cafe,
-.skuSelectorItem--multicolor {
-    border-radius: 50px;
-    margin-right: .3rem !important;
-    box-shadow: 1px 1px 4px rgb(51 51 51 / 0.3);
-}
-
-.skuSelectorItem--rojo {
-    background: red;
-}
-
-.skuSelectorItem--naranjo {
-    background: orange;
-}
-
-.skuSelectorItem--amarillo {
-    background: yellow;
-}
-
-.skuSelectorItem--azul {
-    background: blue;
-}
-
-.skuSelectorItem--verde {
-    background: green;
-}
-
-.skuSelectorItem--morado {
-    background: purple;
-}
-
-.skuSelectorItem--rosado {
-    background: pink;
-}
-
-.skuSelectorItem--negro {
-    background: black;
-}
-
-.skuSelectorItem--blanco { 
-    background: white;
-}
-
-.skuSelectorItem--celeste {
-    background: lightblue;
-}
-
-.skuSelectorItem--gris {
-    background: gray;
-}
-
-.skuSelectorItem--cafe {
-    background: brown;
-}
-
-.skuSelectorItem--multicolor {
-    background: burlywood;
-}
-
 .element :global(.vtex-button) { 
     margin-top: .7rem;
+    transition: all .5s ease;
+    opacity: 0;
+    background-color: #3F2016 !important;
+} 
+
+.element :global(.vtex-button):hover {
+    transition: all .5s ease;
+} 
+
+.element :global(.vtex-button__label) {
+    padding: 0 !important;
 }
+
+.element:hover :global(.vtex-button) {
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox,
+.skuSelectorSubcontainer--talla .skuSelectorItem {
+    width: auto !important;
+    height: auto !important;
+} 
+ 
+.skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
+    padding: .4rem .6rem;
+} 
