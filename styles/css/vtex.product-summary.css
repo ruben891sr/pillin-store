@@ -148,3 +148,9 @@
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
     padding: .4rem .6rem;
 } 
+ 
+@media (max-width: 991px) {
+    .element :global(.vtex-button) { 
+        opacity: 1 !important;
+    } 
+}
