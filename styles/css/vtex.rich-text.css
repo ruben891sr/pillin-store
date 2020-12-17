@@ -11,7 +11,7 @@
 .link--tituloMenuNino::before,
 .link--tituloMenuNina::before {
     content: '';
-    width: 60px;
+    width: 60px; 
     height: 40px;
     background-position: center;
     background-repeat: no-repeat;
