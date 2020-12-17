@@ -15,9 +15,8 @@
 }
 
 .flexRow--main-header-mobile .searchIcon {
-    width: 12px;
+    width: 12px; 
 }
-
 
 .infoCardHeadline--infoCardSearchBy {
     color: #fff;
