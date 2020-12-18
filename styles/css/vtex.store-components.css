@@ -218,10 +218,6 @@
     display: inline-block;
 }
 
-.skuSelectorItemImageValue {
-    display: none;
-} 
-
 .skuSelectorItem--rojo,
 .skuSelectorItem--naranjo,
 .skuSelectorItem--amarillo,
