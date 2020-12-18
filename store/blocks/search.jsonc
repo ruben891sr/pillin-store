@@ -72,19 +72,6 @@
     "children": ["search-suggestions"]
   },
 
-  "flex-layout.row#banner-one": {
-    "children": ["search-banner#one"]
-  },
-
-  "search-banner#one": {
-    "props": {
-      "area": "one",
-      "blockClass": "myBanner",
-      "horizontalAlignment": "center"
-    }
-  },
-
-
   // Search - Desktop
 
   "search-result-layout.desktop": {
@@ -101,6 +88,19 @@
     ],
     "props": {
       "preventRouteChange": true
+    }
+  },
+
+  //Banner General
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
     }
   },
 
