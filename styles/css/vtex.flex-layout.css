@@ -112,3 +112,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.flexCol--linkListMobile {
+    background: #ede3ce;
+}
+
+.flexColChild--linkListMobile {
+    padding: .3rem 0 .3rem 1.5rem;
+    border-top: .7px solid #3f2016;
+}

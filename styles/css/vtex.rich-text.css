@@ -157,7 +157,10 @@
 .paragraph--topBarList-contact,
 .paragraph--topBarList-orders,
 .paragraph--topBarList-store,
-.paragraph--topBarList-wishlist {
+.paragraph--topBarList-wishlist,
+.paragraph--topBarList-club,
+.paragraph--topBarList-login
+{
     margin: 0;
 }
 
@@ -166,7 +169,10 @@
 .link--topBarList-contact,
 .link--topBarList-orders,
 .link--topBarList-store,
-.link--topBarList-wishlist {
+.link--topBarList-wishlist,
+.link--topBarList-club,
+.link--topBarList-login
+{
     margin: 0 1.5rem;
     color: #3f2016;
     font-size: .87em;
@@ -183,7 +189,10 @@
 .link--topBarList-contact::before,
 .link--topBarList-orders::before,
 .link--topBarList-store::before,
-.link--topBarList-wishlist::before {
+.link--topBarList-wishlist::before,
+.link--topBarList-club::before,
+.link--topBarList-login::before
+{
     content: '';
     width: 20px;
     height: 20px;
@@ -198,28 +207,38 @@
 }
 
 .link--topBarList-phone::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-phone.png);
+    background-image: url(assets/img/topbar-phone.png);
 }
 
 .link--topBarList-faq::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-faq.png);
+    background-image: url(assets/img/topbar-faq.png);
 }
 
 .link--topBarList-contact::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-contact.png);
+    background-image: url(assets/img/topbar-contact.png);
 }
 
 .link--topBarList-orders::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-box.png);
+    background-image: url(assets/img/topbar-box.png);
 }
 
 .link--topBarList-store::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-store.png);
+    background-image: url(assets/img/topbar-store.png);
 }
 
 .link--topBarList-wishlist::before {
-    background-image: url(https://pillin.vteximg.com.br/arquivos/topbar-wishlist.png);
+    background-image: url(assets/img/topbar-wishlist.png);
 }
+
+.link--topBarList-club::before {
+    background-image: url(assets/img/topbar-club.png); 
+}
+
+.link--topBarList-login::before {
+    background-image: url(assets/img/topbar-user.png);
+}
+
+
 
 .link--cp-buttonVerMas {
     background: #3f2016;
@@ -295,4 +314,16 @@
 
 .container--texto-seo {
     padding: 0 4rem;
+}
+
+.flexCol--linkListMobile .container--topBarList-phone,
+.flexCol--linkListMobile .container--topBarList-faq,
+.flexCol--linkListMobile .container--topBarList-contact,
+.flexCol--linkListMobile .container--topBarList-orders,
+.flexCol--linkListMobile .container--topBarList-store,
+.flexCol--linkListMobile .container--topBarList-wishlist,
+.flexCol--linkListMobile .container--topBarList-club,
+.flexCol--linkListMobile .container--topBarList-login
+{
+    justify-content: flex-start;
 }
