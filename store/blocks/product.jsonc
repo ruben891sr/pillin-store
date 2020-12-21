@@ -87,7 +87,7 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"]
+    "children": ["add-to-cart-button"] 
   }
 
 
