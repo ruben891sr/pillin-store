@@ -1,3 +1,8 @@
 .menuIcon {
     width: 12px;
 }
+
+.childrenContainer--drawerGeneralContainer {
+    display: flex;
+    flex-direction: column;
+}

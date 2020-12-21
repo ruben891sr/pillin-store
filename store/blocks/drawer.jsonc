@@ -3,8 +3,12 @@
   // Configuración General
   "drawer": {
     "children": [
-      "vtex.menu@2.x:menu#drawer"
-    ]
+      "vtex.menu@2.x:menu#drawer",
+      "flex-layout.col#link-list-mobile"
+    ],
+    "props": {
+      "blockClass": "drawerGeneralContainer"
+    }
   },
 
   "vtex.menu@2.x:menu#drawer": {
@@ -983,6 +987,99 @@
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+
+
+
+
+  // List Mobile
+  "flex-layout.col#link-list-mobile": {
+    "children": [
+      "rich-text#club-mob",
+      "rich-text#login-mob",
+      "rich-text#fono-mob",
+      "rich-text#contacto-mob",
+      "rich-text#mis-pedidos-mob",
+      "rich-text#tiendas-mob",
+      "rich-text#whishlist-mob",
+      "rich-text#faq-mob"
+    ],
+    "props": {
+      "blockClass": "linkListMobile"
+    }
+  },
+
+  "rich-text#fono-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[+569 7865 3462](tel:56978653462)",
+      "blockClass": "topBarList-phone"
+    }
+  },
+
+  "rich-text#faq-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Faq](#)",
+      "blockClass": "topBarList-faq"
+    }
+  },
+
+  "rich-text#contacto-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Contáctanos](#)",
+      "blockClass": "topBarList-contact"
+    }
+  },
+
+  "rich-text#mis-pedidos-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT", 
+      "text": "[Mis Pedidos](/)",
+      "blockClass": "topBarList-orders"
+    }
+  },
+
+  "rich-text#tiendas-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT", 
+      "text": "[Tiendas](#)",
+      "blockClass": "topBarList-store"
+    }
+  },
+
+  "rich-text#whishlist-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT", 
+      "text": "[Wish List](/)",
+      "blockClass": "topBarList-wishlist"
+    }
+  },
+
+  "rich-text#club-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT", 
+      "text": "[Club Pilln](/)",
+      "blockClass": "topBarList-club"
+    }
+  },
+
+  "rich-text#login-mob": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT", 
+      "text": "[Login](/)",
+      "blockClass": "topBarList-login"
     }
   }
 

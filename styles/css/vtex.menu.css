@@ -84,12 +84,50 @@
 }
 
 .styledLinkContainer--mainMenu-rn,
+.styledLinkContainer--mainMenu-vv,
 .styledLinkContainer--mainMenu-nin,
 .styledLinkContainer--mainMenu-tw,
 .styledLinkContainer--mainMenu-za {
     margin-left: 1.4rem;
     margin-right: 1.4rem;
+    position: relative;
 }
+
+.styledLinkContainer--mainMenu-rn-acc,
+.styledLinkContainer--mainMenu-vv-acc,
+.styledLinkContainer--mainMenu-ninn-acc {
+    position: relative;
+}
+
+.styledLinkContainer--mainMenu-rn-acc::before,
+.styledLinkContainer--mainMenu-vv-acc::before,
+.styledLinkContainer--mainMenu-ninn-acc::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: -3%;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.styledLinkContainer--mainMenu-rn-acc::before {
+    background-image: url(assets/img/menu-mobile-rn.jpg);
+}
+
+.styledLinkContainer--mainMenu-vv-acc::before {
+    background-image: url(assets/img/menu-mobile-vv.jpg);
+}
+
+.styledLinkContainer--mainMenu-ninn-acc::before {
+    background-image: url(assets/img/menu-mobile-ninn.jpg);
+}
+
 
 .styledLinkContainer--mainMenu-nin,
 .styledLinkContainer--mainMenu-bb {
@@ -182,10 +220,36 @@
 .styledLinkContent--mainMenu-rn-acc,
 .styledLinkContent--mainMenu-vv-acc,
 .styledLinkContent--mainMenu-ninn-acc {
-    padding: 1rem;
+    padding: .7rem 1rem 1.3rem 4rem;
     background-color: #f7f7f7;
     border-radius: 4px;
+    position: relative;
 }
+
+.styledLinkContent--mainMenu-rn-acc::before {
+    content: 'Desde 00 a 12m';
+}
+
+.styledLinkContent--mainMenu-vv-acc::before {
+    content: 'Desde 18m a 3a';
+}
+
+.styledLinkContent--mainMenu-ninn-acc::before {
+    content: 'Desde 4a a 12a';
+}
+
+
+.styledLinkContent--mainMenu-rn-acc::before, 
+.styledLinkContent--mainMenu-vv-acc::before, 
+.styledLinkContent--mainMenu-ninn-acc::before {
+    position: absolute;
+    left: 4rem;
+    top: 56%; 
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
 
 .menuContainer--drawerContainer .menuItem--subSubMenuItem {
     display: block;
