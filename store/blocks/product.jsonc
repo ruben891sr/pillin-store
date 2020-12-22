@@ -82,7 +82,7 @@
       "visibleVariations": ["Talla", "Color"]
     }
   },
-
+ 
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
