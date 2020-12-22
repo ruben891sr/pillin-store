@@ -37,6 +37,7 @@
         "totalizersToShow": ["Items", "Discounts"]
       }
     },
+
     "summary-totalizers#minicart": {
       "props": {
         "showTotal": true,
