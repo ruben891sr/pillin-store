@@ -11,7 +11,7 @@
 .link--tituloMenuNino::before,
 .link--tituloMenuNina::before {
     content: '';
-    width: 60px; 
+    width: 60px;
     height: 40px;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,8 +159,7 @@
 .paragraph--topBarList-store,
 .paragraph--topBarList-wishlist,
 .paragraph--topBarList-club,
-.paragraph--topBarList-login
-{
+.paragraph--topBarList-login {
     margin: 0;
 }
 
@@ -171,8 +170,7 @@
 .link--topBarList-store,
 .link--topBarList-wishlist,
 .link--topBarList-club,
-.link--topBarList-login
-{
+.link--topBarList-login {
     margin: 0 1.5rem;
     color: #3f2016;
     font-size: .87em;
@@ -191,8 +189,7 @@
 .link--topBarList-store::before,
 .link--topBarList-wishlist::before,
 .link--topBarList-club::before,
-.link--topBarList-login::before
-{
+.link--topBarList-login::before {
     content: '';
     width: 20px;
     height: 20px;
@@ -231,7 +228,7 @@
 }
 
 .link--topBarList-club::before {
-    background-image: url(assets/img/topbar-club.png); 
+    background-image: url(assets/img/topbar-club.png);
 }
 
 .link--topBarList-login::before {
@@ -323,7 +320,6 @@
 .flexCol--linkListMobile .container--topBarList-store,
 .flexCol--linkListMobile .container--topBarList-wishlist,
 .flexCol--linkListMobile .container--topBarList-club,
-.flexCol--linkListMobile .container--topBarList-login
-{
+.flexCol--linkListMobile .container--topBarList-login {
     justify-content: flex-start;
 }
