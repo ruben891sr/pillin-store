@@ -72,16 +72,6 @@
       "showSavings": true
     }
   },
-
-  "sku-selector": {
-    "props": {
-      "hideImpossibleCombinations": true,
-      "showValueForVariation": "image",
-      "showVariationsErrorMessage": true,
-      "initialSelection": "complete",
-      "visibleVariations": ["Talla", "Color"]
-    }
-  },
  
   "flex-layout.row#buy-button": {
     "props": {

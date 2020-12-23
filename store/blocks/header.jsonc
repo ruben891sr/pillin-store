@@ -47,7 +47,8 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "carousel-topbar",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "width": "40%"
         },
         "children": [
             "rich-text#info-1",
@@ -63,7 +64,8 @@
             "rich-text#contacto"
         ],
         "props": {
-            "blockClass": "topBar-leftCol"
+            "blockClass": "topBar-leftCol",
+            "width": "30%"
         }
     },
 
@@ -74,27 +76,28 @@
             "rich-text#whishlist"
         ],
         "props": {
-            "blockClass": "topBar-rightCol"
+            "blockClass": "topBar-rightCol",
+            "width": "30%"
         }
     },
 
     "rich-text#info-1": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](#)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](#)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-2": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-3": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](/)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },

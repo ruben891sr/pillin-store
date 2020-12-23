@@ -103,7 +103,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Vestuarioo"
+        "text": "Vestuario"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#reciennacido-nino-vestuario-acc"]
@@ -440,7 +440,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "bb-nino-vestuario",
-        "text": "Vestuarioo"
+        "text": "Vestuario"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#bb-nino-vestuario-acc"]
@@ -759,7 +759,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "bb-nino-vestuario",
-        "text": "Vestuarioo"
+        "text": "Vestuario"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#ninn-nino-vestuario-acc"]

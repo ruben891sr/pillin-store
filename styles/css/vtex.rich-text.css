@@ -149,7 +149,7 @@
 
 .paragraph--sliderTopBarItem {
     margin: 0;
-    display: flex;
+    display: inline-block;
 }
 
 .paragraph--topBarList-phone,
