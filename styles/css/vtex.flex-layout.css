@@ -120,5 +120,33 @@
 
 .flexColChild--linkListMobile {
     padding: .3rem 0 .3rem 1.5rem;
-    border-top: .7px solid #3f2016;
+    border-top: .7px solid rgb(63 32 22 / 50%);
+}
+
+.flexColChild--linkListMobile:first-child {
+    border-top: 0;
+}
+
+.flexRow--rowDrawer {
+    border-bottom: 1px solid rgb(67 36 26 / 0.4);
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.flexRowContent--rowDrawer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexRow--rowDrawer .stretchChildrenWidth {
+    width: auto !important;
+    justify-content: flex-start;
+}
+
+.flexCol--colDrawer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

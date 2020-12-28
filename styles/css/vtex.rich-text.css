@@ -2,13 +2,26 @@
 .link--tituloMenuNina {
     margin-left: 1.6rem;
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 800;
+    font-size: 1.1em;
+    font-weight: 700;
     position: relative;
     color: #3f2016;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 2rem;
+    padding: .2rem;
 }
 
-.link--tituloMenuNino::before,
+.link--tituloMenuNino {
+background: #eaf6ff;
+}
+
+.link--tituloMenuNina {
+    background: #fff5f9;
+}
+
+/* .link--tituloMenuNino::before,
 .link--tituloMenuNina::before {
     content: '';
     width: 60px;
@@ -29,7 +42,7 @@
 
 .link--tituloMenuNina::before {
     background-image: url(assets/img/mancha-nina.png);
-}
+} */
 
 .wrapper--footer-list {
     height: auto;
@@ -323,3 +336,14 @@
 .flexCol--linkListMobile .container--topBarList-login {
     justify-content: flex-start;
 }
+
+.wrapper--cerrarDrawer .paragraph {
+    margin: 0;
+    font-size: .9em;
+}
+
+.wrapper--tituloMenuNino,
+.wrapper--tituloMenuNina {
+    width: 100%;
+}
+

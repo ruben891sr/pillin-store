@@ -29,34 +29,10 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/vestuario",
         "text": "Vestuario"
-      }
-    }
-  },
-
-  "menu-item#rn-nino-calzado": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subcatTitulo",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/recien-nacido--00-a-12m-",
-        "text": "Calzado"
-      }
-    }
-  },
-
-  "menu-item#rn-nino-accesorios": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subcatTitulo",
-      "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-",
-        "text": "Accesorios y Regalos"
       }
     }
   },
@@ -66,7 +42,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/vestuario",
         "text": "Vestuario"
@@ -78,7 +54,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/recien-nacido--00-a-12m-",
         "text": "Calzado"
@@ -90,7 +66,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/recien-nacido--00-a-12m-",
         "text": "Accesorios y Regalos"
@@ -232,14 +208,14 @@
   },
 
   // Recién Nacido - Niño - Calzado
-  "menu-item#rn-nino-calzado-botasbotinesybototos": {
+  "menu-item#rn-nino-calzado": {
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subSubMenuItem",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Botas, Botines y Bototos"
+        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/recien-nacido--00-a-12m-",
+        "text": "Calzado"
       }
     }
   },
@@ -256,30 +232,6 @@
     }
   },
 
-  "menu-item#rn-nino-calzado-sandalias": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Sandalias"
-      }
-    }
-  },
-
-  "menu-item#rn-nino-calzado-zapatillas": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Zapatillas"
-      }
-    }
-  },
-
   "menu-item#rn-nino-calzado-zapatitosreciennacido": {
     "props": {
       "type": "custom",
@@ -292,20 +244,19 @@
     }
   },
 
-  "menu-item#rn-nino-calzado-zapatos": {
+  // Recién Nacido - Niño - Accesorios y Regalos
+  "menu-item#rn-nino-accesorios": {
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subSubMenuItem",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Zapatos"
+        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-",
+        "text": "Accesorios y Regalos"
       }
     }
   },
 
-
-  // Recién Nacido - Niño - Accesorios y Regalos
   "menu-item#rn-nino-accesorios-baberos": {
     "props": {
       "type": "custom",
@@ -338,18 +289,6 @@
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/gorro/nino/recien-nacido--00-a-12m-",
         "text": "Gorros y Bufandas"
-      }
-    }
-  },
-
-  "menu-item#rn-nino-accesorios-setropainteriorybodys": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "",
-        "text": "Set ropa interior y Bodys"
       }
     }
   },
@@ -524,17 +463,7 @@
   },
 
   // Recién Nacido - Niña - Calzado
-  "menu-item#rn-nina-calzado-botasbotinesybototos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Botas, Botines y Bototos"
-      }
-    }
-  },
+
 
   "menu-item#rn-nina-calzado-gateadores": {
     "props": {
@@ -548,42 +477,6 @@
     }
   },
 
-  "menu-item#rn-nina-calzado-reinasyballerinas": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Reinas y Ballerinas"
-      }
-    }
-  },
-
-  "menu-item#rn-nina-calzado-sandalias": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Sandalias"
-      }
-    }
-  },
-
-  "menu-item#rn-nina-calzado-zapatillas": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Zapatillas"
-      }
-    }
-  },
-
   "menu-item#rn-nina-calzado-zapatitosreciennacido": {
     "props": {
       "type": "custom",
@@ -592,18 +485,6 @@
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
         "text": "Zapatitos Recién Nacido"
-      }
-    }
-  },
-
-  "menu-item#rn-nina-calzado-zapatos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Zapatos"
       }
     }
   },
@@ -723,7 +604,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nino/vestuario",
         "text": "Vestuario"
@@ -735,7 +616,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
         "text": "Calzado"
@@ -747,7 +628,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
         "text": "Accesorios y Regalos"
@@ -760,7 +641,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nina/vestuario",
         "text": "Vestuario"
@@ -772,7 +653,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
         "text": "Calzado"
@@ -784,7 +665,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
         "text": "Accesorios y Regalos"
@@ -970,18 +851,6 @@
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero,category-2,tipo-producto&operator=and&query=/bebe--18m-a-3-/calzado/nino/zapatillas/zapatillas",
         "text": "Zapatillas"
-      }
-    }
-  },
-
-  "menu-item#bb-nino-calzado-zapatitos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
-        "text": "Zapatitos Bebé"
       }
     }
   },
@@ -1266,18 +1135,6 @@
     }
   },
 
-  "menu-item#bb-nina-calzado-zapatitos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
-        "text": "Zapatitos Bebé"
-      }
-    }
-  },
-
   "menu-item#bb-nina-calzado-zapatos": {
     "props": {
       "type": "custom",
@@ -1410,7 +1267,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/ninos--4-a-16-/vestuario",
         "text": "Vestuario"
@@ -1422,7 +1279,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
         "text": "Calzado"
@@ -1434,7 +1291,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
         "text": "Accesorios y Regalos"
@@ -1447,7 +1304,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/ninos--4-a-16-/vestuario",
         "text": "Vestuario"
@@ -1459,7 +1316,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-cal",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
         "text": "Calzado"
@@ -1471,7 +1328,7 @@
     "props": {
       "type": "custom",
       "highlight": true,
-      "blockClass": "subcatTitulo",
+      "blockClass": "subcatTitulo-acc",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
         "text": "Accesorios y Regalos"
@@ -1613,18 +1470,6 @@
     }
   },
 
-  "menu-item#ninn-nino-calzado-gateadores": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
-        "text": "Gateadores"
-      }
-    }
-  },
-
   "menu-item#ninn-nino-calzado-sandalias": {
     "props": {
       "type": "custom",
@@ -1649,18 +1494,6 @@
     }
   },
 
-  "menu-item#ninn-nino-calzado-zapatitos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
-        "text": "Zapatitos Bebé"
-      }
-    }
-  },
-
   "menu-item#ninn-nino-calzado-zapatos": {
     "props": {
       "type": "custom",
@@ -1675,18 +1508,6 @@
 
 
   // Kids - Niño - Accesorios y Regalos
-  "menu-item#ninn-nino-accesorios-baberos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
-        "text": "Baberos"
-      }
-    }
-  },
-
   "menu-item#ninn-nino-accesorios-calcetines": {
     "props": {
       "type": "custom",
@@ -1894,18 +1715,6 @@
     }
   },
 
-  "menu-item#ninn-nina-calzado-gateadores": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
-        "text": "Gateadores"
-      }
-    }
-  },
-
   "menu-item#ninn-nina-calzado-reinasyballerinas": {
     "props": {
       "type": "custom",
@@ -1942,18 +1751,6 @@
     }
   },
 
-  "menu-item#ninn-nina-calzado-zapatitos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
-        "text": "Zapatitos Bebé"
-      }
-    }
-  },
-
   "menu-item#ninn-nina-calzado-zapatos": {
     "props": {
       "type": "custom",
@@ -1968,17 +1765,6 @@
 
 
   // Kids - Niña - Accesorios y Regalos
-  "menu-item#ninn-nina-accesorios-baberos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
-        "text": "Baberos"
-      }
-    }
-  },
 
   "menu-item#ninn-nina-accesorios-calcetines": {
     "props": {

@@ -8,6 +8,56 @@
     ],
     "props": {
       "blockClass": "drawerGeneralContainer"
+    },
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.row#drawer-row"
+    ],
+    "props":{
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#drawer-row": {
+    "children": [
+      "flex-layout.col#logo-drawer",
+      "flex-layout.col#close-drawer"
+    ],
+    "props": {
+      "blockClass": "rowDrawer"
+    }
+  },
+
+  "flex-layout.col#logo-drawer": {
+    "children": [
+      "logo#logo-mobile"
+    ],
+    "props":{
+      "width": "50%",
+      "blockClass": "colDrawer"
+    }
+  },
+
+  "flex-layout.col#close-drawer": {
+    "children": [
+      "rich-text#close",
+      "drawer-close-button"
+    ],
+    "props":{
+      "width": "50%",
+      "blockClass": "colDrawer"
+    }
+  },
+
+  "rich-text#close": {
+    "props": {
+      "text": "Cerrar",
+      "blockClass": "cerrarDrawer"
     }
   },
 
@@ -184,12 +234,8 @@
 
   "vtex.menu@2.x:menu#reciennacido-nino-calzado-acc": {
     "children": [
-      "menu-item#rn-nino-calzado-botasbotinesybototos",
       "menu-item#rn-nino-calzado-gateadores",
-      "menu-item#rn-nino-calzado-sandalias",
-      "menu-item#rn-nino-calzado-zapatillas",
-      "menu-item#rn-nino-calzado-zapatitosreciennacido",
-      "menu-item#rn-nino-calzado-zapatos"
+      "menu-item#rn-nino-calzado-zapatitosreciennacido"
     ],
     "props": {
       "orientation": "vertical",
@@ -202,7 +248,6 @@
       "menu-item#rn-nino-accesorios-baberos",
       "menu-item#rn-nino-accesorios-calcetines",
       "menu-item#rn-nino-accesorios-gorrosybufandas",
-      "menu-item#rn-nino-accesorios-setropainteriorybodys",
       "menu-item#rn-nino-accesorios-peluches",
       "menu-item#rn-nino-accesorios-toallasytutos"
     ],
@@ -325,13 +370,8 @@
 
   "vtex.menu@2.x:menu#reciennacido-nina-calzado-acc": {
     "children": [
-      "menu-item#rn-nina-calzado-botasbotinesybototos",
       "menu-item#rn-nina-calzado-gateadores",
-      "menu-item#rn-nina-calzado-reinasyballerinas",
-      "menu-item#rn-nina-calzado-sandalias",
-      "menu-item#rn-nina-calzado-zapatillas",
-      "menu-item#rn-nina-calzado-zapatitosreciennacido",
-      "menu-item#rn-nina-calzado-zapatos"
+      "menu-item#rn-nina-calzado-zapatitosreciennacido"
     ],
     "props": {
       "orientation": "vertical"
@@ -515,7 +555,6 @@
       "menu-item#bb-nino-calzado-gateadores",
       "menu-item#bb-nino-calzado-sandalias",
       "menu-item#bb-nino-calzado-zapatillas",
-      "menu-item#bb-nino-calzado-zapatitos",
       "menu-item#bb-nino-calzado-zapatos"
     ],
     "props": {
@@ -654,7 +693,6 @@
       "menu-item#bb-nina-calzado-reinasyballerinas",
       "menu-item#bb-nina-calzado-sandalias",
       "menu-item#bb-nina-calzado-zapatillas",
-      "menu-item#bb-nina-calzado-zapatitos",
       "menu-item#bb-nina-calzado-zapatos"
     ],
     "props": {
@@ -830,10 +868,8 @@
   "vtex.menu@2.x:menu#ninn-nino-calzado-acc": {
     "children": [
       "menu-item#ninn-nino-calzado-botasbotinesybototos",
-      "menu-item#ninn-nino-calzado-gateadores",
       "menu-item#ninn-nino-calzado-sandalias",
       "menu-item#ninn-nino-calzado-zapatillas",
-      "menu-item#ninn-nino-calzado-zapatitos",
       "menu-item#ninn-nino-calzado-zapatos"
     ],
     "props": {
@@ -843,7 +879,6 @@
 
   "vtex.menu@2.x:menu#ninn-nino-accesorios-acc": {
     "children": [
-      "menu-item#ninn-nino-accesorios-baberos",
       "menu-item#ninn-nino-accesorios-calcetines",
       "menu-item#ninn-nino-accesorios-gorrosybufandas",
       "menu-item#ninn-nino-accesorios-toallasytutos"
@@ -965,11 +1000,9 @@
   "vtex.menu@2.x:menu#ninn-nina-calzado-acc": {
     "children": [
       "menu-item#ninn-nina-calzado-botasbotinesybototos",
-      "menu-item#ninn-nina-calzado-gateadores",
       "menu-item#ninn-nina-calzado-reinasyballerinas",
       "menu-item#ninn-nina-calzado-sandalias",
       "menu-item#ninn-nina-calzado-zapatillas",
-      "menu-item#ninn-nina-calzado-zapatitos",
       "menu-item#ninn-nina-calzado-zapatos"
     ],
     "props": {
@@ -979,7 +1012,6 @@
 
   "vtex.menu@2.x:menu#ninn-nina-accesorios-acc": {
     "children": [
-      "menu-item#ninn-nina-accesorios-baberos",
       "menu-item#ninn-nina-accesorios-calcetines",
       "menu-item#ninn-nina-accesorios-gorrosybufandas",
       "menu-item#ninn-nina-accesorios-pinchesycintillos",
@@ -1041,7 +1073,7 @@
   "rich-text#mis-pedidos-mob": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "LEFT", 
+      "textPosition": "LEFT",
       "text": "[Mis Pedidos](/)",
       "blockClass": "topBarList-orders"
     }
@@ -1050,7 +1082,7 @@
   "rich-text#tiendas-mob": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "LEFT", 
+      "textPosition": "LEFT",
       "text": "[Tiendas](#)",
       "blockClass": "topBarList-store"
     }
@@ -1059,7 +1091,7 @@
   "rich-text#whishlist-mob": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "LEFT", 
+      "textPosition": "LEFT",
       "text": "[Wish List](/)",
       "blockClass": "topBarList-wishlist"
     }
@@ -1068,7 +1100,7 @@
   "rich-text#club-mob": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "LEFT", 
+      "textPosition": "LEFT",
       "text": "[Club Pilln](/)",
       "blockClass": "topBarList-club"
     }
@@ -1077,7 +1109,7 @@
   "rich-text#login-mob": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "LEFT", 
+      "textPosition": "LEFT",
       "text": "[Login](/)",
       "blockClass": "topBarList-login"
     }

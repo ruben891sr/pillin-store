@@ -65,11 +65,35 @@
     z-index: -1;
 }
 
-.styledLinkContent--subcatTitulo {
+
+.styledLinkContent--subcatTitulo-ves-nino,
+.styledLinkContent--subcatTitulo-ves-nina,
+.styledLinkContent--subcatTitulo-cal,
+.styledLinkContent--subcatTitulo-acc {
     font-weight: 800;
     font-size: .95em;
     color: #3f2016;
     margin-bottom: .4rem;
+    position: relative;
+}
+
+
+.styledLinkContent--subcatTitulo-ves-nino::before,
+.styledLinkContent--subcatTitulo-ves-nina::before,
+.styledLinkContent--subcatTitulo-cal::before,
+.styledLinkContent--subcatTitulo-acc::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 30px;
+    background-image: url(/assets/img/menu-icon);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
 }
 
 .styledLink--newSeason {
@@ -315,8 +339,9 @@
 .styledLinkContent--mainMenu-ninn-nina-acs-acc {
     margin-left: 1rem;
     padding: .3rem .7rem .3rem 2rem;
-    font-size: .9em;
-    border-bottom: 1px solid rgb(204 204 204 / 36%);
+    font-size: .85em;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(63 32 22 / 0.3);
 }
 
 
@@ -344,8 +369,26 @@
     font-weight: 500;
 }
 
-
+.styledLinkContainer--subSubMenuItem {
+    border-bottom: 1px solid rgb(204 204 204 / 0.3);
+}
 
 .menuContainer--drawerContainer .menuItem--subSubMenuItem {
     display: block;
+}
+
+@media (max-width: 991.1px) {
+    .styledLinkContent--subSubMenuItem {
+        padding-right: 2rem;
+        padding-left: auto;
+        margin: 0;
+        justify-content: flex-end;
+        font-size: .8em !important;
+    }
+
+    .styledLinkContent--subSubMenuItem::before {
+        left: auto;
+        right: .7rem;
+    }
+
 }

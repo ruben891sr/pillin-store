@@ -134,13 +134,8 @@
     "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
         "children": [
             "menu-item#rn-nino-calzado",
-            "menu-item#rn-nino-calzado-botasbotinesybototos",
             "menu-item#rn-nino-calzado-gateadores",
-            "menu-item#rn-nino-calzado-sandalias",
-            "menu-item#rn-nino-calzado-zapatillas",
-            "menu-item#rn-nino-calzado-zapatitosreciennacido",
-            "menu-item#rn-nino-calzado-zapatos"
-
+            "menu-item#rn-nino-calzado-zapatitosreciennacido"
         ],
         "props": {
             "orientation": "vertical"
@@ -152,7 +147,6 @@
             "menu-item#rn-nino-accesorios-baberos",
             "menu-item#rn-nino-accesorios-calcetines",
             "menu-item#rn-nino-accesorios-gorrosybufandas",
-            "menu-item#rn-nino-accesorios-setropainteriorybodys",
             "menu-item#rn-nino-accesorios-peluches",
             "menu-item#rn-nino-accesorios-toallasytutos"
         ],
@@ -226,13 +220,8 @@
     "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
         "children": [
             "menu-item#rn-nina-calzado",
-            "menu-item#rn-nina-calzado-botasbotinesybototos",
             "menu-item#rn-nina-calzado-gateadores",
-            "menu-item#rn-nina-calzado-reinasyballerinas",
-            "menu-item#rn-nina-calzado-sandalias",
-            "menu-item#rn-nina-calzado-zapatillas",
-            "menu-item#rn-nina-calzado-zapatitosreciennacido",
-            "menu-item#rn-nina-calzado-zapatos"
+            "menu-item#rn-nina-calzado-zapatitosreciennacido"
         ],
         "props": {
             "orientation": "vertical"
@@ -368,7 +357,6 @@
             "menu-item#bb-nino-calzado-gateadores",
             "menu-item#bb-nino-calzado-sandalias",
             "menu-item#bb-nino-calzado-zapatillas",
-            "menu-item#bb-nino-calzado-zapatitos",
             "menu-item#bb-nino-calzado-zapatos"
 
         ],
@@ -461,7 +449,6 @@
             "menu-item#bb-nina-calzado-reinasyballerinas",
             "menu-item#bb-nina-calzado-sandalias",
             "menu-item#bb-nina-calzado-zapatillas",
-            "menu-item#bb-nina-calzado-zapatitos",
             "menu-item#bb-nina-calzado-zapatos"
 
         ],
@@ -598,10 +585,8 @@
         "children": [
             "menu-item#ninn-nino-calzado",
             "menu-item#ninn-nino-calzado-botasbotinesybototos",
-            "menu-item#ninn-nino-calzado-gateadores",
             "menu-item#ninn-nino-calzado-sandalias",
             "menu-item#ninn-nino-calzado-zapatillas",
-            "menu-item#ninn-nino-calzado-zapatitos",
             "menu-item#ninn-nino-calzado-zapatos"
 
         ],
@@ -612,7 +597,6 @@
     "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno": {
         "children": [
             "menu-item#ninn-nino-accesorios",
-            "menu-item#ninn-nino-accesorios-baberos",
             "menu-item#ninn-nino-accesorios-calcetines",
             "menu-item#ninn-nino-accesorios-gorrosybufandas",
             "menu-item#ninn-nino-accesorios-toallasytutos",
@@ -688,13 +672,10 @@
         "children": [
             "menu-item#ninn-nina-calzado",
             "menu-item#ninn-nina-calzado-botasbotinesybototos",
-            "menu-item#ninn-nina-calzado-gateadores",
             "menu-item#ninn-nina-calzado-reinasyballerinas",
             "menu-item#ninn-nina-calzado-sandalias",
             "menu-item#ninn-nina-calzado-zapatillas",
-            "menu-item#ninn-nina-calzado-zapatitos",
             "menu-item#ninn-nina-calzado-zapatos"
-
         ],
         "props": {
             "orientation": "vertical"
@@ -703,13 +684,11 @@
     "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno": {
         "children": [
             "menu-item#ninn-nina-accesorios",
-            "menu-item#ninn-nina-accesorios-baberos",
             "menu-item#ninn-nina-accesorios-calcetines",
             "menu-item#ninn-nina-accesorios-gorrosybufandas",
             "menu-item#ninn-nina-accesorios-pinchesycintillos",
             "menu-item#ninn-nina-accesorios-toallasytutos",
             "menu-item#ninn-nina-accesorios-mochila"
-
         ],
         "props": {
             "orientation": "vertical"

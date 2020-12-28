@@ -313,6 +313,11 @@
     padding: .4rem .6rem;
 }
 
+
+.flexRow--rowDrawer .logoContainer--logoCol {
+    padding: 0 !important;
+}
+
 /* .frameAround {
     margin: 0;
     position: absolute;
