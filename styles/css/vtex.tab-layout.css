@@ -1,0 +1,19 @@
+.listContainer--tallaTabList {
+    justify-content: space-evenly;
+    padding: 1rem 0 2.5rem 0;
+    border-top: 1px solid #3f2016;
+}
+
+.listItem :global(.vtex-button) {
+    border: 1px solid #3f2016;
+}
+
+.listItem :global(.vtex-button__label) {
+    font-weight: 800;
+    padding: .5rem 2rem;
+    font-size: .95em;
+}
+
+.listItemActive :global(.vtex-button__label) {
+    font-weight: 800;
+}

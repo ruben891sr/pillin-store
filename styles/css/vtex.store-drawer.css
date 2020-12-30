@@ -1,3 +1,17 @@
 .menuIcon {
     width: 12px;
 }
+
+.childrenContainer--drawerGeneralContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.closeIcon {
+    color: #44261c;
+    width: 20px;
+}
+
+.closeIconButton {
+    padding-left: .5rem;
+}

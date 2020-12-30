@@ -12,7 +12,8 @@
       "slider-layout#text-test",
       "flex-layout.row#infocards-icons",
       "flex-layout.row#infocards",
-      "shelf",
+      "flex-layout.row#busquedaTalla",
+      "flex-layout.row#shelf-home",
       "flex-layout.row#banners"
     ]
   },
@@ -144,7 +145,7 @@
       "textPosition": "center",
       "imageUrl": "assets/img/info-polices.png",
       "headline": "Extendemos los Cambios",
-      "subhead": "Puedes realizarlos hasta el 28 de Febrero",
+      "subhead": "Hasta 3 meses",
       "callToActionMode": "link",
       "blockClass": "infoCardIcons",
       "textAlignment": "center"
@@ -217,6 +218,402 @@
       "textAlignment": "center"
     }
   },
+
+
+  //Búsqueda por talla
+  "flex-layout.row#busquedaTalla": {
+    "children": [
+      "flex-layout.col#vestuario-wrapper",
+      "flex-layout.col#calzado-wrapper",
+      "flex-layout.col#accesorios-wrapper"
+    ],
+    "props": {
+      "blockClass": "busquedaTalla"
+    }
+  },
+
+  "flex-layout.col#vestuario-wrapper": {
+    "children": [
+      "modal-trigger#vestuario"
+    ],
+    "props": {
+      "blockClass": "vestuario-wrapper"
+    }
+  },
+
+  "flex-layout.col#calzado-wrapper": {
+    "children": [
+      "modal-trigger#calzado"
+    ],
+    "props": {
+      "blockClass": "calzado-wrapper"
+    }
+  },
+
+  "flex-layout.col#accesorios-wrapper": {
+    "children": [
+      "modal-trigger#accesorios"
+    ],
+    "props": {
+      "blockClass": "accesorios-wrapper"
+    }
+  },
+
+  "modal-trigger#vestuario": {
+    "children": [
+      "rich-text#boton-vestuario",
+      "modal-layout#vestuario"
+    ],
+    "props": {
+      "blockClass": "triggerVestuario"
+    }
+  },
+
+  "modal-trigger#calzado": {
+    "children": [
+      "rich-text#boton-calzado",
+      "modal-layout#calzado"
+    ],
+    "props": {
+      "blockClass": "triggerCalzado"
+    }
+  },
+
+  "modal-trigger#accesorios": {
+    "children": [
+      "rich-text#boton-accesorios",
+      "modal-layout#accesorios"
+    ],
+    "props": {
+      "blockClass": "triggerAccesorios"
+    }
+  },
+
+  // Botones Trigger
+  "rich-text#boton-vestuario": {
+    "props": {
+      "text": "Vestuario",
+      "blockClass": "botonVestuario"
+    }
+  },
+
+  "rich-text#boton-calzado": {
+    "props": {
+      "text": "Calzado",
+      "blockClass": "botonCalzado"
+    }
+  },
+
+  "rich-text#boton-accesorios": {
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "botonAccesorios"
+    }
+  },
+
+
+
+  // Contenido del modal - Vestuario
+  "modal-layout#vestuario": {
+    "children": [
+      "rich-text#titulo-modal-vestuario",
+      "tab-layout#vestuario",
+      "rich-text#filtrar-vestuario"
+    ],
+    "props": {
+      "blockClass": "modalVestuario"
+    }
+  },
+
+  "rich-text#titulo-modal-vestuario": {
+    "props": {
+      "blockClass": "tituloModal",
+      "text": "Vestuario"
+    }
+  },
+
+  "tab-layout#vestuario": {
+    "children": [
+      "tab-list#vestuario",
+      "tab-content#vestuario"
+    ],
+    "props": {
+      "blockClass": "tabLayout"
+    }
+  },
+
+  "tab-list#vestuario": {
+    "children": [
+      "tab-list.item#ves-nino",
+      "tab-list.item#ves-nina"
+    ],
+    "props": {
+      "blockClass": "tallaTabList"
+    }
+  },
+
+  "tab-list.item#ves-nino": {
+    "props": {
+      "tabId": "ves-nino",
+      "label": "Niño",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#ves-nina": {
+    "props": {
+      "tabId": "ves-nina",
+      "label": "Niña"
+    }
+  },
+
+  "tab-content#vestuario": {
+    "children": [
+      "tab-content.item#ves-nino",
+      "tab-content.item#ves-nina"
+    ]
+  },
+
+  "tab-content.item#ves-nino": {
+    "children": [
+      "vtex.menu@2.x:menu#ves-nino"
+    ],
+    "props": {
+      "tabId": "ves-nino"
+    }
+  },
+
+  "tab-content.item#ves-nina": {
+    "children": [
+      "vtex.menu@2.x:menu#ves-nina"
+    ],
+    "props": {
+      "tabId": "ves-nina"
+    }
+  },
+
+
+  "rich-text#filtrar-vestuario": {
+    "props": {
+      "blockClass": "botonFiltrar",
+      "text": "Filtrar"
+    }
+  },
+
+
+
+  // Contenido del modal - Calzado
+  "modal-layout#calzado": {
+    "children": [
+      "rich-text#titulo-modal-calzado",
+      "tab-layout#calzado",
+      "rich-text#filtrar-calzado"
+    ],
+    "props": {
+      "blockClass": "modalcalzado"
+    }
+  },
+
+  "rich-text#titulo-modal-calzado": {
+    "props": {
+      "blockClass": "tituloModal",
+      "text": "Calzado"
+    }
+  },
+
+  "tab-layout#calzado": {
+    "children": [
+      "tab-list#calzado",
+      "tab-content#calzado"
+    ],
+    "props": {
+      "blockClass": "tabLayout"
+    }
+  },
+
+  "tab-list#calzado": {
+    "children": [
+      "tab-list.item#cal-nino",
+      "tab-list.item#cal-nina"
+    ],
+    "props": {
+      "blockClass": "tallaTabList"
+    }
+  },
+
+  "tab-list.item#cal-nino": {
+    "props": {
+      "tabId": "cal-nino",
+      "label": "Niño",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#cal-nina": {
+    "props": {
+      "tabId": "cal-nina",
+      "label": "Niña"
+    }
+  },
+
+  "tab-content#calzado": {
+    "children": [
+      "tab-content.item#cal-nino",
+      "tab-content.item#cal-nina"
+    ]
+  },
+
+  "tab-content.item#cal-nino": {
+    "children": [
+      "vtex.menu@2.x:menu#cal-nino"
+    ],
+    "props": {
+      "tabId": "cal-nino"
+    }
+  },
+
+  "tab-content.item#cal-nina": {
+    "children": [
+      "vtex.menu@2.x:menu#cal-nina"
+    ],
+    "props": {
+      "tabId": "cal-nina"
+    }
+  },
+
+  "rich-text#filtrar-calzado": {
+    "props": {
+      "blockClass": "botonFiltrar",
+      "text": "Filtrar"
+    }
+  },
+
+
+  // Contenido del modal - Accesorios
+
+  "modal-layout#accesorios": {
+    "children": [
+      "rich-text#titulo-modal-accesorios",
+      "tab-layout#accesorios",
+      "rich-text#filtrar-accesorios"
+    ],
+    "props": {
+      "blockClass": "modalaccesorios"
+    }
+  },
+
+  "rich-text#titulo-modal-accesorios": {
+    "props": {
+      "blockClass": "tituloModal",
+      "text": "Accesorios"
+    }
+  },
+
+  "tab-layout#accesorios": {
+    "children": [
+      "tab-list#accesorios",
+      "tab-content#accesorios"
+    ],
+    "props": {
+      "blockClass": "tabLayout"
+    }
+  },
+
+  "tab-list#accesorios": {
+    "children": [
+      "tab-list.item#calcetin",
+      "tab-list.item#gorro",
+      "tab-list.item#cinturon",
+      "tab-list.item#otrosaccesorios"
+    ],
+    "props": {
+      "blockClass": "tallaTabList"
+    }
+  },
+
+  "tab-list.item#calcetin": {
+    "props": {
+      "tabId": "calcetin",
+      "label": "Calcetin"
+    }
+  },
+
+  "tab-list.item#gorro": {
+    "props": {
+      "tabId": "gorro",
+      "label": "Gorro"
+    }
+  },
+
+  "tab-list.item#cinturon": {
+    "props": {
+      "tabId": "cinturon",
+      "label": "Cinturon"
+    }
+  },
+
+  "tab-list.item#otrosaccesorios": {
+    "props": {
+      "tabId": "otrosaccesorios",
+      "label": "Otros accesorios"
+    }
+  },
+
+  "tab-content#accesorios": {
+    "children": [
+      "tab-content.item#calcetin",
+      "tab-content.item#gorro",
+      "tab-content.item#cinturon",
+      "tab-content.item#otrosaccesorios"
+    ]
+  },
+
+  "tab-content.item#calcetin": {
+    "children": [
+      "vtex.menu@2.x:menu#calcetin"
+    ],
+    "props": {
+      "tabId": "calcetin"
+    }
+  },
+
+  "tab-content.item#gorro": {
+    "children": [
+      "vtex.menu@2.x:menu#gorro"
+    ],
+    "props": {
+      "tabId": "gorro"
+    }
+  },
+
+  "tab-content.item#cinturon": {
+    "children": [
+      "vtex.menu@2.x:menu#cinturon"
+    ],
+    "props": {
+      "tabId": "cinturon"
+    }
+  },
+
+  "tab-content.item#otrosaccesorios": {
+    "children": [
+      "vtex.menu@2.x:menu#otrosaccesorios"
+    ],
+    "props": {
+      "tabId": "otrosaccesorios"
+    }
+  },
+
+  "rich-text#filtrar-accesorios": {
+    "props": {
+      "blockClass": "botonFiltrar",
+      "text": "Filtrar"
+    }
+  },
+
+
+
+
 
 
   // Desktop - Banners
@@ -298,6 +695,17 @@
       "width": "100%",
       "blockClass": "sliderImage",
       "marginTop": 2
+    }
+  },
+
+
+  // Desktop - Shelf
+  "flex-layout.row#shelf-home": {
+    "children": [
+      "shelf"
+    ],
+    "props": {
+      "blockClass": "rowHomeShelf"
     }
   },
 
@@ -479,7 +887,7 @@
       "blockClass": "infoIcons-mobile",
       "colSizing": "auto"
     }
-  }, 
+  },
 
   "flex-layout.col#box-mobile": {
     "children": [
@@ -487,7 +895,7 @@
     ],
     "props": {
       "blockClass": "col-box-mobile",
-      "width": "50%" 
+      "width": "50%"
     }
   },
 
@@ -502,7 +910,7 @@
   },
 
   "flex-layout.col#cards-mobile": {
-    "children": [ 
+    "children": [
       "info-card#cards-mobile"
     ],
     "props": {
@@ -567,7 +975,7 @@
       "textPosition": "center",
       "imageUrl": "assets/img/info-polices.png",
       "headline": "Extendemos los Cambios",
-      "subhead": "Puedes realizarlos hasta el 28 de Febrero",
+      "subhead": "Hasta 3 meses",
       "callToActionMode": "link",
       "blockClass": "infoCardIcons-mobile",
       "textAlignment": "center"

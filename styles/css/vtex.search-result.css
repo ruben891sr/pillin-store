@@ -1,0 +1,23 @@
+.orderByText {
+    font-weight: 800;
+    color: #3f2016;
+}
+.orderByText::after {
+    content: ":";
+    display: inline-block;
+    font-size: 14px;
+}
+.orderByButton {
+    border: none;
+}
+.orderByOptionsContainer,
+.orderByOptionItem {
+    min-width: 180px;
+    max-width: 300px;
+    background-color: #f9f9f9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+.orderByOptionItem:hover {
+    background: #ede3ce;
+}

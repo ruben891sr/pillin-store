@@ -47,7 +47,7 @@
             "blockClass": "mainMenu-rn",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/accesorios?fuzzy=0&map=category-1,category-1,agrupacion,agrupacion,category-1&operator=and&query=/accesorios/calzado/recien-nacido--00-a-12m-/recien-nacido--00-a-12m-/vestuario",
                 "noFollow": false,
                 "tagTitle": "recien-nacido",
                 "text": "Recién Nacido"
@@ -57,8 +57,8 @@
     },
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
-            "flex-layout.row#submenureciennacido",
-            "flex-layout.row#imagereciennacido"
+            "flex-layout.row#submenureciennacido"
+            // "flex-layout.row#imagereciennacido"
         ],
         "props": {
             "orientation": "vertical",
@@ -122,7 +122,7 @@
             "menu-item#rn-nino-vestuario-chalecosypolerones",
             "menu-item#rn-nino-vestuario-jardinerasyenteritos",
             "menu-item#rn-nino-vestuario-jeanspantalonesycalzas",
-            "menu-item#rn-nino-vestuario-ositosbusosyconjuntos",
+            "menu-item#rn-nino-vestuario-ositosbuzosyconjuntos",
             "menu-item#rn-nino-vestuario-poleras",
             "menu-item#rn-nino-vestuario-ropainteriorypijamas",
             "menu-item#rn-nino-vestuario-trajesdebano"
@@ -134,13 +134,8 @@
     "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
         "children": [
             "menu-item#rn-nino-calzado",
-            "menu-item#rn-nino-calzado-botasbotinesybototos",
             "menu-item#rn-nino-calzado-gateadores",
-            "menu-item#rn-nino-calzado-sandalias",
-            "menu-item#rn-nino-calzado-zapatillas",
-            "menu-item#rn-nino-calzado-zapatitosreciennacido",
-            "menu-item#rn-nino-calzado-zapatos"
-
+            "menu-item#rn-nino-calzado-zapatitosreciennacido"
         ],
         "props": {
             "orientation": "vertical"
@@ -152,7 +147,6 @@
             "menu-item#rn-nino-accesorios-baberos",
             "menu-item#rn-nino-accesorios-calcetines",
             "menu-item#rn-nino-accesorios-gorrosybufandas",
-            "menu-item#rn-nino-accesorios-setropainteriorybodys",
             "menu-item#rn-nino-accesorios-peluches",
             "menu-item#rn-nino-accesorios-toallasytutos"
         ],
@@ -212,7 +206,7 @@
             "menu-item#rn-nina-vestuario-chalecosypolerones",
             "menu-item#rn-nina-vestuario-jardinerasyenteritos",
             "menu-item#rn-nina-vestuario-jeanspantalonesycalzas",
-            "menu-item#rn-nina-vestuario-ositosbusosyconjuntos",
+            "menu-item#rn-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#rn-nina-vestuario-poleras",
             "menu-item#rn-nina-vestuario-ropainteriorypijamas",
             "menu-item#rn-nina-vestuario-trajesdebano",
@@ -226,13 +220,8 @@
     "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
         "children": [
             "menu-item#rn-nina-calzado",
-            "menu-item#rn-nina-calzado-botasbotinesybototos",
             "menu-item#rn-nina-calzado-gateadores",
-            "menu-item#rn-nina-calzado-reinasyballerinas",
-            "menu-item#rn-nina-calzado-sandalias",
-            "menu-item#rn-nina-calzado-zapatillas",
-            "menu-item#rn-nina-calzado-zapatitosreciennacido",
-            "menu-item#rn-nina-calzado-zapatos"
+            "menu-item#rn-nina-calzado-zapatitosreciennacido"
         ],
         "props": {
             "orientation": "vertical"
@@ -276,7 +265,7 @@
             "height": "100%",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/vestuario?fuzzy=0&map=category-1,agrupacion,category-1,category-1&operator=and&query=/accesorios/bebe--18m-a-3-/calzado/vestuario",
                 "noFollow": false,
                 "tagTitle": "Bebe",
                 "text": "Bebé"
@@ -287,8 +276,8 @@
 
     "vtex.menu@2.x:submenu#bebe": {
         "children": [
-            "flex-layout.row#submenubebe",
-            "flex-layout.row#imagebebe"
+            "flex-layout.row#submenubebe"
+            // "flex-layout.row#imagebebe"
         ],
         "props": {
             "orientation": "vertical",
@@ -352,7 +341,7 @@
             "menu-item#bb-nino-vestuario-chalecosypolerones",
             "menu-item#bb-nino-vestuario-jardinerasyenteritos",
             "menu-item#bb-nino-vestuario-jeanspantalonesycalzas",
-            "menu-item#bb-nino-vestuario-ositosbusosyconjuntos",
+            "menu-item#bb-nino-vestuario-ositosbuzosyconjuntos",
             "menu-item#bb-nino-vestuario-poleras",
             "menu-item#bb-nino-vestuario-ropainteriorypijamas",
             "menu-item#bb-nino-vestuario-trajesdebano"
@@ -368,7 +357,6 @@
             "menu-item#bb-nino-calzado-gateadores",
             "menu-item#bb-nino-calzado-sandalias",
             "menu-item#bb-nino-calzado-zapatillas",
-            "menu-item#bb-nino-calzado-zapatitos",
             "menu-item#bb-nino-calzado-zapatos"
 
         ],
@@ -442,7 +430,7 @@
             "menu-item#bb-nina-vestuario-chalecosypolerones",
             "menu-item#bb-nina-vestuario-jardinerasyenteritos",
             "menu-item#bb-nina-vestuario-jeanspantalonesycalzas",
-            "menu-item#bb-nina-vestuario-ositosbusosyconjuntos",
+            "menu-item#bb-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#bb-nina-vestuario-poleras",
             "menu-item#bb-nina-vestuario-ropainteriorypijamas",
             "menu-item#bb-nina-vestuario-trajesdebano",
@@ -461,7 +449,6 @@
             "menu-item#bb-nina-calzado-reinasyballerinas",
             "menu-item#bb-nina-calzado-sandalias",
             "menu-item#bb-nina-calzado-zapatillas",
-            "menu-item#bb-nina-calzado-zapatitos",
             "menu-item#bb-nina-calzado-zapatos"
 
         ],
@@ -510,19 +497,19 @@
             "height": "100%",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/vestuario?fuzzy=0&map=category-1,category-1,agrupacion,category-1&operator=and&query=/accesorios/calzado/ninos--4-a-16-/vestuario",
                 "noFollow": false,
                 "tagTitle": "ninos",
                 "text": "Niños"
-            }
+            } 
         },
         "blocks": ["vtex.menu@2.x:submenu#ninno"]
     },
 
     "vtex.menu@2.x:submenu#ninno": {
         "children": [
-            "flex-layout.row#submenuninno",
-            "flex-layout.row#imageninno"
+            "flex-layout.row#submenuninno"
+            // "flex-layout.row#imageninno"
         ],
         "props": {
             "orientation": "vertical",
@@ -598,10 +585,8 @@
         "children": [
             "menu-item#ninn-nino-calzado",
             "menu-item#ninn-nino-calzado-botasbotinesybototos",
-            "menu-item#ninn-nino-calzado-gateadores",
             "menu-item#ninn-nino-calzado-sandalias",
             "menu-item#ninn-nino-calzado-zapatillas",
-            "menu-item#ninn-nino-calzado-zapatitos",
             "menu-item#ninn-nino-calzado-zapatos"
 
         ],
@@ -612,11 +597,10 @@
     "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno": {
         "children": [
             "menu-item#ninn-nino-accesorios",
-            "menu-item#ninn-nino-accesorios-baberos",
             "menu-item#ninn-nino-accesorios-calcetines",
             "menu-item#ninn-nino-accesorios-gorrosybufandas",
-            "menu-item#ninn-nino-accesorios-peluches",
-            "menu-item#ninn-nino-accesorios-toallasytutos"
+            "menu-item#ninn-nino-accesorios-toallasytutos",
+            "menu-item#ninn-nino-accesorios-mochila"
 
         ],
         "props": {
@@ -631,7 +615,7 @@
             "flex-layout.row#submenuninaninno"
         ],
         "props": {
-            "paddingLeft": 8,
+            "paddingLeft": 5,
             "blockClass": "colNina"
         }
     },
@@ -674,11 +658,11 @@
             "menu-item#ninn-nina-vestuario-chalecosypolerones",
             "menu-item#ninn-nina-vestuario-jardinerasyenteritos",
             "menu-item#ninn-nina-vestuario-jeanspantalonesycalzas",
-            "menu-item#ninn-nina-vestuario-ositosbusosyconjuntos",
+            "menu-item#ninn-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#ninn-nina-vestuario-poleras",
             "menu-item#ninn-nina-vestuario-ropainteriorypijamas",
-            "menu-item#ninn-nina-vestuario-trajesdebano"
-
+            "menu-item#ninn-nina-vestuario-trajesdebano",
+            "menu-item#ninn-nina-vestuario-vestidosyfaldas"
         ],
         "props": {
             "orientation": "vertical"
@@ -688,13 +672,10 @@
         "children": [
             "menu-item#ninn-nina-calzado",
             "menu-item#ninn-nina-calzado-botasbotinesybototos",
-            "menu-item#ninn-nina-calzado-gateadores",
             "menu-item#ninn-nina-calzado-reinasyballerinas",
             "menu-item#ninn-nina-calzado-sandalias",
             "menu-item#ninn-nina-calzado-zapatillas",
-            "menu-item#ninn-nina-calzado-zapatitos",
             "menu-item#ninn-nina-calzado-zapatos"
-
         ],
         "props": {
             "orientation": "vertical"
@@ -703,13 +684,11 @@
     "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno": {
         "children": [
             "menu-item#ninn-nina-accesorios",
-            "menu-item#ninn-nina-accesorios-baberos",
             "menu-item#ninn-nina-accesorios-calcetines",
             "menu-item#ninn-nina-accesorios-gorrosybufandas",
-            "menu-item#ninn-nina-accesorios-peluches",
             "menu-item#ninn-nina-accesorios-pinchesycintillos",
-            "menu-item#ninn-nina-accesorios-toallasytutos"
-
+            "menu-item#ninn-nina-accesorios-toallasytutos",
+            "menu-item#ninn-nina-accesorios-mochila"
         ],
         "props": {
             "orientation": "vertical"

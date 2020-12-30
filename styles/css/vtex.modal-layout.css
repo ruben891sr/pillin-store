@@ -1,0 +1,6 @@
+.paper--modalVestuario,
+.paper--modalcalzado,
+.paper--modalaccesorios {
+    width: 60vw!important;
+    padding: 3rem 4rem;
+}

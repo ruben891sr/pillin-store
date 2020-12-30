@@ -151,7 +151,7 @@
       "blockClass": "cp-buttonVerMas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Conoce más](https://help.vtex.com/en/faq/what-is-vtex-io)"
+      "text": "[Conoce más](#)"
     }
   },
 
@@ -407,7 +407,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Regístrate](#)"
+      "text": "- [Regístrate](/login)"
     }
   },
   "rich-text#list-sesion": {
@@ -415,7 +415,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Iniciar Sesión](#)"
+      "text": "- [Iniciar Sesión](/login)"
     }
   },
   "rich-text#list-recuperar": {
@@ -423,7 +423,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Recuperar Contraseña](#)"
+      "text": "- [Recuperar Contraseña](/login)"
     }
   },
   "rich-text#list-favoritos": {
@@ -431,7 +431,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Mis Favoritos](#)"
+      "text": "- [Mis Favoritos](/login)"
     }
   },
   // Redes Sociales SOS
@@ -456,7 +456,7 @@
       "blockClass": "footer-list-face",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Facebook](#)"
+      "text": "- [Facebook](https://www.facebook.com/PillinChile)"
     }
   },
   // Instagram
@@ -471,7 +471,7 @@
       "blockClass": "footer-list-insta",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Instagram](#)"
+      "text": "- [Instagram](https://www.instagram.com/pillinchile/)"
     }
   },
 
@@ -507,7 +507,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Venta Asistida](#)",
+      "text": "- [Venta Asistida](/checkout#/cart)",
       "blockClass": "footer-list-asistida"
     }
   },

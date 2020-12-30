@@ -24,28 +24,53 @@
     border-right: 1px solid #ccc;
 }
 
+.flexColChild--colNina,
+.flexColChild--colNino {
+    height: auto !important;
+    margin-bottom: 2rem;
+}
+
 .flexRowContent--main-header-mobile {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(204 204 204 / 0.3);
 }
 
-.flexRow--footer-general{
-    background: url(assets/img/background-footer.png);
+.flexRowContent--rowSeo {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.flexRow--footer-general {
+    background: url(https://pillin.vteximg.com.br/arquivos/background-footer.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5rem;
+    background-position: top right;
+    padding-top: 8rem;
 }
+
+.flexRowContent--rowMainFooter {
+    padding: 0 12rem;
+}
+
 .flexRowContent--row-partner-footer,
 .flexColChild--col-partner-footer,
 .poweredBy--logo-vtex,
-.flexCol--col-partner-footer{
+.flexCol--col-partner-footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .flexCol--col-partner-footer {
     flex-direction: inherit;
+}
+
+.flexRowContent--row-partner-footer {
+    padding: 1.7rem 0;
+    border-top: .7px solid #4021178a;
+    margin-top: 2rem;
 }
 
 .flexRow--infoIcons {
@@ -61,4 +86,100 @@
 .flexRowContent--infoIcons-mobile .stretchChildrenWidth {
     width: 50% !important;
     margin: 1rem 0;
+}
+
+.flexCol--topBar-leftCol,
+.flexCol--topBar-rightCol,
+.flexColChild--topBar-leftCol,
+.flexColChild--topBar-rightCol {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.flexCol--topBar-rightCol {
+    justify-content: flex-end;
+}
+
+.flexRow--notification-bar {
+    background-color: #ede3ce;
+    padding: .4rem;
+}
+
+.flexRow--rowHomeShelf {
+    margin: 6rem 0;
+}
+
+.flexRow--clubPillin {
+    margin: 4rem 0;
+    padding: 3rem 0 7rem 0;
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-clubPillin.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexCol--linkListMobile {
+    background: #ede3ce;
+    margin-top: 3rem;
+}
+
+.flexColChild--linkListMobile {
+    padding: .3rem 0 .3rem 1.5rem;
+    border-top: .7px solid rgb(63 32 22 / 50%);
+}
+
+.flexColChild--linkListMobile:first-child {
+    border-top: 0;
+}
+
+.flexRow--rowDrawer {
+    border-bottom: 1px solid rgb(67 36 26 / 0.4);
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.flexRowContent--rowDrawer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexRow--rowDrawer .stretchChildrenWidth {
+    width: auto !important;
+    justify-content: flex-start;
+}
+
+.flexCol--colDrawer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexCol--vestuario-wrapper,
+.flexCol--calzado-wrapper,
+.flexCol--accesorios-wrapper {
+    margin-right: 2rem;
+    border-radius: 7px;
+    padding: 8rem 2.5rem 7rem 2.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexCol--accesorios-wrapper {
+    margin-right: 0;
+}
+
+.flexCol--vestuario-wrapper {
+    background-image: url(assets/img/infocard-vestuario.jpg);
+}
+
+.flexCol--calzado-wrapper {
+    background-image: url(assets/img/infocard-calzado.jpg);
+}
+
+.flexCol--accesorios-wrapper {
+    background-image: url(assets/img/infocard-accesorios.jpg);
 }

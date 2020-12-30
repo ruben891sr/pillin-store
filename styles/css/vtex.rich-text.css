@@ -2,13 +2,26 @@
 .link--tituloMenuNina {
     margin-left: 1.6rem;
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 800;
+    font-size: 1.1em;
+    font-weight: 700;
     position: relative;
     color: #3f2016;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 2rem;
+    padding: .2rem;
 }
 
-.link--tituloMenuNino::before,
+.link--tituloMenuNino {
+background: #eaf6ff;
+}
+
+.link--tituloMenuNina {
+    background: #fff5f9;
+}
+
+/* .link--tituloMenuNino::before,
 .link--tituloMenuNina::before {
     content: '';
     width: 60px;
@@ -29,27 +42,100 @@
 
 .link--tituloMenuNina::before {
     background-image: url(assets/img/mancha-nina.png);
-}
+} */
 
-.wrapper--footer-list{
+.wrapper--footer-list {
     height: auto;
     list-style: none;
     text-decoration: none;
 }
-.link--footer-list {
-    text-decoration: none;
-    color: #3f2016;
-    padding-left: 0!important;
+
+
+
+
+
+.headingLevel3--footer-titles {
+    font-size: 1.3em;
 }
 
-.wrapper--sliderTopBarItem .paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.87em;
-    padding: .5rem 0;
-    margin: 0;
+.list--footer-list-face,
+.list--footer-list-insta,
+.list--footer-list-envio,
+.list--footer-list-asistida,
+.list--footer-list {
+    padding: 0;
 }
+
+.link--footer-list-face,
+.link--footer-list-insta,
+.link--footer-list-envio,
+.link--footer-list-asistida,
+.link--footer-list {
+    padding-left: 0;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    position: relative;
+    color: #402117;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.link--footer-list-face,
+.link--footer-list-insta,
+.link--footer-list-envio,
+.link--footer-list-asistida {
+    padding-left: 37px !important;
+    display: inline-block;
+}
+
+.listItem--footer-list {
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.listItem--footer-list-face,
+.listItem--footer-list-insta,
+.listItem--footer-list-envio,
+.listItem--footer-list-asistida {
+    margin-bottom: 1rem !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+
+.link--footer-list-face::before,
+.link--footer-list-insta::before,
+.link--footer-list-envio::before,
+.link--footer-list-asistida::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.link--footer-list-face::before {
+    background-image: url(assets/img/rrss-face.png);
+}
+
+.link--footer-list-insta::before {
+    background-image: url(assets/img/rrss-insta.png);
+}
+
+.link--footer-list-envio::before {
+    background-image: url(assets/img/truck-footer.png);
+}
+
+.link--footer-list-asistida::before {
+    background-image: url(assets/img/truck-footer.png);
+}
+
 
 .wrapper--sliderTopBarItem .link {
     display: inline-block;
@@ -62,20 +148,285 @@
     font-size: .87em;
 }
 
-.list--footer-list{
-    padding-left: 0;
-    margin: 5px;
-    list-style: none!important;
-}
-.listItem--footer-list,
-.link--footer-list,
-.link--text-envio-domicilio,
-.link--text-venta-asistida {
-    text-decoration: none;
-    color: #3f2016;
+.headingLevel3--footer-titles {
+    font-size: 1.3em;
 }
 
 .paragraph--text-envio-domicilio,
 .paragraph--text-venta-asistida {
     margin: 0;
+}
+
+
+
+
+.paragraph--sliderTopBarItem {
+    margin: 0;
+    display: inline-block;
+}
+
+.paragraph--topBarList-phone,
+.paragraph--topBarList-faq,
+.paragraph--topBarList-contact,
+.paragraph--topBarList-orders,
+.paragraph--topBarList-store,
+.paragraph--topBarList-wishlist,
+.paragraph--topBarList-club,
+.paragraph--topBarList-login {
+    margin: 0;
+}
+
+.link--topBarList-phone,
+.link--topBarList-faq,
+.link--topBarList-contact,
+.link--topBarList-orders,
+.link--topBarList-store,
+.link--topBarList-wishlist,
+.link--topBarList-club,
+.link--topBarList-login {
+    margin: 0 1.3rem 0 1rem;
+    color: #3f2016;
+    font-size: .87em;
+    text-decoration: none;
+    position: relative;
+}
+
+.link--topBarList-wishlist {
+    margin-right: 0;
+}
+
+.link--topBarList-phone::before,
+.link--topBarList-faq::before,
+.link--topBarList-contact::before,
+.link--topBarList-orders::before,
+.link--topBarList-store::before,
+.link--topBarList-wishlist::before,
+.link--topBarList-club::before,
+.link--topBarList-login::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 103%;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.link--topBarList-phone::before {
+    background-image: url(assets/img/topbar-phone.png);
+}
+
+.link--topBarList-faq::before {
+    background-image: url(assets/img/topbar-faq.png);
+}
+
+.link--topBarList-contact::before {
+    background-image: url(assets/img/topbar-contact.png);
+}
+
+.link--topBarList-orders::before {
+    background-image: url(assets/img/topbar-box.png);
+}
+
+.link--topBarList-store::before {
+    background-image: url(assets/img/topbar-store.png);
+}
+
+.link--topBarList-wishlist::before {
+    background-image: url(assets/img/topbar-wishlist.png);
+}
+
+.link--topBarList-club::before {
+    background-image: url(assets/img/topbar-club.png);
+}
+
+.link--topBarList-login::before {
+    background-image: url(assets/img/topbar-user.png);
+}
+
+
+
+.link--cp-buttonVerMas {
+    background: #3f2016;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    padding: .5rem 3.3rem;
+}
+
+.headingLevel3--cp-titleClub {
+    position: relative;
+    padding-left: 6rem;
+    padding-right: 4rem;
+}
+
+.headingLevel3--cp-titleClub::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/logo-cabeza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 83%;
+}
+
+.paragraph--cp-textClub {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+
+.headingLevel2--main-titles {
+    font-size: 1.5em;
+    color: #402117;
+    font-weight: 800;
+    text-align: left;
+    justify-content: flex-start;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    z-index: 1;
+    padding-left: 3.7rem;
+}
+
+.headingLevel2--main-titles::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 85px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paragraph--texto-seo {
+    text-align: center;
+    color: #666;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.container--texto-seo {
+    padding: 0 4rem;
+}
+
+.flexCol--linkListMobile .container--topBarList-phone,
+.flexCol--linkListMobile .container--topBarList-faq,
+.flexCol--linkListMobile .container--topBarList-contact,
+.flexCol--linkListMobile .container--topBarList-orders,
+.flexCol--linkListMobile .container--topBarList-store,
+.flexCol--linkListMobile .container--topBarList-wishlist,
+.flexCol--linkListMobile .container--topBarList-club,
+.flexCol--linkListMobile .container--topBarList-login {
+    justify-content: flex-start;
+}
+
+.wrapper--cerrarDrawer .paragraph {
+    margin: 0;
+    font-size: .9em;
+}
+
+.wrapper--tituloMenuNino,
+.wrapper--tituloMenuNina {
+    width: 100%;
+}
+
+.paragraph--botonVestuario,
+.paragraph--botonCalzado,
+.paragraph--botonAccesorios {
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    display: inline-block;
+    padding: .6rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.paragraph--botonVestuario::before,
+.paragraph--botonCalzado::before,
+.paragraph--botonAccesorios::before {
+    content: 'Buscar por:';
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 105%;
+    left: 0%;
+}
+
+.wrapper--tituloModal {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.paragraph--tituloModal {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
+    padding-left: 3rem;
+    z-index: 1;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.paragraph--tituloModal::before {
+    content: 'Comprar por talla:';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    color: #3f2016;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    padding-left: 3rem;
+}
+
+.paragraph--tituloModal::after {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateY(-50%);
+}
+
+.container--botonFiltrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--botonFiltrar {
+    color: #fff;
+    background: #3f2016;
+    border: 1px solid #3f2016;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    padding: .5rem 1.7rem;
 }

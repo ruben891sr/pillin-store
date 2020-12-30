@@ -32,7 +32,8 @@
             "flex-layout.col#right-list-topBar"
         ],
         "props": {
-            "fullWidth": true
+            "fullWidth": false,
+            "blockClass": "notification-bar"
         }
     },
 
@@ -46,7 +47,8 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "carousel-topbar",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "width": "40%"
         },
         "children": [
             "rich-text#info-1",
@@ -60,7 +62,11 @@
             "rich-text#fono",
             "rich-text#faq",
             "rich-text#contacto"
-        ]
+        ],
+        "props": {
+            "blockClass": "topBar-leftCol",
+            "width": "30%"
+        }
     },
 
     "flex-layout.col#right-list-topBar": {
@@ -68,24 +74,30 @@
             "rich-text#mis-pedidos",
             "rich-text#tiendas",
             "rich-text#whishlist"
-        ]
+        ],
+        "props": {
+            "blockClass": "topBar-rightCol",
+            "width": "30%"
+        }
     },
 
     "rich-text#info-1": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](#)",
             "blockClass": "sliderTopBarItem"
         }
     },
+
     "rich-text#info-2": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
+
     "rich-text#info-3": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí\n[Aquí](https://help.vtex.com/en/faq/what-is-vtex-io)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
             "blockClass": "sliderTopBarItem"
         }
     },
@@ -94,54 +106,54 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[+569 7865 3462](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[+569 7865 3462](tel:56978653462)",
+            "blockClass": "topBarList-phone"
+        }
     },
 
     "rich-text#faq": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Faq](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[Faq](#)",
+            "blockClass": "topBarList-faq"
+        }
     },
 
     "rich-text#contacto": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Contáctanos](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[Contáctanos](#)",
+            "blockClass": "topBarList-contact"
+        }
     },
 
     "rich-text#mis-pedidos": {
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Mis Pedidos](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[Mis Pedidos](/)",
+            "blockClass": "topBarList-orders"
+        }
     },
 
     "rich-text#tiendas": {
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Tiendas](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[Tiendas](#)",
+            "blockClass": "topBarList-store"
+        }
     },
 
     "rich-text#whishlist": {
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[help](https://help.vtex.com/en/faq/what-is-vtex-io)",
-            "blockClass": "topBarList"
-          }
+            "text": "[Wish List](/)",
+            "blockClass": "topBarList-wishlist"
+        }
     },
 
 
@@ -283,7 +295,7 @@
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
             "openAutocompleteOnFocus": true
-        }
+        } 
     },
 
     "autocomplete-result-list.v2": {

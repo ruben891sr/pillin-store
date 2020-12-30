@@ -1,10 +1,9 @@
-.imageNormal.image {
+ .imageNormal.image {
     padding: 3rem 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 
 .imageContainer {
     position: relative;
@@ -14,7 +13,7 @@
     background: #fff;
 }
 
-.imageContainer::before{
+.imageContainer::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -29,7 +28,7 @@
 .productBrand.brandName {
     color: #999999;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1em;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -42,11 +41,11 @@
 
 .productNameContainer.nameWrapper {
     text-align: left;
-    padding: .5rem 0 .3rem 0!important;
+    padding: .5rem 0 .3rem 0 !important;
 }
 
 .nameContainer {
-    padding: 0!important;
+    padding: 0 !important;
     justify-content: left;
 }
 
@@ -69,19 +68,12 @@
     display: none !important;
 }
 
-.price_sellingPrice {
-    font-weight: 800;
-    color: red;
-    font-size: 1.20rem;
-    padding-left: 0;
-}
-
 .price_listPrice {
     font-weight: 700;
     font-size: .97rem;
     color: #b3b3b3;
     padding-right: .5rem;
-} 
+}
 
 .skuSelectorContainer {
     flex-flow: column-reverse;
@@ -91,27 +83,65 @@
 .price_sellingPriceContainer {
     padding: 0;
 }
+
 .frameAround {
     margin: 0;
     padding: 0;
 }
 
 .skuSelectorInternalBox {
-    width: 33px;
-    height: 33px;
+    width: 25px;
+    height: 25px; 
     border-radius: 50px;
-    border: 1px solid #3f2016;
+    border: 1px solid #3f2016; 
+}
+
+.skuSelectorItemImage .skuSelectorInternalBox {
+    border: 0 !important;
 }
 
 .skuSelectorItemTextValue {
     padding: 0;
-    font-size: .8rem;
+    font-size: .8em;
+    font-weight: 800; 
 }
 
 .frameAround {
     margin: 0 !important;
 }
 
-.skuSelectorItemTextValue {
-    font-weight: 800;
+.element :global(.vtex-button) { 
+    margin-top: .7rem;
+    transition: all .5s ease;
+    opacity: 0;
+    background-color: #3F2016 !important;
 } 
+
+.element :global(.vtex-button):hover {
+    transition: all .5s ease;
+} 
+
+.element :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+
+.element:hover :global(.vtex-button) {
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox,
+.skuSelectorSubcontainer--talla .skuSelectorItem {
+    width: auto !important;
+    height: auto !important;
+} 
+ 
+.skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
+    padding: .4rem;
+} 
+ 
+@media (max-width: 991px) {
+    .element :global(.vtex-button) { 
+        opacity: 1 !important;
+    } 
+}
