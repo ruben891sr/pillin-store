@@ -24,6 +24,12 @@
     border-right: 1px solid #ccc;
 }
 
+.flexColChild--colNina,
+.flexColChild--colNino {
+    height: auto !important;
+    margin-bottom: 2rem;
+}
+
 .flexRowContent--main-header-mobile {
     display: flex;
     align-items: center;
@@ -149,4 +155,31 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.flexCol--vestuario-wrapper,
+.flexCol--calzado-wrapper,
+.flexCol--accesorios-wrapper {
+    margin-right: 2rem;
+    border-radius: 7px;
+    padding: 8rem 2.5rem 7rem 2.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexCol--accesorios-wrapper {
+    margin-right: 0;
+}
+
+.flexCol--vestuario-wrapper {
+    background-image: url(assets/img/infocard-vestuario.jpg);
+}
+
+.flexCol--calzado-wrapper {
+    background-image: url(assets/img/infocard-calzado.jpg);
+}
+
+.flexCol--accesorios-wrapper {
+    background-image: url(assets/img/infocard-accesorios.jpg);
 }

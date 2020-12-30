@@ -184,7 +184,7 @@ background: #eaf6ff;
 .link--topBarList-wishlist,
 .link--topBarList-club,
 .link--topBarList-login {
-    margin: 0 1.5rem;
+    margin: 0 1.3rem 0 1rem;
     color: #3f2016;
     font-size: .87em;
     text-decoration: none;
@@ -347,3 +347,86 @@ background: #eaf6ff;
     width: 100%;
 }
 
+.paragraph--botonVestuario,
+.paragraph--botonCalzado,
+.paragraph--botonAccesorios {
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    display: inline-block;
+    padding: .6rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.paragraph--botonVestuario::before,
+.paragraph--botonCalzado::before,
+.paragraph--botonAccesorios::before {
+    content: 'Buscar por:';
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 105%;
+    left: 0%;
+}
+
+.wrapper--tituloModal {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.paragraph--tituloModal {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
+    padding-left: 3rem;
+    z-index: 1;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.paragraph--tituloModal::before {
+    content: 'Comprar por talla:';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    color: #3f2016;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    padding-left: 3rem;
+}
+
+.paragraph--tituloModal::after {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateY(-50%);
+}
+
+.container--botonFiltrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph--botonFiltrar {
+    color: #fff;
+    background: #3f2016;
+    border: 1px solid #3f2016;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    padding: .5rem 1.7rem;
+}

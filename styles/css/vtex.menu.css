@@ -44,7 +44,7 @@
 
 .styledLinkContent--subSubMenuItem {
     color: #3f2016;
-    font-size: .9em !important;
+    font-size: .85em !important;
     font-weight: 500 !important;
     position: relative;
     padding-left: 1.3rem;
@@ -71,10 +71,11 @@
 .styledLinkContent--subcatTitulo-cal,
 .styledLinkContent--subcatTitulo-acc {
     font-weight: 800;
-    font-size: .95em;
+    font-size: .9em;
     color: #3f2016;
     margin-bottom: .4rem;
     position: relative;
+    padding-left: 1.5rem;
 }
 
 
@@ -84,17 +85,32 @@
 .styledLinkContent--subcatTitulo-acc::before {
     content: '';
     position: absolute;
-    left: 0;
+    left: -10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 40px;
-    height: 30px;
-    background-image: url(/assets/img/menu-icon);
+    width: 35px;
+    height: 25px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
 }
+
+.styledLinkContent--subcatTitulo-ves-nino::before {
+    background-image: url(assets/img/menu-icon-ves-nino.png);
+}
+
+.styledLinkContent--subcatTitulo-ves-nina::before {
+    background-image: url(assets/img/menu-icon-ves-nina.png);
+}
+
+.styledLinkContent--subcatTitulo-cal::before {
+    background-image: url(assets/img/menu-icon-cal.png);
+}
+
+.styledLinkContent--subcatTitulo-acc::before {
+    background-image: url(assets/img/menu-icon-acc.png);
+}
+
 
 .styledLink--newSeason {
     width: 6em;
@@ -375,6 +391,29 @@
 
 .menuContainer--drawerContainer .menuItem--subSubMenuItem {
     display: block;
+}
+
+.menuContainer--tabContentMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContainer--itemTalla {
+    margin: .5rem;
+    padding: 0;
+}
+
+.styledLinkContent--itemTalla {
+    border: 1px solid #3f2016;
+    border-radius: 4px;
+    line-height: 1;
+    padding: .7rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85em;
 }
 
 @media (max-width: 991.1px) {

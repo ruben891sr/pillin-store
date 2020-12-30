@@ -57,8 +57,8 @@
     },
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
-            "flex-layout.row#submenureciennacido",
-            "flex-layout.row#imagereciennacido"
+            "flex-layout.row#submenureciennacido"
+            // "flex-layout.row#imagereciennacido"
         ],
         "props": {
             "orientation": "vertical",
@@ -276,8 +276,8 @@
 
     "vtex.menu@2.x:submenu#bebe": {
         "children": [
-            "flex-layout.row#submenubebe",
-            "flex-layout.row#imagebebe"
+            "flex-layout.row#submenubebe"
+            // "flex-layout.row#imagebebe"
         ],
         "props": {
             "orientation": "vertical",
@@ -508,8 +508,8 @@
 
     "vtex.menu@2.x:submenu#ninno": {
         "children": [
-            "flex-layout.row#submenuninno",
-            "flex-layout.row#imageninno"
+            "flex-layout.row#submenuninno"
+            // "flex-layout.row#imageninno"
         ],
         "props": {
             "orientation": "vertical",
@@ -615,7 +615,7 @@
             "flex-layout.row#submenuninaninno"
         ],
         "props": {
-            "paddingLeft": 8,
+            "paddingLeft": 5,
             "blockClass": "colNina"
         }
     },

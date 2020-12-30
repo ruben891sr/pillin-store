@@ -1668,7 +1668,7 @@
 
   "menu-item#ninn-nina-vestuario-ropainteriorypijamas": {
     "props": {
-      "type": "custom", 
+      "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
@@ -1833,18 +1833,1261 @@
       "height": "100%",
       "blockClass": "imageMenu"
     }
+  },
+
+
+
+
+
+
+
+
+
+  // Búsqueda por talla
+
+  "vtex.menu@2.x:menu#ves-nino": {
+    "children": [
+      "menu-item#00",
+      "menu-item#1m",
+      "menu-item#3m",
+      "menu-item#6m",
+      "menu-item#9m",
+      "menu-item#12m",
+      "menu-item#18m",
+      "menu-item#24m",
+      "menu-item#36m",
+      "menu-item#2",
+      "menu-item#3",
+      "menu-item#4",
+      "menu-item#6",
+      "menu-item#8",
+      "menu-item#10",
+      "menu-item#12",
+      "menu-item#14",
+      "menu-item#16",
+      "menu-item#xs",
+      "menu-item#s",
+      "menu-item#m",
+      "menu-item#l",
+      "menu-item#xl"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+  },
+  "vtex.menu@2.x:menu#ves-nina": {
+    "children": [
+      "menu-item#00",
+      "menu-item#1m",
+      "menu-item#3m",
+      "menu-item#6m",
+      "menu-item#9m",
+      "menu-item#12m",
+      "menu-item#18m",
+      "menu-item#24m",
+      "menu-item#36m",
+      "menu-item#2",
+      "menu-item#3",
+      "menu-item#4",
+      "menu-item#6",
+      "menu-item#8",
+      "menu-item#10",
+      "menu-item#12",
+      "menu-item#14",
+      "menu-item#16",
+      "menu-item#xs",
+      "menu-item#s",
+      "menu-item#m",
+      "menu-item#l",
+      "menu-item#xl"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+  },
+
+  "vtex.menu@2.x:menu#cal-nino": {
+    "children": [
+      "menu-item#0-3m",
+      "menu-item#3-6m",
+      "menu-item#17",
+      "menu-item#18",
+      "menu-item#19",
+      "menu-item#20",
+      "menu-item#21",
+      "menu-item#22",
+      "menu-item#23",
+      "menu-item#24",
+      "menu-item#25",
+      "menu-item#26",
+      "menu-item#27",
+      "menu-item#28",
+      "menu-item#29",
+      "menu-item#30",
+      "menu-item#31",
+      "menu-item#32",
+      "menu-item#33",
+      "menu-item#34",
+      "menu-item#35",
+      "menu-item#36"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+
+  },
+  "vtex.menu@2.x:menu#cal-nina": {
+    "children": [
+      "menu-item#0-3m",
+      "menu-item#3-6m",
+      "menu-item#17",
+      "menu-item#18",
+      "menu-item#19",
+      "menu-item#20",
+      "menu-item#21",
+      "menu-item#22",
+      "menu-item#23",
+      "menu-item#24",
+      "menu-item#25",
+      "menu-item#26",
+      "menu-item#27",
+      "menu-item#28",
+      "menu-item#29",
+      "menu-item#30",
+      "menu-item#31",
+      "menu-item#32",
+      "menu-item#33",
+      "menu-item#34",
+      "menu-item#35",
+      "menu-item#36"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+
+  },
+  "vtex.menu@2.x:menu#calcetin": {
+    "children": [
+      "menu-item#TU",
+      "menu-item#NB",
+      "menu-item#0-6m",
+      "menu-item#6m",
+      "menu-item#6-12m",
+      "menu-item#9-12m",
+      "menu-item#15-17",
+      "menu-item#18-20",
+      "menu-item#21-23",
+      "menu-item#24-27",
+      "menu-item#28-31",
+      "menu-item#32-35",
+      "menu-item#36-38",
+      "menu-item#39-42"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+
+  },
+  "vtex.menu@2.x:menu#gorro": {
+    "children": [],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+  },
+  "vtex.menu@2.x:menu#cinturon": {
+    "children": [],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+  },
+  "vtex.menu@2.x:menu#otrosaccesorios": {
+    "children": [
+      "menu-item#baberosybandanas",
+      "menu-item#peluches",
+      "menu-item#pinchesycintillos",
+      "menu-item#toallasytutos",
+      "menu-item#mochilas"
+    ],
+    "props": {
+      "blockClass": "tabContentMenu"
+    }
+  },
+
+  // Tallas Vestuario
+
+  "menu-item#00": {
+    "props": {
+      "id": "menu-item-00",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "00",
+        "text": "00"
+      }
+    }
+  },
+  "menu-item#1m": {
+    "props": {
+      "id": "menu-item-1m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "1m",
+        "text": "1m"
+      }
+    }
+  },
+
+  "menu-item#3m": {
+    "props": {
+      "id": "menu-item-3m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "3m",
+        "text": "3m"
+      }
+    }
+  },
+
+  "menu-item#6m": {
+    "props": {
+      "id": "menu-item-6m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "6m",
+        "text": "6m"
+      }
+    }
+  },
+
+  "menu-item#9m": {
+    "props": {
+      "id": "menu-item-9m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "9m",
+        "text": "9m"
+      }
+    }
+  },
+
+  "menu-item#12m": {
+    "props": {
+      "id": "menu-item-12m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "12m",
+        "text": "12m"
+      }
+    }
+  },
+
+  "menu-item#18m": {
+    "props": {
+      "id": "menu-item-18m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "18m",
+        "text": "18m"
+      }
+    }
+  },
+
+  "menu-item#24m": {
+    "props": {
+      "id": "menu-item-24m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "24m",
+        "text": "24m"
+      }
+    }
+  },
+
+  "menu-item#36m": {
+    "props": {
+      "id": "menu-item-36m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "36m",
+        "text": "36m"
+      }
+    }
+  },
+
+  "menu-item#2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "2",
+        "text": "2"
+      }
+    }
+  },
+
+  "menu-item#3": {
+    "props": {
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "3",
+        "text": "3"
+      }
+    }
+  },
+
+  "menu-item#4": {
+    "props": {
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "4",
+        "text": "4"
+      }
+    }
+  },
+
+  "menu-item#6": {
+    "props": {
+      "id": "menu-item-6",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "6",
+        "text": "6"
+      }
+    }
+  },
+
+  "menu-item#8": {
+    "props": {
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "8",
+        "text": "8"
+      }
+    }
+  },
+
+  "menu-item#10": {
+    "props": {
+      "id": "menu-item-10",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "10",
+        "text": "10"
+      }
+    }
+  },
+
+  "menu-item#12": {
+    "props": {
+      "id": "menu-item-12",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "12",
+        "text": "12"
+      }
+    }
+  },
+
+  "menu-item#14": {
+    "props": {
+      "id": "menu-item-14",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "14",
+        "text": "14"
+      }
+    }
+  },
+
+  "menu-item#16": {
+    "props": {
+      "id": "menu-item-16",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "16",
+        "text": "16"
+      }
+    }
+  },
+
+  "menu-item#xs": {
+    "props": {
+      "id": "menu-item-xs",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "xs",
+        "text": "XS"
+      }
+    }
+  },
+
+  "menu-item#s": {
+    "props": {
+      "id": "menu-item-s",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "s",
+        "text": "S"
+      }
+    }
+  },
+
+  "menu-item#m": {
+    "props": {
+      "id": "menu-item-m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "m",
+        "text": "M"
+      }
+    }
+  },
+
+  "menu-item#l": {
+    "props": {
+      "id": "menu-item-l",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "l",
+        "text": "L"
+      }
+    }
+  },
+
+  "menu-item#xl": {
+    "props": {
+      "id": "menu-item-xl",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "xl",
+        "text": "XL"
+      }
+    }
+  },
+
+
+  // Tallas Calzado
+
+  "menu-item#0-3m": {
+    "props": {
+      "id": "menu-item-0-3m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "0-3m",
+        "text": "0-3m"
+      }
+    }
+  },
+
+  "menu-item#3-6m": {
+    "props": {
+      "id": "menu-item-3-6m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "3-6m",
+        "text": "3-6m"
+      }
+    }
+  },
+
+  "menu-item#17": {
+    "props": {
+      "id": "menu-item-17",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "17",
+        "text": "17"
+      }
+    }
+  },
+
+  "menu-item#18": {
+    "props": {
+      "id": "menu-item-17",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "17",
+        "text": "17"
+      }
+    }
+  },
+
+  "menu-item#19": {
+    "props": {
+      "id": "menu-item-19",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "19",
+        "text": "19"
+      }
+    }
+  },
+
+  "menu-item#20": {
+    "props": {
+      "id": "menu-item-20",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "20",
+        "text": "20"
+      }
+    }
+  },
+
+  "menu-item#21": {
+    "props": {
+      "id": "menu-item-21",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "21",
+        "text": "21"
+      }
+    }
+  },
+
+  "menu-item#22": {
+    "props": {
+      "id": "menu-item-22",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "22",
+        "text": "22"
+      }
+    }
+  },
+
+  "menu-item#23": {
+    "props": {
+      "id": "menu-item-23",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "23",
+        "text": "23"
+      }
+    }
+  },
+
+  "menu-item#24": {
+    "props": {
+      "id": "menu-item-24",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "24",
+        "text": "24"
+      }
+    }
+  },
+
+  "menu-item#25": {
+    "props": {
+      "id": "menu-item-25",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "25",
+        "text": "25"
+      }
+    }
+  },
+
+  "menu-item#26": {
+    "props": {
+      "id": "menu-item-26",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "26",
+        "text": "26"
+      }
+    }
+  },
+
+  "menu-item#27": {
+    "props": {
+      "id": "menu-item-27",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "27",
+        "text": "27"
+      }
+    }
+  },
+
+  "menu-item#28": {
+    "props": {
+      "id": "menu-item-28",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "28",
+        "text": "28"
+      }
+    }
+  },
+
+  "menu-item#29": {
+    "props": {
+      "id": "menu-item-29",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "29",
+        "text": "29"
+      }
+    }
+  },
+
+  "menu-item#30": {
+    "props": {
+      "id": "menu-item-30",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "30",
+        "text": "30"
+      }
+    }
+  },
+
+  "menu-item#31": {
+    "props": {
+      "id": "menu-item-31",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "31",
+        "text": "31"
+      }
+    }
+  },
+
+  "menu-item#32": {
+    "props": {
+      "id": "menu-item-32",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "32",
+        "text": "32"
+      }
+    }
+  },
+
+  "menu-item#33": {
+    "props": {
+      "id": "menu-item-33",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "33",
+        "text": "33"
+      }
+    }
+  },
+
+  "menu-item#34": {
+    "props": {
+      "id": "menu-item-34",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "34",
+        "text": "34"
+      }
+    }
+  },
+
+  "menu-item#35": {
+    "props": {
+      "id": "menu-item-35",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "35",
+        "text": "35"
+      }
+    }
+  },
+
+  "menu-item#36": {
+    "props": {
+      "id": "menu-item-36",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "36",
+        "text": "36"
+      }
+    }
+  },
+
+
+  "menu-item#TU": {
+    "props": {
+      "id": "menu-item-TU",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TU",
+        "text": "TU"
+      }
+    }
+  },
+
+  "menu-item#NB": {
+    "props": {
+      "id": "menu-item-NB",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "NB",
+        "text": "NB"
+      }
+    }
+  },
+
+  "menu-item#0-6m": {
+    "props": {
+      "id": "menu-item-0-6m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "0-6m",
+        "text": "0-6m"
+      }
+    }
+  },
+
+  "menu-item#6-12m": {
+    "props": {
+      "id": "menu-item-6-12m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "6-12m",
+        "text": "6-12m"
+      }
+    }
+  },
+
+  "menu-item#9-12m": {
+    "props": {
+      "id": "menu-item-9-12m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "9-12m",
+        "text": "9-12m"
+      }
+    }
+  },
+
+  "menu-item#15-17": {
+    "props": {
+      "id": "menu-item-15-17",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "15-17",
+        "text": "15-17"
+      }
+    }
+  },
+
+  "menu-item#18-20": {
+    "props": {
+      "id": "menu-item-18-20",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "18-20",
+        "text": "18-20"
+      }
+    }
+  },
+
+  "menu-item#21-23": {
+    "props": {
+      "id": "menu-item-21-23",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "21-23",
+        "text": "21-23"
+      }
+    }
+  },
+
+  "menu-item#24-27": {
+    "props": {
+      "id": "menu-item-24-27",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "24-27",
+        "text": "24-27"
+      }
+    }
+  },
+
+  "menu-item#28-31": {
+    "props": {
+      "id": "menu-item-28-31",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "28-31",
+        "text": "28-31"
+      }
+    }
+  },
+
+  "menu-item#32-35": {
+    "props": {
+      "id": "menu-item-32-35",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "32-35",
+        "text": "32-35"
+      }
+    }
+  },
+
+  "menu-item#36-38": {
+    "props": {
+      "id": "menu-item-36-38",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "36-38",
+        "text": "36-38"
+      }
+    }
+  },
+
+  "menu-item#39-42": {
+    "props": {
+      "id": "menu-item-39-42",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "39-42",
+        "text": "39-42"
+      }
+    }
+  },
+
+  "menu-item#baberosybandanas": {
+    "props": {
+      "id": "menu-item-baberosybandanas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "baberosybandanas",
+        "text": "Baberos y bandanas"
+      }
+    }
+  },
+
+  "menu-item#peluches": {
+    "props": {
+      "id": "menu-item-peluches",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "peluches",
+        "text": "Peluches"
+      }
+    }
+  },
+
+  "menu-item#pinchesycintillos": {
+    "props": {
+      "id": "menu-item-pinchesycintillos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pinchesycintillos",
+        "text": "Pinches y cintillos"
+      }
+    }
+  },
+
+  "menu-item#toallasytutos": {
+    "props": {
+      "id": "menu-item-toallasytutos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "toallasytutos",
+        "text": "Toallas y tutos"
+      }
+    }
+  },
+
+  "menu-item#mochilas": {
+    "props": {
+      "id": "menu-item-mochilas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "mochilas",
+        "text": "Mochilas"
+      }
+    }
   }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
