@@ -1,0 +1,11 @@
+.installments--summary {
+    display: none!important;
+}
+
+.sellingPriceValue--summary {
+    font-weight: 800;
+    color: red;
+    font-size: 1em;
+    padding-left: 0;
+    padding-bottom: .3rem;
+}
