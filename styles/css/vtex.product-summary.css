@@ -1,4 +1,4 @@
-/* .imageNormal.image {
+ .imageNormal.image {
     padding: 3rem 0;
     width: 100%;
     height: 100%;
@@ -66,14 +66,6 @@
 .price_listPriceLabel,
 .price_sellingPriceLabel {
     display: none !important;
-}
-
-.price_sellingPrice {
-    font-weight: 800;
-    color: red;
-    font-size: 1em;
-    padding-left: 0;
-    padding-bottom: .3rem;
 }
 
 .price_listPrice {
@@ -145,11 +137,11 @@
 } 
  
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
-    padding: .4rem .6rem;
+    padding: .4rem;
 } 
  
 @media (max-width: 991px) {
     .element :global(.vtex-button) { 
         opacity: 1 !important;
     } 
-} */
+}
