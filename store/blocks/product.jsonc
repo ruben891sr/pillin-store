@@ -62,7 +62,8 @@
       "product-quantity",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "product-availability"
     ]
   },
 
@@ -78,7 +79,17 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"] 
+    "children": ["add-to-cart-button"]
+  },
+
+  //Productos Disponibles
+  "product-availability": {
+    "props": {
+      "threshold": "5",
+      "lowStockMessage": "Sólo quedan {quantity} productos!",
+      "highStockMessage": "Item in stock!"
+    },
+    "component": "ProductAvailability"
   }
 
 
@@ -92,6 +103,4 @@
   //     }
   //   }
   // }
-
-
 }
