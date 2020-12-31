@@ -80,16 +80,6 @@
       "marginBottom": 7
     },
     "children": ["add-to-cart-button"]
-  },
-
-  //Productos Disponibles
-  "product-availability": {
-    "props": {
-      "threshold": "5",
-      "lowStockMessage": "Sólo quedan {quantity} productos!",
-      "highStockMessage": "Item in stock!"
-    },
-    "component": "ProductAvailability"
   }
 
 

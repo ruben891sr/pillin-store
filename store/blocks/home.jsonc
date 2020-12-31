@@ -11,7 +11,7 @@
     "children": [
       "slider-layout#text-test",
       "flex-layout.row#infocards-icons",
-      "flex-layout.row#infocards",
+      //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
       "flex-layout.row#shelf-home",
       "flex-layout.row#banners"
@@ -534,7 +534,7 @@
   "tab-list.item#calcetin": {
     "props": {
       "tabId": "calcetin",
-      "label": "Calcetin"
+      "label": "Calcetín"
     }
   },
 
@@ -548,7 +548,7 @@
   "tab-list.item#cinturon": {
     "props": {
       "tabId": "cinturon",
-      "label": "Cinturon"
+      "label": "Cinturón"
     }
   },
 
