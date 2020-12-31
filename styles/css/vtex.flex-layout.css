@@ -183,3 +183,8 @@
 .flexCol--accesorios-wrapper {
     background-image: url(assets/img/infocard-accesorios.jpg);
 }
+
+/*PDP*/
+.flexRow--Row-BreadCrumb {
+    border-bottom: 1px solid #b7b7b7;
+}

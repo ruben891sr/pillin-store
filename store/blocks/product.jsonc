@@ -12,7 +12,9 @@
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4,
-      "blockClass": "Row-BreadCrumb"
+      "blockClass": "Row-BreadCrumb",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
     },
     "children": ["breadcrumb"]
   },
@@ -73,7 +75,11 @@
       "showSavings": true
     }
   },
- 
+  // "sku-selector": {
+  //   "props":{
+  //     "visibility": "more-than-one"
+  //   }
+  // },
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
