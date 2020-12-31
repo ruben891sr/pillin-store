@@ -21,3 +21,21 @@
 .orderByOptionItem:hover {
     background: #ede3ce;
 }
+.filterPopupTitle {
+    font-weight: 800;
+}
+.filterPopupButton,
+.filtersWrapperMobile {
+    outline: none;
+}
+/*Filtro PLP*/
+/* .filterPopupTitle::before {
+    content: "";
+    background: url(assets/img/icon-filter-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+} */

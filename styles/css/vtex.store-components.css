@@ -318,6 +318,12 @@
     padding: 0 !important;
 }
 
+.skuSelectorItem--selected .frameAround {
+    border: solid .5px white;
+    box-shadow: 0 0 5px 0 #000000;
+    border-radius: 25px;
+}
+
 /* .frameAround {
     margin: 0;
     position: absolute;

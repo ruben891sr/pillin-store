@@ -143,7 +143,7 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
+      "flex-layout.row#searchbreadMobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -166,21 +166,13 @@
 
   "flex-layout.row#searchinfomobile": {
     "children": [
-      "flex-layout.col#orderByMobile",
       "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#orderByMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "colJustify": "around"
-    }
-  },
-
-  "flex-layout.col#orderByMobile": {
-    "children": ["order-by.v2"],
-    "props": {
-      "blockClass": "orderByMobileCol"
     }
   },
 
@@ -190,13 +182,30 @@
       "blockClass": "productCountMobileRow"
     }
   },
-
   "flex-layout.col#filterMobile": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "blockClass": "filterMobileCol"
+      "blockClass": "filterMobileCol",
+      "width": "49%"
     }
   },
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByMobileCol",
+      "width": "49%",
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.row#searchbreadMobile": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "breadCrumb-Mobile"
+    }
+  },
+
   "flex-layout.col#switcherMobile": {
     "children": ["search-layout-switcher"],
     "props": {

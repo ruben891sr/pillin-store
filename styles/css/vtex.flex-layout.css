@@ -183,3 +183,9 @@
 .flexCol--accesorios-wrapper {
     background-image: url(assets/img/infocard-accesorios.jpg);
 }
+/*PLP Mobile*/
+.flexCol--filterMobileCol,
+.flexCol--orderByMobileCol {
+    border: 1px solid #441e13;
+    border-radius: 3px;
+}
