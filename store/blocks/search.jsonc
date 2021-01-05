@@ -63,6 +63,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
+      "flex-layout.row#banner-plp",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -80,6 +81,17 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "flex-layout.row#banner-plp": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
     }
   },
   "flex-layout.row#searchtitle": {
