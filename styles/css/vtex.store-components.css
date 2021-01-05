@@ -342,6 +342,9 @@
     font-weight: 700;
     letter-spacing: .1px;
 }
+.priceContainer {
+    margin: 15px 0 10px 0;
+}
 .sellingPriceValue {
     color: #c1272d;
 }
