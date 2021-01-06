@@ -1,0 +1,14 @@
+.wishlistIconContainer::after {
+    content: "Agregar a tu lista de favoritos";
+    display: inline-block;
+    color: #441e13;
+}
+.outline {
+    background: url(assets/img/icon-wishlist.svg);
+}
+.iconSize {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+}

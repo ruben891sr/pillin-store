@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "flex-layout.row#shelf-related"
       // "shelf.relatedProducts"
     ]
   },
@@ -12,7 +13,9 @@
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4,
-      "blockClass": "Row-BreadCrumb"
+      "blockClass": "Row-BreadCrumb",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
     },
     "children": ["breadcrumb"]
   },
@@ -36,7 +39,7 @@
       "width": "60%",
       "rowGap": 0
     },
-    "children": ["product-images"]
+    "children": ["product-images","product-description#descriptionPDP"]
   },
 
   "product-images": {
@@ -44,6 +47,9 @@
       "displayThumbnailsArrows": true,
       "zoomMode": "in-place-hover"
     }
+  },
+  "product-description#descriptionPDP": {
+    "title": "Descripción"
   },
 
   // Detalles del Producto
@@ -58,11 +64,12 @@
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
-      "sku-selector",
-      "product-quantity",
-      "flex-layout.row#buy-button",
+      "sku-selector#PDP",
+      "flex-layout.col#guia-de-tallas",
+      "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
-      "shipping-simulator",
+      "flex-layout.row#wishlist",
+      "flex-layout.row#simulador-entrega",
       "product-availability"
     ]
   },
@@ -73,23 +80,196 @@
       "showSavings": true
     }
   },
- 
-  "flex-layout.row#buy-button": {
+  "sku-selector#PDP": {
+    "props":{
+      "blockClass": "skuSelectorPDP",
+      "visibleVariations": ["Talla","Color"]
+    }
+  },
+
+  // Guia de Tallas
+  "flex-layout.col#guia-de-tallas": {
+    "props":{
+      "blockClass": "btn-GuiaDeTallas"
+    },
+    "children": ["rich-text#guiaTallas"]
+  },
+  "rich-text#guiaTallas":{
+    "props":{
+      "text": "Guía de Tallas",
+      "blockClass": "textGuiadeTallas"
+    }
+  },
+
+  // Cantidad y btn Agregar al carro
+  "flex-layout.row#quantity-buy-button":{
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 5,
+      "preventVerticalStretch": true
     },
-    "children": ["add-to-cart-button"]
+    "children": ["flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
+  },
+
+  "flex-layout.col#productQuantity": {
+    "props":{
+      "blockClass": "colProductQuantity",
+      "width": "30%"
+    },
+    "children":["product-quantity"]
+  },
+
+  "flex-layout.col#add-to-cart":{
+    "props":{
+      "marginTop": 1,
+      "verticalAlign": "middle",
+      "width": "40%"
+    },
+    "children":["add-to-cart-button"]
+  },
+  "add-to-cart-button": {
+    "props":{
+      "text": "Agregar al Carro",
+      "onClickBehavior": "add-to-cart"
+    }
+  },
+  
+  //Wishlist
+  "flex-layout.row#wishlist": {
+    "props":{
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.col#colWishList"]
+  },
+  "flex-layout.col#colWishList":{
+    "props":{
+      "blockClass": "colWishList"
+    },
+    "children": ["add-to-list-btn"]
+  },
+
+  //Simula tu entrega
+  "flex-layout.row#simulador-entrega":{
+    "props":{
+      "horizontalAlign":"left",
+      "verticalAlign":"middle",
+      "marginTop": 4
+    },
+    "children":["flex-layout.col#retiroTienda","flex-layout.col#despachoDomicilio"]
+  },
+
+  "flex-layout.col#retiroTienda":{
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true,
+      "borderColor": "#e1e1e1",
+      "borderWidth": 1,
+      "border": "bottom",
+      "blockClass": "colSimuladorEntrega"
+    },
+    "children":["image#icon-tienda","rich-text#retiroEnTienda"]
+  },
+
+  "image#icon-tienda": {
+    "props":{
+      "src": "assets/img/icon-retiroTienda.svg",
+      "alt": "Retiro en Tienda",
+      "maxWidth": "35px",
+      "maxHeight": "35px",
+      "link": "#",
+      "title": "Retiro en tienda"
+    }
+  },
+
+  "rich-text#retiroEnTienda": {
+    "props":{
+      "text": "Retiro en Tienda",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textSimulador"
+    }
+  },
+
+  "flex-layout.col#despachoDomicilio": {
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true,
+      "borderColor": "#e1e1e1",
+      "borderWidth": 1,
+      "border": "bottom",
+      "blockClass": "colSimuladorEntrega"
+    },
+    "children": [
+      "image#icon-despacho",
+      "disclosure-layout#despacho"
+    ]
+  },
+
+  //icono despacho a domicilio
+  "image#icon-despacho": {
+    "props":{
+      "src": "assets/img/icon-despachoDomicilio.svg",
+      "alt": "Despacho a domicilio",
+      "maxWidth": "35px",
+      "maxHeight": "35px",
+      "title": "Despacho a Domicilio"
+    }
+  },
+
+  //Disclosure-Despacho a domicilio
+  "disclosure-layout#despacho": {
+    "children": [
+      "disclosure-trigger#despacho",
+      "disclosure-content#despacho"
+    ]
+  },
+  "disclosure-trigger#despacho": {
+    "children": ["rich-text#question"]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "Despacho a Domicilio"
+    }
+  },
+  "disclosure-content#despacho": {
+    "children": [
+      "shipping-simulator"
+    ]
+  },
+
+
+  // "rich-text#despachoDomicilio": {
+  //   "props":{
+  //     "text": "Despacho a Domicilio",
+  //     "textAlignment": "LEFT",
+  //     "textPosition": "CENTER",
+  //     "blockClass": "textSimulador"
+  //   }
+  // },
+
+  // "shipping-simulator":{
+    
+  // },
+
+  // Productos Relacionados
+  "flex-layout.row#shelf-related": {
+    "children":["flex-layout.col#relatedProducts"]
+  },
+
+  "flex-layout.col#relatedProducts":{
+    "props":{
+      "blockClass": "productosRecomendados"
+    },
+    "children": ["shelf.relatedProducts"]
   }
-
-
-  //Productos Relacionados
   // "shelf.relatedProducts": {
   //   "props": {
   //     "recommendation": "view",
   //     "productList": {
-  //       "titleText": "Who saw also saw",
-  //       "itemsPerPage": 3
+  //       "titleText": "Productos Recomendados",
+  //       "itemsPerPage": 5
   //     }
   //   }
   // }

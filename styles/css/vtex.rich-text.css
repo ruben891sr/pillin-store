@@ -430,3 +430,14 @@ background: #eaf6ff;
     margin-top: 1.5rem;
     padding: .5rem 1.7rem;
 }
+/* PDP */
+.paragraph--textGuiadeTallas {
+    background: #ffaa71;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.paragraph--textSimulador {
+    margin-left: 5px;
+}
