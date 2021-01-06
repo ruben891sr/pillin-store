@@ -139,7 +139,36 @@
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
     padding: .4rem;
 } 
- 
+
+.information {
+    height: auto !important;
+}
+
+
+.clearLink {
+    flex-direction: row !important;
+}
+
+.containerNormal--summaryBusqueda {
+    margin: 0;
+}
+
+.container--summaryBusqueda {
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0 3rem;
+}
+
+.image--imageBusqueda {
+    padding: .5rem 0 !important;
+    width: 5rem !important;
+}
+
+.element--summaryBusqueda {
+    width: 100%;
+    max-width: 100%;
+}
+
 @media (max-width: 991px) {
     .element :global(.vtex-button) { 
         opacity: 1 !important;

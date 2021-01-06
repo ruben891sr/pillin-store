@@ -584,7 +584,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niño](www.sr-consultores.com)",
+      "text": "[Niño](/bebe--18m-a-3-/nino?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nino/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nino)",
       "blockClass": "tituloMenuNino"
     }
   },
@@ -594,7 +594,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niña](www.sr-consultores.com)",
+      "text": "[Niña](/bebe--18m-a-3-/nina?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nina/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nina)",
       "blockClass": "tituloMenuNina"
     }
   },
@@ -1247,7 +1247,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niño](www.sr-consultores.com)",
+      "text": "[Niño](/nino/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion&operator=and)",
       "blockClass": "tituloMenuNino"
     }
   },
@@ -1257,7 +1257,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niña](www.sr-consultores.com)",
+      "text": "[Niña](/nina/ninos--4-a-16-/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion,agrupacion&operator=and)",
       "blockClass": "tituloMenuNina"
     }
   },
@@ -1839,6 +1839,350 @@
 
 
 
+  // Recien Nacido 
+  "menu-item#todo-rn-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-todo-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido-nino",
+        "text": "Todo recién nacido"
+      }
+    }
+  },
+  // Recien Nacido Todo Niño
+  "menu-item#reciennacido-todo-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-todonino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/niño?fuzzy=0&map=ft,agrupacion&operator=and&query=/niño/recien-nacido--00-a-12m-",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niño recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nino-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/vestuario",
+        "text": "Todo vestuario niño recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nino-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/recien-nacido--00-a-12m-",
+        "text": "Todo calzado niño recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nino-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-",
+        "text": "Todo accesorio niño recién nacido"
+      }
+    }
+  },
+  // Recien Nacido Todo Niña
+  "menu-item#reciennacido-todo-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-rn-todonina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/niña?_q=niña&fuzzy=0&map=ft,agrupacion&operator=and&query=/niña/recien-nacido--00-a-12m-",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niña recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nina-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/vestuario",
+        "text": "Todo vestuario niña recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nina-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/recien-nacido--00-a-12m-",
+        "text": "Todo calzado niña recién nacido"
+      }
+    }
+  },
+  "menu-item#rn-nina-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/recien-nacido--00-a-12m-",
+        "text": "Todo accesorio niña recién nacido"
+      }
+    }
+  },
+
+
+  // Bebé  
+  "menu-item#todo-bb-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-todo-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido-nino",
+        "text": "Todo bebé"
+      }
+    }
+  },
+  // Bebé Todo Niño
+  "menu-item#bb-todo-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-todonino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebe--18m-a-3-/nino?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nino/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nino",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niño bebé"
+      }
+    }
+  },
+  "menu-item#bb-nino-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nino/vestuario",
+        "text": "Todo vestuario niño bebé"
+      }
+    }
+  },
+  "menu-item#bb-nino-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
+        "text": "Todo calzado niño bebé"
+      }
+    }
+  },
+  "menu-item#bb-nino-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
+        "text": "Todo accesorio niño bebé"
+      }
+    }
+  },
+  // Bebé Todo Niña
+  "menu-item#bb-todo-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-vv-todonina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebe--18m-a-3-/nina?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nina/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nina",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niña bebé"
+      }
+    }
+  },
+  "menu-item#bb-nina-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nina/vestuario",
+        "text": "Todo vestuario niña bebé"
+      }
+    }
+  },
+  "menu-item#bb-nina-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
+        "text": "Todo calzado niña bebé"
+      }
+    }
+  },
+  "menu-item#bb-nina-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "text": "Todo accesorio niña bebé"
+      }
+    }
+  },
+
+
+  // Kids 
+  "menu-item#todo-ninn-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-todo-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "recien-nacido-nino",
+        "text": "Todo niños"
+      }
+    }
+  },
+  // Kids Todo Niño
+  "menu-item#ninn-todo-nino-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-todonino-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion&operator=and",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niño niños"
+      }
+    }
+  },
+  "menu-item#ninn-nino-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/ninos--4-a-16-/vestuario",
+        "text": "Todo vestuario niño niños"
+      }
+    }
+  },
+  "menu-item#ninn-nino-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
+        "text": "Todo calzado niño niños"
+      }
+    }
+  },
+  "menu-item#ninn-nino-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
+        "text": "Todo accesorio niño niños"
+      }
+    }
+  },
+  // Kids Todo Niña
+  "menu-item#ninn-todo-nina-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-ninn-nina-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nina/ninos--4-a-16-/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion,agrupacion&operator=and",
+        "noFollow": false,
+        "tagTitle": "reciennacido-nino-vestuario",
+        "text": "Todo niña niños"
+      }
+    }
+  },
+  "menu-item#ninn-nina-todo-ves": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/ninos--4-a-16-/vestuario",
+        "text": "Todo vestuario niña niños"
+      }
+    }
+  },
+  "menu-item#ninn-nina-todo-cal": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
+        "text": "Todo calzado niña niños"
+      }
+    }
+  },
+  "menu-item#ninn-nina-todo-accs": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
+        "text": "Todo accesorio niña niños"
+      }
+    }
+  },
+
+
+
+
+
+
+
 
 
 
@@ -1873,6 +2217,7 @@
     ],
     "props": {
       "blockClass": "tabContentMenu"
+      // vestuario-map=c__talla-specificationFilter_30__nino-specificationFilter_45
     }
   },
   "vtex.menu@2.x:menu#ves-nina": {
@@ -1903,6 +2248,7 @@
     ],
     "props": {
       "blockClass": "tabContentMenu"
+      // vestuario-map=c__talla-specificationFilter_30__nina-specificationFilter_45
     }
   },
 
@@ -1933,6 +2279,7 @@
     ],
     "props": {
       "blockClass": "tabContentMenu"
+      // calzado-map=c__talla-specificationFilter_34__nino-specificationFilter_46
     }
 
   },
@@ -2020,7 +2367,7 @@
       "id": "menu-item-00",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "00-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2036,7 +2383,7 @@
       "id": "menu-item-1m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "1M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2053,7 +2400,7 @@
       "id": "menu-item-3m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "3M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2070,7 +2417,7 @@
       "id": "menu-item-6m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "6M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2087,7 +2434,7 @@
       "id": "menu-item-9m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "9M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2104,7 +2451,7 @@
       "id": "menu-item-12m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "12M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2121,7 +2468,7 @@
       "id": "menu-item-18m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "18M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2138,7 +2485,7 @@
       "id": "menu-item-24m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "24M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2155,7 +2502,7 @@
       "id": "menu-item-36m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "36M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2172,7 +2519,7 @@
       "id": "menu-item-2",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "2-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2189,7 +2536,7 @@
       "id": "menu-item-3",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "3-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2206,7 +2553,7 @@
       "id": "menu-item-4",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "4-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2223,7 +2570,7 @@
       "id": "menu-item-6",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "6-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2240,7 +2587,7 @@
       "id": "menu-item-8",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "8-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2257,7 +2604,7 @@
       "id": "menu-item-10",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "10-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2274,7 +2621,7 @@
       "id": "menu-item-12",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "12-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2291,7 +2638,7 @@
       "id": "menu-item-14",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "14-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2308,7 +2655,7 @@
       "id": "menu-item-16",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "16-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2325,7 +2672,7 @@
       "id": "menu-item-xs",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "XS-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2342,7 +2689,7 @@
       "id": "menu-item-s",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "S-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2359,7 +2706,7 @@
       "id": "menu-item-m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "M-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2376,7 +2723,7 @@
       "id": "menu-item-l",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "L-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2393,7 +2740,7 @@
       "id": "menu-item-xl",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "XL-specificationFilter_30",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2413,7 +2760,7 @@
       "id": "menu-item-0-3m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "0-3M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2430,7 +2777,7 @@
       "id": "menu-item-3-6m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "3-6M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2447,7 +2794,7 @@
       "id": "menu-item-17",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "17-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2464,7 +2811,7 @@
       "id": "menu-item-17",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "17-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2481,7 +2828,7 @@
       "id": "menu-item-19",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "19-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2498,7 +2845,7 @@
       "id": "menu-item-20",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "20-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2515,7 +2862,7 @@
       "id": "menu-item-21",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "21-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2532,7 +2879,7 @@
       "id": "menu-item-22",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "22-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2549,7 +2896,7 @@
       "id": "menu-item-23",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "23-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2566,7 +2913,7 @@
       "id": "menu-item-24",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "24-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2583,7 +2930,7 @@
       "id": "menu-item-25",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "25-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2600,7 +2947,7 @@
       "id": "menu-item-26",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "26-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2617,7 +2964,7 @@
       "id": "menu-item-27",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "27-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2634,7 +2981,7 @@
       "id": "menu-item-28",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "28-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2651,7 +2998,7 @@
       "id": "menu-item-29",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "29-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2668,7 +3015,7 @@
       "id": "menu-item-30",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "30-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2685,7 +3032,7 @@
       "id": "menu-item-31",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "31-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2702,7 +3049,7 @@
       "id": "menu-item-32",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "32-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2719,7 +3066,7 @@
       "id": "menu-item-33",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "33-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2736,7 +3083,7 @@
       "id": "menu-item-34",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "34-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2753,7 +3100,7 @@
       "id": "menu-item-35",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "35-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -2770,7 +3117,7 @@
       "id": "menu-item-36",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "36-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",

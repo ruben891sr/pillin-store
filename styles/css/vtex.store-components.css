@@ -313,10 +313,21 @@
     padding: .4rem;
 }
 
-
 .flexRow--rowDrawer .logoContainer--logoCol {
     padding: 0 !important;
 }
+
+.portalContainer {
+    top: 17px !important;
+}
+
+.flexColChild--summaryBusquedaButton :global(.vtex-button) {
+    opacity: 1 !important;
+    color: #fff !important;
+    padding: .4rem 1.5rem;
+    font-size: .9em;
+}
+
 
 /* .frameAround {
     margin: 0;
