@@ -328,8 +328,8 @@
 } */
 
 /* PDP */
-.skuSelectorSubcontainer--talla,
-.skuSelectorSubcontainer--color {
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color {
     padding: 15px 0;
     border-bottom: solid 1px #e1e1e1;
 }
@@ -348,11 +348,30 @@
 .sellingPriceValue {
     color: #c1272d;
 }
-.skuSelectorTextContainer {
+.skuSelectorContainer--skuSelectorPDP .skuSelectorTextContainer {
     display: block;
 }
-.skuSelectorName {
+.skuSelectorContainer--skuSelectorPDP .skuSelectorName {
     overflow: visible;
+}
+/*Descripcion*/
+.productDescriptionContainer {
+    margin-top: 2.5rem;
+}
+.productDescriptionContainer .productDescriptionTitle {
+    font-weight: 700;
+    font-size: 25px;
+    color: #441e13;
+}
+.productDescriptionContainer .productDescriptionText {
+    color: #000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.skuSelectorContainer .skuSelectorTextContainer,
+.skuSelectorContainer .skuSelectorName {
+    display: none;
 }
 
 @media (max-width: 991px) {

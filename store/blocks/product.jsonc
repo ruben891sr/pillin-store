@@ -39,7 +39,7 @@
       "width": "60%",
       "rowGap": 0
     },
-    "children": ["product-images"]
+    "children": ["product-images","product-description#descriptionPDP"]
   },
 
   "product-images": {
@@ -47,6 +47,9 @@
       "displayThumbnailsArrows": true,
       "zoomMode": "in-place-hover"
     }
+  },
+  "product-description#descriptionPDP": {
+    "title": "Descripción"
   },
 
   // Detalles del Producto
@@ -61,7 +64,7 @@
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
-      "sku-selector",
+      "sku-selector#PDP",
       "flex-layout.col#guia-de-tallas",
       "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
@@ -75,6 +78,12 @@
     "props": {
       "showInstallments": true,
       "showSavings": true
+    }
+  },
+  "sku-selector#PDP": {
+    "props":{
+      "blockClass": "skuSelectorPDP",
+      "visibleVariations": ["Talla","Color"]
     }
   },
 
@@ -98,8 +107,6 @@
       "marginTop": 4,
       "marginBottom": 5,
       "preventVerticalStretch": true
-      // "fullWidth": false,
-      // "preventHorizontalStretch": false,
     },
     "children": ["flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
   },
@@ -119,6 +126,12 @@
       "width": "40%"
     },
     "children":["add-to-cart-button"]
+  },
+  "add-to-cart-button": {
+    "props":{
+      "text": "Agregar al Carro",
+      "onClickBehavior": "add-to-cart"
+    }
   },
   
   //Wishlist
