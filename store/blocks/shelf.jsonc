@@ -1,6 +1,6 @@
 {
   "shelf": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#general"],
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,

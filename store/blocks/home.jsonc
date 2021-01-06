@@ -321,7 +321,7 @@
       "rich-text#filtrar-vestuario"
     ],
     "props": {
-      "blockClass": "modalVestuario"
+      "blockClass": "vestuario-map=c__talla-specificationFilter_30__nino-specificationFilter_45__nina-specificationFilter_45"
     }
   },
 
@@ -356,14 +356,16 @@
     "props": {
       "tabId": "ves-nino",
       "label": "Niño",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "vestuario-map=c__nino-specificationFilter_45"
     }
   },
 
   "tab-list.item#ves-nina": {
     "props": {
       "tabId": "ves-nina",
-      "label": "Niña"
+      "label": "Niña",
+      "blockClass": "vestuario-map=c__nina-specificationFilter_45"
     }
   },
 
@@ -395,7 +397,7 @@
 
   "rich-text#filtrar-vestuario": {
     "props": {
-      "blockClass": "botonFiltrar",
+      "blockClass": "botonFiltrar-vestuario",
       "text": "Filtrar"
     }
   },
@@ -410,7 +412,7 @@
       "rich-text#filtrar-calzado"
     ],
     "props": {
-      "blockClass": "modalcalzado"
+      "blockClass": "calzado-map=c__talla-specificationFilter_34__nino-specificationFilter_46__nina-specificationFilter_46"
     }
   },
 
@@ -445,14 +447,16 @@
     "props": {
       "tabId": "cal-nino",
       "label": "Niño",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "calzado-map=c__nino-specificationFilter_46"
     }
   },
 
   "tab-list.item#cal-nina": {
     "props": {
       "tabId": "cal-nina",
-      "label": "Niña"
+      "label": "Niña",
+      "blockClass": "calzado-map=c__nina-specificationFilter_46"
     }
   },
 

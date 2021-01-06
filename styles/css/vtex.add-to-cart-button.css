@@ -20,7 +20,7 @@
 
 .buttonText::before {
     content: 'Agregar al carro';
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .04;
     transition: all .5s ease;
