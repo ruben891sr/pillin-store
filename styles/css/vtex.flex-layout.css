@@ -183,15 +183,3 @@
 .flexCol--accesorios-wrapper {
     background-image: url(assets/img/infocard-accesorios.jpg);
 }
-
-/*PDP*/
-.flexRow--Row-BreadCrumb {
-    border-bottom: 1px solid #dddddd;
-}
-
-.flexCol--colSimuladorEntrega {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: inherit;
-}
