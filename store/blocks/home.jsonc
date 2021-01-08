@@ -321,7 +321,7 @@
       "rich-text#filtrar-vestuario"
     ],
     "props": {
-      "blockClass": "vestuario-map=c__talla-specificationFilter_30__nino-specificationFilter_45__nina-specificationFilter_45"
+      "blockClass": "vestuario-map=c---talla-specificationFilter_30---nino-specificationFilter_4---nina-specificationFilter_45"
     }
   },
 
@@ -412,7 +412,7 @@
       "rich-text#filtrar-calzado"
     ],
     "props": {
-      "blockClass": "calzado-map=c__talla-specificationFilter_34__nino-specificationFilter_46__nina-specificationFilter_46"
+      "blockClass": "calzado-map=c---talla-specificationFilter_34---nino-specificationFilter_46---nina-specificationFilter_46"
     }
   },
 

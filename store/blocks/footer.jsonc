@@ -15,30 +15,30 @@
     "children": [
       "flex-layout.row#footer-mobile"
     ],
-    "props":{
+    "props": {
       "blockClass": "mainrow-footer-mobile",
       "fullWidth": true
     }
   },
   "flex-layout.row#footer-mobile": {
     "children": [
-      "flex-layout.row#club-pillin",
+      "flex-layout.row#club-pillin-mobile",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
     ],
-    "props":{
+    "props": {
       "blockClass": "row-footer-mobile",
       "fullWidth": true
-      
+
     }
   },
 
   "flex-layout.row#club-pillin": {
     "children": [
       "flex-layout.col#title-text-pillin",
-      "flex-layout.col#banners.club-pillin"
+      "flex-layout.col#banners-club-pillin"
     ],
     "props": {
       "blockClass": "clubPillin",
@@ -60,7 +60,7 @@
     }
   },
 
-  "flex-layout.col#banners.club-pillin": {
+  "flex-layout.col#banners-club-pillin": {
     "children": [
       "flex-layout.row#row-banners",
       "flex-layout.row#row-button"
@@ -82,6 +82,18 @@
     ],
     "props": {
       "blockClass": "rowBanners"
+    }
+  },
+
+  "flex-layout.row#row-banners-mobile": {
+    "children": [
+      "image#club-pillin-1",
+      "image#club-pillin-2",
+      "image#club-pillin-3"
+    ],
+    "props": {
+      "blockClass": "rowBanners-mobile",
+      "colSizing": "auto"
     }
   },
 
@@ -118,6 +130,29 @@
       "text": "Al unirte obtendrás un 10% Dcto en tu primera compra. Además accedes a varios beneficios"
     }
   },
+
+  "flex-layout.row#club-pillin-mobile": {
+    "children": [
+      "flex-layout.col#title-text-pillin",
+      "flex-layout.col#banners-club-pillin-mobile"
+    ],
+    "props": {
+      "blockClass": "clubPillin-mobile"
+    }
+  },
+
+  "flex-layout.col#banners-club-pillin-mobile": {
+    "children": [
+      "flex-layout.row#row-banners-mobile",
+      "flex-layout.row#row-button"
+    ],
+    "props": {
+      "blockClass": "colBannersPillin-mobile",
+      "verticalAlign": "middle"
+    }
+  },
+
+
 
   "newsletter": {
     "props": {
@@ -158,6 +193,10 @@
     }
   },
 
+
+
+
+
   "rich-text#ver-mas-pillin": {
     "props": {
       "blockClass": "cp-buttonVerMas",
@@ -184,14 +223,17 @@
       "iframe"
     ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "rowInsta"
     }
   },
 
   "sandbox.product": {
     "props": {
       "initialContent": "<script src='https://cdn.lightwidget.com/widgets/lightwidget.js'></script>",
-      "allowCookies": true
+      "allowCookies": true,
+      "blockClass": "scriptInsta",
+      "height": "0px"
     }
   },
 

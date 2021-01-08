@@ -526,5 +526,33 @@
         margin-top: 2rem;
     }
 
+    .link--titulo-insta {
+        margin-bottom: 1rem;
+    }
+
+    .headingLevel2--main-titles {
+        margin-bottom: 2.5rem;
+    }
+
+    .paragraph--cp-textClub {
+        text-align: center  ;
+    }
+
+    .headingLevel3--cp-titleClub {
+        position: relative;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        text-align: center;
+    }
+
+    .headingLevel3--cp-titleClub::before {
+        width: 65px;
+        height: 65px;
+        right: 42%;
+        bottom: 140%;
+        left: auto;
+        top: auto;
+        transform: translate(0, 50%);
+    }
 
 }

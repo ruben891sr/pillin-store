@@ -1876,7 +1876,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/vestuario",
-        "text": "Todo vestuario niño recién nacido"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -1898,7 +1898,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-",
-        "text": "Todo accesorio niño recién nacido"
+        "text": "Todo accesorio"
       }
     }
   },
@@ -1935,7 +1935,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/recien-nacido--00-a-12m-",
-        "text": "Todo calzado niña recién nacido"
+        "text": "Todo calzado"
       }
     }
   },
@@ -2011,7 +2011,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
-        "text": "Todo accesorio niño bebé"
+        "text": "Todo accesorio"
       }
     }
   },
@@ -2048,7 +2048,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
-        "text": "Todo calzado niña bebé"
+        "text": "Todo calzado"
       }
     }
   },
@@ -2091,7 +2091,7 @@
         "href": "/nino/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion&operator=and",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niño niños"
+        "text": "Todo niño"
       }
     }
   },
@@ -2113,7 +2113,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
-        "text": "Todo calzado niño niños"
+        "text": "Todo calzado"
       }
     }
   },
