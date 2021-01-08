@@ -195,3 +195,17 @@
     align-items: center;
     flex-direction: inherit;
 }
+
+/*PLP*/
+/*Banner y titulo*/
+.flexRowContent--rowBannerSearchTitle {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.flexCol--colSearchTitle {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

@@ -21,3 +21,12 @@
 .orderByOptionItem:hover {
     background: #ede3ce;
 }
+.searchResultContainer{
+    padding-top: 0;
+}
+/*PLP*/
+.galleryTitle--layout {
+    padding-left: 3rem;
+    color: #402117;
+    text-shadow: 0px 0px 2px #ece3ce;
+}
