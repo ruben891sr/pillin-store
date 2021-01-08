@@ -10,6 +10,10 @@
     padding-left: 0 !important;
 }
 
+.overlay--visible {
+    background: #000 !important;
+}
+
 @media (max-width: 991px) {
     .cartIcon {
         width: 12px !important;

@@ -14,7 +14,7 @@
 }
 
 .link--tituloMenuNino {
-background: #eaf6ff;
+    background: #eaf6ff;
 }
 
 .link--tituloMenuNina {
@@ -430,6 +430,7 @@ background: #eaf6ff;
     margin-top: 1.5rem;
     padding: .5rem 1.7rem;
 }
+
 /* PDP */
 .paragraph--textGuiadeTallas {
     background: #ffaa71;
@@ -438,6 +439,92 @@ background: #eaf6ff;
     padding: 5px 10px;
     border-radius: 3px;
 }
+
 .paragraph--textSimulador {
     margin-left: 5px;
+}
+
+.link--titulo-insta {
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+    color: #402117;
+    font-weight: 800;
+    text-align: left;
+    justify-content: flex-start;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    z-index: 1;
+    padding-left: 3.7rem;
+    padding-right: 10rem;
+    text-decoration: none;
+}
+
+.link--titulo-insta::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 85px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.link--titulo-insta::after {
+    content: 'Síguenos en Instagram:';
+    position: absolute;
+    bottom: 85%;
+    left: 0;
+    padding-left: 3.7rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 991.1px) {
+
+    .container--texto-seo {
+        display: none;
+    }
+
+    .wrapper--footer-list-asistida,
+    .wrapper--footer-list-envio,
+    .wrapper--footer-list-insta,
+    .wrapper--footer-list-face,
+    .wrapper--footer-list {
+        width: 100%;
+    }
+
+    .list--footer-list-asistida,
+    .list--footer-list-envio,
+    .list--footer-list-insta,
+    .list--footer-list-face,
+    .list--footer-list {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .listItem--footer-list-asistida,
+    .listItem--footer-list-envio,
+    .listItem--footer-list-insta,
+    .listItem--footer-list-face,
+    .listItem--footer-list {
+        padding: .4rem 0;
+        border-bottom: 1px solid rgb(64 33 23 / 50%);
+        margin: 0 !important;
+    }
+
+    .headingLevel3--footer-titles {
+        margin-bottom: .3rem;
+        margin-top: 2rem;
+    }
+
+
 }

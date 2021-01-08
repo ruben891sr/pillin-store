@@ -195,3 +195,22 @@
     align-items: center;
     flex-direction: inherit;
 }
+
+.flexColChild--summaryBusquedaNombrePrice {
+    height: auto !important;
+}
+
+.flexRow--row-footer-mobile {
+    padding: 0;
+}
+
+@media (max-width: 991.1px) {
+    .flexRowContent--rowMainFooter {
+        padding: 0 2rem;
+    }
+
+    .flexRow--footer-general {
+        padding-top: 5rem;
+    }
+
+}

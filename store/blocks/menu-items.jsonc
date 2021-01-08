@@ -1847,7 +1847,7 @@
       "blockClass": "mainMenu-rn-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/accesorios/calzado/recien-nacido--00-a-12m-/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,category-1,agrupacion,category-1&operator=and",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo recién nacido"
@@ -1865,7 +1865,7 @@
         "href": "/niño?fuzzy=0&map=ft,agrupacion&operator=and&query=/niño/recien-nacido--00-a-12m-",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niño recién nacido"
+        "text": "Todo niño"
       }
     }
   },
@@ -1887,7 +1887,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/recien-nacido--00-a-12m-",
-        "text": "Todo calzado niño recién nacido"
+        "text": "Todo calzado"
       }
     }
   },
@@ -1913,7 +1913,7 @@
         "href": "/niña?_q=niña&fuzzy=0&map=ft,agrupacion&operator=and&query=/niña/recien-nacido--00-a-12m-",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niña recién nacido"
+        "text": "Todo niña"
       }
     }
   },
@@ -1924,7 +1924,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/vestuario",
-        "text": "Todo vestuario niña recién nacido"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -1946,7 +1946,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/recien-nacido--00-a-12m-",
-        "text": "Todo accesorio niña recién nacido"
+        "text": "Todo accesorio"
       }
     }
   },
@@ -1960,7 +1960,7 @@
       "blockClass": "mainMenu-vv-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/accesorios/bebe--18m-a-3-/calzado/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,agrupacion,category-1,category-1&operator=and",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo bebé"
@@ -1978,7 +1978,7 @@
         "href": "/bebe--18m-a-3-/nino?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nino/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nino",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niño bebé"
+        "text": "Todo niño"
       }
     }
   },
@@ -1989,7 +1989,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nino/vestuario",
-        "text": "Todo vestuario niño bebé"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -2000,7 +2000,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
-        "text": "Todo calzado niño bebé"
+        "text": "Todo calzado"
       }
     }
   },
@@ -2026,7 +2026,7 @@
         "href": "/bebe--18m-a-3-/nina?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nina/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nina",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niña bebé"
+        "text": "Todo niña"
       }
     }
   },
@@ -2037,7 +2037,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nina/vestuario",
-        "text": "Todo vestuario niña bebé"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -2059,7 +2059,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
-        "text": "Todo accesorio niña bebé"
+        "text": "Todo accesorios"
       }
     }
   },
@@ -2073,7 +2073,7 @@
       "blockClass": "mainMenu-ninn-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/accesorios/calzado/ninos--4-a-16-/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,category-1,agrupacion,category-1&operator=and",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo niños"
@@ -2102,7 +2102,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/ninos--4-a-16-/vestuario",
-        "text": "Todo vestuario niño niños"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -2124,7 +2124,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
-        "text": "Todo accesorio niño niños"
+        "text": "Todo accesorios"
       }
     }
   },
@@ -2139,7 +2139,7 @@
         "href": "/nina/ninos--4-a-16-/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion,agrupacion&operator=and",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
-        "text": "Todo niña niños"
+        "text": "Todo niña"
       }
     }
   },
@@ -2150,7 +2150,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/ninos--4-a-16-/vestuario",
-        "text": "Todo vestuario niña niños"
+        "text": "Todo vestuario"
       }
     }
   },
@@ -2161,7 +2161,7 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
-        "text": "Todo calzado niña niños"
+        "text": "Todo calzado"
       }
     }
   },
@@ -2172,13 +2172,432 @@
       "blockClass": "subSubMenuItem",
       "itemProps": {
         "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
-        "text": "Todo accesorio niña niños"
+        "text": "Todo accesorio"
       }
     }
   },
 
 
 
+
+
+  // SEO
+  "menu-item#seo-abrigo_y_chaquetas": {
+    "props": {
+      "id": "abrigo_y_chaquetas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList_first",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/abrigo-y-chaquetas/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "abrigo_y_chaquetas",
+        "text": "Abrigos y chaquetas"
+      }
+    }
+  },
+  "menu-item#seo-bermudas_y_shorts": {
+    "props": {
+      "id": "bermudas_y_shorts",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bermudas-y-shorts/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "bermudas_y_shorts",
+        "text": "Bermudas y shorts"
+      }
+    }
+  },
+  "menu-item#seo-blusa_y_camisas": {
+    "props": {
+      "id": "blusa_y_camisas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blusa-y-camisas/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "blusa_y_camisas",
+        "text": "Blusa y camisas"
+      }
+    }
+  },
+  "menu-item#seo-buzos_y_conjuntos": {
+    "props": {
+      "id": "buzos_y_conjuntos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ositos-buzos-y-conjuntos/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "buzos_y_conjuntos",
+        "text": "Buzos y conjuntos"
+      }
+    }
+  },
+  "menu-item#seo-chalecos_y_polerones": {
+    "props": {
+      "id": "chalecos_y_polerones",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chalecos-y-polerones/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "chalecos_y_polerones",
+        "text": "Chalecos y polerones"
+      }
+    }
+  },
+  "menu-item#seo-jardineras_y_enterito": {
+    "props": {
+      "id": "jardineras_y_enterito",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jardineras-y-enterito/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "jardineras_y_enterito",
+        "text": "Jardineras y enterito"
+      }
+    }
+  },
+  "menu-item#seo-jeans_pantalones_y_calzas": {
+    "props": {
+      "id": "jeans_pantalones_y_calzas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jeans-pantalones-y-calzas/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "jeans_pantalones_y_calzas",
+        "text": "Jeans pantalones y calzas"
+      }
+    }
+  },
+  "menu-item#seo-pijamas": {
+    "props": {
+      "id": "pijamas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pijamas/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "pijamas",
+        "text": "Pijamas"
+      }
+    }
+  },
+  "menu-item#seo-poleras": {
+    "props": {
+      "id": "poleras",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/poleras/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "poleras",
+        "text": "Poleras"
+      }
+    }
+  },
+  "menu-item#seo-ropa_interior": {
+    "props": {
+      "id": "ropa_interior",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa-interior/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "ropa_interior",
+        "text": "Ropa interior"
+      }
+    }
+  },
+  "menu-item#seo-trajes_de_baño": {
+    "props": {
+      "id": "trajes_de_baño",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trajes-de-bano/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "trajes_de_baño",
+        "text": "Trajes de baño"
+      }
+    }
+  },
+  "menu-item#seo-vestidos_y_faldas": {
+    "props": {
+      "id": "vestidos_y_faldas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestidos-y-faldas/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "vestidos_y_faldas",
+        "text": "Vestidos y faldas"
+      }
+    }
+  },
+  "menu-item#seo-botas_botines_y_bototos": {
+    "props": {
+      "id": "botas_botines_y_bototos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botas-botines-y-bototos/calzado?fuzzy=0&initialMap=c&initialQuery=calzado&map=category-2,category-1&operator=and",
+        "noFollow": false,
+        "tagTitle": "botas_botines_y_bototos",
+        "text": "Botas botines y bototos"
+      }
+    }
+  },
+  "menu-item#seo-gateadores": {
+    "props": {
+      "id": "gateadores",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/gateadores?fuzzy=0&initialMap=c&initialQuery=calzado&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "gateadores",
+        "text": "Gateadores"
+      }
+    }
+  },
+  "menu-item#seo-reinas_y_ballerinas": {
+    "props": {
+      "id": "reinas_y_ballerinas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reinas_y_ballerinas",
+        "text": "Reinas y ballerinas"
+      }
+    }
+  },
+  "menu-item#seo-sandalias": {
+    "props": {
+      "id": "sandalias",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/reinas-y-ballerinas?fuzzy=0&initialMap=c&initialQuery=calzado&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "sandalias",
+        "text": "Sandalias"
+      }
+    }
+  },
+  "menu-item#seo-zapatillas": {
+    "props": {
+      "id": "zapatillas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatillas?fuzzy=0&initialMap=c&initialQuery=calzado&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "zapatillas",
+        "text": "Zapatillas"
+      }
+    }
+  },
+  "menu-item#seo-zapatitos_recién_nacido": {
+    "props": {
+      "id": "zapatitos_recién_nacido",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatitos-recien-nacido?fuzzy=0&initialMap=c&initialQuery=calzado&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "zapatitos_recién_nacido",
+        "text": "Zapatitos recién nacido"
+      }
+    }
+  },
+  "menu-item#seo-zapatos": {
+    "props": {
+      "id": "zapatos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado",
+        "noFollow": false,
+        "tagTitle": "zapatos",
+        "text": "Zapatos"
+      }
+    }
+  },
+  "menu-item#seo-babero_y_bandanas": {
+    "props": {
+      "id": "babero_y_bandanas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/babero-y-bandanas?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "babero_y_bandanas",
+        "text": "Babero y bandanas"
+      }
+    }
+  },
+  "menu-item#seo-calcetines": {
+    "props": {
+      "id": "calcetines",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/calcetines?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "calcetines",
+        "text": "Calcetines"
+      }
+    }
+  },
+  "menu-item#seo-gorros_y_bufandas": {
+    "props": {
+      "id": "gorros_y_bufandas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/gorros-y-bufandas?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "gorros_y_bufandas",
+        "text": "Gorros y bufandas"
+      }
+    }
+  },
+  "menu-item#seo-peluches": {
+    "props": {
+      "id": "peluchesm",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/peluches?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "peluches",
+        "text": "Peluches"
+      }
+    }
+  },
+  "menu-item#seo-pinches_y_cintillos": {
+    "props": {
+      "id": "pinches_y_cintillos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": false,
+        "tagTitle": "pinches_y_cintillos",
+        "text": "Pinches y cintillos"
+      }
+    }
+  },
+  "menu-item#seo-toallas_y_tutos": {
+    "props": {
+      "id": "toallas_y_tutos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/toallas-y-tutos?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,category-2&operator=and",
+        "noFollow": false,
+        "tagTitle": "toallas_y_tutos",
+        "text": "Toallas y tutos"
+      }
+    }
+  },
+  "menu-item#seo-mochilas": {
+    "props": {
+      "id": "mochilasm",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "seoCatList",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": false,
+        "tagTitle": "mochilas",
+        "text": "Mochilas"
+      }
+    }
+  },
 
 
 

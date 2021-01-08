@@ -670,7 +670,7 @@
 
   "image#banner1": {
     "props": {
-      "src": "assets/img/banner-home1.jpg",
+      "src": "assets/img/cal-d-1.jpg",
       "width": "100%",
       "blockClass": "sliderImage",
       "maxWidth": "100%"
@@ -679,7 +679,7 @@
 
   "image#banner2": {
     "props": {
-      "src": "assets/img/banner-home2.jpg",
+      "src": "assets/img/cal-c-2.jpg",
       "width": "100%",
       "blockClass": "sliderImage"
     }
@@ -687,7 +687,7 @@
 
   "image#banner3": {
     "props": {
-      "src": "assets/img/banner-home3.jpg",
+      "src": "assets/img/cal-i-3.jpg",
       "width": "100%",
       "blockClass": "sliderImage"
     }
@@ -695,7 +695,7 @@
 
   "image#banner4": {
     "props": {
-      "src": "assets/img/banner-home4.jpg",
+      "src": "assets/img/cal-c-4.jpg",
       "width": "100%",
       "blockClass": "sliderImage",
       "marginTop": 2
@@ -712,7 +712,6 @@
       "blockClass": "rowHomeShelf"
     }
   },
-
 
   // Mobile Version
   "responsive-layout.mobile": {
@@ -845,7 +844,7 @@
 
   "image#banner1-mobile": {
     "props": {
-      "src": "assets/img/banner-home1-mobile.jpg",
+      "src": "assets/img/cal-d-1-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile",
       "maxWidth": "100%"
@@ -854,7 +853,7 @@
 
   "image#banner2-mobile": {
     "props": {
-      "src": "assets/img/banner-home2-mobile.jpg",
+      "src": "assets/img/cal-c-2-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile"
     }
@@ -862,7 +861,7 @@
 
   "image#banner3-mobile": {
     "props": {
-      "src": "assets/img/banner-home3-mobile.jpg",
+      "src": "assets/img/cal-i-3-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile"
     }
@@ -870,7 +869,7 @@
 
   "image#banner4-mobile": {
     "props": {
-      "src": "assets/img/banner-home4-mobile.jpg",
+      "src": "assets/img/cal-c-4-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile",
       "marginTop": 2

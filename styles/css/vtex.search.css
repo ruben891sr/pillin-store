@@ -1,9 +1,10 @@
 .biggy-autocomplete-wrapper {
-    width: 35vw;
+    width: 40vw;
 }
 
 .biggy-autocomplete {
     flex-direction: column !important;
+    max-height: 100% !important;
 }
 
 .tileListList {
