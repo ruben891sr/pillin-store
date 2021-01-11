@@ -1550,7 +1550,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
+        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
         "text": "Mochilas"
       }
     }
@@ -1820,7 +1820,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
+        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
         "text": "Mochilas"
       }
     }
@@ -2591,7 +2591,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios",
+        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
         "noFollow": false,
         "tagTitle": "mochilas",
         "text": "Mochilas"
@@ -3847,7 +3847,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
         "noFollow": false,
         "tagTitle": "mochilas",
         "text": "Mochilas"

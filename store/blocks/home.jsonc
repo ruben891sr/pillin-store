@@ -321,7 +321,7 @@
       "rich-text#filtrar-vestuario"
     ],
     "props": {
-      "blockClass": "vestuario-map=c---talla-specificationFilter_30---nino-specificationFilter_4---nina-specificationFilter_45"
+      "blockClass": "vestuario-mapequalsc---talla--specificationFilter-30---nino--specificationFilter-4---nina-specificationFilter-45"
     }
   },
 
@@ -357,7 +357,7 @@
       "tabId": "ves-nino",
       "label": "Niño",
       "defaultActiveTab": true,
-      "blockClass": "vestuario-map=c__nino-specificationFilter_45"
+      "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45"
     }
   },
 
@@ -365,7 +365,7 @@
     "props": {
       "tabId": "ves-nina",
       "label": "Niña",
-      "blockClass": "vestuario-map=c__nina-specificationFilter_45"
+      "blockClass": "vestuario--mapequalsc---nina-specificationFilter-45"
     }
   },
 
@@ -412,7 +412,7 @@
       "rich-text#filtrar-calzado"
     ],
     "props": {
-      "blockClass": "calzado-map=c---talla-specificationFilter_34---nino-specificationFilter_46---nina-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---talla--specificationFilter-34---nino--specificationFilter-46---nina--specificationFilter--46"
     }
   },
 
@@ -448,7 +448,7 @@
       "tabId": "cal-nino",
       "label": "Niño",
       "defaultActiveTab": true,
-      "blockClass": "calzado-map=c__nino-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---nino--specificationFilter-46"
     }
   },
 
@@ -456,7 +456,7 @@
     "props": {
       "tabId": "cal-nina",
       "label": "Niña",
-      "blockClass": "calzado-map=c__nina-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---nina--specificationFilter-46"
     }
   },
 

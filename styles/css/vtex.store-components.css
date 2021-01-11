@@ -417,4 +417,13 @@
     .link--footer-list {
         font-weight: 500;
     }
+
+    .searchBarContainer {
+        margin-right: 0;
+        padding: .5rem;
+    }
+
+    .portalContainer {
+        top: 5px!important;
+    }
 }
