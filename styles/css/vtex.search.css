@@ -4,7 +4,7 @@
 
 .biggy-autocomplete {
     flex-direction: column !important;
-    max-height: fit-content !important;
+    max-height: 90vh;
 }
 
 .tileListList {
