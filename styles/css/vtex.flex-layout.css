@@ -197,6 +197,9 @@
 }
 
 /*PLP*/
+.flexRowContent--rowBreadCrumbMobile {
+    margin: 5px 0 10px 0;
+}
 /*Banner y titulo*/
 .flexRowContent--rowBannerSearchTitle {
     justify-content: center;
@@ -208,4 +211,19 @@
     position: absolute;
     left: 0;
     top: 0;
+}
+
+@media (max-width:768px){
+    .flexRowContent--rowBannerSearchTitle {
+        margin-bottom: 0rem;
+    }
+    .flexRowContent--rowSearchInfo .stretchChildrenWidth {
+        border: 1px solid #441e13;
+        border-radius: 3px;
+        margin: 0 5px;
+        height: 45px;
+    }
+    .filterPopupTitle {
+        font-weight: 800;
+    }
 }

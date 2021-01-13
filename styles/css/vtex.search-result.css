@@ -9,6 +9,7 @@
 }
 .orderByButton {
     border: none;
+    padding: 10px;
 }
 .orderByOptionsContainer,
 .orderByOptionItem {
@@ -29,4 +30,60 @@
     padding-left: 3rem;
     color: #402117;
     text-shadow: 0px 0px 2px #ece3ce;
+}
+/*Media Queries*/
+@media (max-width:768px){
+    .galleryTitle--layout{
+        font-size: 35px;
+        padding-left: 15px;
+        padding-top: 35px;
+    }
+    .filterAccordionBreadcrumbs {
+        border-bottom: 1px solid #441e13;
+    }
+    .filtersWrapperMobile .filterPopupTitle,
+    .orderByDropdown .filterPopupTitle {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+    }
+    .filtersWrapperMobile .filterPopupArrowIcon,
+    .orderByDropdown .filterPopupArrowIcon {
+        display: none
+    }
+    .filtersWrapperMobile .filterPopupTitle::before {
+        content:"";
+        background: url(assets/img/icon-filter.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+    .orderByDropdown .filterPopupTitle::after {
+        content:"";
+        background: url(assets/img/icon-orderBy.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+    .filterAccordionItemBox {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .accordionFilterContent {
+        padding-bottom: 0;
+    }
+    .orderByButton {
+        padding: 12px;
+    }
+    .filterPopupButton {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 42px;
+    }
 }
