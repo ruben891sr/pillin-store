@@ -321,7 +321,7 @@
       "rich-text#filtrar-vestuario"
     ],
     "props": {
-      "blockClass": "vestuario-map=c__talla-specificationFilter_30__nino-specificationFilter_45__nina-specificationFilter_45"
+      "blockClass": "vestuario-mapequalsc---talla--specificationFilter-30---nino--specificationFilter-4---nina-specificationFilter-45"
     }
   },
 
@@ -357,7 +357,7 @@
       "tabId": "ves-nino",
       "label": "Niño",
       "defaultActiveTab": true,
-      "blockClass": "vestuario-map=c__nino-specificationFilter_45"
+      "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45"
     }
   },
 
@@ -365,7 +365,7 @@
     "props": {
       "tabId": "ves-nina",
       "label": "Niña",
-      "blockClass": "vestuario-map=c__nina-specificationFilter_45"
+      "blockClass": "vestuario--mapequalsc---nina-specificationFilter-45"
     }
   },
 
@@ -412,7 +412,7 @@
       "rich-text#filtrar-calzado"
     ],
     "props": {
-      "blockClass": "calzado-map=c__talla-specificationFilter_34__nino-specificationFilter_46__nina-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---talla--specificationFilter-34---nino--specificationFilter-46---nina--specificationFilter--46"
     }
   },
 
@@ -448,7 +448,7 @@
       "tabId": "cal-nino",
       "label": "Niño",
       "defaultActiveTab": true,
-      "blockClass": "calzado-map=c__nino-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---nino--specificationFilter-46"
     }
   },
 
@@ -456,7 +456,7 @@
     "props": {
       "tabId": "cal-nina",
       "label": "Niña",
-      "blockClass": "calzado-map=c__nina-specificationFilter_46"
+      "blockClass": "calzado--mapequalsc---nina--specificationFilter-46"
     }
   },
 
@@ -670,7 +670,7 @@
 
   "image#banner1": {
     "props": {
-      "src": "assets/img/banner-home1.jpg",
+      "src": "assets/img/cal-d-1.jpg",
       "width": "100%",
       "blockClass": "sliderImage",
       "maxWidth": "100%"
@@ -679,7 +679,7 @@
 
   "image#banner2": {
     "props": {
-      "src": "assets/img/banner-home2.jpg",
+      "src": "assets/img/cal-c-2.jpg",
       "width": "100%",
       "blockClass": "sliderImage"
     }
@@ -687,7 +687,7 @@
 
   "image#banner3": {
     "props": {
-      "src": "assets/img/banner-home3.jpg",
+      "src": "assets/img/cal-i-3.jpg",
       "width": "100%",
       "blockClass": "sliderImage"
     }
@@ -695,7 +695,7 @@
 
   "image#banner4": {
     "props": {
-      "src": "assets/img/banner-home4.jpg",
+      "src": "assets/img/cal-c-4.jpg",
       "width": "100%",
       "blockClass": "sliderImage",
       "marginTop": 2
@@ -712,7 +712,6 @@
       "blockClass": "rowHomeShelf"
     }
   },
-
 
   // Mobile Version
   "responsive-layout.mobile": {
@@ -845,7 +844,7 @@
 
   "image#banner1-mobile": {
     "props": {
-      "src": "assets/img/banner-home1-mobile.jpg",
+      "src": "assets/img/cal-d-1-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile",
       "maxWidth": "100%"
@@ -854,7 +853,7 @@
 
   "image#banner2-mobile": {
     "props": {
-      "src": "assets/img/banner-home2-mobile.jpg",
+      "src": "assets/img/cal-c-2-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile"
     }
@@ -862,7 +861,7 @@
 
   "image#banner3-mobile": {
     "props": {
-      "src": "assets/img/banner-home3-mobile.jpg",
+      "src": "assets/img/cal-i-3-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile"
     }
@@ -870,7 +869,7 @@
 
   "image#banner4-mobile": {
     "props": {
-      "src": "assets/img/banner-home4-mobile.jpg",
+      "src": "assets/img/cal-c-4-m.jpg",
       "width": "100%",
       "blockClass": "bannerPromoMobile",
       "marginTop": 2

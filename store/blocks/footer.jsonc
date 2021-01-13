@@ -5,6 +5,8 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#club-pillin",
+      "flex-layout.row#titulo-insta",
+      "flex-layout.row#insta",
       "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
     ]
@@ -12,21 +14,31 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-mobile"
-    ]
+    ],
+    "props": {
+      "blockClass": "mainrow-footer-mobile",
+      "fullWidth": true
+    }
   },
   "flex-layout.row#footer-mobile": {
     "children": [
-      // "social-networks",
-      // "accepted-payment-methods",
-      // "powered-by"
+      "flex-layout.row#club-pillin-mobile",
+      "flex-layout.row#titulo-insta",
+      "flex-layout.row#insta",
+      "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
-    ]
+    ],
+    "props": {
+      "blockClass": "row-footer-mobile",
+      "fullWidth": true
+
+    }
   },
 
   "flex-layout.row#club-pillin": {
     "children": [
       "flex-layout.col#title-text-pillin",
-      "flex-layout.col#banners.club-pillin"
+      "flex-layout.col#banners-club-pillin"
     ],
     "props": {
       "blockClass": "clubPillin",
@@ -48,7 +60,7 @@
     }
   },
 
-  "flex-layout.col#banners.club-pillin": {
+  "flex-layout.col#banners-club-pillin": {
     "children": [
       "flex-layout.row#row-banners",
       "flex-layout.row#row-button"
@@ -70,6 +82,18 @@
     ],
     "props": {
       "blockClass": "rowBanners"
+    }
+  },
+
+  "flex-layout.row#row-banners-mobile": {
+    "children": [
+      "image#club-pillin-1",
+      "image#club-pillin-2",
+      "image#club-pillin-3"
+    ],
+    "props": {
+      "blockClass": "rowBanners-mobile",
+      "colSizing": "auto"
     }
   },
 
@@ -106,6 +130,29 @@
       "text": "Al unirte obtendrás un 10% Dcto en tu primera compra. Además accedes a varios beneficios"
     }
   },
+
+  "flex-layout.row#club-pillin-mobile": {
+    "children": [
+      "flex-layout.col#title-text-pillin",
+      "flex-layout.col#banners-club-pillin-mobile"
+    ],
+    "props": {
+      "blockClass": "clubPillin-mobile"
+    }
+  },
+
+  "flex-layout.col#banners-club-pillin-mobile": {
+    "children": [
+      "flex-layout.row#row-banners-mobile",
+      "flex-layout.row#row-button"
+    ],
+    "props": {
+      "blockClass": "colBannersPillin-mobile",
+      "verticalAlign": "middle"
+    }
+  },
+
+
 
   "newsletter": {
     "props": {
@@ -146,6 +193,10 @@
     }
   },
 
+ 
+
+
+
   "rich-text#ver-mas-pillin": {
     "props": {
       "blockClass": "cp-buttonVerMas",
@@ -156,15 +207,99 @@
   },
 
 
+  // Instagram
+  "flex-layout.row#titulo-insta": {
+    "children": [
+      "rich-text#titulo_insta"
+    ],
+    "props": {
+      "blockClass": "titulo-row-insta"
+    }
+  },
+
+  "flex-layout.row#insta": {
+    "children": [
+      "sandbox.product",
+      "iframe"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "rowInsta"
+    }
+  },
+
+  "sandbox.product": {
+    "props": {
+      "initialContent": "<script src='https://cdn.lightwidget.com/widgets/lightwidget.js'></script>",
+      "allowCookies": true,
+      "blockClass": "scriptInsta",
+      "height": "0px"
+    }
+  },
+
+  "rich-text#titulo_insta": {
+    "props": {
+      "blockClass": "titulo-insta",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[@PillinChile](https://www.instagram.com/pillinchile/)"
+    }
+  },
+
+  "iframe": {
+    "props": {
+      "width": "100%",
+      "height": "350px",
+      "src": "//lightwidget.com/widgets/f0b9d22644985bb191865517469b9900.html",
+      "blockClass": "iframeInsta"
+    }
+  },
+
+
   //SEO
   "flex-layout.row#seo": {
     "children": [
       "rich-text#categorias-mas-buscadas",
-      "rich-text#cat-1"
+      "rich-text#cat-1",
+      "vtex.menu@2.x:menu#masbuscadas"
     ],
     "props": {
       "blockClass": "rowSeo",
       "colSizing": "auto"
+    }
+  },
+
+  "vtex.menu@2.x:menu#masbuscadas": {
+    "children": [
+      "menu-item#seo-abrigo_y_chaquetas",
+      "menu-item#seo-bermudas_y_shorts",
+      "menu-item#seo-blusa_y_camisas",
+      "menu-item#seo-buzos_y_conjuntos",
+      "menu-item#seo-chalecos_y_polerones",
+      "menu-item#seo-jardineras_y_enterito",
+      "menu-item#seo-jeans_pantalones_y_calzas",
+      "menu-item#seo-pijamas",
+      "menu-item#seo-poleras",
+      "menu-item#seo-ropa_interior",
+      "menu-item#seo-trajes_de_baño",
+      "menu-item#seo-vestidos_y_faldas",
+      "menu-item#seo-botas_botines_y_bototos",
+      "menu-item#seo-gateadores",
+      "menu-item#seo-reinas_y_ballerinas",
+      "menu-item#seo-sandalias",
+      "menu-item#seo-zapatillas",
+      "menu-item#seo-zapatitos_recién_nacido",
+      "menu-item#seo-zapatos",
+      "menu-item#seo-babero_y_bandanas",
+      "menu-item#seo-calcetines",
+      "menu-item#seo-gorros_y_bufandas",
+      "menu-item#seo-peluches",
+      "menu-item#seo-pinches_y_cintillos",
+      "menu-item#seo-toallas_y_tutos",
+      "menu-item#seo-mochilas"
+    ],
+    "props": {
+      "blockClass": "listaSepCat"
     }
   },
 
@@ -184,7 +319,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "width": "100%",
-      "text": "Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes. Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes."
+      "text": "Porque nos encanta reír, jugar y llenar de magia el mundo, en PILLIN trabajamos con el compromiso y convicción de ser innovadores, para entregar siempre un producto versátil y de calidad que se adapte a las necesidades de nuestros clientes."
     }
   },
 

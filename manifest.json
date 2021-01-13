@@ -1,7 +1,7 @@
 {
   "vendor": "pillin",
   "name": "pillin-store",
-  "version": "0.1.17-beta.0",
+  "version": "0.1.20-beta.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -55,7 +55,9 @@
     "vtex.product-price": "1.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-link": "0.x",
-    "vtex.disclosure-layout": "1.x"
+    "vtex.disclosure-layout": "1.x",
+    "vtex.sandbox": "0.x",
+    "vtex.category-menu": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

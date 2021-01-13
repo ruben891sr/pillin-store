@@ -196,6 +196,8 @@
     flex-direction: inherit;
 }
 
+
+
 /*PLP*/
 .flexRowContent--rowBreadCrumbMobile {
     margin: 5px 0 10px 0;
@@ -226,4 +228,44 @@
     .filterPopupTitle {
         font-weight: 800;
     }
+  
+.flexColChild--summaryBusquedaNombrePrice {
+    height: auto !important;
+}
+
+.flexRow--row-footer-mobile {
+    padding: 0;
+}
+
+.flexRowContent--rowBanners-mobile {
+    display: flex;
+}
+
+.flexRow--clubPillin-mobile {
+    background-image: url(assets/img/bg-clubPillin.jpg);
+    margin: 4rem 0;
+    padding: 6rem 1rem 7rem 1rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 991.1px) {
+    .flexRowContent--rowMainFooter {
+        padding: 0 2rem;
+    }
+
+    .flexRow--footer-general {
+        padding-top: 5rem;
+        background-image: url(assets/img/bg-footer-movil.png);
+    }
+
+    .flexRowContent--rowSeo {
+        margin-top: 0;
+    }
+
+    .flexCol--colBannersPillin {
+        padding: 0;
+    }
+  
 }

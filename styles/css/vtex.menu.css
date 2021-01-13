@@ -454,6 +454,36 @@
     font-size: .85em;
 }
 
+.menuContainer--listaSepCat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.styledLinkContainer--seoCatList_first,
+.styledLinkContainer--seoCatList {
+    padding: .4rem 1rem;
+    margin: 0;
+    position: relative;
+}
+
+.styledLinkContainer--seoCatList::before {
+    content: '|';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.styledLinkContent--seoCatList_first,
+.styledLinkContent--seoCatList {
+    color: #666;
+    font-size: .9em;
+    font-weight: 500;
+}
+
 @media (max-width: 991.1px) {
     .styledLinkContent--subSubMenuItem {
         padding-right: 2rem;
@@ -466,6 +496,11 @@
     .styledLinkContent--subSubMenuItem::before {
         left: auto;
         right: .7rem;
+    }
+
+    .styledLinkContainer--seoCatList_first,
+    .styledLinkContainer--seoCatList {
+        padding: .2rem .5rem;
     }
 
 }
