@@ -324,7 +324,6 @@
     font-size: .9em;
 }
 
-
 /* .frameAround {
     margin: 0;
     position: absolute;
@@ -337,6 +336,21 @@
     bottom: 0;
     border-radius: inherit;
 } */
+
+/*PLP*/
+.frameAround--skuSelectorPDP {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #3f3f40;
+    background: transparent;
+}
+.frameAround.ba {
+    border: none;
+}
+.skuSelectorItemImageValue {
+    border-radius: 25px;
+}
+
 
 /* PDP */
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
