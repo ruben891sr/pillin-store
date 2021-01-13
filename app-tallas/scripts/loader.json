@@ -1,4 +1,3 @@
 {
-  ".*\/p$": ["script2"],
-  ".*": ["script1"]
+  ".*": ["tallashome"]
 }
