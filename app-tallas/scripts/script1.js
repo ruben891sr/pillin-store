@@ -1,3 +1,3 @@
 (function () {
-  alert('hello world!')
+  console.log('Script 1 running !')
 })()
