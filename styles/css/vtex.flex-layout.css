@@ -249,7 +249,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.flexColChild--btn-GuiaDeTallas {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+.flexCol {
+    position: relative;
+}
 
+
+/* MEDIA QUERIES */
 @media (max-width: 991.1px) {
     .flexRowContent--rowMainFooter {
         padding: 0 2rem;
@@ -267,5 +277,4 @@
     .flexCol--colBannersPillin {
         padding: 0;
     }
-  
 }
