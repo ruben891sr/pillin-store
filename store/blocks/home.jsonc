@@ -502,7 +502,7 @@
       "rich-text#filtrar-accesorios"
     ],
     "props": {
-      "blockClass": "modalaccesorios"
+      "blockClass": "accesorios--mapequalsc"
     }
   },
 

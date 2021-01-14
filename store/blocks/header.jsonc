@@ -133,7 +133,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Mis Pedidos](/)",
+            "text": "[Mis Pedidos](/account#/orders)",
             "blockClass": "topBarList-orders"
         }
     },
@@ -151,7 +151,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Wish List](/)",
+            "text": "[Wish List](/account#/wishlist)",
             "blockClass": "topBarList-wishlist"
         }
     },

@@ -2770,11 +2770,12 @@
     "children": [
       "menu-item#calcetines",
       "menu-item#gorros",
-      "menu-item#baberosybandanas",
+      "menu-item#babero",
+      "menu-item#bandanas",
       "menu-item#peluches",
       "menu-item#pinchesycintillos",
-      "menu-item#toallasytutos",
-      "menu-item#mochilas"
+      "menu-item#toallas",
+      "menu-item#tutos"
     ],
     "props": {
       "blockClass": "tabContentMenu"
@@ -3778,7 +3779,7 @@
       "id": "menu-item-calcetines",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Calcetín-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3795,7 +3796,7 @@
       "id": "menu-item-gorros",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Gorro-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3807,20 +3808,36 @@
     }
   },
 
-
-  "menu-item#baberosybandanas": {
+  "menu-item#babero": {
     "props": {
-      "id": "menu-item-baberosybandanas",
+      "id": "menu-item-baberos",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Babero-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "baberosybandanas",
-        "text": "Baberos y bandanas"
+        "tagTitle": "baberos",
+        "text": "Baberos"
+      }
+    }
+  },
+
+  "menu-item#bandanas": {
+    "props": {
+      "id": "menu-item-bandanas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "Bandana-specificationFilter_41",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bandanas",
+        "text": "Bandanas"
       }
     }
   },
@@ -3830,7 +3847,7 @@
       "id": "menu-item-peluches",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Peluche-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3847,7 +3864,7 @@
       "id": "menu-item-pinchesycintillos",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Pinches---Cintillos-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3859,22 +3876,58 @@
     }
   },
 
-  "menu-item#toallasytutos": {
+  "menu-item#toallas": {
     "props": {
-      "id": "menu-item-toallasytutos",
+      "id": "menu-item-toallas",
       "type": "custom",
       "iconId": null,
-      "blockClass": "itemTalla",
+      "blockClass": "Toalla-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "toallasytutos",
-        "text": "Toallas y tutos"
+        "tagTitle": "toallas",
+        "text": "Toallas"
       }
     }
   },
+
+  "menu-item#tutos": {
+    "props": {
+      "id": "menu-item-tutos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "Tuto-specificationFilter_41",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "tutos",
+        "text": "Tutos"
+      }
+    }
+  },
+
+
+  "menu-item#busquedamochilas": {
+    "props": {
+      "id": "menu-item-mochilas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "Mochila-specificationFilter_41",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "mochilas",
+        "text": "Mochilas"
+      }
+    }
+  },
+
 
   "menu-item#mochilas": {
     "props": {

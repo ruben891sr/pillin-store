@@ -405,7 +405,6 @@
     padding: .5rem 1.7rem;
 }
 
-/* PDP */
 .paragraph--textGuiadeTallas,
 .paragraph--textStock {
     background: #ffaa71;
@@ -420,7 +419,7 @@
     width: 14px;
     height: 14px;
     margin-right: 3px;
-    background: url(assets/img/icon-sizeGuide.svg);
+    /* background: url(assets/img/icon-sizeGuide.svg); */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -471,7 +470,6 @@
     font-weight: 500;
 }
 
-/*MEDIA QUERIES*/
 @media (max-width: 991.1px) {
 
     .container--texto-seo {
