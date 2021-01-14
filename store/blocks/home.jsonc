@@ -225,10 +225,20 @@
     "children": [
       "flex-layout.col#vestuario-wrapper",
       "flex-layout.col#calzado-wrapper",
-      "flex-layout.col#accesorios-wrapper"
+      "flex-layout.col#accesorios-wrapper",
+      "sandbox.product"
     ],
     "props": {
       "blockClass": "busquedaTalla"
+    }
+  },
+
+  "sandbox.product": {
+    "props": {
+      "width": "200px",
+      "height": "60px",
+      "initialContent": "<script>function find_parent(e,t){for(;t&&t.nodeName!==e;)t=t.parentNode;return t}document.addEventListener('click',function(e){let t=e.target,i=!1;if('Filtrar'==t.firstChild.data&&(i=!0),null!==t.firstChild.firstChild&&'Filtrar'==t.firstChild.firstChild.data&&(i=!0),i){let e=document.querySelectorAll('.selected_talla'),t=document.querySelector('.vtex-tab-layout-0-x-listItemActive'),i=/menuItem--([^-\\s]+)-specificationFilter_([0-9]+) /,l=/listItem--([^-\\s]+)--mapequals([^-\\s]+)---([^-\\s]+)[-]*specificationFilter-([0-9]+)/.exec(t.classList),a=l[1],s=l[2],c=l[3],r=l[4],n='/'+a+'/',d='';return e.forEach(e=>{let t=i.exec(e.classList);n+=t[1]+'/',d+=',specificationFilter_'+t[2]}),n+=c+'?map='+s+d+',specificationFilter_'+r,void(top.location.href=n)}if(t.className.indexOf('-specificationFilter')>0){if('LI'!=t.nodeName&&null==(t=find_parent('LI',t)))return;t.classList.contains('selected_talla')?(t.classList.remove('selected_talla'),t.style.background=''):(t.classList.add('selected_talla'),t.style.background='#91e68a')}},!1);</script>",
+      "allowCookies": true
     }
   },
 

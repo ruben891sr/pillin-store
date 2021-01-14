@@ -23,6 +23,7 @@
     width: 65%;
     margin: 0 auto;
     margin-top: 2rem;
+}
 
 @media (max-width: 991.1px) {
     .biggy-autocomplete-wrapper {
