@@ -83,7 +83,7 @@
       "width": "30%"
     }
   },
-
+    
   "add-to-cart-button#busqueda": {
     "props": {
       "blockClass": "botonComprarBusqueda"

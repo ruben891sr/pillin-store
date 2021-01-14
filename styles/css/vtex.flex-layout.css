@@ -196,6 +196,39 @@
     flex-direction: inherit;
 }
 
+
+
+/*PLP*/
+.flexRowContent--rowBreadCrumbMobile {
+    margin: 5px 0 10px 0;
+}
+/*Banner y titulo*/
+.flexRowContent--rowBannerSearchTitle {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.flexCol--colSearchTitle {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media (max-width:768px){
+    .flexRowContent--rowBannerSearchTitle {
+        margin-bottom: 0rem;
+    }
+    .flexRowContent--rowSearchInfo .stretchChildrenWidth {
+        border: 1px solid #441e13;
+        border-radius: 3px;
+        margin: 0 5px;
+        height: 45px;
+    }
+    .filterPopupTitle {
+        font-weight: 800;
+    }
+  
 .flexColChild--summaryBusquedaNombrePrice {
     height: auto !important;
 }
@@ -243,14 +276,5 @@
 
     .flexCol--colBannersPillin {
         padding: 0;
-    }
-
-    .flexRow--rowDescriptionDesktop,.flexCol--colDescriptionDesktop{
-        display: none;
-    }
-}
-@media (min-width: 992px){
-    .flexRow--rowDescriptionMobile, .flexCol--colDescriptionMobile{
-        display: none;
     }
 }
