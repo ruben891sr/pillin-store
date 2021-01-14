@@ -384,6 +384,19 @@
 .skuSelectorContainer .skuSelectorName {
     display: none;
 }
+/*Selector de SKU Color - Talla*/
+.frameAround--skuSelectorPDP {
+    box-shadow: none;
+    border: none
+}
+.skuSelectorItem--skuSelectorPDP--selected {
+    box-shadow: 0 0 5px 0 #000000;
+    border: 2px inset white;
+}
+.skuSelectorContainer--skuSelectorPDP {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 @media (max-width: 991px) {
     .searchIcon { 

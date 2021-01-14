@@ -216,7 +216,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.flexColChild--btn-GuiaDeTallas {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+.flexCol {
+    position: relative;
+}
 
+
+/* MEDIA QUERIES */
 @media (max-width: 991.1px) {
     .flexRowContent--rowMainFooter {
         padding: 0 2rem;
@@ -235,4 +245,12 @@
         padding: 0;
     }
 
+    .flexRow--rowDescriptionDesktop,.flexCol--colDescriptionDesktop{
+        display: none;
+    }
+}
+@media (min-width: 992px){
+    .flexRow--rowDescriptionMobile, .flexCol--colDescriptionMobile{
+        display: none;
+    }
 }

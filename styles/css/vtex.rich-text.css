@@ -21,37 +21,11 @@
     background: #fff5f9;
 }
 
-/* .link--tituloMenuNino::before,
-.link--tituloMenuNina::before {
-    content: '';
-    width: 60px;
-    height: 40px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    right: 7%;
-    transform: translateY(-50%);
-    z-index: -1;
-}
-
-.link--tituloMenuNino::before {
-    background-image: url(assets/img/mancha-nino.png);
-}
-
-.link--tituloMenuNina::before {
-    background-image: url(assets/img/mancha-nina.png);
-} */
-
 .wrapper--footer-list {
     height: auto;
     list-style: none;
     text-decoration: none;
 }
-
-
-
 
 
 .headingLevel3--footer-titles {
@@ -432,12 +406,23 @@
 }
 
 /* PDP */
-.paragraph--textGuiadeTallas {
+.paragraph--textGuiadeTallas,
+.paragraph--textStock {
     background: #ffaa71;
     color: #fff;
     font-size: 12px;
     padding: 5px 10px;
     border-radius: 3px;
+}
+.paragraph--textGuiadeTallas::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    background: url(assets/img/icon-sizeGuide.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .paragraph--textSimulador {
@@ -486,8 +471,7 @@
     font-weight: 500;
 }
 
-
-
+/*MEDIA QUERIES*/
 @media (max-width: 991.1px) {
 
     .container--texto-seo {
