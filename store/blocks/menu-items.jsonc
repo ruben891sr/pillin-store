@@ -2768,6 +2768,8 @@
   },
   "vtex.menu@2.x:menu#otrosaccesorios": {
     "children": [
+      "menu-item#calcetines",
+      "menu-item#gorros",
       "menu-item#baberosybandanas",
       "menu-item#peluches",
       "menu-item#pinchesycintillos",
@@ -3769,6 +3771,42 @@
       }
     }
   },
+
+
+  "menu-item#calcetines": {
+    "props": {
+      "id": "menu-item-calcetines",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "calcetines",
+        "text": "Calcetines"
+      }
+    }
+  },
+
+  "menu-item#gorros": {
+    "props": {
+      "id": "menu-item-gorros",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "itemTalla",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "gorros",
+        "text": "Gorros"
+      }
+    }
+  },
+
 
   "menu-item#baberosybandanas": {
     "props": {
