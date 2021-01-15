@@ -320,6 +320,6 @@
         "itemsPerPage": 5
       }
     },
-    "blocks":["product-summary.shelf#general"]
+    "blocks":["product-summary.shelf#pdp"]
   }
 }
