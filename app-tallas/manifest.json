@@ -1,0 +1,13 @@
+{
+  "type": "free",
+  "vendor": "pillin",
+  "name": "pillin-baseutils",
+  "version": "0.0.1-beta.0",
+  "title": "app script tallas",
+  "description": "tallas scripts",
+  "builders": {
+    "scripts": "0.x"
+  },
+  "dependencies": {},
+  "policies": []
+}
