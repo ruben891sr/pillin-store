@@ -5,9 +5,6 @@
     "flex-layout.row#title": {
       "children": ["flex-layout.col#title"]
     },
-    "flex-layout.row#container": {
-      "children": ["store-list"]
-    },
     "flex-layout.col#title": {
       "children": ["rich-text#title"],
       "props": {
@@ -20,20 +17,23 @@
         "text": "## Nuestras Tiendas"
       }
     },
+
+    "flex-layout.row#container": {
+      "children": ["store-list"]
+    },
+    "store-list":{
+      "props":{
+        "icon": "https://pillin.vteximg.com.br/arquivos/logo-pillin.png",
+        "iconWidth": 20,
+        "iconHeight": 20
+      }
+    },
+
     "store.storedetail": {
       "blocks": ["flex-layout.row#titleStore", "store-group"]
     },
-    "store-group": {
-      "children": ["flex-layout.row#containerStore"],
-      "props": {
-        "title": "{storeName} Store"
-      }
-    },
     "flex-layout.row#titleStore": {
       "children": ["flex-layout.col#titleStore"]
-    },
-    "flex-layout.row#containerStore": {
-      "children": ["flex-layout.col#detail", "flex-layout.col#store"]
     },
     "flex-layout.col#titleStore": {
       "children": ["rich-text#titleStore"],
@@ -44,8 +44,20 @@
     },
     "rich-text#titleStore": {
       "props": {
-        "text": "## Store Detail"
+        "blockClass": "tituloTiendas",
+        "text": "## Detalle de Tiendas"
       }
+    },
+    "store-group": {
+      "children": ["flex-layout.row#containerStore"],
+      "props": {
+        "title": "Pillin {storeName}",
+        "imageSelector": "imgTienda",
+        "phoneSelector": "phoneTienda"
+      }
+    },
+    "flex-layout.row#containerStore": {
+      "children": ["flex-layout.col#detail", "flex-layout.col#store"]
     },
     "flex-layout.col#detail": {
       "children": [
@@ -60,26 +72,42 @@
         "preventVerticalStretch": true
       }
     },
+    "store-back-link": {
+      "props": {
+        "label": "Volver a todas las tiendas"
+      }
+    },
+    "store-map":{
+      "props":{
+        "height": "600px"
+      }
+    },
+    "store-address":{
+      "props":{
+         "label": "Dirección"
+      }
+    },
+    "store-hours": {
+      "props": {
+        "label": "Horario:",
+        "format": "24h"
+      }
+    },
+    "store-instructions": {
+      "props": {
+        "label": ""
+      }
+    },
     "flex-layout.col#store": {
       "children": ["store-name"],
       "props": {
         "width": "70%"
       }
     },
-    "store-hours": {
-      "props": {
-        "label": "Business hours:",
-        "format": "12h"
-      }
-    },
-    "store-back-link": {
-      "props": {
-        "label": "Back to all stores"
-      }
-    },
-    "store-instructions": {
-      "props": {
-        "label": ""
+    "store-name":{
+      "props":{
+        "text": "{storeName}",
+        "tag": "nameTienda"
       }
     }
   }
