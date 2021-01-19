@@ -1,7 +1,7 @@
 {
   "name": "pillin-baseutils",
   "vendor": "pillin",
-  "version": "0.6.7-beta.0",
+  "version": "0.6.8-beta.0",
   "title": "BaseUtils",
   "description": "BaseUtils",
   "builders": {
