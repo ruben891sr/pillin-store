@@ -5,8 +5,7 @@
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "assets": "0.x",
-    "scripts": "0.x"
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -58,7 +57,8 @@
     "vtex.store-link": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.category-menu": "2.x"
+    "vtex.category-menu": "2.x",
+    "pillin.pillin-baseutils": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"
