@@ -58,7 +58,7 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.sandbox": "0.x",
     "vtex.category-menu": "2.x",
-    "pillin.pillin-baseutils": "6.x"
+    "pillin.pillin-baseutils": "0.6.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"
