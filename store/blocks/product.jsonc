@@ -113,7 +113,10 @@
     "props":{
       "blockClass": "btn-GuiaDeTallas"
     },
-    "children": ["rich-text#guiaTallas"]
+    "children": [
+      // "rich-text#guiaTallas",
+      "modal-trigger#ModalTallas"
+    ]
   },
   "rich-text#guiaTallas":{
     "props":{
@@ -121,6 +124,45 @@
       "blockClass": "textGuiadeTallas"
     }
   },
+
+  //Modal Guía de Tallas
+  "modal-trigger#ModalTallas":{
+    "children":[
+      // "rich-text#TituloGuiaTallas",
+      "tab-layout#Tallas"
+    ]
+  },
+
+  // "rich-text#TituloGuiaTallas": {
+  //   "props": {
+  //     "blockClass": "TituloModal",
+  //     "text": "uía de Tallas"
+  //   }
+  // },
+  "tab-layout#Tallas": {
+    "children": [
+      "tab-content#Contenido-GuiaTallas"
+    ],
+    "props": {
+      "blockClass": "tabLayout"
+    }
+  },
+  "tab-content#Contenido-GuiaTallas":{
+    "children":[
+      "rich-text#MensajeguiaTallas"
+    ],
+    "props":{
+      "blockClass": "tabContent-Guia"
+    }
+  },
+
+  "rich-text#MensajeguiaTallas":{
+    "props":{
+      "text": "Guía de Tallas",
+      "blockClass": "textGuiadeTallas"
+    }
+  },
+
 
   // Stock
   "flex-layout.col#stock":{
