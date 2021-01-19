@@ -1,13 +1,19 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop#pdpDesktop",
+      "responsive-layout.mobile#pdpMobile"
+    ]
+  },
+  "responsive-layout.desktop#pdpDesktop":{
+    "children":[
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-related"
     ]
   },
 
-
+  // DESKTOP
   // BreadCrumb
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -85,7 +91,6 @@
       "availability-subscriber",
       "flex-layout.row#wishlist",
       "flex-layout.row#simulador-entrega",
-      // "flex-layout.row#descriptionPDPmobile",
       "product-availability"
     ]
   },
@@ -154,7 +159,8 @@
     "props":{
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "40%"
+      "width": "40%",
+      "blockClass": "colAddToCart"
     },
     "children":["add-to-cart-button"]
   },
@@ -270,6 +276,35 @@
     ]
   },
 
+  // MOBILE
+  "responsive-layout.mobile#pdpMobile":{
+    "children":[
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-mainMobile",
+      "flex-layout.row#shelf-related"
+    ]
+  },
+
+  "flex-layout.row#product-mainMobile":{
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#product-imageMobile", "flex-layout.col#pdp-right-col-mobile"]
+  },
+  // Imagen del producto
+  "flex-layout.col#product-imageMobile": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": ["product-images"]
+  },
+
   //Descripcion Mobile
   "flex-layout.row#descriptionPDPmobile":{
     "props":{
@@ -286,6 +321,71 @@
   "product-description#mobile":{
     "props":{"title": "Descripción"}
   },
+
+  // Detalles del Producto Mobile
+  "flex-layout.col#pdp-right-col-mobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-separator",
+      "sku-selector#PDP",
+      "flex-layout.col#guia-de-tallas",
+      "flex-layout.col#stock",
+      "sticky-layout#quantity-buy-button",
+      "availability-subscriber",
+      "flex-layout.row#wishlist",
+      "flex-layout.row#simulador-entrega",
+      "flex-layout.row#descriptionPDPmobile",
+      "product-availability"
+    ]
+  },
+
+    // Cantidad y btn Agregar al carro sticky
+    "sticky-layout#quantity-buy-button": {
+      "props": {
+        "position": "bottom"
+      },
+      "children": ["flex-layout.row#quantity-buy-button-Mobile"]
+    },
+    "flex-layout.row#quantity-buy-button-Mobile":{
+      "props": {
+        "marginTop": 4,
+        "marginBottom": 5,
+        "preventVerticalStretch": true,
+        "blockClass": "rowQuantityBuy"
+      },
+      "children": ["flex-layout.col#productQuantity-Mobile", "flex-layout.col#add-to-cart-mobile"]
+    },
+
+    "flex-layout.col#productQuantity-Mobile": {
+      "props":{
+        "blockClass": "colProductQuantity",
+        "width": "30%"
+      },
+      "children":["product-quantity"]
+    },
+    
+    "flex-layout.col#add-to-cart-mobile":{
+      "props":{
+        "marginTop": 1,
+        "verticalAlign": "middle",
+        "width": "40%",
+        "blockClass": "colAddToCart"
+      },
+      "children":["add-to-cart-button#mobile"]
+    },
+    "add-to-cart-button#mobile": {
+      "props":{
+        "text": "Agregar al Carro",
+        "onClickBehavior": "add-to-cart"
+      }
+    },
 
 
   // "rich-text#despachoDomicilio": {
@@ -317,10 +417,10 @@
       "recommendation": "view",
       "blockClass": "pdpProductosRelacionados",
       "productList": {
-        "titleText": "Productos recomendados",
+        "titleText": "Productos Recomendados",
         "itemsPerPage": 5
       }
     },
-    "blocks":["product-summary.shelf#general"]
+    "blocks":["product-summary.shelf#pdp"]
   }
 }

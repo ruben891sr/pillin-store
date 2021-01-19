@@ -418,7 +418,7 @@
     width: 14px;
     height: 14px;
     margin-right: 3px;
-    /* background: url(assets/img/icon-sizeGuide.svg); */
+    background: url(assets/img/icon-sizeGuide.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
