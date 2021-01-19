@@ -1,4 +1,5 @@
 (function () {
+  alert('aaaa');
   console.log('tallas home ran !')
 
 function find_parent(n: any,e: any)
