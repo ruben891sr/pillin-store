@@ -30,11 +30,11 @@
     transform: translateX(-50%);
     width: 95vw;
     top: 102px !important;
-    border-top: 1px solid rgb(204 204 204 / 40%);
+    border-top: 1px solid rgb(204 204 204 / 40%); 
     border-radius: 0 0 6px 6px;
     box-shadow: 2px 4px 13px -6px #33333342;
-    padding: 2.5rem 2rem 5rem 2rem;
-}
+    padding: 2.5rem 0 5rem 0;
+} 
 
 .submenuWrapper .menuItem {
     display: flex;

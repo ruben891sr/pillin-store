@@ -1,0 +1,9 @@
+{
+  "store.custom#mantencion": {
+    "path": "/mantencion"
+  },
+  
+    "store.storelocator#tiendas": {
+      "path": "/tiendas"
+    }
+}

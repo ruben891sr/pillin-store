@@ -20,8 +20,13 @@
     justify-content: center;
 }
 
+.flexCol--colNina {
+    padding: 0 2rem;
+}
+
 .flexCol--colNino {
     border-right: 1px solid #ccc;
+    padding: 0 2rem;
 }
 
 .flexColChild--colNina,
@@ -80,7 +85,7 @@
 .flexRowContent--infoIcons-mobile {
     display: flex;
     flex-wrap: wrap;
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
 }
 
 .flexRowContent--infoIcons-mobile .stretchChildrenWidth {
@@ -94,7 +99,7 @@
 .flexColChild--topBar-rightCol {
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
 }
 
 .flexCol--topBar-rightCol {
@@ -202,6 +207,7 @@
 .flexRowContent--rowBreadCrumbMobile {
     margin: 5px 0 10px 0;
 }
+
 /*Banner y titulo*/
 .flexRowContent--rowBannerSearchTitle {
     justify-content: center;
@@ -209,26 +215,29 @@
     flex-direction: column;
     position: relative;
 }
+
 .flexCol--colSearchTitle {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {
         margin-bottom: 0rem;
     }
+
     .flexRowContent--rowSearchInfo .stretchChildrenWidth {
         border: 1px solid #441e13;
         border-radius: 3px;
         margin: 0 5px;
         height: 45px;
     }
+
     .filterPopupTitle {
         font-weight: 800;
     }
-  
+
     .flexColChild--summaryBusquedaNombrePrice {
         height: auto !important;
     }
@@ -249,14 +258,48 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .flexColChild--btn-GuiaDeTallas {
-        position: absolute;
-        right: 25px;
-        bottom: 60px;
-    }
-    .flexCol {
-        position: relative;
-    }
+
+
+}
+
+.flexColChild--btn-GuiaDeTallas {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+
+
+/* .flexCol {
+    position: relative;
+} */
+  
+.flexColChild--summaryBusquedaNombrePrice {
+    height: auto !important;
+}
+
+.flexRow--row-footer-mobile {
+    padding: 0;
+}
+
+.flexRowContent--rowBanners-mobile {
+    display: flex;
+}
+
+.flexRow--clubPillin-mobile {
+    background-image: url(assets/img/bg-clubPillin.jpg);
+    margin: 4rem 0;
+    padding: 6rem 1rem 7rem 1rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexColChild--btn-GuiaDeTallas {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+.flexCol {
+    position: relative;
 }
 
 
@@ -277,16 +320,5 @@
 
     .flexCol--colBannersPillin {
         padding: 0;
-    }
-
-    .flexRowContent--rowQuantityBuy {
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        background: white;
-        padding: 5px 15px;
-        margin-bottom: 0;
-        border-top: 1px solid #ffab71;
-        border-bottom: 1px solid #ffab71;
     }
 }

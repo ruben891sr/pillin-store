@@ -16,6 +16,7 @@
       }
     }
   },
+  
   "shelf#pdp": {
     "blocks": ["product-summary.shelf#pdp"],
     "props": {
@@ -32,4 +33,5 @@
       }
     }
   }
+
 }

@@ -12,6 +12,7 @@
       "add-to-cart-button"
     ]
   },
+  
   "product-summary.shelf#pdp": {
     "children": [
       "stack-layout#prodsum",
