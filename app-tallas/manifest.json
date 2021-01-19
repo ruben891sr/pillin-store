@@ -1,7 +1,7 @@
 {
   "vendor": "pillin",
   "name": "pillin-baseutils",
-  "version": "0.6.8-beta.0",
+  "version": "0.6.9-beta.0",
   "title": "app script tallas",
   "description": "tallas scripts",
   "builders": {
