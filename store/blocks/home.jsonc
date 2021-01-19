@@ -10,6 +10,7 @@
   "responsive-layout.desktop": {
     "children": [
       "slider-layout#text-test",
+      "flex-layout.row#info-bar",
       "flex-layout.row#infocards-icons",
       //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
@@ -57,6 +58,24 @@
       "src": "assets/img/slider.jpg",
       "width": "100%",
       "blockClass": "sliderImage"
+    }
+  },
+
+
+
+  // Barra informaciones
+  "flex-layout.row#info-bar": {
+    "children": [
+      "image#info-image"
+    ]
+  },
+
+  "image#info-image": {
+    "props": {
+      "src": "assets/img/info-bar-2.jpg",
+      "link": "",
+      "width": "100%",
+      "blockClass": "info-bar-image"
     }
   },
 
@@ -625,7 +644,6 @@
     }
   },
 
-
   // Desktop - Shelf
   "flex-layout.row#shelf-home": {
     "children": [
@@ -636,10 +654,14 @@
     }
   },
 
+
+
+
   // Mobile Version
   "responsive-layout.mobile": {
     "children": [
       "slider-layout#text-test-mobile",
+      "flex-layout.row#info-bar-mobile",
       "flex-layout.row#infocards-icons-mobile",
       "flex-layout.row#infocards-mobile",
       "shelf",
@@ -688,6 +710,24 @@
       "blockClass": "sliderImage"
     }
   },
+
+
+
+// Mobile Info Bar
+"flex-layout.row#info-bar-mobile": {
+  "children": [
+    "image#info-image-mobile"
+  ]
+},
+
+"image#info-image-mobile": {
+  "props": {
+    "src": "assets/img/info-bar-mobile-2.jpg",
+    "link": "",
+    "width": "100%",
+    "blockClass": "info-bar-image-mobile"
+  }
+},
 
 
   // Mobile - Seccion Infocard

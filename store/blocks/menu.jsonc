@@ -615,10 +615,9 @@
             "flex-layout.row#submenuninaninno"
         ],
         "props": {
-            "paddingLeft": 5,
             "blockClass": "colNina"
         }
-    },
+    }, 
 
     "flex-layout.row#submenuninaninno": {
         "children": [

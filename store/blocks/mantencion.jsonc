@@ -1,0 +1,39 @@
+{
+    // Declarción Template
+    "store.custom#mantencion": {
+        "blocks": [
+            "responsive-layout.desktop#mantencion",
+            "responsive-layout.mobile#mantencion"
+        ]
+    },
+
+
+    // Mantención Versión Desktop
+    "responsive-layout.desktop#mantencion": {
+        "children": [
+            "flex-layout.row#mantencion-d"
+        ]
+    },
+
+    "flex-layout.row#mantencion-d": {
+        "children": [
+            "rich-text#test"
+        ],
+        "props": {
+            "blockClass": "mantancionRow"
+        }
+    },
+
+    "rich-text#test": {
+        "props": {
+            "text": "Prueba"
+        }
+    },
+
+
+    // Mantención Versión Mobile
+    "responsive-layout.mobile#mantencion": {}
+
+
+
+}

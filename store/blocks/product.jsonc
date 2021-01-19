@@ -315,6 +315,7 @@
   "shelf.relatedProducts": {
     "props": {
       "recommendation": "view",
+      "blockClass": "pdpProductosRelacionados",
       "productList": {
         "titleText": "Productos recomendados",
         "itemsPerPage": 5

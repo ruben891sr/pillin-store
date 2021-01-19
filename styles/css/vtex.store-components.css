@@ -412,6 +412,16 @@
     flex-direction: column-reverse;
 }
 
+.imageElement--info-bar-image {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.imageElement--info-bar-image-mobile {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
 @media (max-width: 991px) {
     .searchIcon { 
         width: 12px;
