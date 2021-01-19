@@ -15,6 +15,7 @@
         "titleText": "Productos Recomendados"
       }
     }
+<<<<<<< HEAD
   },
   
   "shelf#pdp": {
@@ -32,5 +33,23 @@
         "arrows": true
       }
     }
+=======
+>>>>>>> ce30179f69fbbb79fa0ca43e0edda1e186dbdd63
   }
+  // "shelf#PDP": {
+  //   "blocks": ["product-summary.shelf#pdp"],
+  //   "props": {
+  //     "visibleVariations": ["Talla", "Color"],
+  //     "category": 3,
+  //     "orderBy": "OrderByTopSaleDESC",
+  //     "blockClass": "vitrinapdp",
+  //     "productList": {
+  //       "maxItems": 12,
+  //       "itemsPerPage": 5,
+  //       "minItemsPerPage": 1,
+  //       "scroll": "BY_PAGE",
+  //       "arrows": true
+  //     }
+  //   }
+  // }
 }

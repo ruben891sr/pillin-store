@@ -373,13 +373,12 @@
 .sellingPriceValue {
     color: #c1272d;
 }
-/* .skuSelectorContainer--skuSelectorPDP .skuSelectorTextContainer {
+.skuSelectorContainer--skuSelectorPDP .skuSelectorTextContainer {
     display: block;
 }
 .skuSelectorContainer--skuSelectorPDP .skuSelectorName {
     overflow: visible;
-} */
-
+}
 /*Descripcion*/
 .productDescriptionContainer {
     margin-top: 2.5rem;
@@ -395,11 +394,10 @@
     font-size: 13px;
 }
 
-/* .skuSelectorContainer .skuSelectorTextContainer,
+.skuSelectorContainer .skuSelectorTextContainer,
 .skuSelectorContainer .skuSelectorName {
     display: none;
-} */
-
+}
 /*Selector de SKU Color - Talla*/
 .frameAround--skuSelectorPDP {
     box-shadow: none;

@@ -273,18 +273,19 @@
     position: relative;
 } */
   
-    .flexColChild--summaryBusquedaNombrePrice {
-        height: auto !important;
-    }
+.flexColChild--summaryBusquedaNombrePrice {
+    height: auto !important;
+}
 
-    .flexRow--row-footer-mobile {
-        padding: 0;
-    }
+.flexRow--row-footer-mobile {
+    padding: 0;
+}
 
-    .flexRowContent--rowBanners-mobile {
-        display: flex;
-    }
+.flexRowContent--rowBanners-mobile {
+    display: flex;
+}
 
+<<<<<<< HEAD
     .flexRow--clubPillin-mobile {
         background-image: url(assets/img/bg-clubPillin.jpg);
         margin: 4rem 0;
@@ -301,6 +302,24 @@
     .flexCol {
         position: relative;
     }
+=======
+.flexRow--clubPillin-mobile {
+    background-image: url(assets/img/bg-clubPillin.jpg);
+    margin: 4rem 0;
+    padding: 6rem 1rem 7rem 1rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexColChild--btn-GuiaDeTallas {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+.flexCol {
+    position: relative;
+}
+>>>>>>> ce30179f69fbbb79fa0ca43e0edda1e186dbdd63
 
 
 /* MEDIA QUERIES */
@@ -320,16 +339,5 @@
 
     .flexCol--colBannersPillin {
         padding: 0;
-    }
-
-    .flexRowContent--rowQuantityBuy {
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        background: white;
-        padding: 5px 15px;
-        margin-bottom: 0;
-        border-top: 1px solid #ffab71;
-        border-bottom: 1px solid #ffab71;
     }
 }
