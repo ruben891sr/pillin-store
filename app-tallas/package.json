@@ -1,14 +1,20 @@
 {
-  "name": "pillin-baseutils",
+  "version": "0.0.0",
+  "name": "app-scripts-example",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "lint:locales": "intl-equalizer"
+  },
+  "intl-equalizer": {
+    "referenceLocale": "en",
+    "localeDirectory": "messages"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && intl-equalizer && intl-equalizer --fix"
     }
   },
   "lint-staged": {
@@ -21,6 +27,7 @@
     ]
   },
   "devDependencies": {
+    "@vtex/intl-equalizer": "^2.4.2",
     "@vtex/prettier-config": "^0.1.4",
     "eslint": "^6.8.0",
     "eslint-config-vtex": "^12.3.2",

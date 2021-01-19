@@ -1,14 +1,16 @@
 {
-  "name": "pillin-baseutils",
   "vendor": "pillin",
-  "version": "0.6.8-beta.0",
-  "title": "BaseUtils",
-  "description": "BaseUtils",
+  "name": "pillin-baseutils",
+  "version": "0.6.6-beta.0",
+  "title": "app script tallas",
+  "description": "tallas scripts",
   "builders": {
-    "pixel": "0.x"
+    "scripts": "0.x"
   },
-  "dependencies": {
-    "vtex.pixel-interfaces": "1.x"
-  },
+  "dependencies": {},
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
