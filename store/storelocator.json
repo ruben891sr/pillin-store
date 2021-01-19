@@ -12,7 +12,7 @@
         "preventVerticalStretch": true
       }
     },
-    "rich-text#title": {
+    "rich-text#title": { 
       "props": {
         "text": "## Nuestras Tiendas"
       }
