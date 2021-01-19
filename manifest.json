@@ -58,7 +58,7 @@
     "vtex.store-link": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.category-menu": "2.x",
+    "vtex.category-menu": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"
