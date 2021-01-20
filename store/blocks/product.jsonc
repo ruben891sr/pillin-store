@@ -1,13 +1,19 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop#pdpDesktop",
+      "responsive-layout.mobile#pdpMobile"
+    ]
+  },
+  "responsive-layout.desktop#pdpDesktop":{
+    "children":[
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-related"
     ]
   },
 
-
+  // DESKTOP
   // BreadCrumb
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -84,8 +90,9 @@
       "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
+      "sandbox.product#Simulador-Flete",
+      // "flex-layout.row#Formulario-Simulador",
       "flex-layout.row#simulador-entrega",
-      // "flex-layout.row#descriptionPDPmobile",
       "product-availability"
     ]
   },
@@ -109,8 +116,14 @@
       "blockClass": "btn-GuiaDeTallas"
     },
     "children": [
-      // "rich-text#guiaTallas",
-      "modal-trigger#ModalTallas"
+      "modal-trigger#Trigger-Tallas"
+    ]
+  },
+
+  "modal-trigger#Trigger-Tallas": {
+    "children": [
+      "rich-text#guiaTallas",
+      "modal-layout#Modal-Guia-Tallas"
     ]
   },
   "rich-text#guiaTallas":{
@@ -119,42 +132,21 @@
       "blockClass": "textGuiadeTallas"
     }
   },
-
-  //Modal Guía de Tallas
-  "modal-trigger#ModalTallas":{
-    "children":[
-      // "rich-text#TituloGuiaTallas",
-      "tab-layout#Tallas"
+  "modal-header#Header-Guia-Tallas":{
+    "props":{
+      "showCloseButton": true,
+      "iconCloseSize": 30
+    }
+  },
+  "modal-layout#Modal-Guia-Tallas": {
+    "children": [
+      "modal-header#Header-Guia-Tallas",
+      "rich-text#modal-content"
     ]
   },
-
-  // "rich-text#TituloGuiaTallas": {
-  //   "props": {
-  //     "blockClass": "TituloModal",
-  //     "text": "uía de Tallas"
-  //   }
-  // },
-  "tab-layout#Tallas": {
-    "children": [
-      "tab-content#Contenido-GuiaTallas"
-    ],
+  "rich-text#modal-content": {
     "props": {
-      "blockClass": "tabLayout"
-    }
-  },
-  "tab-content#Contenido-GuiaTallas":{
-    "children":[
-      "rich-text#MensajeguiaTallas"
-    ],
-    "props":{
-      "blockClass": "tabContent-Guia"
-    }
-  },
-
-  "rich-text#MensajeguiaTallas":{
-    "props":{
-      "text": "Guía de Tallas",
-      "blockClass": "textGuiadeTallas"
+      "text": "Guía de Tallas"
     }
   },
 
@@ -196,7 +188,8 @@
     "props":{
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "40%"
+      "width": "40%",
+      "blockClass": "colAddToCart"
     },
     "children":["add-to-cart-button"]
   },
@@ -220,6 +213,70 @@
     },
     "children": ["add-to-list-btn"]
   },
+
+  //Formulario Simulador de entrega Sandbox
+  "sandbox.product#Simulador-Flete":{
+    "props":{
+      "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
+      "width": "100%",
+      "height": "150px",
+      "allowCookies": true,
+      "blockClass": "simulaFlete"
+    }
+  },
+
+  // "flex-layout.row#Formulario-Simulador":{
+  //   "props":{
+  //     "blockClass": "rowFormularioSimulador"
+  //   },
+  //   "children":["flex-layout.col#Form-Simulador"]
+  // },
+
+  // "flex-layout.col#Form-Simulador":{
+  //   "children": ["form"]
+  // },
+
+  // "form": {
+  //   "props": {
+  //     "entity": "Simulador Flete",
+  //     "schema": "SF"
+  //   },
+  //   "children":[
+  //     "form-input.dropdown#region",
+  //     "form-input.dropdown#comuna",
+  //     "form-submit"
+  //   ],
+  //   "blocks":["form-success"]
+  // },
+  // "form-success": {
+  //   "children": [
+  //     "rich-text#successSubmit"
+  //   ]
+  // },
+  // "rich-text#successSubmit": {
+  //   "props": {
+  //     "text": "Los datos fueron enviados exitosamente!",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+  // "form-input.dropdown#region":{
+  //   "props":{
+  //     "label": "Región:",
+  //     "pointer": "#/properties/region"
+  //   }
+  // },
+  // "form-input.dropdown#comuna":{
+  //   "props":{
+  //     "label": "Comuna:",
+  //     "pointer": "#/properties/comuna"
+  //   }
+  // },
+  // "form-submit":{
+  //   "props":{
+  //     "label": "Consultar"
+  //   }
+  // },
 
   //Simula tu entrega
   "flex-layout.row#simulador-entrega":{
@@ -274,9 +331,8 @@
       "border": "bottom",
       "blockClass": "colSimuladorEntrega"
     },
-    "children": [
-      "image#icon-despacho",
-      "disclosure-layout#despacho"
+    "children": ["image#icon-despacho","rich-text#DespachoDomicilio"
+      // "disclosure-layout#despacho"
     ]
   },
 
@@ -291,25 +347,63 @@
     }
   },
 
-  //Disclosure-Despacho a domicilio
-  "disclosure-layout#despacho": {
-    "children": [
-      "disclosure-trigger#despacho",
-      "disclosure-content#despacho"
-    ]
-  },
-  "disclosure-trigger#despacho": {
-    "children": ["rich-text#question"]
-  },
-  "rich-text#question": {
-    "props": {
-      "text": "Despacho a Domicilio"
+  "rich-text#DespachoDomicilio": {
+    "props":{
+      "text": "Despacho a Domicilio",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textSimulador"
     }
   },
-  "disclosure-content#despacho": {
-    "children": [
-      "shipping-simulator"
+
+  //Disclosure-Despacho a domicilio
+  // "disclosure-layout#despacho": {
+  //   "children": [
+  //     "disclosure-trigger#despacho",
+  //     "disclosure-content#despacho"
+  //   ]
+  // },
+  // "disclosure-trigger#despacho": {
+  //   "children": ["rich-text#question"]
+  // },
+  // "rich-text#question": {
+  //   "props": {
+  //     "text": "Despacho a Domicilio"
+  //   }
+  // },
+  // "disclosure-content#despacho": {
+  //   "children": [
+  //     "shipping-simulator"
+  //   ]
+  // },
+
+  // MOBILE
+  "responsive-layout.mobile#pdpMobile":{
+    "children":[
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-mainMobile",
+      "flex-layout.row#shelf-related"
     ]
+  },
+
+  "flex-layout.row#product-mainMobile": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#product-imageMobile", "flex-layout.col#pdp-right-col-mobile"]
+  },
+  // Imagen del producto
+  "flex-layout.col#product-imageMobile": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": ["product-images"]
   },
 
   //Descripcion Mobile
@@ -329,6 +423,71 @@
     "props":{"title": "Descripción"}
   },
 
+  // Detalles del Producto
+  "flex-layout.col#pdp-right-col-mobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-separator",
+      "sku-selector#PDP",
+      "flex-layout.col#guia-de-tallas",
+      "flex-layout.col#stock",
+      "flex-layout.row#quantity-buy-button",
+      "availability-subscriber",
+      "flex-layout.row#wishlist",
+      "flex-layout.row#simulador-entrega",
+      "flex-layout.row#descriptionPDPmobile",
+      "product-availability"
+    ]
+  },
+
+  // Cantidad y btn Agregar al carro sticky
+  "sticky-layout#quantity-buy-button":{
+    "props":{
+      "position": "bottom"
+    },
+    "children":["flex-layout.row#quantity-buy-button-Mobile"]
+  },
+  "flex-layout.row#quantity-buy-button-Mobile":{
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 5,
+      "preventVerticalStretch": true,
+      "blockClass": "rowQuantityBuy"
+    },
+    "children": ["flex-layout.col#productQuantity-Mobile", "flex-layout.col#add-to-cart-mobile"]
+  },
+
+  "flex-layout.col#productQuantity-Mobile": {
+    "props":{
+      "blockClass": "colProductQuantity",
+      "width": "30%"
+    },
+    "children":["product-quantity"]
+  },
+
+  "flex-layout.col#add-to-cart-mobile":{
+    "props":{
+      "marginTop": 1,
+      "verticalAlign": "middle",
+      "width": "40%",
+      "blockClass": "colAddToCart"
+    },
+    "children":["add-to-cart-button#mobile"]
+  },
+  "add-to-cart-button#mobile": {
+    "props":{
+      "text": "Agregar al Carro",
+      "onClickBehavior": "add-to-cart"
+    }
+  },
+
 
   // "rich-text#despachoDomicilio": {
   //   "props":{
@@ -337,10 +496,6 @@
   //     "textPosition": "CENTER",
   //     "blockClass": "textSimulador"
   //   }
-  // },
-
-  // "shipping-simulator":{
-    
   // },
 
   // Productos Relacionados
@@ -357,11 +512,12 @@
   "shelf.relatedProducts": {
     "props": {
       "recommendation": "view",
+      "blockClass": "pdpProductosRelacionados",
       "productList": {
-        "titleText": "Productos recomendados",
+        "titleText": "Productos Recomendados",
         "itemsPerPage": 5
       }
     },
-    "blocks":["product-summary.shelf#general"]
+    "blocks":["product-summary.shelf#pdp"]
   }
 }

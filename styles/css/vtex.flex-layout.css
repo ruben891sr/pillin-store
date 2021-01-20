@@ -321,4 +321,14 @@
     .flexCol--colBannersPillin {
         padding: 0;
     }
+    .flexRowContent--rowQuantityBuy {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        background: white;
+        padding: 5px 15px;
+        margin-bottom: 0;
+        border-top: 1px solid #ffab71;
+        border-bottom: 1px solid #ffab71;
+    }
 }
