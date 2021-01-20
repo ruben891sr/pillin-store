@@ -2,7 +2,8 @@
     margin: 0 .5rem;
 }
 
-.title--vitrinaHome {
+.title--vitrinaHome,
+.title--pdpProductosRelacionados {
     font-size: 1.5em;
     color: #402117;
     font-weight: 800;
@@ -16,7 +17,8 @@
     padding-left: 3.7rem;
 }
 
-.title--vitrinaHome::before {
+.title--vitrinaHome::before,
+.title--pdpProductosRelacionados::before {
     content: '';
     background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
     background-position: center;
