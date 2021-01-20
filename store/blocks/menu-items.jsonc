@@ -3779,7 +3779,7 @@
       "id": "menu-item-calcetines",
       "type": "custom",
       "iconId": null,
-      "blockClass": "Calcetín-specificationFilter_41",
+      "blockClass": "Calcetin-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3864,7 +3864,7 @@
       "id": "menu-item-pinchesycintillos",
       "type": "custom",
       "iconId": null,
-      "blockClass": "Pinches---Cintillos-specificationFilter_41",
+      "blockClass": "Pinches-&-Cintillos-specificationFilter_41",
       "highlight": false,
       "itemProps": {
         "type": "internal",
