@@ -110,7 +110,7 @@
     }
   },
 
-  // Guia de Tallas
+  // Guia de Tallas 
   "flex-layout.col#guia-de-tallas": {
     "props":{
       "blockClass": "btn-GuiaDeTallas"
