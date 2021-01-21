@@ -1,0 +1,17 @@
+{
+  "name": "pillin",
+  "vendor": "pilin-utils",
+  "version": "0.0.1",
+  "title": "Base Utils",
+  "description": "Base utilities for pillin",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "pixel": "0.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
