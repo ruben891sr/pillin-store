@@ -11,29 +11,35 @@
       "flex-layout.row#content-footer-general"
     ]
   },
+  
   "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "mainrow-footer-mobile",
-      "fullWidth": true
-    }
-  },
-  "flex-layout.row#footer-mobile": {
     "children": [
       "flex-layout.row#club-pillin-mobile",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
+      // "flex-layout.row#footer-mobile"
     ],
     "props": {
-      "blockClass": "row-footer-mobile",
+      "blockClass": "mainrow-footer-mobile",
       "fullWidth": true
-
     }
   },
+  // "flex-layout.row#footer-mobile": {
+  //   "children": [
+  //     "flex-layout.row#club-pillin-mobile",
+  //     "flex-layout.row#titulo-insta",
+  //     "flex-layout.row#insta",
+  //     "flex-layout.row#seo",
+  //     "flex-layout.row#content-footer-general"
+  //   ],
+  //   "props": {
+  //     "blockClass": "row-footer-mobile",
+  //     "fullWidth": true
+
+  //   }
+  // },
 
   "flex-layout.row#club-pillin": {
     "children": [

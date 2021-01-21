@@ -415,11 +415,13 @@
 .imageElement--info-bar-image {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .imageElement--info-bar-image-mobile {
     margin-top: 1rem;
     margin-bottom: 0rem;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
