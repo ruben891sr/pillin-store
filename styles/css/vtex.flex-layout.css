@@ -21,7 +21,7 @@
 }
 
 .flexCol--colNina {
-    padding: 0 2rem;
+    padding: 0 2rem; 
 }
 
 .flexCol--colNino {
@@ -324,7 +324,11 @@
     .flexCol--colBannersPillin {
         padding: 0;
     }
-    
+
+    .flexRowContent--rowMainFooter .stretchChildrenWidth {
+        width: 100%;
+    }
+
     .flexRowContent--rowQuantityBuy {
         display: flex;
         justify-content: center;
