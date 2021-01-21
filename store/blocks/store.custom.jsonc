@@ -1,0 +1,7 @@
+{
+  "store.custom#tiendas": {
+    "blocks": [
+      "flex-layout.row#ContentTiendas"
+    ]
+  }
+} 
