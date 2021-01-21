@@ -308,7 +308,7 @@
 @media (max-width: 991.1px) {
     .flexRowContent--rowMainFooter {
         padding: 0 2rem;
-        flex-direction: column;
+        flex-direction: column !important; 
     }
 
     .flexRow--footer-general {
@@ -325,8 +325,8 @@
     }
 
     .flexRowContent--rowMainFooter .stretchChildrenWidth {
-        width: 100%;
-    }
+        width: 100% !important;
+    } 
 
     .flexRowContent--rowQuantityBuy {
         display: flex;

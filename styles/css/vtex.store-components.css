@@ -430,13 +430,17 @@
 .imageElement--info-bar-image {
     margin-top: 3rem;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 100% !important;
+    height: 100%;
+    object-fit: contain;
 }
 
 .imageElement--info-bar-image-mobile {
     margin-top: 1rem;
     margin-bottom: 0rem;
-    width: 100%;
+    width: 100% !important;
+    height: 100%;
+    object-fit: contain;
 }
 
 @media (max-width: 991px) {
