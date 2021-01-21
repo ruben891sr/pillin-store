@@ -358,6 +358,21 @@
     padding: 15px 0;
     border-bottom: solid 1px #e1e1e1;
 }
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla::before,
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color::before {
+    display: block;
+    color: #441e13;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: visible!important;
+    margin-bottom: 15px;
+}
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla::before {
+    content: "Seleccione una Talla:";
+}
+.skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color::before {
+    content: "Seleccione un Color:";
+}
 .productNameContainer {
     margin-bottom: 15px;
 }
