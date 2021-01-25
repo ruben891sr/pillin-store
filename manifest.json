@@ -1,7 +1,7 @@
 {
   "vendor": "pillin",
   "name": "pillin-store",
-  "version": "0.4.01-gamma.0",
+  "version": "0.4.2-beta.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
