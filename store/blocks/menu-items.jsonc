@@ -3862,7 +3862,7 @@
   "menu-item#pinchesycintillos": {
     "props": {
       "id": "menu-item-pinchesycintillos",
-      "type": "custom",
+      "type": "custom", 
       "iconId": null,
       "blockClass": "Pinches-&-Cintillos-specificationFilter_41",
       "highlight": false,

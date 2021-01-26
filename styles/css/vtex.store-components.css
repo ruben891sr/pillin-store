@@ -431,7 +431,7 @@
     margin-top: 3rem;
     margin-bottom: 1rem;
     width: 100% !important;
-    height: 100%;
+    height: fit-content;
     object-fit: contain;
 }
 
@@ -439,7 +439,7 @@
     margin-top: 1rem;
     margin-bottom: 0rem;
     width: 100% !important;
-    height: 100%;
+    height: fit-content;
     object-fit: contain;
 }
 
