@@ -5,7 +5,9 @@
     width: 60vw!important;
     padding: 3rem 4rem;
 }
-
+.paper--ModalGuiaTallas{
+    width: 45vw!important;
+}
 .backdrop {
     background: #000 !important;
 }

@@ -350,6 +350,9 @@
 .skuSelectorItemImageValue {
     border-radius: 25px;
 }
+.skuSelectorSubcontainer--color {
+    order: 2;
+}
 
 
 /* PDP */
