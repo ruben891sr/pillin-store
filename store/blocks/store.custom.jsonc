@@ -3,5 +3,9 @@
     "blocks": [
       "flex-layout.row#ContentTiendas"
     ]
+  },
+
+  "flex-layout.row#ContentTiendas": {
+    
   }
 } 
