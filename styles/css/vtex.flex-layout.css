@@ -217,10 +217,42 @@
 }
 
 .flexCol--colSearchTitle {
-    position: absolute;
+    position: absolute!important;
     left: 0;
     top: 0;
 }
+
+/*Búsqueda Vacía*/
+.flexRow--BuscaVacia {
+    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_BuscaVacia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: .95;
+    padding: 2rem;
+}
+
+.flexRowContent--BuscaVacia {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flexCol--PalabrasClavesVacia {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexCol--PalabrasClavesVacia {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
 
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {

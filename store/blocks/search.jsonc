@@ -67,8 +67,7 @@
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
+      "search-result-layout.mobile"
     ]
   },
 
@@ -79,6 +78,8 @@
     ],
     "props": {
       "pagination": "show-more",
+      "search-fetch-more": "button",
+      "search-fetch-previous": "button",
       "preventRouteChange": false,
       "mobileLayout": {
         "mode1": "small",
@@ -295,14 +296,171 @@
       "blockClass": "switcherMobileCol"
     }
   },
+
+  // Busqueda Vacia
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [
+      // "flex-layout.row#searchbread",
+      "flex-layout.row#notfound"
+    ]
   },
 
   "flex-layout.row#notfound": {
-    "children": ["not-found"],
+    "children": ["store.not-found#search"],
     "props": {
       "fullWidth": true
     }
+  },
+  "store.not-found#search": {
+    "blocks": [
+      "flex-layout.row#ContentNotSearch",
+      "rich-text#not-found"
+    ]
+  },
+  "flex-layout.row#ContentNotSearch":{
+    "props":{
+      "blockClass": "BuscaVacia",
+      "horizontalAlign": "left"
+    },
+    "children":[
+      "flex-layout.col#MensajePrincipal",
+      "flex-layout.col#barraBusqueda",
+      "flex-layout.col#talVezPuedaInteresar",
+      "flex-layout.col#PalabrasClavesVacia",
+      "flex-layout.col#botonVolver"
+    ]
+  },
+
+  // Mensaje Principal
+  "flex-layout.col#MensajePrincipal":{
+    "props":{
+      "width": "100%",
+      "horizontalAlign": "left"
+    },
+    "children": ["rich-text#MensajePrincipal"]
+  },
+  "rich-text#MensajePrincipal":{
+    "props":{
+      "text": "## Lo sentimos, no encontramos lo que buscas",
+      "font": "action-secondary",
+      "blockClass": "MensajePrincipal"
+    }
+  },
+
+  //Barra Busqueda
+  "flex-layout.col#barraBusqueda":{
+    "props":{
+      "blockClass": "barraBusqueda",
+      "width": "100%"
+    },
+    "children":["search-bar#buscaVacia"]
+  },
+
+  "search-bar#buscaVacia":{
+    "props":{
+      "openAutocompleteOnFocus": false,
+      "blockClass": "searchBuscaVacia"
+    },
+    "blocks":["autocomplete-result-list.v2#buscaVacia"]
+  },
+
+  "autocomplete-result-list.v2#buscaVacia": {
+    "blocks": ["product-summary.shelf#busqueda"],
+    "props": {
+        "blockClass": "motorBuscador"
+    }
+  },
+  
+  //Titulo palabras claves
+  "flex-layout.col#talVezPuedaInteresar":{
+    "props":{
+      "width": "100%",
+      "horizontalAlign": "left"
+    },
+    "children":["rich-text#talVezPuedaInteresar"]
+  },
+  "rich-text#talVezPuedaInteresar":{
+    "props":{
+      "blockClass": "talVezPuedaInteresar",
+      "text": "tal vez, te puede interesar:"
+    }
+  },
+
+  //Palabras claves
+  "flex-layout.col#PalabrasClavesVacia":{
+    "props":{
+      "width": "100%",
+      "horizontalAlign": "left",
+      "blockClass": "PalabrasClavesVacia"
+    },
+    "children":[
+      "rich-text#gorros-y-bufandas",
+      "rich-text#chalecos-y-polerones",
+      "rich-text#bermudas-y-shorts",
+      "rich-text#abrigos-y-chaquetas",
+      "rich-text#ositos-buzos-y-conjuntos",
+      "rich-text#calcetines"
+    ]
+  },
+  "rich-text#gorros-y-bufandas":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Gorros](/accesorios/gorros-y-bufandas)"
+    }
+  },
+  "rich-text#chalecos-y-polerones":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Chalecos y Polerones](/vestuario/chalecos-y-polerones)"
+    }
+  },
+  "rich-text#bermudas-y-shorts":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Bermudas y Shorts](/vestuario/bermudas-y-shorts)"
+    }
+  },
+  "rich-text#abrigos-y-chaquetas":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Abrigos y Chaquetas](/abrigos%20y%20chaquetas?map=ft)"
+    }
+  },
+  "rich-text#ositos-buzos-y-conjuntos":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Ositos, Buzos y Conjuntos](/vestuario/ositos-buzos-y-conjuntos)"
+    }
+  },
+  "rich-text#calcetines":{
+    "props":{
+      "blockClass": "categoriasBuscaVacia",
+      "text": "[Calcetines](/accesorios/calcetines)"
+    }
+  },
+
+  //Mensaje volver
+  "flex-layout.col#botonVolver":{
+    "props":{
+      "width": "100%",
+      "horizontalAlign": "left"
+    },
+    "children":["rich-text#botonVolver"]
+  },
+  "rich-text#botonVolver":{
+    "props":{
+      "text": "O, puedes volver al home [Aquí](/)",
+      "blockClass": "botonVolver"
+    }
   }
+
+  // Texto Base
+  // "rich-text#not-found": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "**PAGINA NO ENCONTRADA**",
+  //     "font": "t-heading-1"
+  //   }
+  // }
 }

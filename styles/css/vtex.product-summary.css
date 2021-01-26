@@ -107,6 +107,7 @@
 
 .skuSelectorItemImage .skuSelectorInternalBox {
     border: 0 !important;
+    visibility: collapse;
 }
 
 .skuSelectorItemTextValue {

@@ -133,23 +133,46 @@
       "blockClass": "textGuiadeTallas"
     }
   },
+  "modal-layout#Modal-Guia-Tallas": {
+    "props":{
+      "blockClass": "ModalGuiaTallas"      
+    },
+    "children": [
+      "modal-header#Header-Guia-Tallas",
+      "iframe#despligueTallas"
+      // "rich-text#modal-content"
+    ]
+  },
   "modal-header#Header-Guia-Tallas":{
     "props":{
       "showCloseButton": true,
       "iconCloseSize": 30
-    }
+    },
+    "children":["rich-text#TituloModalTallas"]
+
   },
-  "modal-layout#Modal-Guia-Tallas": {
-    "children": [
-      "modal-header#Header-Guia-Tallas",
-      "rich-text#modal-content"
-    ]
-  },
-  "rich-text#modal-content": {
-    "props": {
+  "rich-text#TituloModalTallas":{
+    "props":{
+      "blockClass": "tituloModalGuiaTallas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "text": "Guía de Tallas"
     }
   },
+  "iframe#despligueTallas":{
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "//dw.ivn.cl/pillin/tallas/",
+      "blockClass": "iframeGuiaTallas"
+    }
+  },
+
+  // "rich-text#modal-content": {
+  //   "props": {
+  //     "text": "Guía de Tallas HOLA"
+  //   }
+  // },
 
 
   // Stock
@@ -158,12 +181,57 @@
       "blockClass": "btn-Stock",
       "width":"40%"
     },
-    "children": ["rich-text#Stock"]
+    "children": [
+      "modal-trigger#Trigger-Stock"
+      // "rich-text#Stock"
+    ]
   },
-  "rich-text#Stock":{
+  "modal-trigger#Trigger-Stock": {
+    "props":{
+      "blockClass":"TriggerStock"
+    },
+    "children": [
+      "rich-text#TextStock",
+      "modal-layout#Modal-Stock"
+    ]
+  },
+  "rich-text#TextStock":{
     "props":{
       "text": "Stock",
       "blockClass": "textStock"
+    }
+  },
+  "modal-layout#Modal-Stock": {
+    "props":{
+      "blockClass": "ModalStock"
+    },
+    "children": [
+      "modal-header#Header-Stock",
+      "iframe#despligueStock"
+      // "rich-text#modal-content"
+    ]
+  },
+  "modal-header#Header-Stock":{
+    "props":{
+      "showCloseButton": true,
+      "iconCloseSize": 30
+    },
+    "children":["rich-text#TituloModalStock"]
+  },
+  "rich-text#TituloModalStock":{
+    "props":{
+      "blockClass": "tituloModal",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Stock"
+    }
+  },
+  "iframe#despligueStock":{
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "//dw.ivn.cl/pillin/stock/",
+      "blockClass": "iframeStock"
     }
   },
 
