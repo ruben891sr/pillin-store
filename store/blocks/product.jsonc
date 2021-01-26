@@ -10,6 +10,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-related"
+      // "store.not-found#product"
     ]
   },
 
@@ -441,6 +442,7 @@
       "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
+      "sandbox.product#Simulador-Flete",
       "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
       "product-availability"
@@ -519,4 +521,18 @@
     },
     "blocks":["product-summary.shelf#pdp"]
   }
+
+  // //Not Found 404
+  // "store.not-found#product":{
+  //   "children":["rich-text#not-found"]
+  // },
+  // "rich-text#not-found": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "**Página no encontrada**",
+  //     "font": "t-heading-1",
+  //     "blockClass": "noEncontradaPDP"
+  //   }
+  // }
 }

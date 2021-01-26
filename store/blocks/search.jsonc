@@ -52,6 +52,18 @@
     }
   },
 
+  "store.not-found#search": {
+    "blocks": ["rich-text#not-found"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PÁGINA NO ENCONTRADA**",
+      "font": "t-heading-1" 
+    }
+  },
+
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
