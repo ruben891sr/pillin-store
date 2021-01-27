@@ -31,8 +31,20 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
+      }
+    }
+  },
+
+  "menu-item#rn-nino-calzado": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subcatTitulo-cal",
+      "itemProps": {
+        "href": "/calzado/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_49,specificationFilter_46",
+        "text": "Calzado"
       }
     }
   },
@@ -44,7 +56,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
       }
     }
@@ -56,7 +68,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/recien-nacido--00-a-12m-",
+        "href": "/calzado/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Calzado"
       }
     }
@@ -68,7 +80,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/recien-nacido--00-a-12m-",
+        "href": "/accesorios/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -81,7 +93,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,genero,agrupacion,category-1&operator=and&query=/abrigo-y-chaquetas/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -93,7 +105,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,genero,agrupacion,category-1&operator=and&query=/bermudas-y-shorts/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -105,7 +117,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,genero,agrupacion,category-1&operator=and&query=/blusa-y-camisas/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/blusa-y-camisas/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Camisas"
       }
     }
@@ -117,7 +129,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/body/body/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/body/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Body"
       }
     }
@@ -129,7 +141,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,tipo-producto,agrupacion,category-1&operator=and&query=/chaleco/chalecos-y-polerones/nino/poleron/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -141,7 +153,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,category-1&operator=and&query=/jardinera/jardineras-y-enterito/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -153,7 +165,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,tipo-producto,tipo-producto,agrupacion,category-1&operator=and&query=/jeans/jeans-pantalones-y-calzas/nino/pantalon/pantalon-buzo/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
       }
     }
@@ -165,7 +177,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,tipo-producto,tipo-producto,genero,tipo-producto,category-2,agrupacion,category-1&operator=and&query=/buzo/conjunto/conjunto-plush/mameluco/nino/osito/ositos-buzos-y-conjuntos/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Ositos, buzos y Conjuntos"
       }
     }
@@ -177,20 +189,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,tipo-producto,category-2,agrupacion,category-1&operator=and&query=/nino/polera/poleras/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/poleras/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#rn-nino-vestuario-ropainteriorypijamas": {
+  "menu-item#rn-nino-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,category-2,agrupacion,category-2,category-1&operator=and&query=/nino/pijamas/recien-nacido--00-a-12m-/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#rn-nino-vestuario-pijama": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -201,36 +225,24 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/traje-de-bano/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
   },
 
   // Recién Nacido - Niño - Calzado
-  "menu-item#rn-nino-calzado": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subcatTitulo-cal",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/recien-nacido--00-a-12m-",
-        "text": "Calzado"
-      }
-    }
-  },
-
-  "menu-item#rn-nino-calzado-gateadores": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Gateadores"
-      }
-    }
-  },
+  // "menu-item#rn-nino-calzado-gateadores": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
+  //       "text": "Gateadores"
+  //     }
+  //   }
+  // },
 
   "menu-item#rn-nino-calzado-zapatitosreciennacido": {
     "props": {
@@ -238,7 +250,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
+        "href": "/calzado/zapatitos-recien-nacido/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatitos Recién Nacido"
       }
     }
@@ -251,7 +263,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-",
+        "href": "/accesorios/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -263,7 +275,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/babero/nino/recien-nacido--00-a-12m-",
+        "href": "/accesorios/babero-y-bandanas/nino/?map=c,specificationFilter_47",
         "text": "Baberos"
       }
     }
@@ -275,7 +287,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/calcetin/nino/recien-nacido--00-a-12m-",
+        "href": "/accesorios/calcetines/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Calcetines"
       }
     }
@@ -287,7 +299,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/gorro/nino/recien-nacido--00-a-12m-",
+        "href": "/accesorios/gorros-y-bufandas/recien-nacido--00-a-12m-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Gorros y Bufandas"
       }
     }
@@ -299,7 +311,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/peluche?map=ft",
+        "href": "/accesorios/peluches",
         "text": "Peluches"
       }
     }
@@ -311,7 +323,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion,tipo-producto,tipo-producto&operator=and&query=/accesorios/nino/recien-nacido--00-a-12m-/toalla/tuto",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -324,7 +336,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/abrigo-y-chaquetas/chaqueta/nina/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -336,7 +348,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,genero,agrupacion,tipo-producto,category-1&operator=and&query=/bermudas-y-shorts/nina/recien-nacido--00-a-12m-/short/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -348,7 +360,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/blusa/blusa-y-camisas/camisa/nina/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/blusa-y-camisas/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Blusas"
       }
     }
@@ -360,7 +372,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/body/body/nina/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/body/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Body"
       }
     }
@@ -372,7 +384,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,tipo-producto,agrupacion,category-1&operator=and&query=/chaleco/chalecos-y-polerones/nina/poleron/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -384,7 +396,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,category-1&operator=and&query=/jardinera/jardineras-y-enterito/nina/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -396,7 +408,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,category-2,genero,tipo-producto,agrupacion,category-1&operator=and&query=/calza/jeans/jeans-pantalones-y-calzas/nina/pantalon/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
       }
     }
@@ -408,7 +420,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,tipo-producto,genero,tipo-producto,category-2,agrupacion,tipo-producto,category-1&operator=and&query=/buzo/conjunto/mameluco/nina/osito/ositos-buzos-y-conjuntos/recien-nacido--00-a-12m-/set/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Ositos, buzos y Conjuntos"
       }
     }
@@ -420,20 +432,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,tipo-producto,category-2,agrupacion,category-1&operator=and&query=/nina/polera/poleras/recien-nacido--00-a-12m-/vestuario",
+        "href": "/vestuario/poleras/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#rn-nina-vestuario-ropainteriorypijamas": {
+  "menu-item#rn-nina-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,category-2,agrupacion,category-2,category-1&operator=and&query=/nina/pijamas/recien-nacido--00-a-12m-/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#rn-nina-vestuario-pijamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/recien-nacido--00-a-12m/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -444,7 +468,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/traje-de-bano/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
@@ -456,7 +480,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nina/recien-nacido--00-a-12m-/vestido/vestidos-y-faldas/vestuario",
+        "href": "/vestuario/vestidos-y-faldas/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestidos y Faldas"
       }
     }
@@ -465,17 +489,17 @@
   // Recién Nacido - Niña - Calzado
 
 
-  "menu-item#rn-nina-calzado-gateadores": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-        "text": "Gateadores"
-      }
-    }
-  },
+  // "menu-item#rn-nina-calzado-gateadores": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
+  //       "text": "Gateadores"
+  //     }
+  //   }
+  // },
 
   "menu-item#rn-nina-calzado-zapatitosreciennacido": {
     "props": {
@@ -483,7 +507,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
+        "href": "/calzado/zapatitos-recien-nacido/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatitos Recién Nacido"
       }
     }
@@ -497,7 +521,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/babero/nina/recien-nacido--00-a-12m-",
+        "href": "/accesorios/babero-y-bandanas/nina/?map=c,specificationFilter_47",
         "text": "Baberos"
       }
     }
@@ -509,7 +533,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/calcetin/nina/recien-nacido--00-a-12m-",
+        "href": "/accesorios/calcetines/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Calcetines"
       }
     }
@@ -521,7 +545,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion&operator=and&query=/accesorios/gorro/nina/recien-nacido--00-a-12m-",
+        "href": "/accesorios/gorros-y-bufandas/recien-nacido--00-a-12m-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Gorros y Bufandas"
       }
     }
@@ -533,7 +557,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/peluche?map=ft",
+        "href": "/accesorios/peluches",
         "text": "Peluches"
       }
     }
@@ -545,7 +569,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "",
+        "href": "/accesorios/pinches-y-cintillos",
         "text": "Pinches y Cintillos"
       }
     }
@@ -557,7 +581,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion,tipo-producto,tipo-producto&operator=and&query=/accesorios/nina/recien-nacido--00-a-12m-/toalla/tuto",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -606,7 +630,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nino/vestuario",
+        "href": "/vestuario/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
       }
     }
@@ -618,7 +642,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
+        "href": "/calzado/bebe--18m-a-3-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Calzado"
       }
     }
@@ -630,7 +654,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
+        "href": "/accesorios/bebe--18m-a-3-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -643,7 +667,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-1&operator=and&query=/bebe--18m-a-3-/nina/vestuario",
+        "href": "/vestuario/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
       }
     }
@@ -655,7 +679,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
+        "href": "/calzado/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Calzado"
       }
     }
@@ -667,7 +691,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "href": "/accesorios/bebe--18m-a-3-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -680,7 +704,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,agrupacion,tipo-producto,genero,category-1&operator=and&query=/abrigo-y-chaquetas/bebe--18m-a-3-/chaqueta/nino/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -692,7 +716,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,category-2,genero,category-1&operator=and&query=/bebe--18m-a-3-/bermudas-y-shorts/nino/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -704,7 +728,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,category-2,tipo-producto,genero,category-1&operator=and&query=/bebe--18m-a-3-/blusa-y-camisas/camisa/nino/vestuario",
+        "href": "/vestuario/blusa-y-camisas/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Camisas"
       }
     }
@@ -716,7 +740,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,category-2,tipo-producto,genero,category-1&operator=and&query=/bebe--18m-a-3-/body/body/nino/vestuario",
+        "href": "/vestuario/body/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Body"
       }
     }
@@ -728,7 +752,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,category-2,genero,tipo-producto,category-1&operator=and&query=/bebe--18m-a-3-/chaleco/chalecos-y-polerones/nino/poleron/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -740,7 +764,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,category-2,genero,category-1&operator=and&query=/bebe--18m-a-3-/jardinera/jardineras-y-enterito/nino/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -752,7 +776,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,category-2,genero,tipo-producto,tipo-producto,category-1&operator=and&query=/bebe--18m-a-3-/jeans/jeans-pantalones-y-calzas/nino/pantalon/pantalon-buzo/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
       }
     }
@@ -764,7 +788,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/buzo/conjunto/nino/osito/ositos-buzos-y-conjuntos/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Ositos, buzos y Conjuntos"
       }
     }
@@ -776,20 +800,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/nino/polera/poleras/vestuario",
+        "href": "/vestuario/poleras/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#bb-nino-vestuario-ropainteriorypijamas": {
+  "menu-item#bb-nino-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/calzoncillo/camiseta/nino/panty/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#bb-nino-vestuario-pijamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -800,7 +836,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/nino/traje-de-bano/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/bebe--18m-a-3-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
@@ -813,7 +849,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
+        "href": "/calzado/botas-botines-y-bototos/bebe--18m-a-3-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Botas, Botines y Bototos"
       }
     }
@@ -825,7 +861,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,tipo-producto,category-2,genero&operator=and&query=/bebe--18m-a-3-/calzado/gateador/gateadores/nino",
+        "href": "/calzado/gateadores/bebe--18m-a-3-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Gateadores"
       }
     }
@@ -837,7 +873,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero,category-2,tipo-producto&operator=and&query=/bebe--18m-a-3-/calzado/nino/sandalias/sandalias",
+        "href": "/calzado/sandalias/bebe--18m-a-3-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Sandalias"
       }
     }
@@ -849,23 +885,23 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero,category-2,tipo-producto&operator=and&query=/bebe--18m-a-3-/calzado/nino/zapatillas/zapatillas",
+        "href": "/calzado/zapatillas/bebe--18m-a-3-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatillas"
       }
     }
   },
 
-  "menu-item#bb-nino-calzado-zapatos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
-        "text": "Zapatos"
-      }
-    }
-  },
+  // "menu-item#bb-nino-calzado-zapatos": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
+  //       "text": "Zapatos"
+  //     }
+  //   }
+  // },
 
 
   // Bebé - Niño - Accesorios y Regalos
@@ -875,7 +911,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
+        "href": "/accesorios/babero-y-bandanas/nino/?map=c,specificationFilter_47",
         "text": "Baberos"
       }
     }
@@ -887,7 +923,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,tipo-producto,category-2,genero&operator=and&query=/accesorios/bebe--18m-a-3-/calcetin/calcetines/nino",
+        "href": "/accesorios/calcetines/bebe--18m-a-3-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Calcetines"
       }
     }
@@ -899,7 +935,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,tipo-producto,category-2,genero&operator=and&query=/accesorios/bebe--18m-a-3-/gorro/gorros-y-bufandas/nino",
+        "href": "/accesorios/gorros-y-bufandas/bebe--18m-a-3-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Gorros y Bufandas"
       }
     }
@@ -911,7 +947,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/peluche?map=ft",
+        "href": "/accesorios/peluches",
         "text": "Peluches"
       }
     }
@@ -923,7 +959,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nino",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -936,7 +972,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,agrupacion,tipo-producto,genero,category-1&operator=and&query=/abrigo-y-chaquetas/bebe--18m-a-3-/chaqueta/nina/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -948,7 +984,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,category-2,genero,tipo-producto,category-1&operator=and&query=/bebe--18m-a-3-/bermudas-y-shorts/nina/short/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -960,7 +996,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,category-2,tipo-producto,genero,category-1&operator=and&query=/bebe--18m-a-3-/blusa/blusa-y-camisas/camisa/nina/vestuario",
+        "href": "/vestuario/blusa-y-camisas/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Blusas"
       }
     }
@@ -972,7 +1008,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,category-2,tipo-producto,genero,category-1&operator=and&query=/bebe--18m-a-3-/body/body/nina/vestuario",
+        "href": "/vestuario/body/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Body"
       }
     }
@@ -984,7 +1020,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,category-2,genero,tipo-producto,category-1&operator=and&query=/bebe--18m-a-3-/chaleco/chalecos-y-polerones/nina/poleron/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -996,7 +1032,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,category-2,genero,category-1&operator=and&query=/bebe--18m-a-3-/enterito/jardinera/jardineras-y-enterito/nina/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -1008,7 +1044,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,category-2,genero,tipo-producto,category-1&operator=and&query=/bebe--18m-a-3-/calza/jeans/jeans-pantalones-y-calzas/nina/pantalon/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
       }
     }
@@ -1020,7 +1056,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,genero,category-2,category-1&operator=and&query=/bebe--18m-a-3-/buzo/conjunto/nina/ositos-buzos-y-conjuntos/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Ositos, buzos y Conjuntos"
       }
     }
@@ -1032,20 +1068,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/nina/polera/poleras/vestuario",
+        "href": "/vestuario/poleras/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#bb-nina-vestuario-ropainteriorypijamas": {
+  "menu-item#bb-nina-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,tipo-producto,tipo-producto,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/camiseta/cuadros/nina/panty/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#bb-nina-vestuario-pijamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -1056,7 +1104,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,category-2,category-1&operator=and&query=/bebe--18m-a-3-/nina/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
@@ -1068,7 +1116,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=agrupacion,genero,tipo-producto,category-2,category-1&operator=and&query=/bebe--18m-a-3-/nina/vestido/vestidos-y-faldas/vestuario",
+        "href": "/vestuario/vestidos-y-faldas/bebe--18m-a-3-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestidos y Faldas"
       }
     }
@@ -1081,7 +1129,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
+        "href": "/calzado/botas-botines-y-bototos/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Botas, Botines y Bototos"
       }
     }
@@ -1093,7 +1141,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,tipo-producto,category-2,genero&operator=and&query=/bebe--18m-a-3-/calzado/gateador/gateadores/nina",
+        "href": "/calzado/gateadores/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Gateadores"
       }
     }
@@ -1105,7 +1153,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=tipo-producto,agrupacion,category-1,genero,category-2&operator=and&query=/ballerina/bebe--18m-a-3-/calzado/nina/reinas-y-ballerinas",
+        "href": "/calzado/reinas-y-ballerinas/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Reinas y Ballerinas"
       }
     }
@@ -1117,7 +1165,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero,category-2,tipo-producto&operator=and&query=/bebe--18m-a-3-/calzado/nina/sandalias/sandalias",
+        "href": "/calzado/sandalias/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Sandalias"
       }
     }
@@ -1129,23 +1177,23 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero,category-2,tipo-producto&operator=and&query=/bebe--18m-a-3-/calzado/nina/zapatillas/zapatillas",
+        "href": "/calzado/zapatillas/bebe--18m-a-3-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatillas"
       }
     }
   },
 
-  "menu-item#bb-nina-calzado-zapatos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
-        "text": "Zapatos"
-      }
-    }
-  },
+  // "menu-item#bb-nina-calzado-zapatos": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
+  //       "text": "Zapatos"
+  //     }
+  //   }
+  // },
 
 
   // Bebé - Niña - Accesorios y Regalos
@@ -1155,7 +1203,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "href": "/accesorios/babero-y-bandanas/nina/?map=c,specificationFilter_47",
         "text": "Baberos"
       }
     }
@@ -1167,7 +1215,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,tipo-producto,category-2,genero&operator=and&query=/accesorios/bebe--18m-a-3-/calcetin/calcetines/nina",
+        "href": "/accesorios/calcetines/bebe--18m-a-3-/nina/?map=c,specificationFilter_50",
         "text": "Calcetines"
       }
     }
@@ -1179,7 +1227,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,tipo-producto,category-2,genero&operator=and&query=/accesorios/bebe--18m-a-3-/gorro/gorros-y-bufandas/nina",
+        "href": "/accesorios/gorros-y-bufandas/bebe--18m-a-3-/nina/?map=c,specificationFilter_50",
         "text": "Gorros y Bufandas"
       }
     }
@@ -1191,7 +1239,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/peluche?map=ft",
+        "href": "/accesorios/peluches",
         "text": "Peluches"
       }
     }
@@ -1203,7 +1251,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "href": "/accesorios/pinches-y-cintillos",
         "text": "Pinches y Cintillos"
       }
     }
@@ -1215,7 +1263,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,agrupacion,genero&operator=and&query=/accesorios/bebe--18m-a-3-/nina",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -1269,7 +1317,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nino",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
       }
     }
@@ -1281,7 +1329,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
+        "href": "/calzado/ninos--4-a-16-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Calzado"
       }
     }
@@ -1293,7 +1341,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
+        "href": "/accesorios/ninos--4-a-16-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -1306,7 +1354,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-ves-nina",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nina/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestuario"
       }
     }
@@ -1318,7 +1366,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-cal",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
+        "href": "/calzado/ninos--4-a-16-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Calzado"
       }
     }
@@ -1330,7 +1378,7 @@
       "highlight": true,
       "blockClass": "subcatTitulo-acc",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
+        "href": "/accesorios/ninos--4-a-16-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Accesorios y Regalos"
       }
     }
@@ -1343,7 +1391,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/abrigo-y-chaquetas/chaqueta/nino/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -1355,7 +1403,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,category-1&operator=and&query=/bermuda/bermudas-y-shorts/nino/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -1367,7 +1415,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/blusa-y-camisas/camisa/nino/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/blusa-y-camisas/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Camisas"
       }
     }
@@ -1379,7 +1427,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/buzo/conjunto/nino/ninos--4-a-16-/osito/ositos-buzos-y-conjuntos/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Buzos y Conjuntos"
       }
     }
@@ -1391,7 +1439,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,tipo-producto,category-1&operator=and&query=/chaleco/chalecos-y-polerones/nino/ninos--4-a-16-/poleron/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -1403,7 +1451,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,category-1&operator=and&query=/jardinera/jardineras-y-enterito/nino/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -1415,7 +1463,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,tipo-producto,tipo-producto,category-1&operator=and&query=/jeans/jeans-pantalones-y-calzas/nino/ninos--4-a-16-/pantalon/pantalon-buzo/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
       }
     }
@@ -1427,20 +1475,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nino/ninos--4-a-16-/polera/poleras/vestuario",
+        "href": "/vestuario/poleras/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#ninn-nino-vestuario-ropainteriorypijamas": {
+  "menu-item#ninn-nino-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,genero,agrupacion,category-2,category-1&operator=and&query=/calzoncillo/nino/ninos--4-a-16-/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#ninn-nino-vestuario-pijamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -1451,7 +1511,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-2,category-1&operator=and&query=/nino/ninos--4-a-16-/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/ninos--4-a-16-/nino/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
@@ -1464,7 +1524,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
+        "href": "/calzado/botas-botines-y-bototos/ninos--4-a-16-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Botas, Botines y Bototos"
       }
     }
@@ -1476,7 +1536,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion,category-2,tipo-producto&operator=and&query=/calzado/nino/ninos--4-a-16-/sandalias/sandalias",
+        "href": "/calzado/sandalias/ninos--4-a-16-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Sandalias"
       }
     }
@@ -1488,23 +1548,23 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion,category-2,tipo-producto&operator=and&query=/calzado/nino/ninos--4-a-16-/zapatillas/zapatillas",
+        "href": "/calzado/zapatillas/ninos--4-a-16-/nino/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatillas"
       }
     }
   },
 
-  "menu-item#ninn-nino-calzado-zapatos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
-        "text": "Zapatos"
-      }
-    }
-  },
+  // "menu-item#ninn-nino-calzado-zapatos": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
+  //       "text": "Zapatos"
+  //     }
+  //   }
+  // },
 
 
   // Kids - Niño - Accesorios y Regalos
@@ -1514,7 +1574,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,category-2,genero,agrupacion&operator=and&query=/accesorios/calcetin/calcetines/nino/ninos--4-a-16-",
+        "href": "/accesorios/calcetines/ninos--4-a-16-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Calcetines"
       }
     }
@@ -1526,7 +1586,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,category-2,genero,agrupacion&operator=and&query=/accesorios/gorros-y-bufandas/nino/ninos--4-a-16-",
+        "href": "/accesorios/gorros-y-bufandas/ninos--4-a-16-/nino/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Gorros y Bufandas"
       }
     }
@@ -1538,7 +1598,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nino/ninos--4-a-16-",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -1550,7 +1610,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
+        "href": "/accesorios/mochila/nino/?map=c,specificationFilter_47",
         "text": "Mochilas"
       }
     }
@@ -1564,7 +1624,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,tipo-producto,genero,agrupacion,category-1&operator=and&query=/abrigo-y-chaquetas/chaqueta/nina/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/abrigo-y-chaquetas/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Abrigos y Chaquetas"
       }
     }
@@ -1576,7 +1636,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=category-2,genero,agrupacion,tipo-producto,category-1&operator=and&query=/bermudas-y-shorts/nina/ninos--4-a-16-/short/vestuario",
+        "href": "/vestuario/bermudas-y-shorts/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Bermudas y Shorts"
       }
     }
@@ -1588,7 +1648,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario/blusa-y-camisas?fuzzy=0&map=tipo-producto,category-2,tipo-producto,category-1&operator=and&query=/blusa/blusa-y-camisas/camisa/vestuario",
+        "href": "/vestuario/blusa-y-camisas/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Blusas"
       }
     }
@@ -1600,7 +1660,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/buzo/conjunto/nina/ninos--4-a-16-/osito/ositos-buzos-y-conjuntos/vestuario",
+        "href": "/vestuario/ositos-buzos-y-conjuntos/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Buzos y Conjuntos"
       }
     }
@@ -1612,7 +1672,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,category-2,genero,agrupacion,tipo-producto,category-1&operator=and&query=/chaleco/chalecos-y-polerones/nina/ninos--4-a-16-/poleron/vestuario",
+        "href": "/vestuario/chalecos-y-polerones/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Chalecos y Polerones"
       }
     }
@@ -1624,7 +1684,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,category-2,genero,agrupacion,category-1&operator=and&query=/enterito/jardinera/jardineras-y-enterito/nina/ninos--4-a-16-/vestuario",
+        "href": "/vestuario/jardineras-y-enterito/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jardineras y Enteritos"
       }
     }
@@ -1636,20 +1696,8 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,category-2,genero,agrupacion,tipo-producto,category-1&operator=and&query=/calza/jeans/jeans-pantalones-y-calzas/nina/ninos--4-a-16-/pantalon/vestuario",
+        "href": "/vestuario/jeans-pantalones-y-calzas/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Jeans, Pantalones y Calzas"
-      }
-    }
-  },
-
-  "menu-item#ninn-nina-vestuario-ositosbuzosyconjuntos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,tipo-producto,genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/buzo/conjunto/nina/ninos--4-a-16-/osito/ositos-buzos-y-conjuntos/vestuario",
-        "text": "Ositos, buzos y Conjuntos"
       }
     }
   },
@@ -1660,20 +1708,32 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nina/ninos--4-a-16-/polera/poleras/vestuario",
+        "href": "/vestuario/poleras/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Poleras"
       }
     }
   },
 
-  "menu-item#ninn-nina-vestuario-ropainteriorypijamas": {
+  "menu-item#ninn-nina-vestuario-ropainterior": {
     "props": {
       "type": "custom",
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=tipo-producto,genero,agrupacion,category-2,category-1&operator=and&query=/cuadros/nina/ninos--4-a-16-/ropa-interior/vestuario",
-        "text": "Ropa Interior y pijamas"
+        "href": "/vestuario/ropa-interior/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Ropa Interior"
+      }
+    }
+  },
+
+  "menu-item#ninn-nina-vestuario-pijamas": {
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "blockClass": "subSubMenuItem",
+      "itemProps": {
+        "href": "/vestuario/pijamas/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
+        "text": "Pijamas"
       }
     }
   },
@@ -1684,7 +1744,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nina/ninos--4-a-16-/traje-de-bano/trajes-de-bano/vestuario",
+        "href": "/vestuario/trajes-de-bano/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Trajes de baño"
       }
     }
@@ -1696,7 +1756,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,tipo-producto,category-2,category-1&operator=and&query=/nina/ninos--4-a-16-/vestido/vestidos-y-faldas/vestuario",
+        "href": "/vestuario/vestidos-y-faldas/ninos--4-a-16-/nina/?map=c,specificationFilter_48,specificationFilter_45",
         "text": "Vestidos y Faldas"
       }
     }
@@ -1709,7 +1769,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
+        "href": "/calzado/botas-botines-y-bototos/ninos--4-a-16-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Botas, Botines y Bototos"
       }
     }
@@ -1721,7 +1781,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=tipo-producto,category-1,genero,agrupacion,category-2&operator=and&query=/ballerina/calzado/nina/ninos--4-a-16-/reinas-y-ballerinas",
+        "href": "/calzado/reinas-y-ballerinas/ninos--4-a-16-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Reinas y Ballerinas"
       }
     }
@@ -1733,7 +1793,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion,category-2,tipo-producto&operator=and&query=/calzado/nina/ninos--4-a-16-/sandalias/sandalias",
+        "href": "/calzado/sandalias/ninos--4-a-16-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Sandalias"
       }
     }
@@ -1745,23 +1805,23 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion,category-2,tipo-producto&operator=and&query=/calzado/nina/ninos--4-a-16-/zapatillas/zapatillas",
+        "href": "/calzado/zapatillas/ninos--4-a-16-/nina/?map=c,specificationFilter_49,specificationFilter_46",
         "text": "Zapatillas"
       }
     }
   },
 
-  "menu-item#ninn-nina-calzado-zapatos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "blockClass": "subSubMenuItem",
-      "itemProps": {
-        "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
-        "text": "Zapatos"
-      }
-    }
-  },
+  // "menu-item#ninn-nina-calzado-zapatos": {
+  //   "props": {
+  //     "type": "custom",
+  //     "highlight": true,
+  //     "blockClass": "subSubMenuItem",
+  //     "itemProps": {
+  //       "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
+  //       "text": "Zapatos"
+  //     }
+  //   }
+  // },
 
 
   // Kids - Niña - Accesorios y Regalos
@@ -1772,7 +1832,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,tipo-producto,category-2,genero,agrupacion&operator=and&query=/accesorios/calcetin/calcetines/nina/ninos--4-a-16-",
+        "href": "/accesorios/calcetines/ninos--4-a-16-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Calcetines"
       }
     }
@@ -1784,7 +1844,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,category-2,genero,agrupacion&operator=and&query=/accesorios/gorros-y-bufandas/nina/ninos--4-a-16-",
+        "href": "/accesorios/gorros-y-bufandas/ninos--4-a-16-/nina/?map=c,specificationFilter_50,specificationFilter_47",
         "text": "Gorros y Bufandas"
       }
     }
@@ -1796,7 +1856,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
+        "href": "/accesorios/pinches-y-cintillos",
         "text": "Pinches y Cintillos"
       }
     }
@@ -1808,7 +1868,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/accesorios/nina/ninos--4-a-16-",
+        "href": "/accesorios/toallas-y-tutos",
         "text": "Toallas y Tutos"
       }
     }
@@ -1820,7 +1880,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/accesorios/mochila?fuzzy=0&initialMap=c&initialQuery=accesorios&map=category-1,tipo-producto&operator=and",
+        "href": "/accesorios/mochila/nina/?map=c,specificationFilter_47",
         "text": "Mochilas"
       }
     }
@@ -3862,7 +3922,7 @@
   "menu-item#pinchesycintillos": {
     "props": {
       "id": "menu-item-pinchesycintillos",
-      "type": "custom", 
+      "type": "custom",
       "iconId": null,
       "blockClass": "Pinches-&-Cintillos-specificationFilter_41",
       "highlight": false,

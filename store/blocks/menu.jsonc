@@ -124,7 +124,8 @@
             "menu-item#rn-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#rn-nino-vestuario-ositosbuzosyconjuntos",
             "menu-item#rn-nino-vestuario-poleras",
-            "menu-item#rn-nino-vestuario-ropainteriorypijamas",
+            "menu-item#rn-nino-vestuario-ropainterior",
+            "menu-item#rn-nino-vestuario-pijama",
             "menu-item#rn-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -134,7 +135,7 @@
     "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
         "children": [
             "menu-item#rn-nino-calzado",
-            "menu-item#rn-nino-calzado-gateadores",
+            // "menu-item#rn-nino-calzado-gateadores",
             "menu-item#rn-nino-calzado-zapatitosreciennacido"
         ],
         "props": {
@@ -208,7 +209,8 @@
             "menu-item#rn-nina-vestuario-jeanspantalonesycalzas",
             "menu-item#rn-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#rn-nina-vestuario-poleras",
-            "menu-item#rn-nina-vestuario-ropainteriorypijamas",
+            "menu-item#rn-nina-vestuario-ropainterior",
+            "menu-item#rn-nina-vestuario-pijamas",
             "menu-item#rn-nina-vestuario-trajesdebano",
             "menu-item#rn-nina-vestuario-vestidosyfaldas"
 
@@ -220,7 +222,7 @@
     "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
         "children": [
             "menu-item#rn-nina-calzado",
-            "menu-item#rn-nina-calzado-gateadores",
+            // "menu-item#rn-nina-calzado-gateadores",
             "menu-item#rn-nina-calzado-zapatitosreciennacido"
         ],
         "props": {
@@ -343,7 +345,8 @@
             "menu-item#bb-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#bb-nino-vestuario-ositosbuzosyconjuntos",
             "menu-item#bb-nino-vestuario-poleras",
-            "menu-item#bb-nino-vestuario-ropainteriorypijamas",
+            "menu-item#bb-nino-vestuario-ropainterior",
+            "menu-item#bb-nino-vestuario-pijamas",
             "menu-item#bb-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -356,8 +359,8 @@
             "menu-item#bb-nino-calzado-botasbotinesybototos",
             "menu-item#bb-nino-calzado-gateadores",
             "menu-item#bb-nino-calzado-sandalias",
-            "menu-item#bb-nino-calzado-zapatillas",
-            "menu-item#bb-nino-calzado-zapatos"
+            "menu-item#bb-nino-calzado-zapatillas"
+            // "menu-item#bb-nino-calzado-zapatos"
 
         ],
         "props": {
@@ -432,7 +435,8 @@
             "menu-item#bb-nina-vestuario-jeanspantalonesycalzas",
             "menu-item#bb-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#bb-nina-vestuario-poleras",
-            "menu-item#bb-nina-vestuario-ropainteriorypijamas",
+            "menu-item#bb-nina-vestuario-ropainterior",
+            "menu-item#bb-nina-vestuario-pijamas",
             "menu-item#bb-nina-vestuario-trajesdebano",
             "menu-item#bb-nina-vestuario-vestidosyfaldas"
 
@@ -448,8 +452,8 @@
             "menu-item#bb-nina-calzado-gateadores",
             "menu-item#bb-nina-calzado-reinasyballerinas",
             "menu-item#bb-nina-calzado-sandalias",
-            "menu-item#bb-nina-calzado-zapatillas",
-            "menu-item#bb-nina-calzado-zapatos"
+            "menu-item#bb-nina-calzado-zapatillas"
+            // "menu-item#bb-nina-calzado-zapatos"
 
         ],
         "props": {
@@ -574,7 +578,8 @@
             "menu-item#ninn-nino-vestuario-jardinerasyenteritos",
             "menu-item#ninn-nino-vestuario-jeanspantalonesycalzas",
             "menu-item#ninn-nino-vestuario-poleras",
-            "menu-item#ninn-nino-vestuario-ropainteriorypijamas",
+            "menu-item#ninn-nino-vestuario-ropainterior",
+            "menu-item#ninn-nino-vestuario-pijamas",
             "menu-item#ninn-nino-vestuario-trajesdebano"
         ],
         "props": {
@@ -586,8 +591,8 @@
             "menu-item#ninn-nino-calzado",
             "menu-item#ninn-nino-calzado-botasbotinesybototos",
             "menu-item#ninn-nino-calzado-sandalias",
-            "menu-item#ninn-nino-calzado-zapatillas",
-            "menu-item#ninn-nino-calzado-zapatos"
+            "menu-item#ninn-nino-calzado-zapatillas"
+            // "menu-item#ninn-nino-calzado-zapatos"
 
         ],
         "props": {
@@ -657,9 +662,9 @@
             "menu-item#ninn-nina-vestuario-chalecosypolerones",
             "menu-item#ninn-nina-vestuario-jardinerasyenteritos",
             "menu-item#ninn-nina-vestuario-jeanspantalonesycalzas",
-            "menu-item#ninn-nina-vestuario-ositosbuzosyconjuntos",
             "menu-item#ninn-nina-vestuario-poleras",
-            "menu-item#ninn-nina-vestuario-ropainteriorypijamas",
+            "menu-item#ninn-nina-vestuario-ropainterior",
+            "menu-item#ninn-nina-vestuario-pijamas",
             "menu-item#ninn-nina-vestuario-trajesdebano",
             "menu-item#ninn-nina-vestuario-vestidosyfaldas"
         ],
@@ -673,8 +678,8 @@
             "menu-item#ninn-nina-calzado-botasbotinesybototos",
             "menu-item#ninn-nina-calzado-reinasyballerinas",
             "menu-item#ninn-nina-calzado-sandalias",
-            "menu-item#ninn-nina-calzado-zapatillas",
-            "menu-item#ninn-nina-calzado-zapatos"
+            "menu-item#ninn-nina-calzado-zapatillas"
+            // "menu-item#ninn-nina-calzado-zapatos"
         ],
         "props": {
             "orientation": "vertical"
