@@ -20,7 +20,7 @@
     "header-layout.desktop": {
         "children": [
             "flex-layout.row#notification-bar",
-            "flex-layout.row#main-header"
+            "sticky-layout#header-escri"
         ]
     },
 
@@ -158,6 +158,17 @@
 
 
     // Header Desktop - Main Header 
+
+    "sticky-layout#header-escri": {
+        "children": [
+            "flex-layout.row#main-header"
+        ],
+        "props": {
+            "position": "top",
+            "blockClass": "stickyClassHeader"
+          }
+    },
+
     "flex-layout.row#main-header": {
         "props": {
             "blockClass": "main-header",
@@ -241,11 +252,21 @@
     // Header Mobile
     "header-layout.mobile": {
         "children": [
-            "flex-layout.row#mobile",
+            "sticky-layout#header-mobile",
             "flex-layout.row#search-mobile"
         ],
         "props": {
             "blockClass": "headerMobile"
+        }
+    },
+
+    "sticky-layout#header-mobile": {
+        "children": [
+            "flex-layout.row#mobile"
+        ],
+        "props": {
+            "position": "top",
+            "blockClass": "stickyClassHeader"
         }
     },
 
