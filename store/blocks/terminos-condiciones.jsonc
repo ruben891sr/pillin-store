@@ -1,0 +1,770 @@
+{
+    //Declaración del Template
+    "store.custom#terminos-condiciones": {
+        "blocks": [
+          "flex-layout.row#banner-institucional",
+          "flex-layout.row#Contenido0",
+          "flex-layout.row#Contenido1",
+          "flex-layout.row#Contenido2",
+          "flex-layout.row#Contenido3",
+          "flex-layout.row#Contenido4",
+          "flex-layout.row#Contenido5",
+          "flex-layout.row#Contenido6",
+          "flex-layout.row#Contenido7",
+          "flex-layout.row#Contenido8",
+          "flex-layout.row#Contenido9",
+          "flex-layout.row#Contenido10",
+          "flex-layout.row#Contenido11",
+          "flex-layout.row#Contenido12",
+          "flex-layout.row#Contenido13"
+        ]
+     },
+
+  // Banner con Titulo
+  "flex-layout.row#banner-institucional":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowBannerInstitucionalTitle"
+    },
+    "children":["flex-layout.col#Institucionaltitle"]
+  },
+
+  // Banner
+  "flex-layout.col#banner-three": {
+    "props":{
+      "blockClass":"colBannerPrincipal"
+    },
+    "children": ["search-banner#three"]
+  },
+  "search-banner#three": {
+    "props": {
+      "area": "three",
+      "blockClass": "bannerInstitucional",
+      "horizontalAlignment": "center"
+    }
+  },
+
+  // Search Title
+  "flex-layout.col#Institucionaltitle": {
+    "props":{
+      "width": "80%",
+      "blockClass": "colInstitucionalTitle"
+    },
+    "children": ["rich-text#tituloDespacho"]
+  },
+  "rich-text#tituloDespacho":{
+    "props":{
+        "blockClass": "tituloInstitucional",
+        "text": "Términos y Condiciones"
+    }
+  },    
+
+  //Declaracion de Contenido
+  "flex-layout.row#Contenido0":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC0",
+        "flex-layout.col#contenidoTyC0"
+      ]
+  },
+  "flex-layout.row#Contenido1":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC1",
+        "flex-layout.col#contenidoTyC1"
+      ]
+  },
+  "flex-layout.row#Contenido2":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC2",
+        "flex-layout.col#contenidoTyC2"
+      ]
+  },
+  "flex-layout.row#Contenido3":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC3",
+        "flex-layout.col#contenidoTyC3"
+      ]
+  },
+  "flex-layout.row#Contenido4":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC4",
+        "flex-layout.col#contenidoTyC4"
+      ]
+  },
+  "flex-layout.row#Contenido5":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC5",
+        "flex-layout.col#contenidoTyC5"
+      ]
+  },
+  "flex-layout.row#Contenido6":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC6",
+        "flex-layout.col#contenidoTyC6"
+      ]
+  },
+  "flex-layout.row#Contenido7":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC7",
+        "flex-layout.col#contenidoTyC7"
+      ]
+  },
+  "flex-layout.row#Contenido8":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC8",
+        "flex-layout.col#contenidoTyC8"
+      ]
+  },
+  "flex-layout.row#Contenido9":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC9",
+        "flex-layout.col#contenidoTyC9"
+      ]
+  },
+  "flex-layout.row#Contenido10":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC10",
+        "flex-layout.col#contenidoTyC10"
+      ]
+  },
+  "flex-layout.row#Contenido11":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC11",
+        "flex-layout.col#contenidoTyC11"
+      ]
+  },
+  "flex-layout.row#Contenido12":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC12",
+        "flex-layout.col#contenidoTyC12"
+      ]
+  },
+  "flex-layout.row#Contenido13":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloTyC13",
+        "flex-layout.col#contenidoTyC13"
+      ]
+  },
+
+  //Contenido 0
+  "flex-layout.col#tituloTyC0":{
+    "props":{
+        "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC0","rich-text#subTituloTyC"]
+  },
+
+  "flex-layout.col#contenidoTyC0":{
+    "props":{
+        "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC"]
+  },
+
+  //Definicion de titulo 0
+  "rich-text#tituloTyC0":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Cybermonday"
+    }
+  },
+  "rich-text#subTituloTyC":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "2020"
+    }
+  },
+  //Definicion de contenido 0
+  "rich-text#ContenidoTyC":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Extendemos los cambios por talla o gusto en compras realizadas en Noviembre hasta el 28 de febrero, la prenda debe estar en perfectas condiciones y con su embalaje y etiquetas originales."
+    }
+  },
+
+  //Contenido 1
+  "flex-layout.col#tituloTyC1":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC1","rich-text#subTituloTyC1"]
+  },
+
+  "flex-layout.col#contenidoTyC1":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC1"]
+  },
+  
+  //Definicion de titulo 1
+  "rich-text#tituloTyC1":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Primero:"
+    }
+  },
+  "rich-text#subTituloTyC1":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Generalidades"
+    }
+  },
+  //Definicion de contenido 1
+  "rich-text#ContenidoTyC1":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Este documento regula los términos y condiciones bajo los cuales Ud. tiene derecho a acceder y usar los servicios del sitio Web www.Pillin.com y de cualquier información, texto, video u otro material comunicado en el sitio web. <br>En este sitio Web podrá usar, sin costo, el software y las aplicaciones para equipos móviles que le permitan navegar, visitar, comparar y si lo desea, adquirir los bienes o servicios que se exhiben aquí. <br>Le recomendamos que lea detenidamente estas Condiciones e imprima o guarde una copia de las mismas en la unidad de disco local para su información. <br>Estos Términos y Condiciones serán aplicados y se entenderán incorporados en cada uno de los contratos que celebre con Beitgroup S.A. por medio de este sitio web. <br>El uso de este sitio web, la aplicación de estos Términos y Condiciones,  los actos que ejecute y los contratos que celebre por medio de este sitio web, se encuentran sujetos y sometidos a las leyes de la República de Chile y en especial a la ley 19.496 de protección de los derechos de los consumidores. <br>Beitgroup por lo tanto, aplicará estrictamente todos los beneficios, garantías y derechos reconocidos en favor de los consumidores en la ley 19.496. Además, Beitgroup adhiere en todas sus partes al Código de Buenas Prácticas para el Comercio Electrónico de la Cámara de Comercio de Santiago."
+    }
+  },
+
+  //Contenido 2
+  "flex-layout.col#tituloTyC2":{
+    "props":{
+        "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC2","rich-text#subTituloTyC2"]
+  },
+
+  "flex-layout.col#contenidoTyC2":{
+    "props":{
+        "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC2"]
+  },
+  
+  //Definicion de titulo 2
+  "rich-text#tituloTyC2":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Segundo:"
+    }
+  },
+  "rich-text#subTituloTyC2":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Comunicaciones"
+    }
+  },
+  //Definicion de contenido 2
+  "rich-text#ContenidoTyC2":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Para la comunicación de cualquier presentación, consulta o reclamo a propósito del uso de este sitio, o los contratos que en él se lleven a cabo, Beitgroup designa como representante especial a don/doña Alvaro Jadue, Gerente General, disponible en el correo ajadue@beitgroup.cl y en el teléfono de Servicio al Cliente 56983268735 ,domiciliado para estos efectos en calle Colo Colo 241, comuna de Quilicura, ciudad de Santiago. Su personería para actuar por Beitgroup S.A. consta en escritura pública de 12 de Febrero de 2019.<br>Beitgroup S.A. se obliga a que en caso de enviarle información publicitaria o promocional, por correo electrónico, ésta contendrá al menos la siguiente información:<br>1. Identificación del mensaje, que lo haga reconocible como publicidad o comunicación promocional, en el campo de asunto del mensaje. 2. Existencia del derecho del consumidor o usuario a solicitar el cese de envíos de publicidad de ese tipo por Beitgroup  y la obligación de Beitgroup de suspender esos envíos. 3. Un procedimiento simple y eficaz para que el consumidor pueda hacer esa solicitud, indicando una dirección electrónica para estos efectos. 4. La Identificación del anunciante con su denominación comercial. 5. Tratándose de publicidad teaser, se cumplirá con las obligaciones señaladas precedentemente en la medida que se identifique la agencia que realiza la misma.<br>Beitgroup cesará el envío de los mensajes publicitarios o promocionales por correo electrónico u otros medios de comunicación individual equivalentes, a toda persona que hubiere solicitado expresamente la suspensión de esos envíos."
+    }
+  },
+
+  //Contenido 3
+  "flex-layout.col#tituloTyC3":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC3","rich-text#subTituloTyC3"]
+  },
+
+  "flex-layout.col#contenidoTyC3":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC3"]
+  },
+  
+  //Definicion de titulo 3
+  "rich-text#tituloTyC3":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Tercero:"
+    }
+  },
+  "rich-text#subTituloTyC3":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Libertad de navegación y Aceptación de los Términos y Condiciones."
+    }
+  },
+  //Definicion de contenido 3
+  "rich-text#ContenidoTyC3":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "La mera visita de este sitio no impone ningún tipo de obligación para el usuario, a menos que éste exprese de forma inequívoca, por medio de actos positivos, su voluntad de contratar con la empresa para adquirir bienes o servicios, en la forma indicada en estos términos y condiciones.<br>Para aceptar estos Términos y Condiciones, el usuario deberá hacer click donde el sitio web de Beitgroup ofrezca esta opción en la interfaz del usuario con la frase “he leído y aceptado” u otra equivalente que permita dar su consentimiento inequívoco respecto de la aceptación."
+    }
+  },
+
+  //Contenido 4
+  "flex-layout.col#tituloTyC4":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC4","rich-text#subTituloTyC4"]
+  },
+
+  "flex-layout.col#contenidoTyC4":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC4"]
+  },
+  
+  //Definicion de titulo 4
+  "rich-text#tituloTyC4":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Cuarto:"
+    }
+  },
+  "rich-text#subTituloTyC4":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Registro."
+    }
+  },
+  //Definicion de contenido 4
+  "rich-text#ContenidoTyC4":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "El registro en el sitio y el uso de contraseña no es requisito obligatorio para contratar, sin embargo facilita el acceso personalizado, confidencial y seguro al sitio. <br>En caso de registrarse en el sitio, el usuario contará con una contraseña secreta de la cual podrá disponer e incluso modificar si así lo requiriera el usuario. Para activar la contraseña deberá completar el formulario de registro disponible en el sitio y enviarlo a Baitgroup haciendo click en el campo respectivo. <br>Respecto de la confidencialidad de la contraseña serán responsables el usuario y el administrador dentro del ámbito que a cada uno corresponda."
+    }
+  },
+
+  //Contenido 5
+  "flex-layout.col#tituloTyC5":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC5","rich-text#subTituloTyC5"]
+  },
+
+  "flex-layout.col#contenidoTyC5":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC5"]
+  },
+  
+  //Definicion de titulo 5
+  "rich-text#tituloTyC5":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Quinto:"
+    }
+  },
+  "rich-text#subTituloTyC5":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Cómo contratar."
+    }
+  },
+  //Definicion de contenido 5
+  "rich-text#ContenidoTyC5":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Para hacer compras o contratar servicios en este sitio deberá seguir los siguientes pasos haciendo click en el campo correspondiente: Para iniciar el proceso de contratación es necesario que confirme haber leído y aceptado estos Términos y Condiciones. Seleccione el producto o servicio que le interesa y agréguelo a su “carro de compra”. Inicie sesión en el sitio o Ingresa tu correo electrónico y tu contraseña. Y, en caso de no estar registrado y desea hacerlo, utilice el ícono “registra tu contraseña”. Seleccione el tipo de despacho y entrega entre las alternativas disponibles en el sitio (Retiro en tienda o despacho a domicilio) Seleccione el medio de pago. Una vez hecha la orden, se desplegará en la pantalla: Una descripción del producto o servicio contratado. Precio. Indicación de costo de envío si corresponde. Fecha de entrega según el tipo de despacho escogido. Medio de pago. Valor total de la operación. Demás condiciones de la orden. Posibilidad de imprimir y almacenar la orden. También un número único de la orden, con la cual podrá hacer seguimiento en línea de ella. Envío de la información al correo electrónico registrado. La orden luego pasará automáticamente a un proceso de confirmación de identidad, resguardándose siempre la seguridad y privacidad del usuario y del proceso de contratación, disponibilidad, vigencia y cupo del medio de pago que se haya seleccionado. Cumplido con lo anterior se perfecciona el contrato haciéndose el cargo en el medio de pago seleccionado, se enviará el comprobante de compra con la boleta o factura que corresponda en formato electrónico y será despachado el producto, de acuerdo al modo de entrega que se hubiera seleccionado. No se verá afectado el comprador en sus derechos ni tampoco se le efectuarán cargos, sin que sea confirmada su identidad."
+    }
+  },
+
+  //Contenido 6
+  "flex-layout.col#tituloTyC6":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC6","rich-text#subTituloTyC6"]
+  },
+
+  "flex-layout.col#contenidoTyC6":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC6"]
+  },
+  
+  //Definicion de titulo 6
+  "rich-text#tituloTyC6":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Sexto:"
+    }
+  },
+  "rich-text#subTituloTyC6":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Medios de Pago."
+    }
+  },
+  //Definicion de contenido 6
+  "rich-text#ContenidoTyC6":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Salvo que se señale un medio diferente para casos u ofertas específicos, los productos y servicios que se informan en este sitio sólo podrán ser pagados por medio de: Tarjeta de crédito bancarias Visa, Mastercard, Dinners Club International o American Express, emitidas en Chile o en el extranjero, siempre que mantengan un contacto vigente para este efecto con Transbank. Tarjetas de débito bancarias acogidas al sistema Redcompra, emitidas en Chile por bancos nacionales, que mantengan un contrato vigente para tales efectos con Transbank Khipu El pago con tarjetas de débito se realizará a través de WebPay, que es un sistema de pago electrónico que se encarga de hacer el cargo automático a la cuenta bancaria del usuario. Los usuarios declaran que entienden que estos medios de pago o portales de pago pertenecen a terceras empresas proveedoras de estos servicios, independientes y no vinculadas a Beitgroup, por lo que la continuidad de su prestación de servicios en el tiempo, así como el correcto funcionamiento de sus herramientas y botones de pago en línea, será de exclusiva responsabilidad de las empresa proveedoras de estos servicios y en ningún caso de Beitgroup."
+    }
+  },
+
+  //Contenido 7
+  "flex-layout.col#tituloTyC7":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":[
+      "rich-text#tituloTyC7","rich-text#subTituloTyC7"]
+  },
+
+  "flex-layout.col#contenidoTyC7":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":[
+      "rich-text#ContenidoTyC7a", "rich-text#ContenidoTyC7b", "rich-text#ContenidoTyC7c"
+    ]
+  },
+  
+  //Definicion de titulo 7
+  "rich-text#tituloTyC7":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Séptimo:"
+    }
+  },
+  "rich-text#subTituloTyC7":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Derechos y Garantías."
+    }
+  },
+  
+  //Definicion de contenido 7
+  "rich-text#ContenidoTyC7a":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Cambios y devoluciones* Si el producto comprado no lo satisface este puede ser cambiado o devuelto sin problemas hasta 30 días después de la fecha en que este haya sido recibido, en cualquier sucursal de la empresa. Para poder hacer cambio o devolución es necesario que el producto esté sin uso, con todos sus accesorios, embalajes originales. <br>Además, atendiendo la naturaleza de los productos, en las categoría Ropa Interior es necesario que estos no hayan sido abiertos y que conserven su sellado y embalaje original. <br>Para cambio o devolución deberá presentarse la boleta, ticket de cambio, u otro comprobante de compra. <br>En caso de devolución de dinero la empresa realizará un abono en el medio de pago que haya utilizado en un período no superior a 15 días hábiles de haberse aceptado la devolución, cuestión que será informada a través del correo electrónico que se hubiere registrado."
+    }
+  },
+  "rich-text#ContenidoTyC7b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Derecho de Retracto* El usuario tendrá un plazo de 10 días para poner término al contrato celebrado por medios electrónicos desde que reciba el producto o desde que contrate el servicio, antes que éste sea prestado. <br>Para ejercer este derecho deberá utilizar los mismos medios que empleó para celebrar el contrato y siempre que Beitgroup le haya enviado comunicación de haberse perfeccionado el contrato, copia íntegra, acceso claro, comprensible e inequívoco de las condiciones generales del mismo y la posibilidad de almacenarlos o imprimirlos. <br>Si Beitgroup no ha dado cumplimiento al envío de la comunicación escrita anteriormente mencionada el plazo se extenderá a 90 días. <br>No podrá ejercerse este derecho cuando el bien, materia del contrato, se haya deteriorado por hecho imputable al consumidor. <br>Si el bien o servicio se obtuvo por medio de un crédito, éste queda sin efecto pero los intereses son de cargo del consumidor cuando se haya otorgado por un tercero. <br>Baitgroup tendrá la obligación de devolverle las sumas abonadas, sin retención de gastos, y a la mayor brevedad posible y, en cualquier caso, antes de 45 días a la comunicación del retracto. Tratándose de servicios, la devolución sólo comprenderá aquellas sumas abonadas que no correspondan a servicios ya prestados a la fecha del retracto. Usted deberá restituir en buen estado los elementos de embalaje, los manuales de uso, las cajas, elementos de protección y todo otro elemento que viniera con el bien."
+    }
+  },
+  "rich-text#ContenidoTyC7c":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Garantías Legales* En caso que el producto no cuente con las características técnicas informadas, si estuviera dañado o incompleto, podrá ser cambiado de inmediato. Si presentara fallas o defectos dentro de los 3 meses siguientes a la fecha en que éste fue recibido, puede optarse entre su reparación gratuita, o previa restitución, su cambio o la devolución de la cantidad pagada, siempre que el producto no se hubiera deteriorado por un hecho imputable al consumidor. Puede entregarse directamente en cualquier sucursal de Pillin. <br>Si el producto cuenta con una garantía del fabricante, se aplicará el plazo de esta garantía, si este plazo fuera mayor. Sin embargo, si el producto es perecible o está naturalmente destinado a ser usado o consumido en un período breve, el plazo de devolución será el impreso en el producto o en su envoltorio o, en su defecto, será de 7 días. Todos estos plazos se suspenderán por el tiempo en que el bien esté siendo reparado en ejercicio de la garantía, y hasta que se complete la reparación. <br>Se considerará como falla o defecto:  - Productos sujetos a normas de seguridad o calidad de cumplimiento obligatorio que no cumplan con las especificaciones  - Si los materiales, partes, piezas, elementos, sustancias o ingredientes que constituyan o integren los productos no correspondan a las especificaciones que ostenten o a las menciones del rotulado.  - Productos que por deficiencias de fabricación, elaboración, materiales, partes, piezas, elementos, sustancias, ingredientes, estructura, calidad o condiciones sanitarias, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que el proveedor hubiese señalado en su publicidad.  - Si el proveedor y consumidor hubieren convenido que los productos objeto del contrato deban reunir determinadas especificaciones y esto no ocurra.  - Si después de la primera vez de haberse hecho efectiva la garantía y prestado el servicio técnico correspondiente, subsistieren las deficiencias que hagan al bien inapto para el uso o consumo a que se refiere el numeral 3. Este derecho subsistirá para el evento de presentarse una deficiencia a la que fue objeto del servicio técnico, o volviere a presentarse la misma.  - Si la cosa objeto del contrato tiene efectos o vicios ocultos que imposibiliten el uso a que habitualmente se destine."
+    }
+  },
+
+  //Contenido 8
+  "flex-layout.col#tituloTyC8":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC8","rich-text#subTituloTyC8"]
+  },
+
+  "flex-layout.col#contenidoTyC8":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC8a", "rich-text#ContenidoTyC8b"]
+  },
+  
+  //Definicion de titulo 8
+  "rich-text#tituloTyC8":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Octavo:"
+    }
+  },
+  "rich-text#subTituloTyC8":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Entrega de Productos."
+    }
+  },
+  //Definicion de contenido 8
+  "rich-text#ContenidoTyC8a":{
+    "props":{
+      "text": "*Despacho de Productos* Las condiciones de despacho y entrega de los productos adquiridos podrán ser escogidas de entre las opciones ofrecidas en el sitio."
+    }
+  },
+  "rich-text#ContenidoTyC8b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Compra Online retira en tienda* Si elige retirar el producto en una tienda, podrá hacerlo en el horario en que ésta se encuentre abierta al público. En caso de elegir otro punto de retiro, deberá guiarse por lo horarios indicados en la opción seleccionada.<br> Los retiros deberán ser hechos dentro de un plazo de 10 días hábiles, el cual deberá ser debidamente indicado en cada una de las opciones ofrecidas. Por medio del correo electrónico registrado se informará que el producto está a disposición y el plazo para ser retirado. Los comprobantes de esta gestión quedarán disponibles durante 30 días. Si el producto no fuera retirado dentro del plazo especificado, la transacción quedará sin efecto, haciéndose la devolución de la cantidad pagada."
+    }
+  },
+
+  //Contenido 9
+  "flex-layout.col#tituloTyC9":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC9","rich-text#subTituloTyC9"]
+  },
+
+  "flex-layout.col#contenidoTyC9":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC9"]
+  },
+  
+  //Definicion de titulo 9
+  "rich-text#tituloTyC9":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Noveno:"
+    }
+  },
+  "rich-text#subTituloTyC9":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Responsabilidad."
+    }
+  },
+  //Definicion de contenido 9
+  "rich-text#ContenidoTyC9":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "En ningún caso Beitgroup responderá por:  - La utilización indebida que Usuarios o visitantes de El Sitio puedan hacer de los materiales exhibidos, de los derechos de propiedad industrial y de los derechos de propiedad intelectual.  - Daños o eventuales daños y perjuicios que se le puedan causar a los Compradores y/o Usuarios por el funcionamiento de las herramientas de búsqueda y de los errores que se generen por los elementos técnicos de El Sitio o motor de búsqueda.  - Contenidos de las páginas a las que los Compradores o Usuarios puedan acceder con o sin autorización de Beitgroup.  - El acceso de menores de edad o personas sin capacidad, bajo los términos de la legislación correspondiente, a los contenidos adherentes a la relación contractual que surja de El Sitio.  - Pérdida, mal uso o uso no autorizado de su código de validación, ya sea por parte del Usuario y/ o comprador Compradores, o de terceros, luego de realizada la compra en la forma expresada en los Términos y Condiciones. Asimismo, las partes reconocen y dejan constancia que la plataforma computacional proporcionada por Beitgroup no es infalible, y por tanto, durante la vigencia del presente Contrato pueden verificarse circunstancias ajenas a la voluntad de Beitgroup, que impliquen que El Sitio o la plataforma computacional no se encuentren operativos durante un determinado periodo de tiempo.<br>  En tales casos, Beitgroup procurará restablecer El Sitio y el sistema computacional con la mayor celeridad posible, sin que por ello pueda imputársele algún tipo de responsabilidad.<br>  Beitgroup no garantiza la disponibilidad y continuidad del funcionamiento de El Sitio y tampoco que en cualquier momento y tiempo, los Usuarios puedan acceder a las promociones y Ofertas del El Sitio.<br>  Beitgroup no se hace responsable por los virus ni otros elementos en los documentos electrónicos almacenados en los sistemas informáticos de los Usuarios. Beitgroup no responderá de los perjuicios ocasionados al Cliente, provenientes del uso inadecuado de las tecnologías puestas a disposición de éste, cualquiera sea la forma en la cual se utilicen inadecuadamente estas tecnologías. Beitgroup no responderá de los daños producidos a El Sitio por el uso indebido y de mala fe de los Usuarios y/o Compradores. No obstante, en el evento de realizarse un doble pago por un Usuario o Comprador en El Sitio, Beitgroup devolverá la suma del sobrepago, dentro de los 3 días siguientes a la recepción del respectivo reclamo escrito del Usuario o Comprador, en el que se anexen los originales de los comprobantes del pago adicional a lo adquirido.<br>  En Login, registro y comunicación con empresas de medios de pago, Beitgroup usa certificados digitales de seguridad (SSL), con el fin de encriptar comunicación. Beitgroup no manipula ni almacena datos financieros de sus clientes.<br>  En todo caso, la responsabilidad de Beitgroup contractual, extracontractual o legal, con los Usuarios, Compradores o visitantes de El Sitio no excederá del precio efectivamente pagado por el Comprador en contraprestación por el producto o servicio, sin perjuicio de lo que determinen los Tribunales de Justicia."
+    }
+  },
+
+  //Contenido 10
+  "flex-layout.col#tituloTyC10":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC10","rich-text#subTituloTyC10"]
+  },
+
+  "flex-layout.col#contenidoTyC10":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC10a","rich-text#ContenidoTyC10b", "rich-text#ContenidoTyC10c"]
+  },
+  
+  //Definicion de titulo 10
+  "rich-text#tituloTyC10":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Décimo:"
+    }
+  },
+  "rich-text#subTituloTyC10":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Seguridad de Datos y Clave Secreta"
+    }
+  },
+  //Definicion de contenido 10
+  "rich-text#ContenidoTyC10a":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Responsabilidad de los Usuarios respecto de la información registrada en el sitio:*  Beitgroup adoptará las medidas necesarias y prudentes para resguardar la seguridad de los datos y clave secreta, como sistemas de encriptación de información, certificados de seguridad u otros que la empresa estime pertinente. En caso de detectarse cambios en la información que hayas registrado en el sitio, o bien, ante cualquier irregularidad en las transacciones relacionadas con su identificación o la del medio de pago, o simplemente como medida de protección a su identidad, nuestros ejecutivos podrán contactarlo por vía telefónica o correo electrónico, a fin de corroborar sus datos e intentar evitar posibles fraudes.<br>  En caso de no poder establecer el contacto en un plazo de 72 hrs, por su propia seguridad, su orden de compra efectuada en nuestro sitio no podrá ser confirmada. Le informaremos vía telefónica o por correo electrónico que su orden ha quedado sin efecto por no poder confirmar su identidad o el medio de pago ofrecido. Además, los comprobantes de las gestiones realizadas para contactarte y poder confirmar la operación, estarán disponibles en nuestras oficinas durante 30 días, para que puedas confirmar la orden de compra. Cualquier consulta puede ser efectuada a [ventas.online@pillin.cl](ventas.online@pillin.cl).<br>  Sin embargo los Usuarios y/o Compradores son exclusivamente responsables por la pérdida, mal uso o uso no autorizado del código de validación, ya sea por parte de los mismos o de terceros, luego de realizada la compra en la forma expresada en los Términos y Condiciones."
+    }
+  },
+  "rich-text#ContenidoTyC10b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Datos Personales:*  Los Usuarios y/o Compradores garantizan que la información que suministran para la celebración del contrato es veraz, completa, exacta y actualizada.  De conformidad con la Ley 19.628 los datos personales que suministren en el Sitio Web pasarán a formar parte de una base de datos de Beitgroup y serán destinados única y exclusivamente en para ser utilizados en los fines que motivaron su entrega y especialmente para la comunicación en general entre la empresa y sus clientes, validar los datos de la compra, concretar el despacho y responder sus consultas. Los datos no serán comunicados a otras empresas sin la expresa autorización de su titular ni serán transferidos internacionalmente.  Beitgroup jamás solicita datos personales o financieros a través de correo electrónico.  Beitgroup presume que los datos han sido incorporados por su titular o por persona autorizada por éste, así como que son correctos y exactos. Los Usuarios y/o Compradores con la aceptación de los presentes Términos y Condiciones manifiestan que los datos de carácter personal que aporte a través de los formularios online en la página web de Pillin pueden ser utilizados para Ofertas posteriores y distintas a las ofrecidas en El Sitio.  Sin perjuicio de lo anterior, Beitgroup garantiza a los usuarios el libre ejercicio de sus derechos de información, modificación, cancelación y bloqueo de sus datos personales establecidos en la Ley 19.628. Por consiguiente, los compradores podrán realizar requerimientos que digan relación con dichos derechos, y en un plazo máximo de dos días corridos, Beitgroup deberá dar respuesta e implementar efectivamente esta solicitud."
+    }
+  },
+  "rich-text#ContenidoTyC10c":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "*Documentos Electrónicos:*  El usuario en su calidad de receptor manual de documentos electrónicos, de conformidad con la Resolución Exenta N° 11 del 14 de febrero de 2003 del Servicio de Impuestos Internos (que estableció el procedimiento para que contribuyentes autorizados para emitir documentos electrónicos puedan también enviarlos por estos medios a receptores manuales), declara y acepta lo siguiente:  Al aprobar estos términos y condiciones, el usuario autoriza a la empresa Beitgroup S.A. RUT 79.552.690-0, para que el documento tributario correspondiente de esta transacción, le sea entregada solamente por un medio electrónico. De igual forma, autoriza que el aviso de publicación del documento tributario me enviado mediante correo electrónico. De conformidad con la normativa indicada, y en caso que el usuario lo requiera para respaldar la información contable, asume en relación a dichos documentos tributarios, las siguientes obligaciones:  - Imprimir los documentos recibidos en forma electrónica, para cada período tributario, en forma inmediata a su recepción desde el emisor.;  - Imprimir el documento en el tamaño y forma que fue generado;  - Utilizar papel blanco tipo original de tamaño mínimo 21,5 cm x 14 cm (1/2 carta) y de tamaño máximo 21,5 x 33 cm (oficio);  - Imprimir en una calidad que asegure la permanencia de la legibilidad del documento durante un periodo mínimo de seis años, conforme lo establece la legislación vigente sobre la materia. Esta impresión se hará hecha usando impresión láser o de inyección de tinta, excepto que se establezca una autorización o norma distinta al respecto."
+    }
+  },
+
+  //Contenido 11
+  "flex-layout.col#tituloTyC11":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC11","rich-text#subTituloTyC11"]
+  },
+
+  "flex-layout.col#contenidoTyC11":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC11"]
+  },
+  
+  //Definicion de titulo 11
+  "rich-text#tituloTyC11":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Décimo Primero:"
+    }
+  },
+  "rich-text#subTituloTyC11":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Alcance de las condiciones informadas en el sitio"
+    }
+  },
+  //Definicion de contenido 11
+  "rich-text#ContenidoTyC11":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Beitgroup no modificará las condiciones bajo las cuales haya contratado con los consumidores en este sitio. Mientras aparezcan en este sitio, los precios informados estarán a disposición del usuario, aunque no sean los mismos que se ofrezcan en otros canales de venta de Beitgroup, como tiendas físicas, catálogos, televisión, radio, u otros.  Con todo, los precios son aplicables para la ciudad de entrega o despacho. Si una vez ingresado un producto al carro de compras, es cambiada la dirección de entrega o despacho a una ciudad diferente, cambiará el precio total del producto de acuerdo a los costos de envío a la nueva ciudad registrada.  Cualquier cambio en las informaciones publicadas en este sitio, incluyendo las referidas a mercaderías, servicios, precios, existencias y condiciones, promociones y ofertas, tendrá lugar antes de recibir una orden de compra y solo se referirá a operaciones futuras, sin afectar, en caso alguno, derechos adquiridos por los consumidores.  Las promociones que ofrecidas en el sitio no necesariamente serán las mismas que Beitgroup ofrezca por otros canales de venta. En las promociones que consistan en la entrega gratuita o rebajada de un producto por la compra de otro, el despacho del bien que se entregue gratuitamente o a precio rebajado se hará en el mismo lugar al cual se despacha el producto comprado, salvo que el adquirente solicite, al aceptar la oferta, que los productos se remitan a direcciones distintas, en cuyo caso deberá pagar el valor del despacho de ambos productos. No se podrá participar en estas promociones sin adquirir conjuntamente todos los productos comprendidos en ellas."
+    }
+  },
+
+  //Contenido 12
+  "flex-layout.col#tituloTyC12":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC12","rich-text#subTituloTyC12"]
+  },
+
+  "flex-layout.col#contenidoTyC12":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC12"]
+  },
+  
+  //Definicion de titulo 12
+  "rich-text#tituloTyC12":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Décimo Segundo:"
+    }
+  },
+  "rich-text#subTituloTyC12":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Propiedad Intelectual"
+    }
+  },
+  //Definicion de contenido 12
+  "rich-text#ContenidoTyC12":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Todos los contenidos incluidos en este sitio, como textos, material gráfico, logotipos, íconos de botones, códigos fuente, imágenes, audio clips, descargas digitales y compilaciones de datos, son propiedad de Beitgroup o de sus proveedores de contenidos, y están protegidos por las leyes chilenas e internacionales sobre propiedad intelectual. Los materiales gráficos, logotipos, encabezados de páginas, frases publicitarias, iconos de botones, textos escritos y nombres de servicios incluidos en este sitio son marcas comerciales, creaciones o imágenes comerciales de propiedad de Beitgroup en Chile y en otros países. Dichas marcas, creaciones e imágenes comerciales no se pueden usar en relación a ningún producto o servicio que pueda causar confusión entre los clientes y en ninguna forma que desprestigie o desacredite a Beitgroup. Las demás marcas comerciales que no sean de propiedad de Beitgroup  y que aparezcan en este sitio pertenecen a sus respectivos dueños.  Todos los derechos no expresamente otorgados en estos Términos y Condiciones son reservados por Beitgroup o sus cesionarios, proveedores, editores, titulares de derechos u otros proveedores de contenidos. Ningún producto, imagen o sonido pueden ser reproducidos, duplicados, copiados, vendidos, revendidos, visitados o explotados para ningún fin, en todo o en parte, sin el consentimiento escrito previo de Beitgroup. No se puede enmarcar o utilizar técnicas de enmarcación para encerrar alguna marca comercial, logotipo u otra información registrada o patentada (incluyendo imágenes, texto, disposición de páginas, o formulario) de Beitgroup, sin nuestro consentimiento escrito previo. Tampoco se puede usar meta etiquetas ni ningún otro “texto oculto” que use el nombre o marcas comerciales de Beitgroup sin autorización escrita previa de esta empresa. Se prohíbe hacer un uso indebido de este sitio o de estas marcas, licencias o patentes. Lo anterior, sin perjuicio de las excepciones expresamente señaladas en la ley.  Beitgroup respeta la propiedad intelectual de otros. Si cree que su trabajo ha sido copiado en forma tal que constituye una violación del derecho de propiedad intelectual, contáctate con nosotros a [info@pillin.cl](info@pillin.cl)"
+    }
+  },
+
+  //Contenido 13
+  "flex-layout.col#tituloTyC13":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloTyC13","rich-text#subTituloTyC13"]
+  },
+
+  "flex-layout.col#contenidoTyC13":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoTyC13"]
+  },
+  
+  //Definicion de titulo 13
+  "rich-text#tituloTyC13":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Décimo Tercero:"
+    }
+  },
+  "rich-text#subTituloTyC13":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": "Legislación Aplicable y Competencia."
+    }
+  },
+  //Definicion de contenido 13
+  "rich-text#ContenidoTyC13":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "Los presentes términos y condiciones se rigen por las leyes de la República de Chile. Cualquier controversia o conflicto derivado de la utilización del sitio web de Beitgroup, sus Términos y Condiciones y las Políticas de Privacidad, su validez, interpretación, alcance o cumplimiento, será sometida a las leyes aplicables de la República de Chile."
+    }
+  }
+}

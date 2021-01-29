@@ -438,7 +438,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Términos y Condiciones](#)"
+      "text": "- [Términos y Condiciones](/terminos-condiciones)"
     }
   },
   "rich-text#list-despacho": {
@@ -446,7 +446,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Despachos](#)"
+      "text": "- [Despachos](/despachos)"
     }
   },
   "rich-text#list-cambio": {
@@ -454,7 +454,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Cambios y Devoluciones](#)"
+      "text": "- [Cambios y Devoluciones](/cambios-devoluciones)"
     }
   },
   "rich-text#list-retiro": {
@@ -462,7 +462,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Retiro en tienda](#)"
+      "text": "- [Retiro en tienda](/retiro-en-tienda)"
     }
   },
   "rich-text#list-faq": {
@@ -470,7 +470,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Preguntas Frecuentes](#)"
+      "text": "- [Preguntas Frecuentes](/preguntas-frecuentas)"
     }
   },
 
@@ -497,7 +497,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Nosotros](#)"
+      "text": "- [Nosotros](/nosotros)"
     }
   },
   "rich-text#list-tiendas": {
@@ -505,7 +505,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Tiendas](#)"
+      "text": "- [Tiendas](/stores)"
     }
   },
   "rich-text#list-contacto": {
@@ -521,7 +521,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Trabaja con Nosotros](#)"
+      "text": "- [Trabaja con Nosotros](/trabaja-con-nosotros)"
     }
   },
 

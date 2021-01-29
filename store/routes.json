@@ -1,6 +1,9 @@
 {
   "store.custom#mantencion": {
     "path": "/mantencion"
+  },
+
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-condiciones"
   }
-  
 }
