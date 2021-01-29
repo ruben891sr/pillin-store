@@ -202,7 +202,6 @@
 }
 
 
-
 /*PLP*/
 .flexRowContent--rowBreadCrumbMobile {
     margin: 5px 0 10px 0;
@@ -253,6 +252,42 @@
     justify-content: flex-start;
 }
 
+/*Páginas Institucionales*/
+
+.flexRow--rowBannerInstitucionalTitle {
+    width: 100vw;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 4rem;
+    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
+}
+
+.flexRow--rowBannerInstitucionalTitle::before {
+    content: "";
+    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.flexRowContent--rowContenidoInstitucional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--rowContenidoInstitucional .stretchChildrenWidth {
+    width: 80%!important;
+}
 
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {
