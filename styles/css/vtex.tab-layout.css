@@ -17,3 +17,10 @@
 .listItemActive :global(.vtex-button__label) {
     font-weight: 800;
 }
+
+@media (max-width: 770px) {
+    .listContainer--tallaTabList {
+        padding: 1rem 0 1.5rem 0;
+    }
+    
+}

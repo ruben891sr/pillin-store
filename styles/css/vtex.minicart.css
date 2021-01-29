@@ -14,6 +14,24 @@
     background: #000 !important;
 }
 
+.minicartCheckoutButton :global(.vtex-button) {
+    padding: 1rem;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+    position: relative;
+    font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content: 'Ir al carro';
+    font-size: 15px;
+    text-transform: initial;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
 @media (max-width: 991px) {
     .cartIcon {
         width: 12px !important;

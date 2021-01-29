@@ -484,6 +484,29 @@
     font-weight: 500;
 }
 
+.menuContainer--tabContentMenu .menuItem {
+    border: 1px solid #411f18;
+    width: fit-content;
+    height: fit-content;
+    margin: .3rem;
+    border-radius: 4px;
+}
+
+.menuContainer--tabContentMenu .menuItem .styledLinkContainer {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.menuContainer--tabContentMenu .menuItem .styledLinkContent {
+    padding: .7rem 0;
+    margin: 0 .7rem;
+}
+
+.menuContainer--tabContentMenu .menuItem.selected_talla {
+    background-color: rgb(240 233 217) !important;
+}
+
 @media (max-width: 991.1px) {
     .styledLinkContent--subSubMenuItem {
         padding-right: 2rem;
@@ -492,6 +515,12 @@
         justify-content: flex-end;
         font-size: .8em !important;
     }
+
+    .menuContainer--tabContentMenu .menuItem .styledLinkContent {
+        padding: .4rem 0;
+        margin: 0 .4rem;
+    }
+    
 
     .styledLinkContent--subSubMenuItem::before {
         left: auto;

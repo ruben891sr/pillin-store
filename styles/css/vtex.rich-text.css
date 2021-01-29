@@ -537,10 +537,29 @@
     font-weight: 400;
 }
 
-@media (max-width: 991.1px) {
+.container--botonFiltrar-vestuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.paragraph--botonFiltrar-vestuario {
+    padding: .7rem 2.5rem;
+    color: #fff;
+    background-color: #401f17;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+@media (max-width: 991.1px) {
+ 
     .container--texto-seo {
         display: none;
+    }
+
+    .paragraph--botonFiltrar-vestuario {
+        margin: 1.5rem;
     }
 
     .wrapper--footer-list-asistida,

@@ -326,6 +326,14 @@
         background-size: cover;
     }
 
+    .flexCol--vestuario-wrapper,
+.flexCol--calzado-wrapper,
+.flexCol--accesorios-wrapper {
+    margin: .3rem 0;
+    padding: 3rem 2.5rem 3rem 2.5rem;
+}
+
+
 
 }
 
