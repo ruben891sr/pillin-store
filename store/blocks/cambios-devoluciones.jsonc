@@ -1,0 +1,756 @@
+{
+    //Declaración del Template
+    "store.custom#cambios-devoluciones": {
+        "blocks": [
+          "flex-layout.row#banner-institucional-CyD",
+          "flex-layout.row#Contenido-CyD-0",
+          "flex-layout.row#Contenido-CyD-1",
+          "flex-layout.row#Contenido-CyD-2",
+          "flex-layout.row#Contenido-CyD-3",
+          "flex-layout.row#Contenido-CyD-4",
+          "flex-layout.row#Contenido-CyD-5",
+          "flex-layout.row#Contenido-CyD-6",
+          "flex-layout.row#Contenido-CyD-7",
+          "flex-layout.row#Contenido-CyD-8",
+          "flex-layout.row#Contenido-CyD-9",
+          "flex-layout.row#Contenido-CyD-10",
+          "flex-layout.row#Contenido-CyD-11",
+          "flex-layout.row#Contenido-CyD-12",
+          "flex-layout.row#Contenido-CyD-13"
+        ]
+     },
+
+  // Banner con Titulo
+  "flex-layout.row#banner-institucional-CyD":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowBannerInstitucionalTitle"
+    },
+    "children":["flex-layout.col#Institucionaltitle-CyD"]
+  },
+
+
+  // Search Title
+  "flex-layout.col#Institucionaltitle-CyD": {
+    "props":{
+      "width": "80%",
+      "blockClass": "colInstitucionalTitle"
+    },
+    "children": ["rich-text#tituloDespacho-CyD"]
+  },
+  "rich-text#tituloDespacho-CyD":{
+    "props":{
+        "blockClass": "tituloInstitucional",
+        "text": "Cambios y Devoluciones"
+    }
+  },    
+
+  //Declaracion de Contenido
+  "flex-layout.row#Contenido-CyD-0":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-0",
+        "flex-layout.col#contenidoCyD-0"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-1":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-1",
+        "flex-layout.col#contenidoCyD-1"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-2":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-2",
+        "flex-layout.col#contenidoCyD-2"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-3":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-3",
+        "flex-layout.col#contenidoCyD-3"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-4":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-4",
+        "flex-layout.col#contenidoCyD-4"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-5":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-5",
+        "flex-layout.col#contenidoCyD-5"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-6":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-6",
+        "flex-layout.col#contenidoCyD-6"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-7":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-7",
+        "flex-layout.col#contenidoCyD-7"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-8":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-8",
+        "flex-layout.col#contenidoCyD-8"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-9":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-9",
+        "flex-layout.col#contenidoCyD-9"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-10":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-10",
+        "flex-layout.col#contenidoCyD-10"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-11":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-11",
+        "flex-layout.col#contenidoCyD-11"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-12":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-12",
+        "flex-layout.col#contenidoCyD-12"
+      ]
+  },
+  "flex-layout.row#Contenido-CyD-13":{
+    "props":{
+      "fullWidth": true,
+      "preventVerticalStretch": false,
+      "preventHorizontalStretch": false,
+      "blockClass": "rowContenidoInstitucional"
+    },
+    "children":[
+        "flex-layout.col#tituloCyD-13",
+        "flex-layout.col#contenidoCyD-13"
+      ]
+  },
+
+  //Contenido 0
+  "flex-layout.col#tituloCyD-0":{
+    "props":{
+        "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-0","rich-text#subTituloCyD-"]
+  },
+
+  "flex-layout.col#contenidoCyD-0":{
+    "props":{
+        "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-"]
+  },
+
+  //Definicion de titulo 0
+  "rich-text#tituloCyD-0":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Políticas de Cambio o Devoluciones de un producto"
+    }
+  },
+  "rich-text#subTituloCyD-":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 0
+  "rich-text#ContenidoCyD-":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "- Fecha de Vigencia: 1 de Mayo de 2014. - Definición: Pillin como política de atención al cliente en pro de dar un mejor servicio, autorizará el cambio de un artículo por otro o la devolución del dinero en los siguientes casos:Devolución por deficiencias del producto: En caso de deficiencias de fabricación o de sus materiales, previa aprobación de la encargada del local o informe técnico del área de control de calidad en el caso que sea necesario, procederá el cambio del articulo o la restitución de lo cancelado, siempre y cuando la devolución esté dentro del plazo de los 90 días corridos a contar de la fecha de la compra. En caso de deterioro por mal uso o por no respetar las instrucciones de lavado, planchado u otras que se indican en las etiquetas, no se aceptarán devoluciones o cambios. Para cambio de productos por talla, color u otro artículo: Presentar artículos junto con la boleta o ticket de cambio con las correspondientes etiquetas de cada prenda en un plazo máximo de 90 días corridos a contar de la fecha de la compra. El cambio procederá en forma inmediata si se encuentra en existencia los artículos en la talla y color deseado. Sino, podrá acercarse a otro local que si tenga stock. En el caso que el cliente no encuentre algún producto que satisfaga sus necesidades, se podrá hacer devolución del dinero, solo si está dentro de 10 días corridos desde la fecha de la compra. En este caso, se deberá remitir a la política de devolución de dinero interna."
+    }
+  },
+
+  //Contenido 1
+  "flex-layout.col#tituloCyD-1":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-1","rich-text#subTituloCyD-1"]
+  },
+
+  "flex-layout.col#contenidoCyD-1":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-1"]
+  },
+  
+  //Definicion de titulo 1
+  "rich-text#tituloCyD-1":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": "Política de devolución de dinero:"
+    }
+  },
+  "rich-text#subTituloCyD-1":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 1
+  "rich-text#ContenidoCyD-1":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": "- Fecha de Vigencia: 1 de mayo 2014. - Definición: Esta política de devolución de dinero a los clientes que solicitan Nota de Crédito, consiste en formalizar el canal por el cual se le entrega el dinero al cliente que está realizando la devolución de un artículo comprado en nuestra tienda y que por motivos de falla u otros le hacemos devolución del dinero cancelado por este. Paso 1: El cliente junto con completar guía de devolución y adjuntar la boleta de compra, deberá proveer una cuenta bancaria (Cta Corriente, vista o RUT) personal o de un tercero entregando los siguientes datos (Rut, Nombre del Banco y N° de la cuenta), dicha información debe quedar descrita en la guía de devolución. Paso 2: Una vez procesado por el área de Finanzas, se emitirá nota de crédito y se precederá a depositar el monto en cuestión en la cuenta bancaria entregada por el cliente. El depósito será realizado por BeitGroup S.A. directamente, por lo tanto le debe quedar claro al cliente, que el dinero NO se entregará en la tienda, sino que aparecerá depositado por BeitGroup S.A. directamente en la cuenta entregada. Paso 3: Finalmente, se envía al cliente Nota de Crédito y boleta de compra (en caso que la venta incluya otros productos además del artículo en devolución). Para el rembolso del dinero el plazo estimado es de 10 días hábiles a partir de la solicitud de devolución. Ante cualquier duda o consulta, no dude enviar un correo a: ventas.online@pillin.cl. Este correo será contestado dentro de las 24hrs. (días hábiles)"
+    }
+  },
+
+  //Contenido 2
+  "flex-layout.col#tituloCyD-2":{
+    "props":{
+        "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-2","rich-text#subTituloCyD-2"]
+  },
+
+  "flex-layout.col#contenidoCyD-2":{
+    "props":{
+        "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-2"]
+  },
+  
+  //Definicion de titulo 2
+  "rich-text#tituloCyD-2":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-2":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 2
+  "rich-text#ContenidoCyD-2":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 3
+  "flex-layout.col#tituloCyD-3":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-3","rich-text#subTituloCyD-3"]
+  },
+
+  "flex-layout.col#contenidoCyD-3":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-3"]
+  },
+  
+  //Definicion de titulo 3
+  "rich-text#tituloCyD-3":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-3":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 3
+  "rich-text#ContenidoCyD-3":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 4
+  "flex-layout.col#tituloCyD-4":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-4","rich-text#subTituloCyD-4"]
+  },
+
+  "flex-layout.col#contenidoCyD-4":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-4"]
+  },
+  
+  //Definicion de titulo 4
+  "rich-text#tituloCyD-4":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-4":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 4
+  "rich-text#ContenidoCyD-4":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 5
+  "flex-layout.col#tituloCyD-5":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-5","rich-text#subTituloCyD-5"]
+  },
+
+  "flex-layout.col#contenidoCyD-5":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-5"]
+  },
+  
+  //Definicion de titulo 5
+  "rich-text#tituloCyD-5":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-5":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 5
+  "rich-text#ContenidoCyD-5":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 6
+  "flex-layout.col#tituloCyD-6":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-6","rich-text#subTituloCyD-6"]
+  },
+
+  "flex-layout.col#contenidoCyD-6":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-6"]
+  },
+  
+  //Definicion de titulo 6
+  "rich-text#tituloCyD-6":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-6":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 6
+  "rich-text#ContenidoCyD-6":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 7
+  "flex-layout.col#tituloCyD-7":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":[
+      "rich-text#tituloCyD-7","rich-text#subTituloCyD-7"]
+  },
+
+  "flex-layout.col#contenidoCyD-7":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":[
+      "rich-text#ContenidoCyD-7a", "rich-text#ContenidoCyD-7b", "rich-text#ContenidoCyD-7c"
+    ]
+  },
+  
+  //Definicion de titulo 7
+  "rich-text#tituloCyD-7":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-7":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  
+  //Definicion de contenido 7
+  "rich-text#ContenidoCyD-7a":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+  "rich-text#ContenidoCyD-7b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+  "rich-text#ContenidoCyD-7c":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 8
+  "flex-layout.col#tituloCyD-8":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-8","rich-text#subTituloCyD-8"]
+  },
+
+  "flex-layout.col#contenidoCyD-8":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-8a", "rich-text#ContenidoCyD-8b"]
+  },
+  
+  //Definicion de titulo 8
+  "rich-text#tituloCyD-8":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-8":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 8
+  "rich-text#ContenidoCyD-8a":{
+    "props":{
+      "text": ""
+    }
+  },
+  "rich-text#ContenidoCyD-8b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 9
+  "flex-layout.col#tituloCyD-9":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-9","rich-text#subTituloCyD-9"]
+  },
+
+  "flex-layout.col#contenidoCyD-9":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-9"]
+  },
+  
+  //Definicion de titulo 9
+  "rich-text#tituloCyD-9":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-9":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 9
+  "rich-text#ContenidoCyD-9":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 10
+  "flex-layout.col#tituloCyD-10":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-10","rich-text#subTituloCyD-10"]
+  },
+
+  "flex-layout.col#contenidoCyD-10":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-10a","rich-text#ContenidoCyD-10b", "rich-text#ContenidoCyD-10c"]
+  },
+  
+  //Definicion de titulo 10
+  "rich-text#tituloCyD-10":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-10":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 10
+  "rich-text#ContenidoCyD-10a":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+  "rich-text#ContenidoCyD-10b":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+  "rich-text#ContenidoCyD-10c":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 11
+  "flex-layout.col#tituloCyD-11":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-11","rich-text#subTituloCyD-11"]
+  },
+
+  "flex-layout.col#contenidoCyD-11":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-11"]
+  },
+  
+  //Definicion de titulo 11
+  "rich-text#tituloCyD-11":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-11":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 11
+  "rich-text#ContenidoCyD-11":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 12
+  "flex-layout.col#tituloCyD-12":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-12","rich-text#subTituloCyD-12"]
+  },
+
+  "flex-layout.col#contenidoCyD-12":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-12"]
+  },
+  
+  //Definicion de titulo 12
+  "rich-text#tituloCyD-12":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-12":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 12
+  "rich-text#ContenidoCyD-12":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  },
+
+  //Contenido 13
+  "flex-layout.col#tituloCyD-13":{
+    "props":{
+      "blockClass": "colTitulo"
+    },
+    "children":["rich-text#tituloCyD-13","rich-text#subTituloCyD-13"]
+  },
+
+  "flex-layout.col#contenidoCyD-13":{
+    "props":{
+      "blockClass": "colContenido"
+    },
+    "children":["rich-text#ContenidoCyD-13"]
+  },
+  
+  //Definicion de titulo 13
+  "rich-text#tituloCyD-13":{
+    "props":{
+      "blockClass": "Titulo-Seccion",
+      "text": ""
+    }
+  },
+  "rich-text#subTituloCyD-13":{
+    "props":{
+      "blockClass": "subTitulo",
+      "text": ""
+    }
+  },
+  //Definicion de contenido 13
+  "rich-text#ContenidoCyD-13":{
+    "props":{
+      "blockClass": "textoContenido",
+      "text": ""
+    }
+  }
+}

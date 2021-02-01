@@ -207,7 +207,8 @@
     },
     "children": [
       "modal-header#Header-Stock",
-      "iframe#despligueStock"
+      "sandbox.product#tablaStock"
+      // "iframe#despligueStock"
       // "rich-text#modal-content"
     ]
   },
@@ -220,20 +221,29 @@
   },
   "rich-text#TituloModalStock":{
     "props":{
-      "blockClass": "tituloModal",
+      "blockClass": "tituloModalStock",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Stock"
     }
   },
-  "iframe#despligueStock":{
+  "sandbox.product#tablaStock": {
     "props": {
-      "width": "100%",
-      "height": "100%",
-      "src": "//dw.ivn.cl/pillin/stock/",
-      "blockClass": "iframeStock"
+      "initialContent": "<table style='box-sizing:border-box;width:100%;text-align:left;background-color: #443e13;border:solid 1px #443e13;border-radius:4px;font-size:13px;margin:0 auto;margin-top:12px'><tbody><tr style='background:#f0e9d9;text-align:center'><th>TIENDAS</th><th>STOCK</th></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Plaza Vespucio</td><td style='padding:4px;'>20</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Florida Center</td><td style='padding:4px;'>4</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Arauco Maipú</td><td style='padding:4px;'>+30</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>5</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>5</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>6</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>9</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>0</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr></tbody></table>",
+      "allowCookies": true,
+      "blockClass": "tablaStock"
+      // "height": "100%"
     }
   },
+
+  // "iframe#despligueStock":{
+  //   "props": {
+  //     "width": "100%",
+  //     "height": "100%",
+  //     "src": "//dw.ivn.cl/pillin/stock/",
+  //     "blockClass": "iframeStock"
+  //   }
+  // },
 
   // Cantidad y btn Agregar al carro
   "flex-layout.row#quantity-buy-button":{
