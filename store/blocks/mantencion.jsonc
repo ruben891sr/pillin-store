@@ -4,9 +4,37 @@
         "blocks": [
             "responsive-layout.desktop#mantencion",
             "responsive-layout.mobile#mantencion"
-        ]
+        ],
+        "parent": {
+            "header": "header#empty",
+            "footer": "footer#empty"
+        }
     },
 
+    "header#empty": {
+        "blocks": [
+            "header-layout.desktop#empty",
+            "header-layout.mobile#empty"
+        ]
+    },
+    "header-layout.desktop#empty": {
+        "children": []
+    },
+    "header-layout.mobile#empty": {
+        "children": []
+    },
+    "footer#empty": {
+        "blocks": [
+            "footer-layout.desktop#empty",
+            "footer-layout.mobile#empty"
+        ]
+    },
+    "footer-layout.desktop#empty": {
+        "children": []
+    },
+    "footer-layout.mobile#empty": {
+        "children": []
+    },
 
     // Mantención Versión Desktop
     "responsive-layout.desktop#mantencion": {
@@ -17,23 +45,56 @@
 
     "flex-layout.row#mantencion-d": {
         "children": [
-            "rich-text#test"
+            "image#mantencion",
+            "rich-text#text-main",
+            "rich-text#text-second"
         ],
         "props": {
-            "blockClass": "mantancionRow"
-        }
-    },
-
-    "rich-text#test": {
-        "props": {
-            "text": "Prueba"
+            "blockClass": "mantencion-d"
         }
     },
 
 
     // Mantención Versión Mobile
-    "responsive-layout.mobile#mantencion": {}
+    "responsive-layout.mobile#mantencion": {
+        "children": [
+            "flex-layout.row#mantencion-m"
+        ]
+    },
 
+    "flex-layout.row#mantencion-m": {
+        "children": [
+            "image#mantencion",
+            "rich-text#text-main",
+            "rich-text#text-second" 
+        ],
+        "props": {
+            "blockClass": "mantencion-m"
+        }
+    },
+
+
+    // Componentes 
+    "image#mantencion": {
+        "props": {
+          "src": "assets/img/logo-cabeza.png",
+          "blockClass": "logoMantencion"
+        }
+      },
+
+    "rich-text#text-main": {
+        "props": {
+            "text": "# En estos momentos el sitio está en mantención",
+            "blockClass": "text-main"
+        }
+    },
+
+    "rich-text#text-second": {
+        "props": {
+            "text": "## Disculpe las molestias. Volveremos pronto ",
+            "blockClass": "text-second" 
+        }
+    }
 
 
 }

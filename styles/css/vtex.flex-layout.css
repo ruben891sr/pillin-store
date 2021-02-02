@@ -21,7 +21,7 @@
 }
 
 .flexCol--colNina {
-    padding: 0 2rem; 
+    padding: 0 2rem;
 }
 
 .flexCol--colNino {
@@ -216,7 +216,7 @@
 }
 
 .flexCol--colSearchTitle {
-    position: absolute!important;
+    position: absolute !important;
     left: 0;
     top: 0;
 }
@@ -260,7 +260,7 @@
     display: block;
     position: relative;
     padding: 4rem;
-    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
 
 .flexRow--rowBannerInstitucionalTitle::before {
@@ -286,7 +286,7 @@
 }
 
 .flexRowContent--rowContenidoInstitucional .stretchChildrenWidth {
-    width: 80%!important;
+    width: 80% !important;
 }
 
 .flexRowContent--confirmationButtons {
@@ -307,6 +307,12 @@
 
 .flexRow--row--wrapperNotices {
     margin-top: 4rem;
+}
+
+.flexRowContent--confirmationButtons .flexColChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:768px) {
@@ -347,11 +353,11 @@
     }
 
     .flexCol--vestuario-wrapper,
-.flexCol--calzado-wrapper,
-.flexCol--accesorios-wrapper {
-    margin: .3rem 0;
-    padding: 3rem 2.5rem 3rem 2.5rem;
-}
+    .flexCol--calzado-wrapper,
+    .flexCol--accesorios-wrapper {
+        margin: .3rem 0;
+        padding: 3rem 2.5rem 3rem 2.5rem;
+    }
 
 
 
@@ -367,7 +373,7 @@
 /* .flexCol {
     position: relative;
 } */
-  
+
 .flexColChild--summaryBusquedaNombrePrice {
     height: auto !important;
 }
@@ -388,22 +394,55 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .flexColChild--btn-GuiaDeTallas {
     position: absolute;
     right: 25px;
     bottom: 60px;
 }
 
-.flexCol--btn-GuiaDeTallas{
+.flexCol--btn-GuiaDeTallas {
     position: relative;
 }
+
+
+.flexRow--mantencion-m,
+.flexRow--mantencion-d {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexRow--mantencion-m {
+    background-image: url(assets/img/mantencion-movil.jpg);
+}
+
+.flexRow--mantencion-d {
+    background-image: url(assets/img/mantencion-escri.jpg);
+}
+
+.flexRowContent--mantencion-m,
+.flexRowContent--mantencion-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+}
+
 
 
 /* MEDIA QUERIES */
 @media (max-width: 991.1px) {
     .flexRowContent--rowMainFooter {
         padding: 0 2rem;
-        flex-direction: column !important; 
+        flex-direction: column !important;
     }
 
     .flexRow--footer-general {
@@ -421,7 +460,7 @@
 
     .flexRowContent--rowMainFooter .stretchChildrenWidth {
         width: 100% !important;
-    } 
+    }
 
     .flexRowContent--rowQuantityBuy {
         display: flex;
@@ -433,4 +472,18 @@
         border-top: 1px solid #ffab71;
         border-bottom: 1px solid #ffab71;
     }
+
+    .flexCol--col-generalInfo {
+        padding: 1.7rem;
+    }
+
+    .flexCol--col-resumeInfo {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .flexColChild--col-generalInfo {
+        padding: .35rem 0;
+    }
+
 }

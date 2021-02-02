@@ -554,6 +554,26 @@
     margin-top: 3rem;
 }
 
+.container--text-second,
+.container--text-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper--text-main .heading--text-main {
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wrapper--text-second .heading--text-second {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+
 @media (max-width: 991.1px) {
  
     .container--texto-seo {

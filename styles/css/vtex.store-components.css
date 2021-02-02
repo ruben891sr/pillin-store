@@ -446,6 +446,10 @@
     object-fit: contain;
 }
 
+.imageElement--logoMantencion {
+    width: 100px;;
+}
+
 @media (max-width: 991px) {
     .searchIcon { 
         width: 12px;
