@@ -353,7 +353,8 @@
 }
 
 .paragraph--tituloModal,
-.paragraph--tituloModalGuiaTallas {
+.paragraph--tituloModalGuiaTallas,
+.paragraph--tituloModalStock {
     display: inline-block;
     position: relative;
     font-size: 1.5em;
@@ -376,7 +377,8 @@
 }
 
 .paragraph--tituloModal::after,
-.paragraph--tituloModalGuiaTallas::after {
+.paragraph--tituloModalGuiaTallas::after,
+.paragraph--tituloModalStock::after {
     content: '';
     background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
     background-position: center;
@@ -533,7 +535,7 @@
     margin-top: 0;
 }
 
-.paragraph--textoContenido {
+.paragraph--textoContenido, .listItem--textoContenido {
     font-weight: 400;
 }
 

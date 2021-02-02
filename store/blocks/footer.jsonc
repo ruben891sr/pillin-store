@@ -470,7 +470,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- [Preguntas Frecuentes](/preguntas-frecuentas)"
+      "text": "- [Preguntas Frecuentes](/preguntas-frecuentes)"
     }
   },
 
@@ -513,7 +513,7 @@
       "blockClass": "footer-list",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "- **[Contacto](#)**"
+      "text": "- **[Contacto](/contacto)**"
     }
   },
   "rich-text#list-trabaja": {

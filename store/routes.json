@@ -5,5 +5,9 @@
 
   "store.custom#terminos-condiciones": {
     "path": "/terminos-condiciones"
+  },
+
+  "store.custom#cambios-devoluciones": {
+    "path": "/cambios-devoluciones"
   }
 }

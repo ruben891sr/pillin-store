@@ -7,6 +7,12 @@
 }
 
 .paper--ModalGuiaTallas {
+    width: 45vw!important;
+}
+.paper--ModalStock {
+    width: 65%!important;
+}
+.paper--ModalGuiaTallas {
     width: 45vw !important;
 }
 
