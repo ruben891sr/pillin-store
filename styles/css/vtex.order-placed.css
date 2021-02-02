@@ -1,0 +1,90 @@
+.orderPlacedWrapper {
+    padding-top: 0;
+}
+
+.orderPlacedHeader {
+    background-image: url(assets/img/orderplaced.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    padding: 1.5rem;
+}
+
+.confirmationTitle {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.orderPlacedMainWrapper {
+    margin-top: 3rem;
+}
+
+.confirmationMessage {
+    margin-bottom: 0;
+}
+
+.orderOptionsWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderOptionsWrapper :global(.vtex-button) {
+    margin: .3rem 0;
+}
+
+.package--delivery {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.productList {
+    width: 100% !important;
+}
+
+.productListItem {
+    margin: 0;
+    padding: .5rem 0;
+}
+
+.productInfoColumn {
+    justify-content: center;
+}
+
+.productName {
+    color: #402117;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.productPrice {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-weight: 800;
+}
+
+.package .packageHeaderColumn {
+    background: #f9f9f9;
+    padding: 3rem;
+    border-radius: 4px;
+}
+
+.noticesList {
+    background: transparent;
+}
+
+.noticeListItem {
+    background: transparent;
+    padding: .3rem;
+}
+
+.totalListItem {
+    font-size: 1.2rem !important;
+}
+
+.totalListItemValue,
+.totalListItemLabel {
+    font-size: 1rem !important;
+}

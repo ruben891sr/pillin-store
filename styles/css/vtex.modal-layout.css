@@ -2,15 +2,37 @@
 .paper--modalVestuario,
 .paper--modalcalzado,
 .paper--modalaccesorios {
-    width: 60vw!important;
+    width: 60vw !important;
     padding: 3rem 4rem;
 }
+
 .paper--ModalGuiaTallas {
     width: 45vw!important;
 }
 .paper--ModalStock {
     width: 65%!important;
 }
+.paper--ModalGuiaTallas {
+    width: 45vw !important;
+}
+
 .backdrop {
     background: #000 !important;
 }
+
+@media (max-width: 770px) {
+
+    .paperScrollContent,
+    .paper--modalVestuario,
+    .paper--modalcalzado,
+    .paper--modalaccesorios {
+        width: 90vw!important;
+        padding: 3rem 1rem;
+        margin: 0 !important;
+    }
+
+    .paperScrollContent {
+        max-height: calc(100% - 2rem);
+        overflow: auto;
+    }
+} 

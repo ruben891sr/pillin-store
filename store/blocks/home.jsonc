@@ -663,7 +663,8 @@
       "slider-layout#text-test-mobile",
       "flex-layout.row#info-bar-mobile",
       "flex-layout.row#infocards-icons-mobile",
-      "flex-layout.row#infocards-mobile",
+      "flex-layout.row#busquedaTalla",
+      // "flex-layout.row#infocards-mobile",
       "shelf",
       "flex-layout.row#banners-mobile"
     ]

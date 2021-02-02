@@ -311,12 +311,12 @@
       "fullWidth": true
     }
   },
-  "store.not-found#search": {
-    "blocks": [
-      "flex-layout.row#ContentNotSearch",
-      "rich-text#not-found"
-    ]
-  },
+  // "store.not-found#search": {
+  //   "blocks": [
+  //     "flex-layout.row#ContentNotSearch",
+  //     "rich-text#not-found"
+  //   ]
+  // },
   "flex-layout.row#ContentNotSearch":{
     "props":{
       "blockClass": "BuscaVacia",
