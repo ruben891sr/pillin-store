@@ -1,3 +1,15 @@
 .productVariationsItem {
     display: none;
-} 
+}
+
+.productVariationsItem:first-child {
+    display: block !important
+}
+
+.productVariationsItem:nth-child(2n) {
+    display: block !important
+}
+
+.productVariationsItem:last-child {
+    display: none !important;
+}

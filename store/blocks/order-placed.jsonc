@@ -14,8 +14,7 @@
         "children": [
             "op-section#confirmation",
             "op-summary-section",
-            "op-bank-invoice-section",
-            "op-section#notices"
+            "op-bank-invoice-section"
         ]
     },
     "op-section#confirmation": {
@@ -55,38 +54,84 @@
     // each order section
     "op-order": {
         "children": [
-            "flex-layout.row#order-header",
+            "flex-layout.row#wrapper-orderplaced",
+            "flex-layout.row#wrapper-notices"
+        ]
+    },
+
+    "flex-layout.row#wrapper-orderplaced": {
+        "children": [
+            "flex-layout.col#orderplaced-generalinfo-col",
+            "flex-layout.col#orderplaced-resumeinfo-col"
+        ],
+        "props": {
+            "blockClass": "row--wrapperOrderplaced"
+        }
+    },
+
+    "flex-layout.row#wrapper-notices": {
+        "children": [
+            "op-section#notices"
+        ],
+        "props": {
+            "blockClass": "row--wrapperNotices"
+        }
+    },
+
+    "flex-layout.col#orderplaced-generalinfo-col": {
+        "children": [
+
+            "op-order-number",
+            "op-order-datetime",
+            "op-order-seller",
+            "op-order-options",
             "op-order-split-notice",
             "op-order-customer",
             "op-section#payments",
+            "op-order-takeaway-packages"
+        ],
+        "props": {
+            "blockClass": "col-generalInfo"
+        }
+    },
+
+    "flex-layout.col#orderplaced-resumeinfo-col": {
+        "children": [
             "op-section#pickup-packages",
             "op-section#delivery-packages",
-            "op-order-takeaway-packages",
             "op-order-total"
-        ]
-    },
-    // each order header
-    "flex-layout.row#order-header": {
+        ],
         "props": {
-            "fullWidth": true,
-            "colSizing": "auto",
-            "colGap": 5,
-            "marginBottom": 5
-        },
-        "children": [
-            "flex-layout.col#order-header-info",
-            "flex-layout.col#order-header-options"
-        ]
+            "blockClass": "col-resumeInfo"
+        }
     },
-    "flex-layout.col#order-header-info": {
-        "children": ["op-order-number", "op-order-datetime", "op-order-seller"]
-    },
-    "flex-layout.col#order-header-options": {
-        "children": ["responsive-layout.desktop#order-options-desktop"]
-    },
-    "responsive-layout.desktop#order-options-desktop": {
-        "children": ["op-order-options"]
-    },
+
+
+
+
+
+    // each order header
+    // "flex-layout.row#order-header": {
+    //     "props": {
+    //         "fullWidth": true,
+    //         "colSizing": "auto",
+    //         "colGap": 5,
+    //         "marginBottom": 5
+    //     },
+    //     "children": [
+    //         "flex-layout.col#order-header-info",
+    //         "flex-layout.col#order-header-options"
+    //     ]
+    // },
+    // "flex-layout.col#order-header-info": {
+    //     "children": []
+    // },
+    // "flex-layout.col#order-header-options": {
+    //     "children": ["responsive-layout.desktop#order-options-desktop"]
+    // },
+    // "responsive-layout.desktop#order-options-desktop": {
+    //     "children": ["op-order-options"]
+    // },
     // payment section
     "op-section#payments": {
         "props": {

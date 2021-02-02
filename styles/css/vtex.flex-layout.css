@@ -289,6 +289,26 @@
     width: 80%!important;
 }
 
+.flexRowContent--confirmationButtons {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+
+.flexCol--col-generalInfo {
+    background: #f9f9f9;
+    padding: 3rem;
+    border-radius: 4px;
+}
+
+.flexCol--col-resumeInfo {
+    margin-left: 5rem;
+}
+
+.flexRow--row--wrapperNotices {
+    margin-top: 4rem;
+}
+
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {
         margin-bottom: 0rem;
