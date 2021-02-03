@@ -1,0 +1,95 @@
+{
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#form"
+    ]
+  },
+
+  "flex-layout.row#form": {
+      "props":{
+          "blockClass": "rowFormularioContacto"
+      },
+      "children": ["flex-layout.col#form"]
+  },
+
+  //Formulario Contacto
+  "flex-layout.col#form": {
+      "children": ["form"]
+  },
+  "form": {
+    "props": {
+      "entity": "Simulador flete",
+      "schema": "mdv1"
+      },
+      "children": [
+        "rich-text#formTitle",
+        "form-input.text#firstName",
+        "form-input.text#lastName",
+        "form-input.text#email",
+        "form-input.text#phone",
+        "form-input.dropdown#motivo",
+        "form-submit",
+        "rich-text#nuestrasTiendas"
+      ],
+      "blocks": ["form-success"]
+    },
+    "form-success": {
+      "children": [
+        "rich-text#successSubmitContacto"
+      ]
+    },
+    "rich-text#successSubmitContacto": {
+      "props": {
+        "text": "¡Datos enviados exitosamente!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+    "rich-text#formTitle":{
+      "props":{
+          "text": "Contacto",
+          "blockClass": "titleContacto"
+      }
+    },
+    "form-input.text#firstName": {
+      "props": {
+        "pointer": "#/properties/firstName"
+      }
+    },
+    "form-input.text#lastName": {
+      "props": {
+        "pointer": "#/properties/lastName"
+      }
+    },
+    "form-input.text#email":{
+      "props":{
+          "pointer": "#/properties/mail"
+      }
+    },
+    "form-input.text#phone":{
+      "props":{
+          "pointer": "#/properties/phone"
+      }
+    },
+    "form-input.dropdown#motivo":{
+      "props":{
+          "pointer": "#/properties/tipo-consulta"
+      }
+    },
+    "form-input.textarea#descripcion":{
+      "props":{
+          "pointer": "#/properties/descripcion",
+          "label": "Descripción"
+      }
+    },
+    "form-submit": {
+      "props": {
+        "label": "Submit"
+      }
+    },
+    "rich-text#nuestrasTiendas":{
+        "props":{
+            "text": "Revisa nuestras tiendas [Aquí](/stores)"
+        }
+    }
+}
