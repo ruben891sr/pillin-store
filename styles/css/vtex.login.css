@@ -72,11 +72,10 @@
 
 .googleOptionBtn :global(.vtex-button) {
     background-color: #fff;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 3px;
-    border-image-source: linear-gradient(to left, #f2b910, #ea4335, #3578e5, #ea4335, #f2b910, #36a753, #ea4335);
+    border-image-source: linear-gradient(270deg, #f2b910, #ea4335, #3578e5, #ea4335, #f2b910, #36a753, #ea4335);
     border-radius: 4px;
+    border-image-slice: 1;
+    border-width: 4px;
 }
 
 .googleOptionBtn :global(.vtex-button__label) {
