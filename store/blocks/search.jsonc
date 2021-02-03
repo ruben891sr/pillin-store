@@ -52,17 +52,10 @@
     }
   },
 
-  "store.not-found#search": {
-    "blocks": ["rich-text#not-found"]
-  },
-  "rich-text#not-found": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**PÁGINA NO ENCONTRADA**",
-      "font": "t-heading-1" 
-    }
-  },
+  // "store.not-found#search": {
+  //   "blocks": ["rich-text#not-found"]
+  // },
+
 
   "search-result-layout": {
     "blocks": [
@@ -311,12 +304,14 @@
       "fullWidth": true
     }
   },
-  // "store.not-found#search": {
-  //   "blocks": [
-  //     "flex-layout.row#ContentNotSearch",
-  //     "rich-text#not-found"
-  //   ]
-  // },
+
+  "store.not-found#search": {
+    "blocks": [
+      "flex-layout.row#ContentNotSearch"
+      // "rich-text#not-found"
+    ]
+  },
+
   "flex-layout.row#ContentNotSearch":{
     "props":{
       "blockClass": "BuscaVacia",
@@ -452,15 +447,14 @@
       "text": "O, puedes volver al home [Aquí](/)",
       "blockClass": "botonVolver"
     }
-  }
+  },
 
-  // Texto Base
-  // "rich-text#not-found": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "**PAGINA NO ENCONTRADA**",
-  //     "font": "t-heading-1"
-  //   }
-  // }
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PÁGINA NO ENCONTRADA**",
+      "font": "t-heading-1" 
+    }
+  }
 }

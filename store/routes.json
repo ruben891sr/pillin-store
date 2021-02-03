@@ -9,5 +9,13 @@
 
   "store.custom#cambios-devoluciones": {
     "path": "/cambios-devoluciones"
+  },
+
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+
+  "store.custom#trabaja-con-nosotros": {
+    "path": "/trabaja-con-nosotros"
   }
 }

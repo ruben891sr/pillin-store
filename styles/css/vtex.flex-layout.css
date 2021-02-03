@@ -254,7 +254,8 @@
 
 /*Páginas Institucionales*/
 
-.flexRow--rowBannerInstitucionalTitle {
+.flexRow--rowBannerInstitucionalTitle,
+.flexRow--rowBanner-TCN-Title {
     width: 100vw;
     height: auto;
     display: block;
@@ -276,6 +277,21 @@
     right: 0;
     position: absolute;
     z-index: -1;
+}
+
+.flexRow--rowBanner-TCN-Title::before{
+    content: "";
+    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Trabaja-con-Nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
 }
 
 .flexRowContent--rowContenidoInstitucional {
@@ -314,6 +330,33 @@
     justify-content: center;
     align-items: center;
 }
+
+/*Contacto*/
+
+.flexRow--rowFormularioContacto {
+    width: 100vw;
+    height: auto;
+    display: block;
+    position: relative;
+    height: 60vh;
+    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
+}
+
+.flexRow--rowFormularioContacto::before {
+    content: "";
+    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {

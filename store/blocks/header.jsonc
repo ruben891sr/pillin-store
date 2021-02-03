@@ -115,7 +115,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Faq](#)",
+            "text": "[Faq](/preguntas-frecuentes)",
             "blockClass": "topBarList-faq"
         }
     },
@@ -124,7 +124,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "[Contáctanos](#)",
+            "text": "[Contáctanos](/contacto)",
             "blockClass": "topBarList-contact"
         }
     },
@@ -142,7 +142,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Tiendas](#)",
+            "text": "[Tiendas](/stores)",
             "blockClass": "topBarList-store"
         }
     },

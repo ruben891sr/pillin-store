@@ -1,0 +1,156 @@
+{
+    "store.custom#trabaja-con-nosotros":{
+        "blocks":[
+            "flex-layout.row#titulo-TCN",
+            "flex-layout.row#textoIntro-TCN",
+            "flex-layout.row#formularioTrabajo"
+        ]
+    },
+
+    //Titulo de pagina
+    "flex-layout.row#titulo-TCN":{
+        "props":{
+            "fullWidth": true,
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "rowBanner-TCN-Title"
+        },
+        "children":["flex-layout.col#titleTrabajaConNosotros"]
+    },
+    "flex-layout.col#titleTrabajaConNosotros": {
+        "props":{
+            "width": "80%",
+            "blockClass": "colInstitucionalTitle"
+        },
+        "children": ["rich-text#titulo-TCN"]
+    },
+    "rich-text#titulo-TCN":{
+        "props":{
+            "blockClass": "tituloInstitucional",
+            "text": "Trabaja con Nosotros"
+        }
+    },
+
+    //Texto de introducción
+    "flex-layout.row#textoIntro-TCN":{
+        "props":{
+            "fullWidth": true,
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "rowContenidoInstitucional"
+          },
+        "children":[
+            "flex-layout.col#tituloTCN",
+            "flex-layout.col#contenidoTCN"
+        ]
+    },
+    "flex-layout.col#tituloTCN":{
+        "props":{
+            "textAlignment": "center",
+            "blockClass": "colTitulo"
+        },
+        "children":["rich-text#tituloTCN"]
+    },
+
+    // Definición contenido
+    "flex-layout.col#contenidoTCN":{
+        "props":{
+            "blockClass": "colContenido",
+            "textAlignment": "center"
+        },
+        "children":["rich-text#ContenidoTCN"]
+    },
+
+    "rich-text#tituloTCN":{
+        "props":{
+            "blockClass": "Titulo-Seccion",
+            "textPosition": "CENTER",
+            "text": "¡Buscamos gente talentosa como tu!"
+        }
+    },
+    "rich-text#ContenidoTCN":{
+        "props":{
+            "blockClass": "textoContenido",
+            "textPosition": "CENTER",
+            "text": "En Pillin puedes ser parte de una empresa líder en vestuario y calzado infantil"
+        }
+    },
+
+    // Formulario Trabaja con nosotros
+    "flex-layout.row#formularioTrabajo": {
+        "props":{
+            "blockClass": "rowFormularioTCN"
+        },
+        "children": ["flex-layout.col#form-TCN"]
+    },
+    "flex-layout.col#form-TCN": {
+        "children": ["form#TCN"]
+    },
+    "form#TCN":{
+        "props": {
+            "entity": "clients",
+            "schema": "person"
+        },
+        "children": [
+            "rich-text#formTitle-TCN",
+            "form-input.text#firstName-TCN",
+            "form-input.text#lastName-TCN",
+            "form-input.text#phone-TCN",
+            "form-input.text#cargo-TCN",
+            "form-submit#enviar-TCN"
+        ],
+        "blocks": ["form-success#envioExitoso-TCN"]
+    },
+    "form-success#envioExitoso-TCN": {
+        "children": ["rich-text#successSubmitTCN"]
+    },
+    "rich-text#successSubmitTCN": {
+        "props": {
+            "text": "¡Datos enviados exitosamente!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#formTitle-TCN":{
+        "props":{
+            "text": "Contacto",
+            "blockClass": "titleContacto"
+        }
+    },
+    "form-input.text#firstName-TCN": {
+        "props": {
+            "pointer": "#/properties/firstName"
+        }
+    },
+    "form-input.text#lastName-TCN": {
+        "props": {
+            "pointer": "#/properties/lastName"
+        }
+    },
+    "form-input.text#email-TCN":{
+        "props":{
+            "pointer": "#/properties/mail"
+        }
+    },
+    "form-input.text#phone-TCN":{
+        "props":{
+            "pointer": "#/properties/phone"
+        }
+    },
+    "form-input.text#cargo-TCN":{
+        "props":{
+            "pointer": "#/properties/cargo"
+        }
+    },
+    "form-input.textarea#descripcion-TCN":{
+        "props":{
+            "pointer": "#/properties/descripcion",
+            "label": "Descripción"
+        }
+    },
+    "form-submit#enviar-TCN": {
+        "props": {
+          "label": "Submit"
+        }
+    }
+}
