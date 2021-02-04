@@ -13,3 +13,8 @@
 .productVariationsItem:last-child {
     display: none !important;
 }
+
+.productVariationsContainer {
+    height: 40px;
+    overflow: hidden;
+}
