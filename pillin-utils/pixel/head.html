@@ -1,3 +1,4 @@
+<meta name="referrer" content="no-referrer-when-downgrade">
 <script>
   (function() {
     console.log("Tallas script ran from pixel");
@@ -15,6 +16,8 @@ document.addEventListener('click', function(evt)
 {
   if (evt == null) return;
 
+try
+{
   let temp0 = evt.target;
   let filtrar = false;
 
@@ -92,6 +95,12 @@ document.addEventListener('click', function(evt)
       temp0.style.background = '#ece3cc';
     }
   }
+
+}
+catch(e)
+{
+}
+
 
 }
 , true);
