@@ -307,7 +307,8 @@
 
   "store.not-found#search": {
     "blocks": [
-      "flex-layout.row#ContentNotSearch"
+      "flex-layout.row#ContentNotSearch",
+      "flex-layout.row#shelf-NotFound"
       // "rich-text#not-found"
     ]
   },
@@ -447,6 +448,33 @@
       "text": "O, puedes volver al home [Aquí](/)",
       "blockClass": "botonVolver"
     }
+  },
+
+  // Vitrina Not Found
+  "flex-layout.row#shelf-NotFound":{
+    "props":{
+      "marginTop": 8,
+      "marginBottom": 8
+    },
+    "children":["flex-layout.col#colShelfNotFound"]
+  },
+
+  "flex-layout.col#colShelfNotFound":{
+    "props":{
+      "blockClass": "productosRecomendados"
+    },
+    "children":["shelf#NotFound"]
+  },
+  "shelf#NotFound":{
+    "props":{
+      "recommendation": "view",
+      "blockClass": "ProductosNotFound",
+      "productList": {
+        "titleText": "Productos Recomendados",
+        "itemsPerPage": 5
+      }
+    },
+    "blocks":["product-summary.shelf#NotFound"]
   },
 
   "rich-text#not-found": {

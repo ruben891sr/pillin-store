@@ -3,7 +3,8 @@
 }
 
 .title--vitrinaHome,
-.title--pdpProductosRelacionados {
+.title--pdpProductosRelacionados,
+.title--ProductosNotFound {
     font-size: 1.5em;
     color: #402117;
     font-weight: 800;
@@ -18,7 +19,8 @@
 }
 
 .title--vitrinaHome::before,
-.title--pdpProductosRelacionados::before {
+.title--pdpProductosRelacionados::before,
+.title--ProductosNotFound::before {
     content: '';
     background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
     background-position: center;
