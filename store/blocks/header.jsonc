@@ -83,21 +83,21 @@
 
     "rich-text#info-1": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí [Aquí](#)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/stores)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-2": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/stores)",
             "blockClass": "sliderTopBarItem"
         }
     },
 
     "rich-text#info-3": {
         "props": {
-            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/)",
+            "text": "Para ver más información de las tiendas haga click aquí [Aquí](/stores)",
             "blockClass": "sliderTopBarItem"
         }
     },
