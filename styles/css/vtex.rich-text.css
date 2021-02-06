@@ -275,7 +275,7 @@
 
 .headingLevel2--main-titles::before {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-image: url(assets/img/bg-titulos-rosado.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -450,7 +450,7 @@
 
 .link--titulo-insta::before {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-image: url(assets/img/bg-titulos-verde.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -591,7 +591,7 @@
 
 .paragraph--tituloBusquedaPorTalla::before {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-image: url(assets/img/bg-titulos-verde.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

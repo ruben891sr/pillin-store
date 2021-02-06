@@ -43,7 +43,7 @@
 .title--pdpProductosRelacionados::before,
 .title--ProductosNotFound::before {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-image: url(assets/img/bg-titulos-rosado.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
