@@ -2,6 +2,9 @@
     margin: 0 .5rem;
 }
 
+.container--vitrinaHome {
+    padding-bottom: 0 !important;
+}
 .title--vitrinaHome,
 .title--pdpProductosRelacionados,
 .title--ProductosNotFound {
@@ -16,6 +19,24 @@
     overflow: visible;
     z-index: 1;
     padding-left: 3.7rem;
+}
+
+.arrow {
+    top: 34%;
+}
+
+.caretIcon--vitrinaHome {
+    width: 16px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: .3rem;
+    box-sizing: border-box;
+    border-radius: 50px;
 }
 
 .title--vitrinaHome::before,

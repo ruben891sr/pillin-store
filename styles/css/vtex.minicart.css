@@ -16,6 +16,9 @@
 
 .minicartCheckoutButton :global(.vtex-button) {
     padding: 1rem;
+    border-radius: 0;
+    height: 70px;
+
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {
@@ -24,13 +27,79 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button__label)::before {
-    content: 'Ir al carro';
+    content: 'Finalizar Compra';
     font-size: 15px;
     text-transform: initial;
     font-weight: 700;
     color: #ffffff;
 }
 
+.minicartTitle {
+    position: relative;
+    font-size: 0;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.minicartTitle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url(assets/img/minicart-56.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    padding-left: 5rem;
+}
+
+.closeIconContainer {
+    position: absolute;
+    right: 2rem;
+    top: 13px;
+    z-index: 9;
+}
+
+.minicartSideBarContentWrapper {
+    height: 100vh !important;
+}
+
+.minicartCheckoutButton {
+    padding: 0;
+    margin: 0;
+}
+
+.minicartTitle::before {
+    content: 'Mi canasto de productos';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+    font-weight: 700;
+    padding-left: 4.7rem;
+}
+
+.minicartSummary {
+    padding: .7rem 2.5rem;
+    background-color: #f4f4f4;
+}
+
+.minicartProductListContainer {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.closeIcon {
+    width: 23px;
+    color: #3f2016;
+}
 
 @media (max-width: 991px) {
     .cartIcon {

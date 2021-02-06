@@ -242,13 +242,34 @@
   //Búsqueda por talla
   "flex-layout.row#busquedaTalla": {
     "children": [
+      "flex-layout.row#rowTitle",
+      "flex-layout.row#rowBus"
+    ],
+    "props": {
+      "blockClass": "busquedaTalla",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#rowTitle": {
+    "children": [
+      "rich-text#tituloBusqueda"
+    ]
+  },
+
+  "rich-text#tituloBusqueda": {
+    "props": {
+      "text": "Búsqueda por talla",
+      "blockClass": "tituloBusquedaPorTalla"
+    }
+  },
+
+  "flex-layout.row#rowBus": {
+    "children": [
       "flex-layout.col#vestuario-wrapper",
       "flex-layout.col#calzado-wrapper",
       "flex-layout.col#accesorios-wrapper"
-    ],
-    "props": {
-      "blockClass": "busquedaTalla"
-    }
+    ]
   },
 
   "flex-layout.col#vestuario-wrapper": {
@@ -714,21 +735,21 @@
 
 
 
-// Mobile Info Bar
-"flex-layout.row#info-bar-mobile": {
-  "children": [
-    "image#info-image-mobile"
-  ]
-},
+  // Mobile Info Bar
+  "flex-layout.row#info-bar-mobile": {
+    "children": [
+      "image#info-image-mobile"
+    ]
+  },
 
-"image#info-image-mobile": {
-  "props": {
-    "src": "assets/img/info-bar-mobile-2.jpg",
-    "link": "",
-    "width": "100%",
-    "blockClass": "info-bar-image-mobile"
-  }
-},
+  "image#info-image-mobile": {
+    "props": {
+      "src": "assets/img/info-bar-mobile-2.jpg",
+      "link": "",
+      "width": "100%",
+      "blockClass": "info-bar-image-mobile"
+    }
+  },
 
 
   // Mobile - Seccion Infocard

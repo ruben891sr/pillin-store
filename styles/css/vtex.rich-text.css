@@ -574,6 +574,36 @@
     text-align: center;
 }
 
+.paragraph--tituloBusquedaPorTalla {
+    font-size: 1.5em;
+    color: #402117;
+    font-weight: 800;
+    text-align: left;
+    justify-content: flex-start;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    z-index: 1;
+    margin-bottom: 3rem;
+    padding-left: 3.7rem;
+}
+
+.paragraph--tituloBusquedaPorTalla::before {
+    content: '';
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 85px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 @media (max-width: 991.1px) {
  
     .container--texto-seo {

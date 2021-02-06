@@ -30,3 +30,17 @@
     border-radius: 50px;
     box-shadow: 0 0 11px rgb(0 0 0 / 40%);
 }
+
+.paginationDotsContainer--carousel {
+    bottom: 1rem;
+}
+
+.paginationDot--carousel{
+    background: #fff;
+    border: 1px solid #402117;
+    margin: 0 .4rem;
+}
+
+.paginationDot--isActive {
+    transform: scale(1.4) !important;
+}

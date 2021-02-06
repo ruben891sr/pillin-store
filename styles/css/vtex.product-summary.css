@@ -42,7 +42,7 @@
 
 .productNameContainer.nameWrapper {
     text-align: left;
-    padding: .5rem 0 .3rem 0 !important;
+    padding: .5rem 0 .5rem 0 !important;
 }
 
 .nameContainer {
@@ -178,10 +178,10 @@
 }
 
 .brandName--nombreProdBusqueda {
-    display: block !important;
-    text-align: left !important;
-    color: #402117 !important;
-    font-size: .9em !important;
+    display: block!important;
+    text-align: left!important;
+    color: #999!important;
+    font-size: .95em!important;
 }
 
 .element--summaryBusqueda :global(.vtex-button) {
@@ -189,6 +189,10 @@
     color: #fff !important;
     padding: .4rem 1.5rem; 
     font-size: .9em;
+}
+
+.spacer {
+    display: none;
 }
 
 @media (max-width: 991px) {

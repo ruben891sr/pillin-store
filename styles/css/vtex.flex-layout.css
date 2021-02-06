@@ -112,7 +112,7 @@
 }
 
 .flexRow--rowHomeShelf {
-    margin: 6rem 0;
+    margin: 6rem 0 4rem 0;
 }
 
 .flexRow--clubPillin {
@@ -479,6 +479,33 @@
     position: relative;
 }
 
+
+.flexRowContent--busquedaTalla {
+    flex-direction: column;
+}
+
+/* .minicartProductListContainer .flexRowContent  {
+    position: relative;
+} */
+
+.flexRow--minicart-footer {
+    box-shadow: none !important;
+    border-top: 1px solid #ccc;
+}
+
+.flexCol--miniCart-colPrice {
+    margin-top: 0;
+}
+
+
+.flexColChild--miniCart-colPrice {
+    line-height: .7;
+    margin-bottom: .2rem;
+}
+
+.flexRowContent--qttyPrice-row {
+    align-items: center;
+}
 
 
 /* MEDIA QUERIES */
