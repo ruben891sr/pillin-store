@@ -115,6 +115,12 @@
     margin: 6rem 0 4rem 0;
 }
 
+.flexColChild--colSearchTitle {
+    max-width: 96rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .flexRow--clubPillin {
     margin: 4rem 0;
     padding: 3rem 0 7rem 0;
@@ -279,7 +285,7 @@
     z-index: -1;
 }
 
-.flexRow--rowBanner-TCN-Title::before{
+.flexRow--rowBanner-TCN-Title::before {
     content: "";
     background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Trabaja-con-Nosotros.jpg);
     background-size: cover;
@@ -291,7 +297,7 @@
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .flexRowContent--rowContenidoInstitucional {
@@ -339,7 +345,7 @@
     display: block;
     position: relative;
     /* height: 60vh; */
-    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
 
 .flexRow--rowFormularioContacto::before {
