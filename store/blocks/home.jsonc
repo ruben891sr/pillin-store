@@ -259,7 +259,7 @@
 
   "rich-text#tituloBusqueda": {
     "props": {
-      "text": "Búsqueda por **talla**",
+      "text": "Búsqueda por **Talla**",
       "blockClass": "tituloBusquedaPorTalla"
     }
   },

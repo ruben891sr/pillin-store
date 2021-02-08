@@ -8,7 +8,7 @@
 .title--vitrinaHome,
 .title--pdpProductosRelacionados,
 .title--ProductosNotFound {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #402117;
     font-weight: 800;
     text-align: left;
@@ -38,6 +38,16 @@
     box-sizing: border-box;
     border-radius: 50px;
 }
+
+.title--vitrinaHome::after {
+    content: 'Productos';
+    position: absolute;
+    top: 16px;
+    left: 3.7rem;
+    font-weight: 500;
+    font-size: 17px;
+}
+
 
 .title--vitrinaHome::before,
 .title--pdpProductosRelacionados::before,

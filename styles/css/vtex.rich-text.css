@@ -258,21 +258,6 @@
     font-weight: 500;
 }
 
-
-.headingLevel2--main-titles {
-    font-size: 1.5em;
-    color: #402117;
-    font-weight: 800;
-    text-align: left;
-    justify-content: flex-start;
-    position: relative;
-    display: inline-block;
-    width: auto;
-    overflow: visible;
-    z-index: 1;
-    padding-left: 3.7rem;
-}
-
 .headingLevel2--main-titles::before {
     content: '';
     background-image: url(assets/img/bg-titulos-rosado.png);
@@ -574,10 +559,11 @@
     text-align: center;
 }
 
+.headingLevel2--main-titles,
 .paragraph--tituloBusquedaPorTalla {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #402117;
-    font-weight: 800;
+    font-weight: 500;
     text-align: left;
     justify-content: flex-start;
     position: relative;
@@ -587,6 +573,14 @@
     z-index: 1;
     margin-bottom: 3rem;
     padding-left: 3.7rem;
+}
+
+.strong--main-titles,
+.strong--tituloBusquedaPorTalla {
+    font-weight: 700;
+    font-size: 1.6em;
+    display: block;
+    line-height: 1;
 }
 
 .paragraph--tituloBusquedaPorTalla::before {

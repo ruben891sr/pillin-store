@@ -12,7 +12,7 @@
         "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Productos Recomendados"
+        "titleText": "Recomendados"
       }
     }
   },
