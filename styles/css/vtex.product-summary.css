@@ -162,12 +162,12 @@
 .container--summaryBusqueda {
     width: 100%;
     max-width: 100% !important;
-    padding: 0 3rem;
+    padding: 0;
 }
 
 .image--imageBusqueda {
     padding: .7rem .5rem!important;
-    width: 5rem!important;
+    width: 3rem!important;
     height: 100% !important;
 }
 
@@ -180,7 +180,7 @@
 .brandName--nombreProdBusqueda {
     text-align: left!important;
     color: #999!important;
-    font-size: .95em!important;
+    font-size: .8em!important;
     display: -webkit-box !important;
     -webkit-box-orient: vertical;
     overflow: hidden;

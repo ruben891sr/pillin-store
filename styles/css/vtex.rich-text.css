@@ -265,8 +265,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 85px;
-    height: 80px;
+    width: 65px;
+    height: 60px;
     position: absolute;
     left: 0;
     top: 50%;
@@ -416,11 +416,11 @@
     margin-left: 5px;
 }
 
-.link--titulo-insta {
+.paragraph--titulo-insta {
     margin-bottom: 2rem;
     font-size: 1.5em;
     color: #402117;
-    font-weight: 800;
+    font-weight: 500;
     text-align: left;
     justify-content: flex-start;
     position: relative;
@@ -428,12 +428,11 @@
     width: auto;
     overflow: visible;
     z-index: 1;
-    padding-left: 3.7rem;
-    padding-right: 10rem;
+    padding: 0;
     text-decoration: none;
 }
 
-.link--titulo-insta::before {
+.paragraph--titulo-insta::before {
     content: '';
     background-image: url(assets/img/bg-titulos-verde.png);
     background-position: center;
@@ -446,16 +445,6 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.link--titulo-insta::after {
-    content: 'Síguenos en Instagram:';
-    position: absolute;
-    bottom: 85%;
-    left: 0;
-    padding-left: 3.7rem;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 /*Formulario PDP*/
@@ -561,8 +550,8 @@
 
 .headingLevel2--main-titles,
 .paragraph--tituloBusquedaPorTalla {
-    font-size: 1.2em;
-    color: #402117;
+    font-size: 21px;
+    color: #402117; 
     font-weight: 500;
     text-align: left;
     justify-content: flex-start;
@@ -571,15 +560,15 @@
     width: auto;
     overflow: visible;
     z-index: 1;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding-left: 3.7rem;
 }
 
 .strong--main-titles,
 .strong--tituloBusquedaPorTalla {
     font-weight: 700;
-    font-size: 1.6em;
-    display: block;
+    font-size: 1.1em;
+    display: inline-block;
     line-height: 1;
 }
 
@@ -590,12 +579,36 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 85px;
-    height: 80px;
-    position: absolute;
-    left: 0;
+    width: 65px;
+    height: 60px;
+    position: absolute; 
+    left: 0; 
     top: 50%;
     transform: translateY(-50%);
+}
+
+.link--titulo-insta {
+    color: #402117;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container--tituloBusquedaPorTalla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--main-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--titulo-insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 991.1px) {
@@ -641,13 +654,13 @@
     }
 
     .link--titulo-insta {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         padding-right: 7rem;
     }
 
     .headingLevel2--main-titles {
         margin-bottom: 2.5rem;
-    }
+    } 
 
     .paragraph--cp-textClub {
         text-align: center  ;

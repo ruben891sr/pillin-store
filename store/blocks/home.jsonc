@@ -9,8 +9,9 @@
   // Desktop Version
   "responsive-layout.desktop": {
     "children": [
+      "image#info-image",
+      // "flex-layout.row#info-bar",
       "slider-layout#text-test",
-      "flex-layout.row#info-bar",
       "flex-layout.row#infocards-icons",
       //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
@@ -64,11 +65,11 @@
 
 
   // Barra informaciones
-  "flex-layout.row#info-bar": {
-    "children": [
-      "image#info-image"
-    ]
-  },
+  // "flex-layout.row#info-bar": {
+  //   "children": [
+  //     "image#info-image"
+  //   ]
+  // },
 
   "image#info-image": {
     "props": {
@@ -257,7 +258,7 @@
     ]
   },
 
-  "rich-text#tituloBusqueda": {
+  "rich-text#tituloBusqueda": { 
     "props": {
       "text": "Búsqueda por **Talla**",
       "blockClass": "tituloBusquedaPorTalla"

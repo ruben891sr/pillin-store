@@ -68,7 +68,7 @@
   },
 
   "search-result-layout.desktop": {
-    "children": [
+    "children": [ 
       "flex-layout.row#banner-searchtitle",
       "flex-layout.row#result"
     ],

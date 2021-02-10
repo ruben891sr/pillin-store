@@ -53,21 +53,21 @@
   "flex-layout.row#summary-busqueda": {
     "children": [
       "flex-layout.col#busquedaImagen",
-      "flex-layout.col#busquedaNombrePrice",
-      "flex-layout.col#busquedaButton"
-    ],
+      "flex-layout.col#busquedaNombrePrice"
+      // "flex-layout.col#busquedaButton"
+    ], 
     "props": {
       "colSizing": "auto"
     }
   },
-
+ 
   "flex-layout.col#busquedaImagen": {
     "children": [
       "product-summary-image#shelf-busqueda"
     ],
     "props": {
       "blockClass": "summaryBusquedaImagen",
-      "width": "20%"
+      "width": "40%"
     }
   },
 
@@ -79,7 +79,7 @@
     ],
     "props": {
       "blockClass": "summaryBusquedaNombrePrice",
-      "width": "40%"
+      "width": "60%"
     }
   },
 

@@ -63,19 +63,36 @@
 
   "vtex.menu@2.x:menu#drawer": {
     "children": [
-      // "menu-item#nueva-temporada-acc",
+      "menu-item#nueva-temporada-acc",
       "menu-item#reciennacido-acc",
       "menu-item#bb-acc",
-      "menu-item#ninn-acc"
+      "menu-item#ninn-acc",
       // "menu-item#tween-way-acc",
       // "menu-item#zapatos-acc",
-      // "menu-item#ofertas-acc"
+      "menu-item#ofertas-acc"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "drawerContainer"
     }
   },
+
+  // Nueva Temporada
+  "menu-item#nueva-temporada-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-na-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "new-arrival",
+        "text": "New Arrival"
+      } 
+    }
+  },
+
 
   // Recién Nacido
   "menu-item#reciennacido-acc": {
@@ -1086,6 +1103,22 @@
   },
 
 
+  // Ofertas
+  "menu-item#ofertas-acc": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "mainMenu-off-acc",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  },
+
 
 
 
@@ -1138,7 +1171,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Mis Pedidos](/)",
+      "text": "[Estado de mis pedidos](/)",
       "blockClass": "topBarList-orders"
     }
   },

@@ -133,7 +133,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Mis Pedidos](/account#/orders)",
+            "text": "[Estado de mis pedidos](/account#/orders)",
             "blockClass": "topBarList-orders"
         }
     },

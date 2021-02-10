@@ -5,7 +5,7 @@
 .sellingPriceValue--summary {
     font-weight: 800;
     color: red;
-    font-size: 1em;
+    font-size: .8em;
     padding: .5rem 0 .3rem 0;
     padding-left: 0;
 }

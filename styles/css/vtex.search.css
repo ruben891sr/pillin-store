@@ -1,5 +1,5 @@
 .biggy-autocomplete-wrapper {
-    width: 40vw;
+    width: 20vw;
 }
 
 .biggy-autocomplete {
@@ -7,10 +7,49 @@
     max-height: 90vh;
 }
 
+.history-and-top-wrapper,
+.tileList {
+    padding: 0 2rem;
+}
+
 .tileListList {
     padding: 0;
     display: flex;
     flex-direction: column !important;
+}
+
+.tileListTitle,
+.itemListTitle {
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+}
+
+.itemListLink {
+    height: fit-content !important;
+    text-transform: capitalize !important;
+    line-height: 1 !important;
+    font-family: 'Nunito', sans-serif;
+    margin-top: .7rem !important;
+}
+
+.itemListSubItemLink {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 16px;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    padding: .1rem 30px !important;
+    text-transform: capitalize !important;
+    height: fit-content !important;
+    line-height: 1 !important;
 }
 
 /*Banner Principal*/
@@ -23,6 +62,11 @@
     width: 65%;
     margin: 0 auto;
     margin-top: 2rem;
+}
+
+.itemList--suggestion {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 991.1px) {

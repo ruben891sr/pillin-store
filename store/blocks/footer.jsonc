@@ -221,7 +221,7 @@
     "props": {
       "blockClass": "titulo-row-insta"
     }
-  },
+  }, 
 
   "flex-layout.row#insta": {
     "children": [
@@ -248,7 +248,7 @@
       "blockClass": "titulo-insta",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[@PillinChile](https://www.instagram.com/pillinchile/)"
+      "text": "Síguenos en Instagram: [@PillinChile](https://www.instagram.com/pillinchile/)"
     }
   },
 
@@ -346,11 +346,11 @@
       "blockClass": "rowMainFooter"
     },
     "children": [
-      "flex-layout.col#sac",
       "flex-layout.col#corp",
       "flex-layout.col#cuenta",
       "flex-layout.col#rrss",
-      "flex-layout.col#simulador-despacho"
+      "flex-layout.col#sac"
+      // "flex-layout.col#simulador-despacho"
       // "flex-layout.col#news"
     ]
   },

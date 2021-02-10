@@ -2,13 +2,13 @@
     // Declarcion del Menú Principal
     "vtex.menu@2.x:menu#navegacion": {
         "children": [
-            // "menu-item#nueva-temporada",
+            "menu-item#nueva-temporada",
             "menu-item#recien-nacido",
             "menu-item#bebe",
-            "menu-item#ninnos"
+            "menu-item#ninnos",
             // "menu-item#tween-way",
             // "menu-item#zapatos",
-            // "menu-item#ofertas"
+            "menu-item#ofertas"
         ],
         "props": {
             "blockClass": "mainMenu",
@@ -32,7 +32,7 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "Nueva Temporada",
-                "text": "Nueva Temporada"
+                "text": "New Arrival"
             }
         }
     },
@@ -762,7 +762,7 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "ofertas",
-                "text": "Ofertas"
+                "text": "Outlet"
             }
         }
     }

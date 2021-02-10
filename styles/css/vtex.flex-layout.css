@@ -6,8 +6,8 @@
 
 /* Header */
 .flexRow--main-header {
-    border-bottom: 1px solid rgb(204 204 204 / 0.4);
-    box-shadow: 7px 7px 5px 0 rgba(107, 107, 107, 0.15);
+    border-bottom: 1px solid #ccc;
+    /* box-shadow: 7px 7px 5px 0 rgb(107 107 107 / 15%);*/
 }
 
 .flexCol--wrapperMenuNav {
@@ -44,7 +44,7 @@
 .flexRowContent--rowSeo {
     display: flex;
     flex-direction: column;
-    margin: 4rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .flexRow--footer-general {
@@ -79,7 +79,7 @@
 }
 
 .flexRow--infoIcons {
-    margin: 4rem 10rem;
+    margin: 3rem 10rem;
 }
 
 .flexRowContent--infoIcons-mobile {
@@ -112,7 +112,7 @@
 }
 
 .flexRow--rowHomeShelf {
-    margin: 6rem 0 4rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .flexColChild--colSearchTitle {
@@ -128,6 +128,10 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.flexCol--summaryBusquedaNombrePrice {
+    justify-content: center;
 }
 
 .flexCol--linkListMobile {

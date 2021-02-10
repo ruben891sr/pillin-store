@@ -431,11 +431,11 @@
 }
 
 .imageElement--info-bar-image {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    width: 100% !important;
-    height: fit-content;
-    object-fit: contain;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 100%!important;
+    height: 100% !important;
+    display: block;
 }
 
 .imageElement--info-bar-image-mobile {
