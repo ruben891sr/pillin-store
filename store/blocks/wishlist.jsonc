@@ -27,7 +27,7 @@
     },
     "rich-text#title":{
       "props": {
-        "text": "### Wishlist"
+        "text": "### Artículos Deseados"
       }
     },
     "list-context.wishlist": {

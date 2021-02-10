@@ -75,6 +75,16 @@
     transform: translateY(-50%);
 }
 
+.caretIcon--vitrinaHome {
+    padding: .3rem;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px rgb(51 51 51 / 30%);
+}
+
 .title--vitrinaHome {
     margin-left: -11rem;
 }

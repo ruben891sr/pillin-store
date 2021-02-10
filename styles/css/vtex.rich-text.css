@@ -365,7 +365,7 @@
 .paragraph--tituloModalGuiaTallas::after,
 .paragraph--tituloModalStock::after {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos.png);
+    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos-rosado.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -434,13 +434,13 @@
 
 .paragraph--titulo-insta::before {
     content: '';
-    background-image: url(assets/img/bg-titulos-verde.png);
+    background-image: url(assets/img/bg-titulos-rosado.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 85px;
-    height: 80px;
+    width: 65px;
+    height: 60px;
     position: absolute;
     left: 0;
     top: 50%;
@@ -574,7 +574,7 @@
 
 .paragraph--tituloBusquedaPorTalla::before {
     content: '';
-    background-image: url(assets/img/bg-titulos-verde.png);
+    background-image: url(assets/img/bg-titulos-rosado.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
