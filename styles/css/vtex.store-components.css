@@ -307,6 +307,7 @@
 
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
     padding: .4rem;
+    min-width: 30px;
 }
 
 .flexRow--rowDrawer .logoContainer--logoCol {

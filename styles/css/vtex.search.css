@@ -58,6 +58,7 @@
     opacity: .75;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
+
 .searchBanner--bannerPromocional {
     width: 65%;
     margin: 0 auto;
