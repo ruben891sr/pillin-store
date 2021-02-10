@@ -52,4 +52,24 @@
     }
   }
 
+  // "shelf#OutfitPDP":{
+  //   "blocks": ["product-summary.shelf#outfit"],
+  //   "props": {
+  //     "visibleVariations": ["Talla", "Color"],
+  //     "category": 3,
+  //     "orderBy": "OrderByTopSaleDESC",
+  //     "blockClass": "vitrinaOutfitPDP",
+  //     "productList": {
+  //       "maxItems": 4,
+  //       "itemsPerPage": 4,
+  //       "minItemsPerPage": 1,
+  //       "arrows": false,
+  //       "titleText": "Arma tu tenida"
+  //     }
+  //     // "specificationFilters": {
+  //     // "id": "kit",
+  //     // "value": "kit"
+  //     // }
+  //   }
+  // }
 }

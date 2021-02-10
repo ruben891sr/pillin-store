@@ -90,6 +90,7 @@
       "flex-layout.col#stock",
       "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
+      "flex-layout.row#shelf-outfit",
       "flex-layout.row#wishlist",
       "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
@@ -269,6 +270,35 @@
     "props":{
       "text": "Agregar al Carro",
       "onClickBehavior": "add-to-cart"
+    }
+  },
+
+  // Shelf Outfit Kit Look
+  "flex-layout.row#shelf-outfit":{
+    "children": [
+      // "shelf#OutfitPDP",
+      "product-kit"
+    ],
+    "props": {
+      "blockClass": "rowOutfitShelf"
+    }
+  },
+  "product-kit": {
+    "blocks": ["product-summary.shelf#outfit"],
+    "props":{
+      "showArrows": true,
+      "nextArrow": "next",
+      "prevArrow": "prev",
+      "showDots": true,
+      "dots": "dots",
+      "showListPrice": true,
+      "showLabel": true,
+      "showInstallments": true,
+      "showBadge": true,
+      "badgeText": "badge",
+      "showCollections": true,
+      "allowSwap": true,
+      "allowRemoval": true
     }
   },
   

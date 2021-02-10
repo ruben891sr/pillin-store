@@ -52,11 +52,6 @@
     }
   },
 
-  // "store.not-found#search": {
-  //   "blocks": ["rich-text#not-found"]
-  // },
-
-
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -67,6 +62,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-searchtitle",
+      "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
     "props": {
@@ -118,7 +114,8 @@
   // Search Title
   "flex-layout.col#searchtitle": {
     "props":{
-      "blockClass": "colSearchTitle"
+      "blockClass": "colSearchTitle",
+      "verticalAlign": "middle"
     },
     "children": ["search-title.v2"]
   },
@@ -279,7 +276,8 @@
   //Filtro Mobile
   "filter-navigator.v3":{
     "props":{
-      "closeOnOutsideClick": true
+      "closeOnOutsideClick": true,
+      "initiallyCollapsed": true
     }
   },
 

@@ -203,6 +203,9 @@
 
 
 /*PLP*/
+.flexRow--rowBreadCrumbDesktop{
+    border-bottom: 1px solid #dddddd;
+}
 .flexRowContent--rowBreadCrumbMobile {
     margin: 5px 0 10px 0;
 }
@@ -254,6 +257,10 @@
 
 /*Páginas Institucionales*/
 
+.flexCol--colBannerPrincipal{
+    min-height: 15rem;
+}
+
 .flexRow--rowBannerInstitucionalTitle,
 .flexRow--rowBanner-TCN-Title {
     width: 100vw;
@@ -262,6 +269,21 @@
     position: relative;
     padding: 4rem;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+
+.flexColChild--colBannerPrincipal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 15rem;
+    display: block;
+    opacity: 0.2;
+    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
 }
 
 .flexRow--rowBannerInstitucionalTitle::before {
@@ -400,6 +422,13 @@
     .flexCol--accesorios-wrapper {
         margin: .3rem 0;
         padding: 3rem 2.5rem 3rem 2.5rem;
+    }
+
+    .flexColChild--colBannerPrincipal::before{
+        background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
 
