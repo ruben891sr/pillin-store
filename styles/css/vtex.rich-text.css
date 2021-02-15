@@ -564,6 +564,10 @@
     padding-left: 3.7rem;
 }
 
+.headingLevel2--main-titles {
+    margin-bottom: 1rem !important;
+}
+
 .strong--main-titles,
 .strong--tituloBusquedaPorTalla {
     font-weight: 700;

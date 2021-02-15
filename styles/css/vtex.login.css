@@ -70,6 +70,36 @@
     background-color: #3578e5;
 }
 
+.accountOptions {
+    margin-top: 2rem;
+}
+
+.accountOptions .button {
+    border: 1px solid #3f2016;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    width: 100%;
+}
+
+.accountOptions :global(.t-action--small) {
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: .5rem 0;
+}
+
+.accountOptions :global(.b--muted-4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+
 .googleOptionBtn :global(.vtex-button) {
     background-color: #fff;
     border-image-source: linear-gradient(270deg, #f2b910, #ea4335, #3578e5, #ea4335, #f2b910, #36a753, #ea4335);

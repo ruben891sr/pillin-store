@@ -123,7 +123,7 @@
     "props": {
       "id": "info-card-box",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-box.png",
+      "imageUrl": "assets/img/Medidas-47.png",
       "headline": "Despacho Gratis",
       "subhead": "Por compras sobre $30.000",
       "callToActionMode": "link",
@@ -136,7 +136,7 @@
     "props": {
       "id": "info-card-truck",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-truck.png",
+      "imageUrl": "assets/img/Medidas-46.png",
       "headline": "Envío a todo Chile",
       "subhead": "o retira GRATIS en tienda",
       "callToActionMode": "link",
@@ -149,7 +149,7 @@
     "props": {
       "id": "info-card-cards",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-cards.png",
+      "imageUrl": "assets/img/Medidas-48.png",
       "headline": "Paga en 3 Cuotas",
       "subhead": "Sin interés",
       "callToActionMode": "link",
@@ -163,7 +163,7 @@
       "id": "info-card-polices",
       "isFullModeStyle": false,
       "textPosition": "center",
-      "imageUrl": "assets/img/info-polices.png",
+      "imageUrl": "assets/img/Medidas-49.png",
       "headline": "Extendemos los Cambios",
       "subhead": "Hasta 3 meses",
       "callToActionMode": "link",
@@ -922,7 +922,7 @@
     "props": {
       "id": "info-card-box",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-box.png",
+      "imageUrl": "assets/img/Medidas-47.png",
       "headline": "Despacho Gratis",
       "subhead": "Por compras sobre $30.000",
       "callToActionMode": "link",
@@ -935,7 +935,7 @@
     "props": {
       "id": "info-card-truck",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-truck.png",
+      "imageUrl": "assets/img/Medidas-46.png",
       "headline": "Envío a todo Chile",
       "subhead": "o retira GRATIS en tienda",
       "callToActionMode": "link",
@@ -948,7 +948,7 @@
     "props": {
       "id": "info-card-cards",
       "textPosition": "center",
-      "imageUrl": "assets/img/info-cards.png",
+      "imageUrl": "assets/img/Medidas-48.png",
       "headline": "Paga en 3 Cuotas",
       "subhead": "Sin interés",
       "callToActionMode": "link",
@@ -962,7 +962,7 @@
       "id": "info-card-polices",
       "isFullModeStyle": false,
       "textPosition": "center",
-      "imageUrl": "assets/img/info-polices.png",
+      "imageUrl": "assets/img/Medidas-49.png",
       "headline": "Extendemos los Cambios",
       "subhead": "Hasta 3 meses",
       "callToActionMode": "link",

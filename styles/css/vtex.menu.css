@@ -22,13 +22,13 @@
 }
 
 .submenuContainer {
-    position: static !important;
+    position: static !important; 
 }
 
 .submenuWrapper {
     left: 50%;
     transform: translateX(-50%);
-    width: 95vw;
+    width: 75x  vw;
     top: 64px !important;
     border-top: 1px solid rgb(204 204 204 / 40%); 
     border-radius: 0 0 6px 6px;
@@ -73,6 +73,11 @@
 }
 
 
+.menuItem--subcatTitulo-acc {
+    margin-top: 2rem !important;
+}
+
+
 .styledLinkContent--subcatTitulo-ves-nino,
 .styledLinkContent--subcatTitulo-ves-nina,
 .styledLinkContent--subcatTitulo-cal,
@@ -103,19 +108,19 @@
 }
 
 .styledLinkContent--subcatTitulo-ves-nino::before {
-    background-image: url(assets/img/menu-icon-ves-nino.png);
+    background-image: url(assets/img/menu-icon-ves-nino-2.png);
 }
 
 .styledLinkContent--subcatTitulo-ves-nina::before {
-    background-image: url(assets/img/menu-icon-ves-nina.png);
+    background-image: url(assets/img/menu-icon-ves-nina-2.png);
 }
 
 .styledLinkContent--subcatTitulo-cal::before {
-    background-image: url(assets/img/menu-icon-cal.png);
+    background-image: url(assets/img/menu-icon-cal-2.png);
 }
 
 .styledLinkContent--subcatTitulo-acc::before {
-    background-image: url(assets/img/menu-icon-acc.png);
+    background-image: url(assets/img/menu-icon-acc-2.png);
 }
 
 

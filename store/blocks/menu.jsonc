@@ -68,14 +68,14 @@
     "flex-layout.row#submenureciennacido": {
         "children": [
             "flex-layout.col#ninoreciennacido",
-            "flex-layout.col#ninareciennacido"
+            "flex-layout.col#ninareciennacido" 
         ],
         "props": {
             "blockClass": "colItemsClass"
         }
     },
 
-    // Niño
+    // Niño 
     "flex-layout.col#ninoreciennacido": {
         "children": [
             "rich-text#rn-nino",
@@ -89,8 +89,8 @@
     "flex-layout.row#submenuninoreciennacido": {
         "children": [
             "flex-layout.col#submenuninovestuarioreciennacido",
-            "flex-layout.col#submenuninocalzadoreciennacido",
-            "flex-layout.col#submenuninoaccesoriosreciennacido"
+            "flex-layout.col#submenuninocalzadoreciennacido"
+            // "flex-layout.col#submenuninoaccesoriosreciennacido"
         ]
     },
 
@@ -102,15 +102,20 @@
 
     "flex-layout.col#submenuninocalzadoreciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido",
+            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninoaccesoriosreciennacido": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
-        ]
-    },
+    // "flex-layout.col#submenuninoaccesoriosreciennacido": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuarioreciennacido": {
         "children": [
@@ -171,8 +176,8 @@
     "flex-layout.row#submenuninareciennacido": {
         "children": [
             "flex-layout.col#submenuninavestuarioreciennacido",
-            "flex-layout.col#submenuninacalzadoreciennacido",
-            "flex-layout.col#submenuninaaccesoriosreciennacido"
+            "flex-layout.col#submenuninacalzadoreciennacido"
+            // "flex-layout.col#submenuninaaccesoriosreciennacido"
         ]
     },
 
@@ -187,15 +192,20 @@
 
     "flex-layout.col#submenuninacalzadoreciennacido": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido",
+            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninaaccesoriosreciennacido": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
-        ]
-    },
+    // "flex-layout.col#submenuninaaccesoriosreciennacido": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido": {
         "children": [
@@ -310,8 +320,8 @@
     "flex-layout.row#submenuninobebe": {
         "children": [
             "flex-layout.col#submenuninovestuariobebe",
-            "flex-layout.col#submenuninocalzadobebe",
-            "flex-layout.col#submenuninoaccesoriosbebe"
+            "flex-layout.col#submenuninocalzadobebe"
+            // "flex-layout.col#submenuninoaccesoriosbebe"
         ]
     },
 
@@ -323,15 +333,20 @@
 
     "flex-layout.col#submenuninocalzadobebe": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninocalzadobebe"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninocalzadobebe",
+            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosbebe"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninoaccesoriosbebe": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosbebe"
-        ]
-    },
+    // "flex-layout.col#submenuninoaccesoriosbebe": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosbebe"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuariobebe": {
         "children": [
@@ -397,8 +412,8 @@
     "flex-layout.row#submenuninabebe": {
         "children": [
             "flex-layout.col#submenuninavestuariobebe",
-            "flex-layout.col#submenuninacalzadobebe",
-            "flex-layout.col#submenuninaaccesoriosbebe"
+            "flex-layout.col#submenuninacalzadobebe"
+            // "flex-layout.col#submenuninaaccesoriosbebe"
         ]
     },
 
@@ -413,15 +428,20 @@
 
     "flex-layout.col#submenuninacalzadobebe": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninacalzadobebe"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninacalzadobebe",
+            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosbebe"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninaaccesoriosbebe": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosbebe"
-        ]
-    },
+    // "flex-layout.col#submenuninaaccesoriosbebe": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosbebe"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuariobebe": {
         "children": [
@@ -544,8 +564,8 @@
     "flex-layout.row#submenuninoninno": {
         "children": [
             "flex-layout.col#submenuninovestuarioninno",
-            "flex-layout.col#submenuninocalzadoninno",
-            "flex-layout.col#submenuninoaccesoriosninno"
+            "flex-layout.col#submenuninocalzadoninno"
+            // "flex-layout.col#submenuninoaccesoriosninno"
         ]
     },
 
@@ -557,15 +577,20 @@
 
     "flex-layout.col#submenuninocalzadoninno": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninocalzadoninno"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninocalzadoninno",
+            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninoaccesoriosninno": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno"
-        ]
-    },
+    // "flex-layout.col#submenuninoaccesoriosninno": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuarioninno": {
         "children": [
@@ -627,8 +652,8 @@
     "flex-layout.row#submenuninaninno": {
         "children": [
             "flex-layout.col#submenuninavestuarioninno",
-            "flex-layout.col#submenuninacalzadoninno",
-            "flex-layout.col#submenuninaaccesoriosninno"
+            "flex-layout.col#submenuninacalzadoninno"
+            // "flex-layout.col#submenuninaaccesoriosninno"
         ]
     },
 
@@ -643,15 +668,20 @@
 
     "flex-layout.col#submenuninacalzadoninno": {
         "children": [
-            "vtex.menu@2.x:menu#subsubmenuninacalzadoninno"
-        ]
+            "vtex.menu@2.x:menu#subsubmenuninacalzadoninno",
+            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno"
+        ],
+        "props":{
+            "blockClass": "catColMenuNavEscri",
+            "preventVerticalStretch": false
+        }
     },
 
-    "flex-layout.col#submenuninaaccesoriosninno": {
-        "children": [
-            "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno"
-        ]
-    },
+    // "flex-layout.col#submenuninaaccesoriosninno": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno"
+    //     ]
+    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuarioninno": {
         "children": [

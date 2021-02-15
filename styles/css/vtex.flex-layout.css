@@ -113,13 +113,19 @@
 
 .flexRow--rowHomeShelf {
     margin: 3rem 0 1rem 0;
-}
+} 
 
 .flexColChild--colSearchTitle {
     max-width: 96rem;
     margin: 0 auto;
     width: 100%;
 }
+  
+.flexColChild--catColMenuNavEscri {
+    height: auto !important;
+}
+
+
 
 .flexRow--clubPillin {
     margin: 4rem 0;
