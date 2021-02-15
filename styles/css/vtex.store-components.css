@@ -308,6 +308,7 @@
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
     padding: .4rem;
     min-width: 30px;
+    text-align: center;
 }
 
 .flexRow--rowDrawer .logoContainer--logoCol {
@@ -356,7 +357,25 @@
 }
 
 
-/* PDP */
+/*PDP*/
+.productImagesThumb {
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    background: #fff;
+}
+
+.productImagesThumb::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.04);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color {
     padding: 15px 0;
@@ -378,7 +397,7 @@
     content: "Seleccione un Color:";
 }
 .productNameContainer {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .productBrand {
     color: #441e13;
@@ -391,6 +410,7 @@
 }
 .sellingPriceValue {
     color: #c1272d;
+    font-size: 27px;
 }
 .skuSelectorContainer--skuSelectorPDP .skuSelectorTextContainer {
     display: block;
@@ -412,25 +432,39 @@
     font-weight: 600;
     font-size: 13px;
 }
-
 .skuSelectorContainer .skuSelectorTextContainer,
 .skuSelectorContainer .skuSelectorName {
     display: none;
 }
+
 /*Selector de SKU Color - Talla*/
 .frameAround--skuSelectorPDP {
     box-shadow: none;
     border: none
 }
 .skuSelectorItem--skuSelectorPDP--selected {
-    box-shadow: 0 0 5px 0 #000000;
-    border: 2px inset white;
+    box-shadow: 0 0 10px #000000;
+    border: 2px solid white;
 }
 .skuSelectorContainer--skuSelectorPDP {
     display: flex;
     flex-direction: column-reverse;
 }
-
+.skuSelectorItemTextValue--skuSelectorPDP {
+    background: #fba060;
+    color: white;
+    font-size: 14px
+}
+.skuSelectorInternalBox--skuSelectorPDP {
+    border: none!important;
+}
+.skuSelectorItemImageValue--skuSelectorPDP{
+    visibility: hidden;
+}
+.skuSelectorItemImage--skuSelectorPDP {
+    width: 30px;
+    height: 30px;
+}
 .imageElement--info-bar-image {
     margin-top: 0rem;
     margin-bottom: 0rem;

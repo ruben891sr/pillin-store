@@ -365,7 +365,7 @@
 .paragraph--tituloModalGuiaTallas::after,
 .paragraph--tituloModalStock::after {
     content: '';
-    background-image: url(https://pillin.vteximg.com.br/arquivos/bg-titulos-rosado.png);
+    background-image: url(https://pillin.vtexassets.com/assets/vtex/assets-builder/pillin.pillin-store/0.1.39-beta.0/img/bg-titulos-rosado___d80f50ceba266b53d7ac021045646910.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -89,6 +89,13 @@
     margin: 0!important;
     padding: 0;
 }
+
+.skuSelectorItem--selected .frameAround {
+    border: 4px solid white;
+    border-radius: 25px;
+    box-shadow: 0 0 8px #2d2d2d;
+}
+
 /* .skuSelectorInternalBox {
     width: 25px;
     height: 25px; 
@@ -99,11 +106,7 @@
     border: none;
     box-shadow: 0 0 6px #2a2a2a;
 }
-/* .skuSelectorItem--selected .ba {
-    border: none;
-    box-shadow: 0 0 5px;
-    border-radius: 25px
-} */
+
 
 .skuSelectorItemImage .skuSelectorInternalBox {
     border: 0 !important;
