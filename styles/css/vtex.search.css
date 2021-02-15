@@ -25,7 +25,7 @@
     padding: 0;
     font-size: 15px;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
 }
 
@@ -33,7 +33,7 @@
     height: fit-content !important;
     text-transform: capitalize !important;
     line-height: 1 !important;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin-top: .7rem !important;
 }
 
@@ -45,7 +45,7 @@
     text-overflow: ellipsis;
     margin-right: 16px;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     padding: .1rem 30px !important;
     text-transform: capitalize !important;
     height: fit-content !important;

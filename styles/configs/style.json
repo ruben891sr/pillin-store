@@ -322,84 +322,84 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": ".9rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": ".95rem",
         "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Nunito, sans-serif",
+        "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "capitalize",

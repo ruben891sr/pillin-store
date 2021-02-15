@@ -18,12 +18,18 @@
   // BreadCrumb
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4,
+      "marginTop": 2,
+      "marginBottom": 2,
       "blockClass": "Row-BreadCrumb",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true
     },
-    "children": ["breadcrumb"]
+    "children": ["breadcrumb#product"]
+  },
+  "breadcrumb#product":{
+    "props":{
+      "homeIconSize": 0
+    }
   },
 
   // Generales detalle del producto
@@ -43,7 +49,8 @@
   "flex-layout.col#product-image": {
     "props": {
       "width": "60%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "colProductImage"
     },
     "children": ["product-images","flex-layout.row#descriptionPDPdesktop"]
   },
@@ -52,7 +59,8 @@
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true,
-      "zoomMode": "in-place-hover"
+      "zoomMode": "in-place-hover",
+      "showPaginationDots": false
     }
   },
 

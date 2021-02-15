@@ -21,7 +21,7 @@
     min-width: 180px;
     max-width: 300px;
     background-color: #f9f9f9;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
 }
 .orderByOptionItem:hover {
@@ -37,6 +37,10 @@
     color: #402117;
     text-shadow: 0px 0px 2px #ece3ce;
 }
+.filterItem{
+    font-weight: 500;
+}
+
 /*Media Queries*/
 @media (max-width:768px){
     .galleryTitle--layout{
