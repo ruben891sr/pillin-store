@@ -92,4 +92,33 @@
         padding-bottom: 0;
         height: 42px;
     }
+    /*PLP*/
+    .filterBreadcrumbsContent {
+        width: 45%!important;
+    }
+    .filterBreadcrumbsItem {
+        width: 55%!important;
+    }
+    .filterBreadcrumbsText{
+        color: #441e13;
+    }
+    .filterBreadcrumbsText::before {
+        content: "";
+        background: url(https://pillin.vteximg.com.br/arquivos/chevron-left-pillin.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        padding-right: 3px;
+    }
+    .filterBreadcrumbsItemName {
+        font-size: 1.3em!important;
+        display: -webkit-box!important;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        -webkit-line-clamp: 1;
+    }
 }
