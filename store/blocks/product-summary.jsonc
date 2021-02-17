@@ -125,8 +125,16 @@
       "hideImpossibleCombinations": true,
       "showVariationsErrorMessage": true,
       "showVariationsLabels": true,
+      "displayMode": "slider",
+      "sliderDisplayThreshold": 4,
+      "sliderArrowSize": 8,
       "initialSelection": "empty",
-      "visibleVariations": ["Talla", "Color"]
+      "visibleVariations": ["Talla", "Color"],
+      "sliderItemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      }
     }
   },
 

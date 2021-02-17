@@ -14,22 +14,19 @@
 
   //Formulario Contacto
   "flex-layout.col#form": {
+      "props":{
+        "width": "35%",
+        "blockClass": "colFormularioContacto"
+      },
       "children": [
-        "rich-text#hola",
         "form#contacto"
       ]
   },
 
-  "rich-text#hola":{
-    "props":{
-      "text": "Formulario de Contactos"
-    }
-  },
-
   "form#contacto": {
     "props": {
-      "entity": "CO",
-      "schema": "Contacto"
+      "entity": "clients",
+      "schema": "person"
       },
       "children": [
         "rich-text#formTitle",
@@ -60,33 +57,38 @@
     // Campos de Formulario
     "rich-text#formTitle":{
       "props":{
-          "text": "Contacto",
-          "blockClass": "titleContacto"
+        "text": "## Contacto",
+        "blockClass": "titleContacto"
       }
     },
     "form-input.text#nombreContacto": {
       "props": {
-        "pointer": "#/properties/nombre"
+        "pointer": "#/properties/nombre",
+        "label": "Nombre"
       }
     },
     "form-input.text#apellidoContacto": {
       "props": {
-        "pointer": "#/properties/apellido"
+        "pointer": "#/properties/apellido",
+        "label": "Apellido"
       }
     },
     "form-input.text#emailContacto":{
       "props":{
-          "pointer": "#/properties/mail"
+        "pointer": "#/properties/mail",
+        "label": "correo electrónico"
       }
     },
     "form-input.text#telefonoContacto":{
       "props":{
-          "pointer": "#/properties/telefono"
+        "pointer": "#/properties/telefono",
+        "label": "Teléfono"
       }
     },
     "form-input.dropdown#tipoContacto":{
       "props":{
-          "pointer": "#/properties/tipo"
+        "pointer": "#/properties/tipo/properties/selectTipo",
+        "label": "Motivo"
       }
     },
     "form-input.textarea#mensajeContacto":{
@@ -97,11 +99,12 @@
     },
     "form-submit#enviarContacto": {
       "props": {
-        "label": "Submit"
+        "label": "Enviar"
       }
     },
     "rich-text#nuestrasTiendas":{
         "props":{
+            "blockClass": "nuestrasTiendas",
             "text": "Revisa nuestras tiendas [Aquí](/stores)"
         }
     }

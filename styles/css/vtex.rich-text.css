@@ -615,6 +615,24 @@
     align-items: center;
 }
 
+/*Contacto*/
+.wrapper--nuestrasTiendas {
+    position: relative;
+}
+.wrapper--nuestrasTiendas::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/DQCMVVs/icon-localmap.png);
+    position: absolute;
+    top: 12px;
+    right: -25px;
+    z-index: 99;
+}
+
 @media (max-width: 991.1px) {
  
     .container--texto-seo {
@@ -685,6 +703,11 @@
         left: auto;
         top: auto;
         transform: translate(0, 50%);
+    }
+
+    .heading--titleContacto{
+        margin-top: 0;
+        margin-bottom: 15px;
     }
 
 }
