@@ -74,10 +74,10 @@
     background: #f6f9f3;
 }
 
-.menuLinks :global(.flex.flex-grow-1.w-100.flex-column) {
+/* .menuLinks :global(.flex.flex-grow-1.w-100.flex-column) {
     height: 140px;
     overflow: hidden;
-}
+} */ 
 
 @media (max-width: 991.1px) {
     .menu {

@@ -277,7 +277,9 @@
   "add-to-cart-button": {
     "props":{
       "text": "Agregar al Carro",
-      "onClickBehavior": "add-to-cart"
+      "onClickBehavior": "add-to-cart",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
     }
   },
 

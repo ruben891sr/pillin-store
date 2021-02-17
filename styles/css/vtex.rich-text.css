@@ -252,7 +252,7 @@
     transform: translateY(-50%);
     right: 83%;
 }
-
+ 
 .paragraph--cp-textClub {
     margin-top: 0;
     font-weight: 500;
@@ -265,8 +265,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 65px;
-    height: 60px;
+    width: 50px;
+    height: 45px;
     position: absolute;
     left: 0;
     top: 50%;
@@ -418,17 +418,18 @@
 
 .paragraph--titulo-insta {
     margin-bottom: 2rem;
-    font-size: 1.5em;
+    font-size: 19px;
     color: #402117;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     justify-content: flex-start;
     position: relative;
     display: inline-block;
     width: auto;
     overflow: visible;
     z-index: 1;
-    padding: 0;
+    padding-left: 3.5rem;
+    margin-left: -3.5rem;
     text-decoration: none;
 }
 
@@ -439,8 +440,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 65px;
-    height: 60px;
+    width: 50px;
+    height: 45px;
     position: absolute;
     left: 0;
     top: 50%;
@@ -550,7 +551,7 @@
 
 .headingLevel2--main-titles,
 .paragraph--tituloBusquedaPorTalla {
-    font-size: 21px;
+    font-size: 19px;
     color: #402117; 
     font-weight: 500;
     text-align: left;
@@ -571,7 +572,7 @@
 .strong--main-titles,
 .strong--tituloBusquedaPorTalla {
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 19px;
     display: inline-block;
     line-height: 1;
 }
@@ -583,8 +584,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 65px;
-    height: 60px;
+    width: 50px;
+    height: 45px;
     position: absolute; 
     left: 0; 
     top: 50%;
@@ -595,6 +596,7 @@
     color: #402117;
     text-decoration: none;
     font-weight: 700;
+    font-size: 19px;
 }
 
 .container--tituloBusquedaPorTalla {
@@ -685,6 +687,11 @@
         left: auto;
         top: auto;
         transform: translate(0, 50%);
+    }
+
+    .paragraph--titulo-insta {
+        padding-left: 0rem;
+        margin-left: 0rem;
     }
 
 }
