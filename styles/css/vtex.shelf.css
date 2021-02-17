@@ -8,11 +8,11 @@
 .title--vitrinaHome,
 .title--pdpProductosRelacionados,
 .title--ProductosNotFound {
-    font-size: 21px;
+    font-size: 19px;
     color: #402117;
     font-weight: 500;
     text-align: left;
-    position: relative;
+    position: relative; 
     display: inline-block;
     width: auto;
     overflow: visible;
@@ -54,10 +54,10 @@
     left: 102%;
     transform: translateY(-50%);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 19px;
 }
 
-
+ 
 .title--vitrinaHome::before,
 .title--pdpProductosRelacionados::before,
 .title--ProductosNotFound::before {
@@ -67,8 +67,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 65px;
-    height: 60px;
+    width: 50px;
+    height: 45px;
     position: absolute;
     left: 0;
     top: 50%;
@@ -87,4 +87,17 @@
 
 .title--vitrinaHome {
     margin-left: -11rem;
+}
+
+@media (max-width: 991.1px) {
+    .container--vitrinaHome {
+        display: block !important;
+    }
+
+    .title--vitrinaHome {
+        margin-left: -5rem !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

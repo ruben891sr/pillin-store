@@ -34,6 +34,7 @@
     padding: 0 2rem;
     background: #fff;
     padding-bottom: 1rem;
+    border-radius: 4px;
 }
 
 .formTitle {
@@ -74,15 +75,6 @@
     margin-top: 2rem;
 }
 
-.accountOptions .button {
-    border: 1px solid #3f2016;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    align-items: center;
-    width: 100%;
-}
-
 .accountOptions :global(.t-action--small) {
     font-weight: 700;
     display: block;
@@ -91,12 +83,33 @@
     padding: .5rem 0;
 }
 
+.accountOptions :global(.mv2.o-30) {
+    display: none !important;
+}
+
+.accountOptions :global(.vtex-button) {
+    border: 1px solid red;
+    color: red !important;
+}
+
 .accountOptions :global(.b--muted-4) {
     display: flex;
     justify-content: center;
     align-items: center;
     display: block;
     text-align: center;
+}
+
+.accountOptions .button {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    width: 100%;
+    background: #3f2016;
+    color: #fff;
+    border: none;
+    padding: .7rem 0;
 }
 
 

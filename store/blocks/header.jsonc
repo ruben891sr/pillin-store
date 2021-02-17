@@ -186,7 +186,7 @@
             "search-bar",
             "telemarketing",
             "login",
-            "minicart.v2"
+            "minicart.v2" 
         ]
     },
 
@@ -252,8 +252,7 @@
     // Header Mobile
     "header-layout.mobile": {
         "children": [
-            "sticky-layout#header-mobile",
-            "flex-layout.row#search-mobile"
+            "sticky-layout#header-mobile"
         ],
         "props": {
             "blockClass": "headerMobile"
@@ -262,7 +261,8 @@
 
     "sticky-layout#header-mobile": {
         "children": [
-            "flex-layout.row#mobile"
+            "flex-layout.row#mobile",
+            "flex-layout.row#search-mobile"
         ],
         "props": {
             "position": "top",
