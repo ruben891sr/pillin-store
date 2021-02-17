@@ -1,7 +1,7 @@
 .orderByText {
     font-weight: 800;
     color: #3f2016;
-    margin-right: .3rem;
+    margin-right: 1rem;
     position: relative;
     z-index: 1;
 }
@@ -39,6 +39,22 @@
 }
 .filterItem{
     font-weight: 500;
+}
+.filter__container--agrupacion {
+    display: none!important;
+}
+.filterPopupTitle {
+    position: relative
+}
+.filterPopupTitle::after{
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: -40px;
+    background: #4040401c;
+    border-radius: 3px;
+    width: 70%;
+    height: 24px;
 }
 
 /*Media Queries*/

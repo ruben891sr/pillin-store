@@ -1,19 +1,19 @@
 {
     "store.custom#trabaja-con-nosotros":{
         "blocks":[
-            "flex-layout.row#titulo-TCN",
-            "flex-layout.row#textoIntro-TCN",
+            "flex-layout.row#titulo-tcn",
+            "flex-layout.row#textoIntro-tcn",
             "flex-layout.row#formularioTrabajo"
         ]
     },
 
     //Titulo de pagina
-    "flex-layout.row#titulo-TCN":{
+    "flex-layout.row#titulo-tcn":{
         "props":{
             "fullWidth": true,
             "preventVerticalStretch": false,
             "preventHorizontalStretch": false,
-            "blockClass": "rowBanner-TCN-Title"
+            "blockClass": "rowBanner-tcn-Title"
         },
         "children":["flex-layout.col#titleTrabajaConNosotros"]
     },
@@ -22,9 +22,9 @@
             "width": "80%",
             "blockClass": "colInstitucionalTitle"
         },
-        "children": ["rich-text#titulo-TCN"]
+        "children": ["rich-text#titulo-tcn"]
     },
-    "rich-text#titulo-TCN":{
+    "rich-text#titulo-tcn":{
         "props":{
             "blockClass": "tituloInstitucional",
             "text": "Trabaja con Nosotros"
@@ -32,7 +32,7 @@
     },
 
     //Texto de introducción
-    "flex-layout.row#textoIntro-TCN":{
+    "flex-layout.row#textoIntro-tcn":{
         "props":{
             "fullWidth": true,
             "preventVerticalStretch": false,
@@ -40,35 +40,35 @@
             "blockClass": "rowContenidoInstitucional"
           },
         "children":[
-            "flex-layout.col#tituloTCN",
-            "flex-layout.col#contenidoTCN"
+            "flex-layout.col#titulotcn",
+            "flex-layout.col#contenidotcn"
         ]
     },
-    "flex-layout.col#tituloTCN":{
+    "flex-layout.col#titulotcn":{
         "props":{
             "textAlignment": "center",
             "blockClass": "colTitulo"
         },
-        "children":["rich-text#tituloTCN"]
+        "children":["rich-text#titulotcn"]
     },
 
     // Definición contenido
-    "flex-layout.col#contenidoTCN":{
+    "flex-layout.col#contenidotcn":{
         "props":{
             "blockClass": "colContenido",
             "textAlignment": "center"
         },
-        "children":["rich-text#ContenidoTCN"]
+        "children":["rich-text#Contenidotcn"]
     },
 
-    "rich-text#tituloTCN":{
+    "rich-text#titulotcn":{
         "props":{
             "blockClass": "Titulo-Seccion",
             "textPosition": "CENTER",
             "text": "¡Buscamos gente talentosa como tu!"
         }
     },
-    "rich-text#ContenidoTCN":{
+    "rich-text#Contenidotcn":{
         "props":{
             "blockClass": "textoContenido",
             "textPosition": "CENTER",
@@ -79,78 +79,81 @@
     // Formulario Trabaja con nosotros
     "flex-layout.row#formularioTrabajo": {
         "props":{
-            "blockClass": "rowFormularioTCN"
+            "blockClass": "rowFormulariotcn"
         },
-        "children": ["flex-layout.col#form-TCN"]
+        "children": ["flex-layout.col#form-tcn"]
     },
-    "flex-layout.col#form-TCN": {
-        "children": ["form#TCN"]
+    "flex-layout.col#form-tcn": {
+        "children": ["form#tcn"]
     },
-    "form#TCN":{
+    "form#tcn":{
         "props": {
             "entity": "clients",
-            "schema": "person"
+            "schema": "trabaja"
         },
         "children": [
-            "rich-text#formTitle-TCN",
-            "form-input.text#firstName-TCN",
-            "form-input.text#lastName-TCN",
-            "form-input.text#phone-TCN",
-            "form-input.text#cargo-TCN",
-            "form-submit#enviar-TCN"
+            "rich-text#formTitle-tcn",
+            "form-input.text#nombre-tcn",
+            "form-input.text#apellido-tcn",
+            "form-input.text#email-tcn",
+            "form-input.text#telefono-tcn",
+            // "form-input.upload",
+            "form-input.textarea#mensaje-tcn",
+            "form-submit#enviar-tcn"
         ],
-        "blocks": ["form-success#envioExitoso-TCN"]
+        "blocks": ["form-success#envioExitoso-tcn"]
     },
-    "form-success#envioExitoso-TCN": {
-        "children": ["rich-text#successSubmitTCN"]
+    "form-success#envioExitoso-tcn": {
+        "children": ["rich-text#successSubmittcn"]
     },
-    "rich-text#successSubmitTCN": {
+    "rich-text#successSubmittcn": {
         "props": {
             "text": "¡Datos enviados exitosamente!",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
         }
     },
-    "rich-text#formTitle-TCN":{
+    "rich-text#formTitle-tcn":{
         "props":{
-            "text": "Contacto",
+            "text": "Trabaja con Nosotros",
             "blockClass": "titleContacto"
         }
     },
-    "form-input.text#firstName-TCN": {
+    "form-input.text#nombre-tcn": {
         "props": {
-            "pointer": "#/properties/firstName"
+            "pointer": "#/properties/nombre"
         }
     },
-    "form-input.text#lastName-TCN": {
+    "form-input.text#apellido-tcn": {
         "props": {
-            "pointer": "#/properties/lastName"
+            "pointer": "#/properties/apellido"
         }
     },
-    "form-input.text#email-TCN":{
+    "form-input.text#email-tcn":{
         "props":{
             "pointer": "#/properties/mail"
         }
     },
-    "form-input.text#phone-TCN":{
+    "form-input.text#telefono-tcn":{
         "props":{
-            "pointer": "#/properties/phone"
+            "pointer": "#/properties/telefono"
         }
     },
-    "form-input.text#cargo-TCN":{
+    // "form-input.upload":{
+    //     "props":{
+    //         "pointer": "#/properties/CV",
+    //         "label": "CV de postulante"
+    //     }
+    // },
+    "form-input.textarea#mensaje-tcn":{
         "props":{
-            "pointer": "#/properties/cargo"
-        }
-    },
-    "form-input.textarea#descripcion-TCN":{
-        "props":{
-            "pointer": "#/properties/descripcion",
+            "pointer": "#/properties/mensaje",
             "label": "Descripción"
         }
     },
-    "form-submit#enviar-TCN": {
+    "form-submit#enviar-tcn": {
         "props": {
-          "label": "Submit"
+          "label": "Enviar"
         }
     }
 }

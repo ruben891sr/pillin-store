@@ -358,23 +358,33 @@
 
 
 /*PDP*/
-.productImagesThumb {
+
+.productImagesThumb,
+.productImage {
     position: relative;
     overflow: hidden;
     height: fit-content;
     background: #fff;
 }
 
-.productImagesThumb::before {
+.productImagesThumb::before,
+.productImage::before {
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,.04);
+    background: rgba(0,0,0,.05);
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: 1;
+}
+.swiperCaretNext .caretIcon {
+    overflow: visible!important;
+}
+.productImagesThumbCaret{
+    display: none!important;
 }
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color {

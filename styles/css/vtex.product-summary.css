@@ -119,6 +119,10 @@
     font-weight: 800; 
 }
 
+.element{
+    width: 100%;
+}
+
 .element :global(.vtex-button) { 
     margin-top: .7rem;
     transition: all .5s ease;

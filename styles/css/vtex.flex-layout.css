@@ -278,7 +278,7 @@
 }
 
 .flexRow--rowBannerInstitucionalTitle,
-.flexRow--rowBanner-TCN-Title {
+.flexRow--rowBanner-tcn-Title {
     width: 100vw;
     height: auto;
     display: block;
@@ -317,7 +317,7 @@
     z-index: -1;
 }
 
-.flexRow--rowBanner-TCN-Title::before {
+.flexRow--rowBanner-tcn-Title::before {
     content: "";
     background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Trabaja-con-Nosotros.jpg);
     background-size: cover;
@@ -373,26 +373,27 @@
 
 .flexRow--rowFormularioContacto {
     width: 100vw;
-    height: auto;
+    height: 60vh;
+    margin-bottom: 10rem;
     display: block;
     position: relative;
-    /* height: 60vh; */
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-}
-
-.flexRow--rowFormularioContacto::before {
-    content: "";
-    background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
+    background: url(https://i.ibb.co/wwHgbLd/BN-W-Contacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+}
+
+.flexColChild--colFormularioContacto {
     position: absolute;
-    z-index: -1;
+    top: 2rem;
+    left: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #0000002e;
+    padding: 2rem;
+    width: 35%;
+    height: 125%!important;
+    z-index: 9;
 }
 
 
@@ -447,6 +448,23 @@
         background-position: center center;
     }
 
+    .flexColChild--colFormularioContacto{
+        position: initial;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .flexRow--rowFormularioContacto {
+        width: 100vw;
+        height: 100vh;
+        margin-bottom: 10rem;
+        display: block;
+        position: relative;
+        background: url(https://i.ibb.co/z6ctzNJ/BN-M-Contacto.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 
 
 }
