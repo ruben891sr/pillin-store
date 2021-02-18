@@ -47,7 +47,7 @@
             "blockClass": "mainMenu-rn",
             "itemProps": {
                 "type": "internal",
-                "href": "/accesorios?fuzzy=0&map=category-1,category-1,agrupacion,agrupacion,category-1&operator=and&query=/accesorios/calzado/recien-nacido--00-a-12m-/recien-nacido--00-a-12m-/vestuario",
+                "href": "/recien-nacido--00-a-12m-?map=agrupacion",
                 "noFollow": false,
                 "tagTitle": "recien-nacido",
                 "text": "Recién Nacido"
@@ -277,7 +277,7 @@
             "height": "100%",
             "itemProps": {
                 "type": "internal",
-                "href": "/vestuario?fuzzy=0&map=category-1,agrupacion,category-1,category-1&operator=and&query=/accesorios/bebe--18m-a-3-/calzado/vestuario",
+                "href": "/bebe--18m-a-3-?map=agrupacion",
                 "noFollow": false,
                 "tagTitle": "Bebe",
                 "text": "Bebé"
@@ -521,7 +521,7 @@
             "height": "100%",
             "itemProps": {
                 "type": "internal",
-                "href": "/vestuario?fuzzy=0&map=category-1,category-1,agrupacion,category-1&operator=and&query=/accesorios/calzado/ninos--4-a-16-/vestuario",
+                "href": "/ninos--4-a-16-?map=agrupacion",
                 "noFollow": false,
                 "tagTitle": "ninos",
                 "text": "Niños"

@@ -9,7 +9,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niño](/niño?fuzzy=0&map=ft,agrupacion&operator=and&query=/niño/recien-nacido--00-a-12m-)",
+      "text": "[Niño](/nino/recien-nacido--00-a-12m-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNino"
     }
   },
@@ -19,7 +19,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niña](/niña?_q=niña&fuzzy=0&map=ft,agrupacion&operator=and&query=/niña/recien-nacido--00-a-12m-)",
+      "text": "[Niña](/nina/recien-nacido--00-a-12m-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNina"
     }
   },
@@ -608,7 +608,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niño](/bebe--18m-a-3-/nino?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nino/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nino)",
+      "text": "[Niño](/nino/bebe--18m-a-3-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNino"
     }
   },
@@ -618,7 +618,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niña](/bebe--18m-a-3-/nina?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nina/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nina)",
+      "text": "[Niña](/nina/bebe--18m-a-3-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNina"
     }
   },
@@ -1295,7 +1295,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niño](/nino/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion&operator=and)",
+      "text": "[Niño](/nino/ninos--4-a-16-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNino"
     }
   },
@@ -1305,7 +1305,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "href": "",
-      "text": "[Niña](/nina/ninos--4-a-16-/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion,agrupacion&operator=and)",
+      "text": "[Niña](/nina/ninos--4-a-16-?map=genero,agrupacion)",
       "blockClass": "tituloMenuNina"
     }
   },
@@ -1907,7 +1907,7 @@
       "blockClass": "mainMenu-rn-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios/calzado/recien-nacido--00-a-12m-/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,category-1,agrupacion,category-1&operator=and",
+        "href": "/recien-nacido--00-a-12m-?map=agrupacion",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo recién nacido"
@@ -1922,7 +1922,7 @@
       "blockClass": "mainMenu-rn-todonino-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/niño?fuzzy=0&map=ft,agrupacion&operator=and&query=/niño/recien-nacido--00-a-12m-",
+        "href": "/nino/recien-nacido--00-a-12m-?map=genero,agrupacion",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
         "text": "Todo niño"
@@ -1935,7 +1935,7 @@
       "highlight": true,
       "blockClass": "subSubMenuItem",
       "itemProps": {
-        "href": "/vestuario?fuzzy=0&map=genero,agrupacion,category-1&operator=and&query=/nino/recien-nacido--00-a-12m-/vestuario",
+        "href": "/nina/recien-nacido--00-a-12m-?map=genero,agrupacion",
         "text": "Todo vestuario"
       }
     }
@@ -2020,7 +2020,7 @@
       "blockClass": "mainMenu-vv-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios/bebe--18m-a-3-/calzado/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,agrupacion,category-1,category-1&operator=and",
+        "href": "/bebe--18m-a-3-?map=agrupacion",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo bebé"
@@ -2035,7 +2035,7 @@
       "blockClass": "mainMenu-vv-todonino-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/bebe--18m-a-3-/nino?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nino/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nino",
+        "href": "/nino/bebe--18m-a-3-?map=genero,agrupacion",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
         "text": "Todo niño"
@@ -2083,7 +2083,7 @@
       "blockClass": "mainMenu-vv-todonina-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/bebe--18m-a-3-/nina?fuzzy=0&initialMap=agrupacion,genero,category-1&initialQuery=bebe--18m-a-3-/nina/vestuario&map=agrupacion,genero&operator=and&query=/bebe--18m-a-3-/nina",
+        "href": "/nina/bebe--18m-a-3-?map=genero,agrupacion",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
         "text": "Todo niña"
@@ -2133,7 +2133,7 @@
       "blockClass": "mainMenu-ninn-todo-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios/calzado/ninos--4-a-16-/vestuario?fuzzy=0&initialMap=c&initialQuery=vestuario&map=category-1,category-1,agrupacion,category-1&operator=and",
+        "href": "/ninos--4-a-16-?map=agrupacion",
         "noFollow": false,
         "tagTitle": "recien-nacido-nino",
         "text": "Todo niños"
@@ -2148,7 +2148,7 @@
       "blockClass": "mainMenu-ninn-todonino-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/nino/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion&operator=and",
+        "href": "/nino/ninos--4-a-16-?map=genero,agrupacion",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
         "text": "Todo niño"
@@ -2196,7 +2196,7 @@
       "blockClass": "mainMenu-ninn-nina-acc",
       "itemProps": {
         "type": "internal",
-        "href": "/nina/ninos--4-a-16-/ninos--4-a-16-?fuzzy=0&initialMap=c&initialQuery=vestuario&map=genero,agrupacion,agrupacion&operator=and",
+        "href": "/nina/ninos--4-a-16-?map=genero,agrupacion",
         "noFollow": false,
         "tagTitle": "reciennacido-nino-vestuario",
         "text": "Todo niña"
