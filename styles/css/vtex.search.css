@@ -29,7 +29,6 @@
     text-transform: capitalize;
     font-display: "fallback";
 }
-
 .itemListLink {
     height: fit-content !important;
     text-transform: capitalize !important;
@@ -38,7 +37,6 @@
     margin-top: .7rem !important;
     font-display: "fallback";
 }
-
 .itemListSubItemLink {
     font-size: 12px;
     font-weight: 700;

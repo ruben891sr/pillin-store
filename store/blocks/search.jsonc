@@ -208,7 +208,7 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-searchtitle",
-      // "flex-layout.row#searchbreadMobile",
+       // "flex-layout.row#searchbreadMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",

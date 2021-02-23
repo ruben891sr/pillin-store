@@ -131,9 +131,9 @@
       // "sliderDisplayThreshold": 4,
       // "sliderArrowSize": 10,
       // "sliderItemsPerPage": {
-      //   "desktop": 4,
-      //   "tablet": 4,
-      //   "phone": 3
+      //   "desktop":4,
+      //   "tablet":4,
+      //   "phone":3
       // }
     }
   },

@@ -209,6 +209,7 @@
 .flexRow--Row-BreadCrumb {
     border-bottom: 1px solid #dddddd;
 }
+
 .flexCol--colSimuladorEntrega {
     display: flex;
     justify-content: flex-start;
