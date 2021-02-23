@@ -68,7 +68,7 @@
     "flex-layout.row#submenureciennacido": {
         "children": [
             "flex-layout.col#ninoreciennacido",
-            "flex-layout.col#ninareciennacido" 
+            "flex-layout.col#ninareciennacido"
         ],
         "props": {
             "blockClass": "colItemsClass"
@@ -105,7 +105,7 @@
             "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido",
             "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }
@@ -195,7 +195,7 @@
             "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido",
             "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }
@@ -336,7 +336,7 @@
             "vtex.menu@2.x:menu#subsubmenuninocalzadobebe",
             "vtex.menu@2.x:menu#subsubmenuninoaccesoriosbebe"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }
@@ -431,7 +431,7 @@
             "vtex.menu@2.x:menu#subsubmenuninacalzadobebe",
             "vtex.menu@2.x:menu#subsubmenuninaaccesoriosbebe"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }
@@ -525,7 +525,7 @@
                 "noFollow": false,
                 "tagTitle": "ninos",
                 "text": "Niños"
-            } 
+            }
         },
         "blocks": ["vtex.menu@2.x:submenu#ninno"]
     },
@@ -580,7 +580,7 @@
             "vtex.menu@2.x:menu#subsubmenuninocalzadoninno",
             "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }
@@ -647,7 +647,7 @@
         "props": {
             "blockClass": "colNina"
         }
-    }, 
+    },
 
     "flex-layout.row#submenuninaninno": {
         "children": [
@@ -671,7 +671,7 @@
             "vtex.menu@2.x:menu#subsubmenuninacalzadoninno",
             "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno"
         ],
-        "props":{
+        "props": {
             "blockClass": "catColMenuNavEscri",
             "preventVerticalStretch": false
         }

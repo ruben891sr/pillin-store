@@ -258,7 +258,7 @@
     ]
   },
 
-  "rich-text#tituloBusqueda": { 
+  "rich-text#tituloBusqueda": {
     "props": {
       "text": "Búsqueda por **Talla**",
       "blockClass": "tituloBusquedaPorTalla"

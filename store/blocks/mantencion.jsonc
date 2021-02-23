@@ -66,7 +66,7 @@
         "children": [
             "image#mantencion",
             "rich-text#text-main",
-            "rich-text#text-second" 
+            "rich-text#text-second"
         ],
         "props": {
             "blockClass": "mantencion-m"
@@ -77,10 +77,10 @@
     // Componentes 
     "image#mantencion": {
         "props": {
-          "src": "assets/img/logo-cabeza.png",
-          "blockClass": "logoMantencion"
+            "src": "assets/img/logo-cabeza.png",
+            "blockClass": "logoMantencion"
         }
-      },
+    },
 
     "rich-text#text-main": {
         "props": {
@@ -92,7 +92,7 @@
     "rich-text#text-second": {
         "props": {
             "text": "## Disculpe las molestias. Volveremos pronto ",
-            "blockClass": "text-second" 
+            "blockClass": "text-second"
         }
     }
 
