@@ -322,108 +322,108 @@
     ],
     "styles": {
       "heading-1": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "heading-2": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "heading-3": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "heading-4": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "heading-5": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "heading-6": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "body": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": ".9rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "small": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "mini": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "action": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": ".95rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "action--small": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "action--large": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       },
       "code": {
+        "font-display": "fallback",
         "fontFamily": "Consolas, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
-        "letterSpacing": "0",
-        "font-display": "fallback"
+        "letterSpacing": "0"
       }
     }
   },

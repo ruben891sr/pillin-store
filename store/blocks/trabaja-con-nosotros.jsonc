@@ -79,7 +79,7 @@
     // Formulario Trabaja con nosotros
     "flex-layout.row#formularioTrabajo": {
         "props":{
-            "blockClass": "rowFormulariotcn",
+            "blockClass":"rowFormulariotcn",
             "horizontalAlign": "center"
         },
         "children": ["flex-layout.col#form-tcn"]
