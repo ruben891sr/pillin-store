@@ -75,10 +75,11 @@
 
 .skuSelectorItem {
     margin: 0;
-    height: 25px;
-    width: 25px;
-    border-radius: 50px !important;
-    margin-right: .4rem;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px!important;
+    margin-right: .7rem;
+    margin-bottom: .2rem;
 }
 
 .imageElement--imageMenu {
@@ -306,8 +307,8 @@
 } 
 
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorItemTextValue {
-    padding: .4rem;
-    min-width: 30px;
+    padding: .28rem;
+    min-width: 22px;
     text-align: center;
 }
 
@@ -359,16 +360,16 @@
 
 /*PDP*/
 
-.productImagesThumb,
-.productImage {
+/* .productImage, */
+.productImagesThumb {
     position: relative;
     overflow: hidden;
     height: fit-content;
     background: #fff;
 }
 
-.productImagesThumb::before,
-.productImage::before {
+/* .productImage::before, */
+.productImagesThumb::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -380,6 +381,20 @@
     right: 0;
     z-index: 1;
 }
+
+.productImage :global(.vtex-relative)::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.05);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.swiperCaretPrev .caretIcon,
 .swiperCaretNext .caretIcon {
     overflow: visible!important;
 }
@@ -540,5 +555,9 @@
 
     .portalContainer {
         top: 5px!important;
+    }
+
+    .skuSelectorItem {
+        margin-right: .3rem;
     }
 }

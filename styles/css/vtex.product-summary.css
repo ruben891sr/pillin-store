@@ -211,5 +211,6 @@
 @media (max-width: 991px) {
     .element :global(.vtex-button) { 
         opacity: 1 !important;
-    } 
+        margin-top: .3rem;
+    }
 } 

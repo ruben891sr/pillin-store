@@ -100,7 +100,7 @@
       "availability-subscriber",
       "flex-layout.row#shelf-outfit",
       "flex-layout.row#wishlist",
-      "sandbox.product#Simulador-Flete",
+      // "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
       "flex-layout.row#simulador-entrega",
       "product-availability"
@@ -252,9 +252,12 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 5,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "rowQuantityBuy"
     },
-    "children": ["flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
+    "children": [
+      "flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
   },
 
   "flex-layout.col#productQuantity": {
@@ -269,7 +272,7 @@
     "props":{
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "40%",
+      "width": "70%",
       "blockClass": "colAddToCart"
     },
     "children":["add-to-cart-button"]
@@ -327,16 +330,17 @@
   },
 
   //Formulario Simulador de entrega Sandbox
-  "sandbox.product#Simulador-Flete":{
-    "props":{
-      "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
-      "width": "100%",
-      "height": "150px",
-      "allowCookies": true,
-      "blockClass": "simulaFlete"
-    }
-  },
+  // "sandbox.product#Simulador-Flete":{
+  //   "props":{
+  //     "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
+  //     "width": "100%",
+  //     "height": "150px",
+  //     "allowCookies": true,
+  //     "blockClass": "simulaFlete"
+  //   }
+  // },
 
+  //Formulario Simuladro de entrega Store Form
   // "flex-layout.row#Formulario-Simulador":{
   //   "props":{
   //     "blockClass": "rowFormularioSimulador"
@@ -345,46 +349,46 @@
   // },
 
   // "flex-layout.col#Form-Simulador":{
-  //   "children": ["form"]
+  //   "children": ["form#simulador"]
   // },
 
-  // "form": {
+  // "form#simulador": {
   //   "props": {
-  //     "entity": "Simulador Flete",
-  //     "schema": "SF"
+  //     "entity": "clients",
+  //     "schema": "simulador"
   //   },
   //   "children":[
   //     "form-input.dropdown#region",
   //     "form-input.dropdown#comuna",
-  //     "form-submit"
+  //     "form-submit#submitSimulador"
   //   ],
-  //   "blocks":["form-success"]
+  //   "blocks":["form-success#simulador"]
   // },
-  // "form-success": {
-  //   "children": [
-  //     "rich-text#successSubmit"
-  //   ]
+  // "form-success#simulador": {
+  //   "children": ["rich-text#successSubmit"]
   // },
   // "rich-text#successSubmit": {
   //   "props": {
-  //     "text": "Los datos fueron enviados exitosamente!",
+  //     "text": "Estamos calculando los datos",
   //     "textAlignment": "CENTER",
   //     "textPosition": "CENTER"
   //   }
   // },
+
+  // //Dropdown formulario
   // "form-input.dropdown#region":{
   //   "props":{
-  //     "label": "Región:",
-  //     "pointer": "#/properties/region"
+  //     "label": "Region:",
+  //     "pointer": "#/properties/tipo/properties/selectTipo"
   //   }
   // },
   // "form-input.dropdown#comuna":{
   //   "props":{
   //     "label": "Comuna:",
-  //     "pointer": "#/properties/comuna"
+  //     "pointer": "#/properties/tipo/properties/selectTipo"
   //   }
   // },
-  // "form-submit":{
+  // "form-submit#submitSimulador":{
   //   "props":{
   //     "label": "Consultar"
   //   }
@@ -550,10 +554,10 @@
       "sku-selector#PDP",
       "flex-layout.col#guia-de-tallas",
       "flex-layout.col#stock",
-      "flex-layout.row#quantity-buy-button",
+      "sticky-layout#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
-      "sandbox.product#Simulador-Flete",
+      // "sandbox.product#Simulador-Flete",
       "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
       "product-availability"
@@ -572,7 +576,7 @@
       "marginTop": 4,
       "marginBottom": 5,
       "preventVerticalStretch": true,
-      "blockClass": "rowQuantityBuy"
+      "blockClass": "rowQuantityBuyMobile"
     },
     "children": ["flex-layout.col#productQuantity-Mobile", "flex-layout.col#add-to-cart-mobile"]
   },
@@ -589,7 +593,7 @@
     "props":{
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "40%",
+      "width": "70%",
       "blockClass": "colAddToCart"
     },
     "children":["add-to-cart-button#mobile"]

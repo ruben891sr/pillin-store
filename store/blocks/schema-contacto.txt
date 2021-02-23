@@ -1,0 +1,71 @@
+{
+    "title": "contacto",
+    "type": "object",
+    "properties": {
+        "nombre": {
+            "type": "string",
+            "title": "Nombre",
+            "description": "Nombre contacto."
+        },
+        "apellido": {
+            "type": "string",
+            "title": "Apellido",
+            "description": "Apellido contacto."
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Email",
+            "description": "Email contacto."
+        },
+        "telefono": {
+            "type": "string",
+            "title": "Teléfono",
+            "description": "Teléfono contacto."
+        },
+        "mensaje": {
+            "type": "string",
+            "title": "Mensaje",
+            "description": "Mensaje de contacto."
+        },
+        "tipo": {
+            "title": "Tipo Contacto",
+            "type": "object",
+            "properties": {
+                "selectTipo": {
+                    "type": "string",
+                    "title": "Tipo Contacto",
+                    "enum": [
+                        "Consulta",
+                        "Reclamo",
+                        "Sugerencia"
+                    ]
+                }
+            },
+            "required": [
+                "selectTipo"
+            ]
+        }
+    },
+    "required": [
+        "nombre",
+        "apellido",
+        "mail",
+        "telefono",
+        "tipo",
+        "mensaje"
+    ],
+    "v-security": {
+        "publicJsonSchema": true,
+        "allowGetAll": true,
+        "publicRead": [
+            "publicForRead"
+        ],
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicFilter": [
+            "fieldExample"
+        ]
+    }
+}

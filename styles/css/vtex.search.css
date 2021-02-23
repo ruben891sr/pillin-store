@@ -27,6 +27,7 @@
     font-weight: 700;
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
+    font-display: "fallback";
 }
 
 .itemListLink {
@@ -35,6 +36,7 @@
     line-height: 1 !important;
     font-family: 'Quicksand', sans-serif;
     margin-top: .7rem !important;
+    font-display: "fallback";
 }
 
 .itemListSubItemLink {
@@ -50,6 +52,7 @@
     text-transform: capitalize !important;
     height: fit-content !important;
     line-height: 1 !important;
+    font-display: "fallback";
 }
 
 /*Banner Principal*/
