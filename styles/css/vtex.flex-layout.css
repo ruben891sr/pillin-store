@@ -113,14 +113,14 @@
 
 .flexRow--rowHomeShelf {
     margin: 3rem 0 1rem 0;
-} 
+}
 
 .flexColChild--colSearchTitle {
     max-width: 96rem;
     margin: 0 auto;
     width: 100%;
 }
-  
+
 .flexColChild--catColMenuNavEscri {
     height: auto !important;
 }
@@ -209,14 +209,12 @@
 .flexRow--Row-BreadCrumb {
     border-bottom: 1px solid #dddddd;
 }
+
 .flexCol--colSimuladorEntrega {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: inherit;
-}
-.flexCol--colAddToCart {
-    width: 60%!important;
 }
 
 .flexRowContent--rowQuantityBuy .stretchChildrenWidth {
@@ -225,11 +223,11 @@
     align-items: flex-start;
 }
 
-
 /*PLP*/
 .flexRow--rowBreadCrumbDesktop{
     border-bottom: 1px solid #dddddd;
 }
+
 .flexRowContent--rowBreadCrumbMobile {
     margin: 5px 0 10px 0;
 }
@@ -281,7 +279,7 @@
 
 /*Páginas Institucionales*/
 
-.flexCol--colBannerPrincipal{
+.flexCol--colBannerPrincipal {
     min-height: 15rem;
 }
 
@@ -307,7 +305,7 @@
     min-height: 15rem;
     display: block;
     opacity: 0.2;
-    clip-path: polygon(0 0,100% 0,100% 75%,0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
 
 .flexRow--rowBannerInstitucionalTitle::before {
@@ -400,7 +398,7 @@
     box-shadow: 0 0 20px #0000002e;
     padding: 2rem;
     width: 35%;
-    height: 125%!important;
+    height: 125% !important;
     z-index: 9;
 }
 
@@ -449,14 +447,14 @@
         padding: 3rem 2.5rem 3rem 2.5rem;
     }
 
-    .flexColChild--colBannerPrincipal::before{
+    .flexColChild--colBannerPrincipal::before {
         background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
 
-    .flexColChild--colFormularioContacto{
+    .flexColChild--colFormularioContacto {
         position: initial;
         margin: 0 auto;
         width: 85%;
@@ -472,10 +470,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-    }
-
-    .flexCol--colAddToCart {
-        width: 100%!important;
     }
 
 
@@ -607,11 +601,11 @@
         width: 100% !important;
     }
 
-    .flexRowContent--rowQuantityBuyMobile {
+    .flexRowContent--rowQuantityBuy {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: stretch;
-        background: white!important;
+        background: white;
         padding: 5px 15px;
         margin-bottom: 0;
         border-top: 1px solid #ffab71;
@@ -631,38 +625,4 @@
         padding: .35rem 0;
     }
 
-}
-
-@media (max-width: 1024px){
-    .flexRowContent--rowQuantityBuyMobile {
-        display: flex;
-        justify-content: flex-start;
-        align-items: stretch;
-        background: white!important;
-        padding: 5px 15px;
-        margin-bottom: 0;
-        border-top: 1px solid #ffab71;
-        border-bottom: 1px solid #ffab71;
-    }
-    .flexRowContent--rowQuantityBuyMobile .stretchChildrenWidth {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .flexCol--btn-GuiaDeTallas,
-    .flexCol--btn-Stock {
-        position: relative;
-    }
-    .flexColChild--btn-GuiaDeTallas {
-        position: initial;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .flexColChild--btn-Stock {
-        position: absolute;
-        top: -52px;
-        right: 0;
-    }
-    
 }

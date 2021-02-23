@@ -2,23 +2,29 @@
 .container {
     text-align: center;
 }
-.homeLink, .container{
+
+.homeLink,
+.container {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
+
 .homeLink::before {
     content: "Home";
     display: inline-block;
     justify-content: center;
     align-items: center;
 }
+
 .homeIcon {
-    display: none!important;
+    display: none !important;
 }
+
 .link {
     color: #441e13;
 }
+
 .caretIcon{
     overflow: visible!important;
     margin-bottom: 4px;
