@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 25
       }
     }
   },

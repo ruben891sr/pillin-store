@@ -4,7 +4,7 @@
     "children": ["minicart-base-content"],
     "props": {
       "customPixelEventId": "add-to-cart-button"
-    } 
+    }
   },
 
   "icon-cart#minicart-icon": {
@@ -103,7 +103,7 @@
   },
 
   "flex-layout.col#price.mobile": {
-    "children":[
+    "children": [
       "unit-price",
       "price#mobile"
     ],

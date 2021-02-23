@@ -166,7 +166,7 @@
         "props": {
             "position": "top",
             "blockClass": "stickyClassHeader"
-          }
+        }
     },
 
     "flex-layout.row#main-header": {
@@ -186,7 +186,7 @@
             "search-bar",
             "telemarketing",
             "login",
-            "minicart.v2" 
+            "minicart.v2"
         ]
     },
 
@@ -317,7 +317,7 @@
         "props": {
             "openAutocompleteOnFocus": true,
             "blockClass": "inteliSearchWrapper"
-        } 
+        }
     },
 
     "autocomplete-result-list.v2": {

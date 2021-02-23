@@ -2,7 +2,7 @@
   "my-account-link.wishlist-link": {
     "props": {
       "label": "Mis artículos deseados",
-      "blockClass": "labelWishList"  
+      "blockClass": "labelWishList"
     }
   },
 

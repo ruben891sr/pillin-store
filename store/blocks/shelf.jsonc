@@ -14,9 +14,9 @@
         "arrows": true,
         "titleText": "Productos"
       }
-    } 
+    }
   },
-  
+
   "shelf#pdp": {
     "blocks": ["product-summary.shelf#pdp"],
     "props": {

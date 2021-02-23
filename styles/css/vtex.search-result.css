@@ -45,7 +45,7 @@
 .filter__container--agrupacion {
     display: none!important;
 }
-.filterPopupTitle {
+.filterPopupTitle { 
     position: relative
 }
 .filterPopupTitle::after{
@@ -61,6 +61,12 @@
 .galleryItem--normal {
     padding-bottom: 0;
     padding-top: 0;
+}
+
+.filterItem--ninos--4-a-16-:last-child,
+.filterItem--bebe--18m-a-3-:last-child,
+.filterItem--recien-nacido--00-a-12m-:last-child {
+    display: none !important;
 }
 
 /*Media Queries*/

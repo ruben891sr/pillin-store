@@ -461,6 +461,11 @@
     display: none;
 }
 
+.imageElementLink {
+    display: block;
+    width: 100%;
+}
+
 /*Selector de SKU Color - Talla*/
 .frameAround--skuSelectorPDP {
     box-shadow: none;
