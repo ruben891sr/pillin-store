@@ -79,11 +79,15 @@
     // Formulario Trabaja con nosotros
     "flex-layout.row#formularioTrabajo": {
         "props":{
-            "blockClass": "rowFormulariotcn"
+            "blockClass": "rowFormulariotcn",
+            "horizontalAlign": "center"
         },
         "children": ["flex-layout.col#form-tcn"]
     },
     "flex-layout.col#form-tcn": {
+        "props":{
+            "width": "50%"
+        },
         "children": ["form#tcn"]
     },
     "form#tcn":{
@@ -97,7 +101,7 @@
             "form-input.text#apellido-tcn",
             "form-input.text#email-tcn",
             "form-input.text#telefono-tcn",
-            // "form-input.upload",
+            "form-field-group#curriculum",
             "form-input.textarea#mensaje-tcn",
             "form-submit#enviar-tcn"
         ],
@@ -139,16 +143,16 @@
             "pointer": "#/properties/telefono"
         }
     },
-    // "form-input.upload":{
-    //     "props":{
-    //         "pointer": "#/properties/CV",
-    //         "label": "CV de postulante"
-    //     }
-    // },
     "form-input.textarea#mensaje-tcn":{
         "props":{
             "pointer": "#/properties/mensaje",
-            "label": "Descripción"
+            "label": "Mensaje"
+        }
+    },
+    "form-field-group#curriculum":{
+        "props":{
+            "pointer": "#/properties/curriculum",
+            "label": "Carga de CV"
         }
     },
     "form-submit#enviar-tcn": {

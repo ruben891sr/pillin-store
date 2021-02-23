@@ -2,3 +2,9 @@
 .container--iframeStock{
     height: 65vh;
 }
+
+@media (max-width: 768.1px) {
+    .container--iframeGuiaTallas{
+        height: 85vh!important;
+    }
+}

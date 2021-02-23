@@ -23,6 +23,7 @@
     background-color: #f9f9f9;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
+    font-display: "fallback";
 }
 .orderByOptionItem:hover {
     background: #ede3ce;
@@ -55,6 +56,10 @@
     border-radius: 3px;
     width: 70%;
     height: 24px;
+}
+.galleryItem--normal {
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 /*Media Queries*/
@@ -140,5 +145,13 @@
         text-overflow: ellipsis;
         white-space: normal;
         -webkit-line-clamp: 1;
+    }
+    .filterPopupTitle::after {
+        display: none;
+    }
+    .galleryItem--small {
+        padding-left: .4rem;
+        padding-right: .4rem;
+        padding-bottom: .1rem;
     }
 }

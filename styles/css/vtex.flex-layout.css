@@ -209,12 +209,20 @@
 .flexRow--Row-BreadCrumb {
     border-bottom: 1px solid #dddddd;
 }
-
 .flexCol--colSimuladorEntrega {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: inherit;
+}
+.flexCol--colAddToCart {
+    width: 60%!important;
+}
+
+.flexRowContent--rowQuantityBuy .stretchChildrenWidth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -466,6 +474,10 @@
         background-position: center center;
     }
 
+    .flexCol--colAddToCart {
+        width: 100%!important;
+    }
+
 
 }
 
@@ -595,11 +607,11 @@
         width: 100% !important;
     }
 
-    .flexRowContent--rowQuantityBuy {
+    .flexRowContent--rowQuantityBuyMobile {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: stretch;
-        background: white;
+        background: white!important;
         padding: 5px 15px;
         margin-bottom: 0;
         border-top: 1px solid #ffab71;
@@ -619,4 +631,38 @@
         padding: .35rem 0;
     }
 
+}
+
+@media (max-width: 1024px){
+    .flexRowContent--rowQuantityBuyMobile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+        background: white!important;
+        padding: 5px 15px;
+        margin-bottom: 0;
+        border-top: 1px solid #ffab71;
+        border-bottom: 1px solid #ffab71;
+    }
+    .flexRowContent--rowQuantityBuyMobile .stretchChildrenWidth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexCol--btn-GuiaDeTallas,
+    .flexCol--btn-Stock {
+        position: relative;
+    }
+    .flexColChild--btn-GuiaDeTallas {
+        position: initial;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .flexColChild--btn-Stock {
+        position: absolute;
+        top: -52px;
+        right: 0;
+    }
+    
 }

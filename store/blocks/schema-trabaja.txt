@@ -1,0 +1,61 @@
+{
+    "title": "trabaja",
+    "type": "object",
+    "properties": {
+        "nombre": {
+            "type": "string",
+            "title": "Nombre",
+            "description": "Nombre postulante."
+        },
+        "apellido": {
+            "type": "string",
+            "title": "Apellido",
+            "description": "Apellido postulante."
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Email",
+            "description": "Email postulante."
+        },
+        "telefono": {
+            "type": "string",
+            "title": "Teléfono",
+            "description": "Teléfono postulante."
+        },
+        "mensaje": {
+            "type": "string",
+            "title": "Mensaje",
+            "description": "Mensaje postulante."
+        },
+        "curriculum": {
+            "type": "string",
+            "title": "Carga CV",
+            "description": "CV de postulante.",
+            "contentEncoding": "base64",
+            "contentMediaType": "pdf/txt/doc"
+        }
+    },
+    "required": [
+        "nombre",
+        "apellido",
+        "mail",
+        "telefono",
+        "tipo",
+        "mensaje",
+        "curriculum"
+    ],
+    "v-security": {
+        "publicJsonSchema": true,
+        "allowGetAll": false,
+        "publicRead": [
+            "publicForRead"
+        ],
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicFilter": [
+            "fieldExample"
+        ]
+    }
+}

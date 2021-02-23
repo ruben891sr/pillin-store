@@ -326,91 +326,104 @@
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "heading-2": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "heading-3": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "heading-4": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "heading-5": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "heading-6": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "body": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": ".9rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "small": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "mini": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "action": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": ".95rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "action--small": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "action--large": {
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "capitalize",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       },
       "code": {
         "fontFamily": "Consolas, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "font-display": "fallback"
       }
     }
   },
