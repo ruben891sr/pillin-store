@@ -1,11 +1,12 @@
 .container--iframeGuiaTallas,
-.container--iframeStock{
+.container--iframeStock {
     height: 65vh;
 
 }
+
 @media (max-width: 768px) {
-    .container--iframeGuiaTallas{
-        height: 85vh!important;
+    .container--iframeGuiaTallas {
+        height: 85vh !important;
     }
 
 }

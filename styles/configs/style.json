@@ -385,6 +385,7 @@
         "letterSpacing": "0"
       },
       "mini": {
+        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",

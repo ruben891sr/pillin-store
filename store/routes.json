@@ -17,5 +17,10 @@
 
   "store.custom#trabaja-con-nosotros": {
     "path": "/trabaja-con-nosotros"
+  },
+
+  "store.custom#club-pillin": {
+    "path": "/club-pillin"
   }
+  
 }

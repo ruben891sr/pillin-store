@@ -64,7 +64,7 @@
   },
 
   "search-result-layout.desktop": {
-    "children": [ 
+    "children": [
       "flex-layout.row#banner-searchtitle",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
@@ -83,20 +83,20 @@
   },
 
   // Banner con Titulo
-  "flex-layout.row#banner-searchtitle":{
-    "props":{
+  "flex-layout.row#banner-searchtitle": {
+    "props": {
       "blockClass": "rowBannerSearchTitle",
       "fullWidth": true,
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
     },
-    "children":["flex-layout.col#banner-one","flex-layout.col#searchtitle"]
+    "children": ["flex-layout.col#banner-one", "flex-layout.col#searchtitle"]
   },
 
   // Banner
   "flex-layout.col#banner-one": {
-    "props":{
-      "blockClass":"colBannerPrincipal"
+    "props": {
+      "blockClass": "colBannerPrincipal"
     },
     "children": ["search-banner#one"]
   },
@@ -118,7 +118,7 @@
 
   // Search Title
   "flex-layout.col#searchtitle": {
-    "props":{
+    "props": {
       "blockClass": "colSearchTitle",
       "verticalAlign": "middle"
     },
@@ -133,21 +133,21 @@
     },
     "children": ["breadcrumb.search"]
   },
-  "breadcrumb.search":{
-    "props":{
+  "breadcrumb.search": {
+    "props": {
       "showOnMobile": true
     }
   },
 
   //Filtro y contenido
   "flex-layout.row#result": {
-    "props":{
+    "props": {
       "marginTop": 3
     },
     "children": ["flex-layout.col#filter", "flex-layout.col#content"]
   },
   "flex-layout.col#filter": {
-    "children": ["filter-navigator.v3","search-banner#two"],
+    "children": ["filter-navigator.v3", "search-banner#two"],
     "props": {
       "blockClass": "filterCol",
       "width": "20%"
@@ -192,9 +192,6 @@
     "children": ["search-fetch-more"]
   },
   "flex-layout.row#products": {
-    "props":{
-      "marginTop": 4
-    },
     "children": ["search-content"]
   },
   "search-content": {
@@ -209,7 +206,7 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-searchtitle",
-       // "flex-layout.row#searchbreadMobile",
+      "flex-layout.row#searchbreadMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -230,16 +227,15 @@
     }
   },
 
-  // Breadcrumb mobile
-  // "flex-layout.row#searchbreadMobile": {
-  //   "props": {
-  //     "preserveLayoutOnMobile": true,
-  //     "fullWidth": true,
-  //     "horizontalAlign":"center",
-  //     "blockClass": "rowBreadCrumbMobile"
-  //   },
-  //   "children": ["breadcrumb.search"]
-  // },
+  "flex-layout.row#searchbreadMobile": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "blockClass": "rowBreadCrumbMobile"
+    },
+    "children": ["breadcrumb.search"]
+  },
 
   "flex-layout.row#searchinfomobile": {
     "children": [
@@ -250,7 +246,7 @@
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "colJustify": "around",
-      "horizontalAlign":"center",
+      "horizontalAlign": "center",
       "blockClass": "rowSearchInfo",
       "fullWidth": true
     }
@@ -261,7 +257,7 @@
     "props": {
       "blockClass": "filterMobileCol",
       "width": "100%",
-      "horizontalAlign":"center"
+      "horizontalAlign": "center"
 
     }
   },
@@ -271,7 +267,7 @@
     "props": {
       "blockClass": "orderByMobileCol",
       "width": "100%",
-      "horizontalAlign":"center"
+      "horizontalAlign": "center"
     }
   },
 
@@ -283,8 +279,8 @@
   },
 
   //Filtro Mobile
-  "filter-navigator.v3":{
-    "props":{
+  "filter-navigator.v3": {
+    "props": {
       "closeOnOutsideClick": true,
       "initiallyCollapsed": true
     }
@@ -320,12 +316,12 @@
     ]
   },
 
-  "flex-layout.row#ContentNotSearch":{
-    "props":{
+  "flex-layout.row#ContentNotSearch": {
+    "props": {
       "blockClass": "BuscaVacia",
       "horizontalAlign": "left"
     },
-    "children":[
+    "children": [
       "flex-layout.col#MensajePrincipal",
       "flex-layout.col#barraBusqueda",
       "flex-layout.col#talVezPuedaInteresar",
@@ -335,15 +331,15 @@
   },
 
   // Mensaje Principal
-  "flex-layout.col#MensajePrincipal":{
-    "props":{
+  "flex-layout.col#MensajePrincipal": {
+    "props": {
       "width": "100%",
       "horizontalAlign": "left"
     },
     "children": ["rich-text#MensajePrincipal"]
   },
-  "rich-text#MensajePrincipal":{
-    "props":{
+  "rich-text#MensajePrincipal": {
+    "props": {
       "text": "## Lo sentimos, no encontramos lo que buscas",
       "font": "action-secondary",
       "blockClass": "MensajePrincipal"
@@ -351,52 +347,52 @@
   },
 
   //Barra Busqueda
-  "flex-layout.col#barraBusqueda":{
-    "props":{
+  "flex-layout.col#barraBusqueda": {
+    "props": {
       "blockClass": "barraBusqueda",
       "width": "100%"
     },
-    "children":["search-bar#buscaVacia"]
+    "children": ["search-bar#buscaVacia"]
   },
 
-  "search-bar#buscaVacia":{
-    "props":{
+  "search-bar#buscaVacia": {
+    "props": {
       "openAutocompleteOnFocus": false,
       "blockClass": "searchBuscaVacia"
     },
-    "blocks":["autocomplete-result-list.v2#buscaVacia"]
+    "blocks": ["autocomplete-result-list.v2#buscaVacia"]
   },
 
   "autocomplete-result-list.v2#buscaVacia": {
     "blocks": ["product-summary.shelf#busqueda"],
     "props": {
-        "blockClass": "motorBuscador"
+      "blockClass": "motorBuscador"
     }
   },
-  
+
   //Titulo palabras claves
-  "flex-layout.col#talVezPuedaInteresar":{
-    "props":{
+  "flex-layout.col#talVezPuedaInteresar": {
+    "props": {
       "width": "100%",
       "horizontalAlign": "left"
     },
-    "children":["rich-text#talVezPuedaInteresar"]
+    "children": ["rich-text#talVezPuedaInteresar"]
   },
-  "rich-text#talVezPuedaInteresar":{
-    "props":{
+  "rich-text#talVezPuedaInteresar": {
+    "props": {
       "blockClass": "talVezPuedaInteresar",
       "text": "tal vez, te puede interesar:"
     }
   },
 
   //Palabras claves
-  "flex-layout.col#PalabrasClavesVacia":{
-    "props":{
+  "flex-layout.col#PalabrasClavesVacia": {
+    "props": {
       "width": "100%",
       "horizontalAlign": "left",
       "blockClass": "PalabrasClavesVacia"
     },
-    "children":[
+    "children": [
       "rich-text#gorros-y-bufandas",
       "rich-text#chalecos-y-polerones",
       "rich-text#bermudas-y-shorts",
@@ -405,75 +401,75 @@
       "rich-text#calcetines"
     ]
   },
-  "rich-text#gorros-y-bufandas":{
-    "props":{
+  "rich-text#gorros-y-bufandas": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Gorros](/accesorios/gorros-y-bufandas)"
     }
   },
-  "rich-text#chalecos-y-polerones":{
-    "props":{
+  "rich-text#chalecos-y-polerones": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Chalecos y Polerones](/vestuario/chalecos-y-polerones)"
     }
   },
-  "rich-text#bermudas-y-shorts":{
-    "props":{
+  "rich-text#bermudas-y-shorts": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Bermudas y Shorts](/vestuario/bermudas-y-shorts)"
     }
   },
-  "rich-text#abrigos-y-chaquetas":{
-    "props":{
+  "rich-text#abrigos-y-chaquetas": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Abrigos y Chaquetas](/abrigos%20y%20chaquetas?map=ft)"
     }
   },
-  "rich-text#ositos-buzos-y-conjuntos":{
-    "props":{
+  "rich-text#ositos-buzos-y-conjuntos": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Ositos, Buzos y Conjuntos](/vestuario/ositos-buzos-y-conjuntos)"
     }
   },
-  "rich-text#calcetines":{
-    "props":{
+  "rich-text#calcetines": {
+    "props": {
       "blockClass": "categoriasBuscaVacia",
       "text": "[Calcetines](/accesorios/calcetines)"
     }
   },
 
   //Mensaje volver
-  "flex-layout.col#botonVolver":{
-    "props":{
+  "flex-layout.col#botonVolver": {
+    "props": {
       "width": "100%",
       "horizontalAlign": "left"
     },
-    "children":["rich-text#botonVolver"]
+    "children": ["rich-text#botonVolver"]
   },
-  "rich-text#botonVolver":{
-    "props":{
+  "rich-text#botonVolver": {
+    "props": {
       "text": "O, puedes volver al home [Aquí](/)",
       "blockClass": "botonVolver"
     }
   },
 
   // Vitrina Not Found
-  "flex-layout.row#shelf-NotFound":{
-    "props":{
+  "flex-layout.row#shelf-NotFound": {
+    "props": {
       "marginTop": 8,
       "marginBottom": 8
     },
-    "children":["flex-layout.col#colShelfNotFound"]
+    "children": ["flex-layout.col#colShelfNotFound"]
   },
 
-  "flex-layout.col#colShelfNotFound":{
-    "props":{
+  "flex-layout.col#colShelfNotFound": {
+    "props": {
       "blockClass": "productosRecomendados"
     },
-    "children":["shelf#NotFound"]
+    "children": ["shelf#NotFound"]
   },
-  "shelf#NotFound":{
-    "props":{
+  "shelf#NotFound": {
+    "props": {
       "recommendation": "view",
       "blockClass": "ProductosNotFound",
       "productList": {
@@ -481,7 +477,7 @@
         "itemsPerPage": 5
       }
     },
-    "blocks":["product-summary.shelf#NotFound"]
+    "blocks": ["product-summary.shelf#NotFound"]
   },
 
   "rich-text#not-found": {
@@ -489,7 +485,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "**PÁGINA NO ENCONTRADA**",
-      "font": "t-heading-1" 
+      "font": "t-heading-1"
     }
   }
 }
