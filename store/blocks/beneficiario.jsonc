@@ -1,0 +1,97 @@
+{
+  "store.custom#beneficiario": {
+      "blocks": [
+          "flex-layout.row#form-beneficiario"
+      ]
+  },
+
+  "flex-layout.row#form-beneficiario": {
+      "props": {
+          "blockClass": "rowFormulariobeneficiario"
+      },
+      "children": ["flex-layout.col#form-beneficiario"]
+  },
+
+  //Formulario beneficiario
+  "flex-layout.col#form-beneficiario": {
+      "props": {
+          "width": "35%",
+          "blockClass": "colFormulariobeneficiario"
+      },
+      "children": [
+          "form#beneficiario"
+      ]
+  },
+
+  "form#beneficiario": {
+      "props": {
+          "entity": "be",
+          "schema": "beneficiario"
+      },
+      "children": [
+          "rich-text#formTitle-beneficiario",
+          "form-input.text#nombre-beneficiario",
+          "form-input.text#apellido-beneficiario",
+          "form-input.text#email-beneficiario",
+          "form-input.text#nacimiento-beneficiario",
+          "form-input.dropdown#tipo-beneficiario",
+          "form-submit#enviar-beneficiario"
+      ],
+      "blocks": ["form-success#beneficiario"]
+  },
+
+  "form-success#beneficiario": {
+      "children": ["rich-text#successSubmitbeneficiario"]
+  },
+
+  "rich-text#successSubmitbeneficiario": {
+      "props": {
+          "text": "¡Datos enviados exitosamente!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+      }
+  },
+
+  // Campos de Formulario
+  "rich-text#formTitle-beneficiario": {
+      "props": {
+          "text": "## beneficiario",
+          "blockClass": "titlebeneficiario"
+      }
+  },
+  "form-input.text#nombre-beneficiario": {
+      "props": {
+          "pointer": "#/properties/nombre",
+          "label": "Nombre"
+      }
+  },
+  "form-input.text#apellido-beneficiario": {
+      "props": {
+          "pointer": "#/properties/apellido",
+          "label": "Apellido"
+      }
+  },
+  "form-input.text#email-beneficiario": {
+      "props": {
+          "pointer": "#/properties/mail",
+          "label": "Correo Electrónico"
+      }
+  },
+  "form-input.text#nacimiento-beneficiario": {
+      "props": {
+          "pointer": "#/properties/nacimiento",
+          "label": "Fecha de nacimiento"
+      }
+  },
+  "form-input.dropdown#tipo-beneficiario": {
+      "props": {
+          "pointer": "#/properties/sexo/properties/selectTipo",
+          "label": "Sexo"
+      }
+  },
+  "form-submit#enviar-beneficiario": {
+      "props": {
+          "label": "Enviar"
+      }
+  }
+} 

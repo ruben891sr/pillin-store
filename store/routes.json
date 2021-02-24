@@ -19,8 +19,8 @@
     "path": "/trabaja-con-nosotros"
   },
 
-  "store.custom#club-pillin": {
-    "path": "/club-pillin"
+  "store.custom#beneficiario": {
+    "path": "/beneficiario"
   }
   
 }
