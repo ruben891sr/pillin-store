@@ -1,19 +1,19 @@
 {
     "store.custom#club-pillin": {
         "blocks": [
-            "flex-layout.row#form"
+            "flex-layout.row#form-club-pillin"
         ]
     },
 
-    "flex-layout.row#form": {
+    "flex-layout.row#form-club-pillin": {
         "props": {
             "blockClass": "rowFormularioclub-pillin"
         },
-        "children": ["flex-layout.col#form"]
+        "children": ["flex-layout.col#form-club-pillin"]
     },
 
     //Formulario club-pillin
-    "flex-layout.col#form": {
+    "flex-layout.col#form-club-pillin": {
         "props": {
             "width": "35%",
             "blockClass": "colFormularioclub-pillin"
@@ -25,18 +25,17 @@
 
     "form#club-pillin": {
         "props": {
-            "entity": "club-pillin",
-            "schema": "club-pillin"
+            "entity": "Club Pillin",
+            "schema": "club"
         },
         "children": [
-            "rich-text#formTitle",
-            "form-input.text#nombreclub-pillin",
-            "form-input.text#apellidoclub-pillin",
-            "form-input.text#emailclub-pillin",
+            "rich-text#formTitle-club-pillin",
+            "form-input.text#nombre-club-pillin",
+            "form-input.text#apellido-club-pillin",
+            "form-input.text#email-club-pillin",
             "form-input.text#nacimiento-club-pillin",
-            "form-input.dropdown#tipoclub-pillin",
-            "form-submit#enviarclub-pillin",
-            "rich-text#nuestrasTiendas"
+            "form-input.dropdown#tipo-club-pillin",
+            "form-submit#enviar-club-pillin"
         ],
         "blocks": ["form-success#club-pillin"]
     },
@@ -54,25 +53,25 @@
     },
 
     // Campos de Formulario
-    "rich-text#formTitle": {
+    "rich-text#formTitle-club-pillin": {
         "props": {
             "text": "## club-pillin",
             "blockClass": "titleclub-pillin"
         }
     },
-    "form-input.text#nombreclub-pillin": {
+    "form-input.text#nombre-club-pillin": {
         "props": {
             "pointer": "#/properties/nombre",
             "label": "Nombre"
         }
     },
-    "form-input.text#apellidoclub-pillin": {
+    "form-input.text#apellido-club-pillin": {
         "props": {
             "pointer": "#/properties/apellido",
             "label": "Apellido"
         }
     },
-    "form-input.text#emailclub-pillin": {
+    "form-input.text#email-club-pillin": {
         "props": {
             "pointer": "#/properties/mail",
             "label": "Correo Electrónico"
@@ -80,25 +79,19 @@
     },
     "form-input.text#nacimiento-club-pillin": {
         "props": {
-            "pointer": "#/properties/telefono",
+            "pointer": "#/properties/nacimiento",
             "label": "Fecha de nacimiento"
         }
     },
-    "form-input.dropdown#tipoclub-pillin": {
+    "form-input.dropdown#tipo-club-pillin": {
         "props": {
-            "pointer": "#/properties/tipo/properties/selectTipo",
+            "pointer": "#/properties/sexo/properties/selectTipo",
             "label": "Sexo"
         }
     },
-    "form-submit#enviarclub-pillin": {
+    "form-submit#enviar-club-pillin": {
         "props": {
             "label": "Enviar"
-        }
-    },
-    "rich-text#nuestrasTiendas": {
-        "props": {
-            "blockClass": "nuestrasTiendas",
-            "text": "Revisa nuestras tiendas [Aquí](/stores)"
         }
     }
 }

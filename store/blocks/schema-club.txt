@@ -1,5 +1,5 @@
 {
-    "title": "club-pillin",
+    "title": "club",
     "type": "object",
     "properties": {
         "nombre": {
@@ -23,7 +23,7 @@
             "title": "Fecha nacimiento",
             "description": "Fecha nacimiento miembro Club Pillin."
         },
-        "tipo": {
+        "sexo": {
             "title": "Sexo",
             "type": "object",
             "properties": {
@@ -44,7 +44,7 @@
         "apellido",
         "mail",
         "nacimiento",
-        "tipo"
+        "sexo"
     ],
     "v-security": {
         "publicJsonSchema": true,
