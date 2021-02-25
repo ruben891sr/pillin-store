@@ -25,34 +25,35 @@
  
   "form#beneficiario": {
     "props": {
-      "entity": "BE",
-      "schema": "mdv1"
+      "entity": "clubPillin",
+      "schema": "beneficiario"
     },
     "children": [
-      "rich-text#formTitleBeneficiario",
+      "rich-text#formTitleBeneficiario"
       // "form-input.text#nombreBeneficiario",
       // "form-input.text#apellidoBeneficiario",
       // "form-input.text#telefonoBeneficiario",
       // "form-input.dropdown#tipoBeneficiario",
 
-      "form-input.text#id",
-      "form-input.text#followers",
-      "form-input.text#auto_filter",
-      "form-input.text#createdIn",
-      "form-input.text#sexo",
-      "form-input.text#fechaNacimiento",
-      "form-input.text#nombre",
-      "form-input.text#dataEntityId",
-      "form-input.text#tags",
-      "form-input.text#accountId",
-      "form-input.text#apellido",
-      "form-input.text#updatedIn",
-      "form-input.text#lastInteractionIn",
-      "form-input.text#accountName",
-      "form-input.text#idClubPillin",
+      // "form-input.text#apellido",
+      // "form-input.text#fechaNacimiento",
+      // "form-input.text#idClubPillin",
+      // "form-input.text#nombre",
+      // "form-input.text#sexo",
+      // "form-input.text#id",
+      // "form-input.text#accountName",
+      // "form-input.text#dataEntityId",
 
-      "form-submit#enviarBeneficiario",
-      "rich-text#nuestrasTiendasBeneficiario"
+      // "form-input.text#accountId",
+      // "form-input.text#followers",
+      // "form-input.text#auto_filter",
+      // "form-input.text#createdIn",
+      // "form-input.text#tags",
+      // "form-input.text#updatedIn",
+      // "form-input.text#lastInteractionIn",
+
+      // "form-submit#enviarBeneficiario",
+      // "rich-text#nuestrasTiendasBeneficiario"
 
 
 
@@ -106,35 +107,9 @@
 
 
 
-
-
-  "form-input.text#id": {
+  "form-input.text#apellido": {
     "props": {
-      "pointer": "#/properties/id",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#followers": {
-    "props": {
-      "pointer": "#/properties/followers",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#auto_filter": {
-    "props": {
-      "pointer": "#/properties/auto_filter",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#createdIn": {
-    "props": {
-      "pointer": "#/properties/createdIn",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#sexo": {
-    "props": {
-      "pointer": "#/properties/sexo",
+      "pointer": "#/properties/apellido",
       "label": "Apellido"
     }
   },
@@ -144,21 +119,27 @@
       "label": "Apellido"
     }
   },
+  "form-input.text#idClubPillin": {
+    "props": {
+      "pointer": "#/properties/idClubPillin",
+      "label": "Apellido"
+    }
+  },
   "form-input.text#nombre": {
     "props": {
       "pointer": "#/properties/nombre",
       "label": "Apellido"
     }
   },
-  "form-input.text#dataEntityId": {
+  "form-input.text#sexo": {
     "props": {
-      "pointer": "#/properties/dataEntityId",
+      "pointer": "#/properties/sexo",
       "label": "Apellido"
     }
   },
-  "form-input.text#tags": {
+  "form-input.text#id": {
     "props": {
-      "pointer": "#/properties/tags",
+      "pointer": "#/properties/id",
       "label": "Apellido"
     }
   },
@@ -168,44 +149,57 @@
       "label": "Apellido"
     }
   },
-  "form-input.text#apellido": {
-    "props": {
-      "pointer": "#/properties/apellido",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#updatedIn": {
-    "props": {
-      "pointer": "#/properties/updatedIn",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#lastInteractionIn": {
-    "props": {
-      "pointer": "#/properties/lastInteractionIn",
-      "label": "Apellido"
-    }
-  },
   "form-input.text#accountName": {
     "props": {
       "pointer": "#/properties/accountName",
       "label": "Apellido"
     }
   },
-  "form-input.text#idClubPillin": {
+  "form-input.text#dataEntityId": {
     "props": {
-      "pointer": "#/properties/idClubPillin",
+      "pointer": "#/properties/dataEntityId",
       "label": "Apellido"
     }
   },
 
 
-
-
-
-
-
-
+  // "form-input.text#followers": {
+  //   "props": {
+  //     "pointer": "#/properties/followers",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#auto_filter": {
+  //   "props": {
+  //     "pointer": "#/properties/auto_filter",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#createdIn": {
+  //   "props": {
+  //     "pointer": "#/properties/createdIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#tags": {
+  //   "props": {
+  //     "pointer": "#/properties/tags",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#updatedIn": {
+  //   "props": {
+  //     "pointer": "#/properties/updatedIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#lastInteractionIn": {
+  //   "props": {
+  //     "pointer": "#/properties/lastInteractionIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+ 
 
 
 
