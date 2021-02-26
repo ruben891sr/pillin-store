@@ -28,7 +28,7 @@
         "height": 550,
         "blockClass": "sliderImageNew",
         "images": [
-          {
+          { 
             "image": "assets/img/slider.jpg",
             "mobileImage": "assets/img/slider-movil.jpg"
           },
@@ -52,58 +52,6 @@
       "blockClass": "carousel"
     }
   },
-
-  // "slider-layout#text-test": {
-  //   "props": {
-  //     "showNavigationArrows": "desktopOnly",
-  //     "blockClass": "carousel",
-  //     "usePagination": true,
-  //     "infinite": true,
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "phone": 1
-  //     },
-  //     "fullWidth": false,
-  //     "marginTop": 3
-  //   },
-  //   "children": [
-  //     "image#1",
-  //     "image#2",
-  //     "image#3"
-
-  //   ]
-  // },
-
-  // Slides
-  // "image#1": {
-  //   "props": {
-  //     "src": "assets/img/slider.jpg",
-  //     "width": "100%",
-  //     "blockClass": "sliderImage"
-  //   }
-  // },
-  // "image#2": {
-  //   "props": {
-  //     "src": "assets/img/slider.jpg",
-  //     "width": "100%",
-  //     "blockClass": "sliderImage"
-  //   }
-  // },
-  // "image#3": {
-  //   "props": {
-  //     "src": "assets/img/slider.jpg",
-  //     "width": "100%",
-  //     "blockClass": "sliderImage"
-  //   }
-  // },
-
-  // Barra informaciones
-  // "flex-layout.row#info-bar": {
-  //   "children": [
-  //     "image#info-image"
-  //   ]
-  // },
 
   "image#info-image": {
     "props": {
@@ -716,7 +664,7 @@
   // Mobile Version
   "responsive-layout.mobile": {
     "children": [
-      "slider-layout#text-test-mobile",
+      "list-context.image-list#slider",
       "flex-layout.row#info-bar-mobile",
       "flex-layout.row#infocards-icons-mobile",
       "flex-layout.row#busquedaTalla",
@@ -725,50 +673,6 @@
       "flex-layout.row#banners-mobile"
     ]
   },
-
-  // Mobile - Slider
-  "slider-layout#text-test-mobile": {
-    "props": {
-      "showNavigationArrows": "always",
-      "blockClass": "carouselMobile",
-      "usePagination": true,
-      "infinite": true,
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "fullWidth": false,
-      "marginTop": 3
-    },
-    "children": ["image#1-mobile", "image#2-mobile", "image#3-mobile"]
-  },
-
-  "image#1-mobile": {
-    "props": {
-      "src": "assets/img/slider-movil.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-
-  "image#2-mobile": {
-    "props": {
-      "src": "assets/img/slider-movil.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-
-  "image#3-mobile": {
-    "props": {
-      "src": "assets/img/slider-movil.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-
-
 
   // Mobile Info Bar
   "flex-layout.row#info-bar-mobile": {
