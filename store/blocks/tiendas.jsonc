@@ -1,0 +1,102 @@
+{
+  "store.custom#tiendas": {
+    "blocks": [
+      "flex-layout.row#ContentTiendas"
+    ]
+  },
+
+  "flex-layout.row#ContentTiendas": {
+    "props":{
+      "blockClass": "rowContentTiendas"
+    },
+    "children":[
+      "flex-layout.col#FormTiendas",
+      "flex-layout.col#MapaTiendas"
+    ]
+  },
+
+  "flex-layout.col#FormTiendas":{
+    "props":{
+      "width": "35%",
+      "blockClass": "colFormTiendas"
+    },
+    "children":[
+      "form#FormularioTiendas"
+    ]
+  },
+
+  "flex-layout.col#MapaTiendas":{
+    "props":{
+      "width": "100%",
+      "blockClass": "mapaTiendas"
+    }
+  },
+
+  // Formulario Tiendas - Basado en Form Contacto
+  "form#FormularioTiendas":{
+    "props": {
+      "entity": "clients",
+      "schema": "contacto"
+      },
+      "children": [
+        "rich-text#formTitleTiendas",
+        "rich-text#introduccion",
+        "form-input.text#region",
+        "form-input.text#comuna",
+        "form-input.text#tienda",
+        "form-submit#consultaTienda"
+      ],
+      "blocks": ["form-success#exitoTiendas"]
+    },
+
+    "form-success#exitoTiendas": {
+      "children": ["rich-text#successSubmitTiendas"]
+    },
+
+    "rich-text#successSubmitTiendas": {
+      "props": {
+        "text": "¡Datos enviados exitosamente!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+
+    // Campos de Formulario
+    
+    "rich-text#formTitleTiendas":{
+      "props":{
+        "text": "## Contacto",
+        "blockClass": "titleContacto"
+      }
+    },
+    "rich-text#introduccion":{
+      "props":{
+        "text": "En Pillin tenemos una red de tiendas a lo largo de Chile",
+        "blockClass": "textoIntroduccion"
+      }
+    },
+    "form-input.text#region": {
+      "props": {
+        "pointer": "#/properties/nombre",
+        "label": "Seleccione Región"
+      }
+    },
+    "form-input.text#comuna": {
+      "props": {
+        "pointer": "#/properties/apellido",
+        "label": "Seleccione Comuna"
+      }
+    },
+    "form-input.text#tienda":{
+      "props":{
+        "pointer": "#/properties/mail",
+        "label": "Seleccione Tienda"
+      }
+    },
+    "form-submit#consultaTienda": {
+      "props": {
+        "label": "Consultar"
+      }
+    }
+
+}

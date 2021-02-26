@@ -17,5 +17,9 @@
 
   "store.custom#trabaja-con-nosotros": {
     "path": "/trabaja-con-nosotros"
+  },
+
+  "store.custom#tiendas": {
+    "path": "/tiendas"
   }
 }

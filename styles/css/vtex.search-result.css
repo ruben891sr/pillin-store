@@ -42,7 +42,11 @@
 .filterItem{
     font-weight: 500;
 }
-.filter__container--agrupacion {
+.filter__container--agrupacion,
+.filter__container--category-1,
+.filter__container--category-2,
+.filter__container--brand,
+.filter__container--guiatallas {
     display: none!important;
 }
 .filterPopupTitle { 
@@ -124,15 +128,44 @@
         padding-bottom: 0;
         height: 42px;
     }
+    .galleryItem--small {
+        padding-left: .4rem;
+        padding-right: .4rem;
+        padding-bottom: .1rem;
+    }
+}
+
+@media (max-width:990px){
+    .filterPopupTitle::after {
+        display: none;
+    }
     /*PLP*/
+    .accordionFilterContainer--departamento,
+    .accordionFilterContainer--marca {
+        display: none!important;
+    }
     .filterBreadcrumbsContent {
         width: 45%!important;
     }
     .filterBreadcrumbsItem {
         width: 55%!important;
     }
+    .filterBreadcrumbsItem .caretIcon {
+        overflow: visible;
+        margin-bottom: 5px;
+        width: 10px;
+    }
     .filterBreadcrumbsText{
         color: #441e13;
+    }
+    .filterBreadcrumbsItemName {
+        font-size: 1.3em!important;
+        display: -webkit-box!important;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        -webkit-line-clamp: 1;
     }
     .filterBreadcrumbsText::before {
         content: "";
@@ -144,21 +177,23 @@
         height: 13px;
         padding-right: 3px;
     }
-    .filterBreadcrumbsItemName {
-        font-size: 1.3em!important;
-        display: -webkit-box!important;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: normal;
-        -webkit-line-clamp: 1;
+    .filterClearButtonWrapper :global(.vtex-button) {
+        border: 1px solid #ede3ce;
+        border-radius: 3px;
     }
-    .filterPopupTitle::after {
-        display: none;
+    .filterClearButtonWrapper :global(.vtex-button):hover {
+        background: #ede3ce;
     }
-    .galleryItem--small {
-        padding-left: .4rem;
-        padding-right: .4rem;
-        padding-bottom: .1rem;
+    .filterApplyButtonWrapper :global(.vtex-button) {
+        background: #3f2016;
+        color: white;
+    }
+    .filterApplyButtonWrapper :global(.vtex-button):hover {
+        background: #481f14bf;
+        color: #fff6e0;
+    }
+    .accordionFilterItemTag :global(.vtex-tag){
+        background: #ede3ce;
+        color: #3f2016;
     }
 }
