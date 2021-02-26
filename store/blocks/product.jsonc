@@ -102,7 +102,7 @@
       "availability-subscriber",
       "flex-layout.row#shelf-outfit",
       "flex-layout.row#wishlist",
-      "sandbox.product#Simulador-Flete",
+      // "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
       "flex-layout.row#simulador-entrega",
       "product-availability"
@@ -329,15 +329,15 @@
   },
 
   //Formulario Simulador de entrega Sandbox
-  "sandbox.product#Simulador-Flete": {
-    "props": {
-      "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
-      "width": "100%",
-      "height": "150px",
-      "allowCookies": true,
-      "blockClass": "simulaFlete"
-    }
-  },
+  // "sandbox.product#Simulador-Flete": {
+  //   "props": {
+  //     "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
+  //     "width": "100%",
+  //     "height": "150px",
+  //     "allowCookies": true,
+  //     "blockClass": "simulaFlete"
+  //   }
+  // },
 
   // "flex-layout.row#Formulario-Simulador":{
   //   "props":{
@@ -559,7 +559,7 @@
       "flex-layout.row#wishlist",
       // "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
-      "sandbox.product#Simulador-Flete",
+      // "sandbox.product#Simulador-Flete",
       "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
       "product-availability"
