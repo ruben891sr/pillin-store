@@ -26,7 +26,7 @@
   "form#beneficiario": {
     "props": {
       "entity": "clubPillin",
-      "schema": "beneficiario"
+      "schema": "beneficiario" 
     },
     "children": [
       "rich-text#formTitleBeneficiario"
