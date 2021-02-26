@@ -370,7 +370,6 @@
         "letterSpacing": "0"
       },
       "body": {
-        "font-display": "fallback",
         "fontFamily": "Quicksand, sans-serif",
         "fontWeight": "700",
         "fontSize": ".9rem",

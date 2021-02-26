@@ -1,0 +1,97 @@
+{
+    "store.custom#club-pillin": {
+        "blocks": [
+            "flex-layout.row#form-club-pillin"
+        ]
+    },
+
+    "flex-layout.row#form-club-pillin": {
+        "props": {
+            "blockClass": "rowFormularioclub-pillin"
+        },
+        "children": ["flex-layout.col#form-club-pillin"]
+    },
+
+    //Formulario club-pillin
+    "flex-layout.col#form-club-pillin": {
+        "props": {
+            "width": "35%",
+            "blockClass": "colFormularioclub-pillin"
+        },
+        "children": [
+            "form#club-pillin"
+        ]
+    },
+
+    "form#club-pillin": {
+        "props": {
+            "entity": "CP",
+            "schema": "club"
+        },
+        "children": [
+            "rich-text#formTitle-club-pillin",
+            "form-input.text#nombre-club-pillin",
+            "form-input.text#apellido-club-pillin",
+            "form-input.text#email-club-pillin",
+            "form-input.text#nacimiento-club-pillin",
+            "form-input.dropdown#tipo-club-pillin",
+            "form-submit#enviar-club-pillin"
+        ],
+        "blocks": ["form-success#club-pillin"]
+    },
+
+    "form-success#club-pillin": {
+        "children": ["rich-text#successSubmitclub-pillin"]
+    },
+
+    "rich-text#successSubmitclub-pillin": {
+        "props": {
+            "text": "¡Datos enviados exitosamente!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    // Campos de Formulario
+    "rich-text#formTitle-club-pillin": {
+        "props": {
+            "text": "## club-pillin",
+            "blockClass": "titleclub-pillin"
+        }
+    },
+    "form-input.text#nombre-club-pillin": {
+        "props": {
+            "pointer": "#/properties/nombre",
+            "label": "Nombre"
+        }
+    },
+    "form-input.text#apellido-club-pillin": {
+        "props": {
+            "pointer": "#/properties/apellido",
+            "label": "Apellido"
+        }
+    },
+    "form-input.text#email-club-pillin": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico"
+        }
+    },
+    "form-input.text#nacimiento-club-pillin": {
+        "props": {
+            "pointer": "#/properties/nacimiento",
+            "label": "Fecha de nacimiento"
+        }
+    },
+    "form-input.dropdown#tipo-club-pillin": {
+        "props": {
+            "pointer": "#/properties/sexo/properties/selectTipo",
+            "label": "Sexo"
+        }
+    },
+    "form-submit#enviar-club-pillin": {
+        "props": {
+            "label": "Enviar"
+        }
+    }
+} 

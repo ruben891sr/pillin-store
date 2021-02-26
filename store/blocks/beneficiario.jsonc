@@ -1,0 +1,217 @@
+{
+  "store.custom#beneficiario": {
+    "blocks": [
+      "flex-layout.row#formBeneficiario"
+    ]
+  },
+
+  "flex-layout.row#formBeneficiario": {
+    "props": {
+      "blockClass": "rowFormularioBeneficiario"
+    },
+    "children": ["flex-layout.col#formBeneficiario"]
+  },
+
+  //Formulario Beneficiario
+  "flex-layout.col#formBeneficiario": {
+    "props": {
+      "width": "35%",
+      "blockClass": "colFormularioBeneficiario"
+    },
+    "children": [
+      "form#beneficiario"
+    ]
+  },
+ 
+  "form#beneficiario": {
+    "props": {
+      "entity": "clubPillin",
+      "schema": "beneficiario" 
+    },
+    "children": [
+      "rich-text#formTitleBeneficiario"
+      // "form-input.text#nombreBeneficiario",
+      // "form-input.text#apellidoBeneficiario",
+      // "form-input.text#telefonoBeneficiario",
+      // "form-input.dropdown#tipoBeneficiario",
+
+      // "form-input.text#apellido",
+      // "form-input.text#fechaNacimiento",
+      // "form-input.text#idClubPillin",
+      // "form-input.text#nombre",
+      // "form-input.text#sexo",
+      // "form-input.text#id",
+      // "form-input.text#accountName",
+      // "form-input.text#dataEntityId",
+
+      // "form-input.text#accountId",
+      // "form-input.text#followers",
+      // "form-input.text#auto_filter",
+      // "form-input.text#createdIn",
+      // "form-input.text#tags",
+      // "form-input.text#updatedIn",
+      // "form-input.text#lastInteractionIn",
+
+      // "form-submit#enviarBeneficiario",
+      // "rich-text#nuestrasTiendasBeneficiario"
+
+
+
+    ],
+    "blocks": ["form-success#beneficiario"]
+  },
+
+  "form-success#beneficiario": {
+    "children": ["rich-text#successSubmitBeneficiario"]
+  },
+
+  "rich-text#successSubmitBeneficiario": {
+    "props": {
+      "text": "¡Datos enviados exitosamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  // Campos de Formulario
+  "rich-text#formTitleBeneficiario": {
+    "props": {
+      "text": "## Beneficiario",
+      "blockClass": "titleBeneficiario"
+    }
+  },
+  // "form-input.text#nombreBeneficiario": {
+  //   "props": {
+  //     "pointer": "#/properties/nombre",
+  //     "label": "Nombre"
+  //   }
+  // },
+  // "form-input.text#apellidoBeneficiario": {
+  //   "props": {
+  //     "pointer": "#/properties/apellido",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#telefonoBeneficiario": {
+  //   "props": {
+  //     "pointer": "#/properties/nacimiento",
+  //     "label": "Nacimiento"
+  //   }
+  // },
+  // "form-input.dropdown#tipoBeneficiario": {
+  //   "props": {
+  //     "pointer": "#/properties/sexo/properties/selectSexo",
+  //     "label": "Sexo"
+  //   }
+  // },
+
+
+
+  "form-input.text#apellido": {
+    "props": {
+      "pointer": "#/properties/apellido",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#fechaNacimiento": {
+    "props": {
+      "pointer": "#/properties/fechaNacimiento",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#idClubPillin": {
+    "props": {
+      "pointer": "#/properties/idClubPillin",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#nombre": {
+    "props": {
+      "pointer": "#/properties/nombre",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#sexo": {
+    "props": {
+      "pointer": "#/properties/sexo",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#id": {
+    "props": {
+      "pointer": "#/properties/id",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#accountId": {
+    "props": {
+      "pointer": "#/properties/accountId",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#accountName": {
+    "props": {
+      "pointer": "#/properties/accountName",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#dataEntityId": {
+    "props": {
+      "pointer": "#/properties/dataEntityId",
+      "label": "Apellido"
+    }
+  },
+
+
+  // "form-input.text#followers": {
+  //   "props": {
+  //     "pointer": "#/properties/followers",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#auto_filter": {
+  //   "props": {
+  //     "pointer": "#/properties/auto_filter",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#createdIn": {
+  //   "props": {
+  //     "pointer": "#/properties/createdIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#tags": {
+  //   "props": {
+  //     "pointer": "#/properties/tags",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#updatedIn": {
+  //   "props": {
+  //     "pointer": "#/properties/updatedIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+  // "form-input.text#lastInteractionIn": {
+  //   "props": {
+  //     "pointer": "#/properties/lastInteractionIn",
+  //     "label": "Apellido"
+  //   }
+  // },
+ 
+
+
+
+  "form-submit#enviarBeneficiario": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
+  "rich-text#nuestrasTiendasBeneficiario": {
+    "props": {
+      "blockClass": "nuestrasTiendas",
+      "text": "Revisa nuestras tiendas [Aquí](/stores)"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+    "name": "beneficiario",
+    "schema": {
+        "name": "beneficiario",
+        "schema": {
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "title": "Id do documento"
+                },
+                "followers": {
+                    "type": "string",
+                    "title": "Seguidores"
+                },
+                "auto_filter": {
+                    "type": "string",
+                    "title": "Filtro autoático"
+                },
+                "createdIn": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Criado em"
+                },
+                "sexo": {
+                    "type": "string",
+                    "maxLength": 50,
+                    "title": "Sexo"
+                },
+                "fechaNacimiento": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Fecha de Nacimiento"
+                },
+                "nombre": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "title": "Nombre"
+                },
+                "tags": {
+                    "type": "string",
+                    "title": "Tags"
+                },
+                "dataEntityId": {
+                    "type": "string",
+                    "maxLength": 10,
+                    "title": "Entidade de dados"
+                },
+                "accountId": {
+                    "type": "string",
+                    "maxLength": 50,
+                    "title": "ID da loja"
+                },
+                "apellido": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "title": "Apellido"
+                },
+                "updatedIn": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Atualizado em"
+                },
+                "lastInteractionIn": {
+                    "type": "string",
+                    "format": "date-time",
+                    "title": "Ultima interação em"
+                },
+                "idClubPillin": {
+                    "type": "string",
+                    "IsRelationship": true,
+                    "title": "Id Usuario Padre"
+                },
+                "accountName": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "title": "Nome da loja"
+                }
+            },
+            "required": ["apellido", "fechaNacimiento", "idClubPillin", "nombre", "sexo", "id", "accountId", "accountName", "dataEntityId"],
+            "v-indexed": ["apellido", "fechaNacimiento", "idClubPillin", "nombre", "sexo", "id", "accountName", "dataEntityId", "createdBy", "createdIn", "updatedBy", "updatedIn", "lastInteractionBy", "lastInteractionIn", "followers", "tags"]
+        }
+    }
+}, 
+{
+    "name": "mdv1",
+    "schema": {
+        "properties": {
+            "id": {
+                "type": "string",
+                "maxLength": 100,
+                "title": "Id do documento"
+            },
+            "followers": {
+                "type": "string",
+                "title": "Seguidores"
+            },
+            "auto_filter": {
+                "type": "string",
+                "title": "Filtro autoático"
+            },
+            "createdIn": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Criado em"
+            },
+            "sexo": {
+                "type": "string",
+                "maxLength": 50,
+                "title": "Sexo"
+            },
+            "fechaNacimiento": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Fecha de Nacimiento"
+            },
+            "nombre": {
+                "type": "string",
+                "maxLength": 100,
+                "title": "Nombre"
+            },
+            "tags": {
+                "type": "string",
+                "title": "Tags"
+            },
+            "dataEntityId": {
+                "type": "string",
+                "maxLength": 10,
+                "title": "Entidade de dados"
+            },
+            "accountId": {
+                "type": "string",
+                "maxLength": 50,
+                "title": "ID da loja"
+            },
+            "apellido": {
+                "type": "string",
+                "maxLength": 100,
+                "title": "Apellido"
+            },
+            "updatedIn": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Atualizado em"
+            },
+            "lastInteractionIn": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Ultima interação em"
+            },
+            "idClubPillin": {
+                "type": "string",
+                "IsRelationship": true,
+                "title": "Id Usuario Padre"
+            },
+            "accountName": {
+                "type": "string",
+                "maxLength": 100,
+                "title": "Nome da loja"
+            }
+        },
+        "required": ["apellido", "fechaNacimiento", "idClubPillin", "nombre", "sexo", "id", "accountId", "accountName", "dataEntityId"],
+        "v-indexed": ["apellido", "fechaNacimiento", "idClubPillin", "nombre", "sexo", "id", "accountName", "dataEntityId", "createdBy", "createdIn", "updatedBy", "updatedIn", "lastInteractionBy", "lastInteractionIn", "followers", "tags"]
+    }
+}

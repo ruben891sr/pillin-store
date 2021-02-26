@@ -5,8 +5,8 @@
       "responsive-layout.mobile#pdpMobile"
     ]
   },
-  "responsive-layout.desktop#pdpDesktop":{
-    "children":[
+  "responsive-layout.desktop#pdpDesktop": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-related"
@@ -26,8 +26,8 @@
     },
     "children": ["breadcrumb#product"]
   },
-  "breadcrumb#product":{
-    "props":{
+  "breadcrumb#product": {
+    "props": {
       "homeIconSize": 0
     }
   },
@@ -52,7 +52,7 @@
       "rowGap": 0,
       "blockClass": "colProductImage"
     },
-    "children": ["product-images","flex-layout.row#descriptionPDPdesktop"]
+    "children": ["product-images", "flex-layout.row#descriptionPDPdesktop"]
   },
 
   //Imagen del producto
@@ -65,20 +65,22 @@
   },
 
   //Descripcion Desktop
-  "flex-layout.row#descriptionPDPdesktop":{
-    "props":{
+  "flex-layout.row#descriptionPDPdesktop": {
+    "props": {
       "blockClass": "rowDescriptionDesktop"
     },
-    "children":["flex-layout.col#descriptionPDPdesktop"]
+    "children": ["flex-layout.col#descriptionPDPdesktop"]
   },
-  "flex-layout.col#descriptionPDPdesktop":{
+  "flex-layout.col#descriptionPDPdesktop": {
     "props": {
       "blockClass": "colDescriptionDesktop"
     },
-    "children":["product-description#desktop"]
+    "children": ["product-description#desktop"]
   },
-  "product-description#desktop":{
-    "props":{"title": "Descripción"}
+  "product-description#desktop": {
+    "props": {
+      "title": "Descripción"
+    }
   },
 
   // Detalles del Producto
@@ -100,7 +102,7 @@
       "availability-subscriber",
       "flex-layout.row#shelf-outfit",
       "flex-layout.row#wishlist",
-      // "sandbox.product#Simulador-Flete",
+      "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
       "flex-layout.row#simulador-entrega",
       "product-availability"
@@ -114,15 +116,15 @@
     }
   },
   "sku-selector#PDP": {
-    "props":{
+    "props": {
       "blockClass": "skuSelectorPDP",
-      "visibleVariations": ["Talla","Color"]
+      "visibleVariations": ["Talla", "Color"]
     }
   },
 
-  // Guia de Tallas Desktop
+  // Guia de Tallas 
   "flex-layout.col#guia-de-tallas": {
-    "props":{
+    "props": {
       "blockClass": "btn-GuiaDeTallas"
     },
     "children": [
@@ -136,15 +138,15 @@
       "modal-layout#Modal-Guia-Tallas"
     ]
   },
-  "rich-text#guiaTallas":{
-    "props":{
+  "rich-text#guiaTallas": {
+    "props": {
       "text": "Guía de Tallas",
       "blockClass": "textGuiadeTallas"
     }
   },
   "modal-layout#Modal-Guia-Tallas": {
-    "props":{
-      "blockClass": "ModalGuiaTallas"      
+    "props": {
+      "blockClass": "ModalGuiaTallas"
     },
     "children": [
       "modal-header#Header-Guia-Tallas",
@@ -152,23 +154,23 @@
       // "rich-text#modal-content"
     ]
   },
-  "modal-header#Header-Guia-Tallas":{
-    "props":{
+  "modal-header#Header-Guia-Tallas": {
+    "props": {
       "showCloseButton": true,
       "iconCloseSize": 30
     },
-    "children":["rich-text#TituloModalTallas"]
+    "children": ["rich-text#TituloModalTallas"]
 
   },
-  "rich-text#TituloModalTallas":{
-    "props":{
+  "rich-text#TituloModalTallas": {
+    "props": {
       "blockClass": "tituloModalGuiaTallas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Guía de Tallas"
     }
   },
-  "iframe#despligueTallas":{
+  "iframe#despligueTallas": {
     "props": {
       "width": "100%",
       "height": "100%",
@@ -179,10 +181,10 @@
 
 
   // Stock
-  "flex-layout.col#stock":{
-    "props":{
+  "flex-layout.col#stock": {
+    "props": {
       "blockClass": "btn-Stock",
-      "width":"40%"
+      "width": "40%"
     },
     "children": [
       "modal-trigger#Trigger-Stock"
@@ -190,22 +192,22 @@
     ]
   },
   "modal-trigger#Trigger-Stock": {
-    "props":{
-      "blockClass":"TriggerStock"
+    "props": {
+      "blockClass": "TriggerStock"
     },
     "children": [
       "rich-text#TextStock",
       "modal-layout#Modal-Stock"
     ]
   },
-  "rich-text#TextStock":{
-    "props":{
+  "rich-text#TextStock": {
+    "props": {
       "text": "Stock",
       "blockClass": "textStock"
     }
   },
   "modal-layout#Modal-Stock": {
-    "props":{
+    "props": {
       "blockClass": "ModalStock"
     },
     "children": [
@@ -215,15 +217,15 @@
       // "rich-text#modal-content"
     ]
   },
-  "modal-header#Header-Stock":{
-    "props":{
+  "modal-header#Header-Stock": {
+    "props": {
       "showCloseButton": true,
       "iconCloseSize": 30
     },
-    "children":["rich-text#TituloModalStock"]
+    "children": ["rich-text#TituloModalStock"]
   },
-  "rich-text#TituloModalStock":{
-    "props":{
+  "rich-text#TituloModalStock": {
+    "props": {
       "blockClass": "tituloModalStock",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -238,7 +240,7 @@
   //   }
   // },
 
-  "iframe#despligueStock":{
+  "iframe#despligueStock": {
     "props": {
       "width": "100%",
       "height": "100%",
@@ -248,37 +250,34 @@
   },
 
   // Cantidad y btn Agregar al carro
-  "flex-layout.row#quantity-buy-button":{
+  "flex-layout.row#quantity-buy-button": {
     "props": {
       "marginTop": 4,
       "marginBottom": 5,
-      "preventVerticalStretch": true,
-      "horizontalAlign": "left",
-      "blockClass": "rowQuantityBuy"
+      "preventVerticalStretch": true
     },
-    "children": [
-      "flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
+    "children": ["flex-layout.col#productQuantity", "flex-layout.col#add-to-cart"]
   },
 
   "flex-layout.col#productQuantity": {
-    "props":{
+    "props": {
       "blockClass": "colProductQuantity",
       "width": "30%"
     },
-    "children":["product-quantity"]
+    "children": ["product-quantity"]
   },
 
-  "flex-layout.col#add-to-cart":{
-    "props":{
+  "flex-layout.col#add-to-cart": {
+    "props": {
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "70%",
+      "width": "40%",
       "blockClass": "colAddToCart"
     },
-    "children":["add-to-cart-button"]
+    "children": ["add-to-cart-button"]
   },
   "add-to-cart-button": {
-    "props":{
+    "props": {
       "text": "Agregar al Carro",
       "onClickBehavior": "add-to-cart",
       "addToCartFeedback": "customEvent",
@@ -287,7 +286,7 @@
   },
 
   // Shelf Outfit Kit Look
-  "flex-layout.row#shelf-outfit":{
+  "flex-layout.row#shelf-outfit": {
     "children": [
       // "shelf#OutfitPDP",
       "product-kit"
@@ -298,7 +297,7 @@
   },
   "product-kit": {
     "blocks": ["product-summary.shelf#outfit"],
-    "props":{
+    "props": {
       "showArrows": true,
       "nextArrow": "next",
       "prevArrow": "prev",
@@ -314,33 +313,32 @@
       "allowRemoval": true
     }
   },
-  
+
   //Wishlist
   "flex-layout.row#wishlist": {
-    "props":{
+    "props": {
       "verticalAlign": "middle"
     },
     "children": ["flex-layout.col#colWishList"]
   },
-  "flex-layout.col#colWishList":{
-    "props":{
+  "flex-layout.col#colWishList": {
+    "props": {
       "blockClass": "colWishList"
     },
     "children": ["add-to-list-btn"]
   },
 
   //Formulario Simulador de entrega Sandbox
-  // "sandbox.product#Simulador-Flete":{
-  //   "props":{
-  //     "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
-  //     "width": "100%",
-  //     "height": "150px",
-  //     "allowCookies": true,
-  //     "blockClass": "simulaFlete"
-  //   }
-  // },
+  "sandbox.product#Simulador-Flete": {
+    "props": {
+      "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador'>Simulador de Fletes</h3><ul class='ContainerFormFlete'><li id='li_1'><label class='description' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' id='element_1' name='region'><option value='' selected='selected'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2'><label class='description' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' id='element_2' name='comuna'><option value='' selected='selected'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'><input id='saveForm' class='button_text' type='submit' name='submit' value='Consultar'/></li></ul></form>",
+      "width": "100%",
+      "height": "150px",
+      "allowCookies": true,
+      "blockClass": "simulaFlete"
+    }
+  },
 
-  //Formulario Simuladro de entrega Store Form
   // "flex-layout.row#Formulario-Simulador":{
   //   "props":{
   //     "blockClass": "rowFormularioSimulador"
@@ -349,63 +347,63 @@
   // },
 
   // "flex-layout.col#Form-Simulador":{
-  //   "children": ["form#simulador"]
+  //   "children": ["form"]
   // },
 
-  // "form#simulador": {
+  // "form": {
   //   "props": {
-  //     "entity": "clients",
-  //     "schema": "simulador"
+  //     "entity": "Simulador Flete",
+  //     "schema": "SF"
   //   },
   //   "children":[
   //     "form-input.dropdown#region",
   //     "form-input.dropdown#comuna",
-  //     "form-submit#submitSimulador"
+  //     "form-submit"
   //   ],
-  //   "blocks":["form-success#simulador"]
+  //   "blocks":["form-success"]
   // },
-  // "form-success#simulador": {
-  //   "children": ["rich-text#successSubmit"]
+  // "form-success": {
+  //   "children": [
+  //     "rich-text#successSubmit"
+  //   ]
   // },
   // "rich-text#successSubmit": {
   //   "props": {
-  //     "text": "Estamos calculando los datos",
+  //     "text": "Los datos fueron enviados exitosamente!",
   //     "textAlignment": "CENTER",
   //     "textPosition": "CENTER"
   //   }
   // },
-
-  // //Dropdown formulario
   // "form-input.dropdown#region":{
   //   "props":{
-  //     "label": "Region:",
-  //     "pointer": "#/properties/tipo/properties/selectTipo"
+  //     "label": "Región:",
+  //     "pointer": "#/properties/region"
   //   }
   // },
   // "form-input.dropdown#comuna":{
   //   "props":{
   //     "label": "Comuna:",
-  //     "pointer": "#/properties/tipo/properties/selectTipo"
+  //     "pointer": "#/properties/comuna"
   //   }
   // },
-  // "form-submit#submitSimulador":{
+  // "form-submit":{
   //   "props":{
   //     "label": "Consultar"
   //   }
   // },
 
   //Simula tu entrega
-  "flex-layout.row#simulador-entrega":{
-    "props":{
-      "horizontalAlign":"left",
-      "verticalAlign":"middle",
+  "flex-layout.row#simulador-entrega": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
       "marginTop": 4
     },
-    "children":["flex-layout.col#retiroTienda","flex-layout.col#despachoDomicilio"]
+    "children": ["flex-layout.col#retiroTienda", "flex-layout.col#despachoDomicilio"]
   },
 
-  "flex-layout.col#retiroTienda":{
-    "props":{
+  "flex-layout.col#retiroTienda": {
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left",
       "preventVerticalStretch": true,
@@ -414,11 +412,11 @@
       "border": "bottom",
       "blockClass": "colSimuladorEntrega"
     },
-    "children":["image#icon-tienda","rich-text#retiroEnTienda"]
+    "children": ["image#icon-tienda", "rich-text#retiroEnTienda"]
   },
 
   "image#icon-tienda": {
-    "props":{
+    "props": {
       "src": "assets/img/icon-retiroTienda.svg",
       "alt": "Retiro en Tienda",
       "maxWidth": "35px",
@@ -429,7 +427,7 @@
   },
 
   "rich-text#retiroEnTienda": {
-    "props":{
+    "props": {
       "text": "Retiro en Tienda",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
@@ -438,7 +436,7 @@
   },
 
   "flex-layout.col#despachoDomicilio": {
-    "props":{
+    "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "left",
       "preventVerticalStretch": true,
@@ -447,14 +445,14 @@
       "border": "bottom",
       "blockClass": "colSimuladorEntrega"
     },
-    "children": ["image#icon-despacho","rich-text#DespachoDomicilio"
+    "children": ["image#icon-despacho", "rich-text#DespachoDomicilio"
       // "disclosure-layout#despacho"
     ]
   },
 
   //icono despacho a domicilio
   "image#icon-despacho": {
-    "props":{
+    "props": {
       "src": "assets/img/icon-despachoDomicilio.svg",
       "alt": "Despacho a domicilio",
       "maxWidth": "35px",
@@ -464,7 +462,7 @@
   },
 
   "rich-text#DespachoDomicilio": {
-    "props":{
+    "props": {
       "text": "Despacho a Domicilio",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
@@ -494,8 +492,8 @@
   // },
 
   // MOBILE
-  "responsive-layout.mobile#pdpMobile":{
-    "children":[
+  "responsive-layout.mobile#pdpMobile": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-mainMobile",
       "flex-layout.row#shelf-related"
@@ -523,20 +521,22 @@
   },
 
   //Descripcion Mobile
-  "flex-layout.row#descriptionPDPmobile":{
-    "props":{
+  "flex-layout.row#descriptionPDPmobile": {
+    "props": {
       "blockClass": "rowDescriptionMobile"
     },
-    "children":["flex-layout.col#descriptionPDPmobile"]
+    "children": ["flex-layout.col#descriptionPDPmobile"]
   },
-  "flex-layout.col#descriptionPDPmobile":{
+  "flex-layout.col#descriptionPDPmobile": {
     "props": {
       "blockClass": "colDescriptionMobile"
     },
-    "children":["product-description#mobile"]
+    "children": ["product-description#mobile"]
   },
-  "product-description#mobile":{
-    "props":{"title": "Descripción"}
+  "product-description#mobile": {
+    "props": {
+      "title": "Descripción"
+    }
   },
 
   // Detalles del Producto
@@ -554,11 +554,12 @@
       "sku-selector#PDP",
       "flex-layout.col#guia-de-tallas",
       "flex-layout.col#stock",
-      "sticky-layout#quantity-buy-button",
+      "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
       // "sandbox.product#Simulador-Flete",
       // "flex-layout.row#Formulario-Simulador",
+      "sandbox.product#Simulador-Flete",
       "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
       "product-availability"
@@ -566,41 +567,41 @@
   },
 
   // Cantidad y btn Agregar al carro sticky
-  "sticky-layout#quantity-buy-button":{
-    "props":{
+  "sticky-layout#quantity-buy-button": {
+    "props": {
       "position": "bottom"
     },
-    "children":["flex-layout.row#quantity-buy-button-Mobile"]
+    "children": ["flex-layout.row#quantity-buy-button-Mobile"]
   },
-  "flex-layout.row#quantity-buy-button-Mobile":{
+  "flex-layout.row#quantity-buy-button-Mobile": {
     "props": {
       "marginTop": 4,
       "marginBottom": 5,
       "preventVerticalStretch": true,
-      "blockClass": "rowQuantityBuyMobile"
+      "blockClass": "rowQuantityBuy"
     },
     "children": ["flex-layout.col#productQuantity-Mobile", "flex-layout.col#add-to-cart-mobile"]
   },
 
   "flex-layout.col#productQuantity-Mobile": {
-    "props":{
+    "props": {
       "blockClass": "colProductQuantity",
       "width": "30%"
     },
-    "children":["product-quantity"]
+    "children": ["product-quantity"]
   },
 
-  "flex-layout.col#add-to-cart-mobile":{
-    "props":{
+  "flex-layout.col#add-to-cart-mobile": {
+    "props": {
       "marginTop": 1,
       "verticalAlign": "middle",
-      "width": "70%",
+      "width": "40%",
       "blockClass": "colAddToCart"
     },
-    "children":["add-to-cart-button#mobile"]
+    "children": ["add-to-cart-button#mobile"]
   },
   "add-to-cart-button#mobile": {
-    "props":{
+    "props": {
       "text": "Agregar al Carro",
       "onClickBehavior": "add-to-cart"
     }
@@ -617,11 +618,11 @@
 
   // Productos Relacionados
   "flex-layout.row#shelf-related": {
-    "children":["flex-layout.col#relatedProducts"]
+    "children": ["flex-layout.col#relatedProducts"]
   },
 
-  "flex-layout.col#relatedProducts":{
-    "props":{
+  "flex-layout.col#relatedProducts": {
+    "props": {
       "blockClass": "productosRecomendados"
     },
     "children": ["shelf.relatedProducts"]
@@ -635,7 +636,7 @@
         "itemsPerPage": 5
       }
     },
-    "blocks":["product-summary.shelf#pdp"]
+    "blocks": ["product-summary.shelf#pdp"]
   }
 
   // //Not Found 404

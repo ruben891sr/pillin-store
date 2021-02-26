@@ -1,6 +1,6 @@
 {
-    "store.custom#trabaja-con-nosotros":{
-        "blocks":[
+    "store.custom#trabaja-con-nosotros": {
+        "blocks": [
             "flex-layout.row#titulo-tcn",
             "flex-layout.row#textoIntro-tcn",
             "flex-layout.row#formularioTrabajo"
@@ -8,68 +8,68 @@
     },
 
     //Titulo de pagina
-    "flex-layout.row#titulo-tcn":{
-        "props":{
+    "flex-layout.row#titulo-tcn": {
+        "props": {
             "fullWidth": true,
             "preventVerticalStretch": false,
             "preventHorizontalStretch": false,
             "blockClass": "rowBanner-tcn-Title"
         },
-        "children":["flex-layout.col#titleTrabajaConNosotros"]
+        "children": ["flex-layout.col#titleTrabajaConNosotros"]
     },
     "flex-layout.col#titleTrabajaConNosotros": {
-        "props":{
+        "props": {
             "width": "80%",
             "blockClass": "colInstitucionalTitle"
         },
         "children": ["rich-text#titulo-tcn"]
     },
-    "rich-text#titulo-tcn":{
-        "props":{
+    "rich-text#titulo-tcn": {
+        "props": {
             "blockClass": "tituloInstitucional",
             "text": "Trabaja con Nosotros"
         }
     },
 
     //Texto de introducción
-    "flex-layout.row#textoIntro-tcn":{
-        "props":{
+    "flex-layout.row#textoIntro-tcn": {
+        "props": {
             "fullWidth": true,
             "preventVerticalStretch": false,
             "preventHorizontalStretch": false,
             "blockClass": "rowContenidoInstitucional"
-          },
-        "children":[
+        },
+        "children": [
             "flex-layout.col#titulotcn",
             "flex-layout.col#contenidotcn"
         ]
     },
-    "flex-layout.col#titulotcn":{
-        "props":{
+    "flex-layout.col#titulotcn": {
+        "props": {
             "textAlignment": "center",
             "blockClass": "colTitulo"
         },
-        "children":["rich-text#titulotcn"]
+        "children": ["rich-text#titulotcn"]
     },
 
     // Definición contenido
-    "flex-layout.col#contenidotcn":{
-        "props":{
+    "flex-layout.col#contenidotcn": {
+        "props": {
             "blockClass": "colContenido",
             "textAlignment": "center"
         },
-        "children":["rich-text#Contenidotcn"]
+        "children": ["rich-text#Contenidotcn"]
     },
 
-    "rich-text#titulotcn":{
-        "props":{
+    "rich-text#titulotcn": {
+        "props": {
             "blockClass": "Titulo-Seccion",
             "textPosition": "CENTER",
             "text": "¡Buscamos gente talentosa como tu!"
         }
     },
-    "rich-text#Contenidotcn":{
-        "props":{
+    "rich-text#Contenidotcn": {
+        "props": {
             "blockClass": "textoContenido",
             "textPosition": "CENTER",
             "text": "En Pillin puedes ser parte de una empresa líder en vestuario y calzado infantil"
@@ -78,19 +78,15 @@
 
     // Formulario Trabaja con nosotros
     "flex-layout.row#formularioTrabajo": {
-        "props":{
-            "blockClass":"rowFormulariotcn",
-            "horizontalAlign": "center"
+        "props": {
+            "blockClass": "rowFormulariotcn"
         },
         "children": ["flex-layout.col#form-tcn"]
     },
     "flex-layout.col#form-tcn": {
-        "props":{
-            "width": "50%"
-        },
         "children": ["form#tcn"]
     },
-    "form#tcn":{
+    "form#tcn": {
         "props": {
             "entity": "clients",
             "schema": "trabaja"
@@ -101,7 +97,7 @@
             "form-input.text#apellido-tcn",
             "form-input.text#email-tcn",
             "form-input.text#telefono-tcn",
-            "form-field-group#curriculum",
+            // "form-input.upload",
             "form-input.textarea#mensaje-tcn",
             "form-submit#enviar-tcn"
         ],
@@ -117,8 +113,8 @@
             "textPosition": "CENTER"
         }
     },
-    "rich-text#formTitle-tcn":{
-        "props":{
+    "rich-text#formTitle-tcn": {
+        "props": {
             "text": "Trabaja con Nosotros",
             "blockClass": "titleContacto"
         }
@@ -133,31 +129,31 @@
             "pointer": "#/properties/apellido"
         }
     },
-    "form-input.text#email-tcn":{
-        "props":{
+    "form-input.text#email-tcn": {
+        "props": {
             "pointer": "#/properties/mail"
         }
     },
-    "form-input.text#telefono-tcn":{
-        "props":{
+    "form-input.text#telefono-tcn": {
+        "props": {
             "pointer": "#/properties/telefono"
         }
     },
-    "form-input.textarea#mensaje-tcn":{
-        "props":{
+    // "form-input.upload":{
+    //     "props":{
+    //         "pointer": "#/properties/CV",
+    //         "label": "CV de postulante"
+    //     }
+    // },
+    "form-input.textarea#mensaje-tcn": {
+        "props": {
             "pointer": "#/properties/mensaje",
-            "label": "Mensaje"
-        }
-    },
-    "form-field-group#curriculum":{
-        "props":{
-            "pointer": "#/properties/curriculum",
-            "label": "Carga de CV"
+            "label": "Descripción"
         }
     },
     "form-submit#enviar-tcn": {
         "props": {
-          "label": "Enviar"
+            "label": "Enviar"
         }
     }
 }

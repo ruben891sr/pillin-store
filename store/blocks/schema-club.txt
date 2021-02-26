@@ -1,0 +1,62 @@
+{
+    "title": "club",
+    "type": "object",
+    "properties": {
+        "nombre": {
+            "type": "string",
+            "title": "Nombre",
+            "description": "Nombre miembro Club Pillin"
+        },
+        "apellido": {
+            "type": "string",
+            "title": "Apellido",
+            "description": "Apellido miembro Club Pillin."
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Email",
+            "description": "Email miembro Club Pillin."
+        },
+        "nacimiento": {
+            "type": "string",
+            "title": "Fecha nacimiento",
+            "description": "Fecha nacimiento miembro Club Pillin."
+        },
+        "sexo": {
+            "title": "Sexo",
+            "type": "object",
+            "properties": {
+                "selectTipo": {
+                    "type": "string",
+                    "title": "Sexo",
+                    "enum": [
+                        "Femenino",
+                        "Masculino",
+                    ]
+                }
+            },
+            "required": ["selectTipo"]
+        }
+    },
+    "required": [
+        "nombre",
+        "apellido",
+        "mail",
+        "nacimiento",
+        "sexo"
+    ],
+    "v-security": {
+        "publicJsonSchema": true,
+        "allowGetAll": true,
+        "publicRead": [
+            "publicForRead"
+        ],
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicFilter": [
+            "fieldExample"
+        ]
+    }
+}
