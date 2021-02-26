@@ -11,7 +11,7 @@
     "children": [
       "image#info-image",
       // "flex-layout.row#info-bar",
-      "slider-layout#text-test",
+      "list-context.image-list#slider",
       "flex-layout.row#infocards-icons",
       //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
@@ -22,47 +22,81 @@
 
 
   // Desktop - Slider Principal
-  "slider-layout#text-test": {
+  "list-context.image-list#slider": {
+      "children": ["slider-layout#demo-images"],
+      "props": {
+        "height": 550,
+        "blockClass": "sliderImageNew",
+        "images": [
+          {
+            "image": "assets/img/slider.jpg",
+            "mobileImage": "assets/img/slider-movil.jpg"
+          },
+          {
+            "image": "assets/img/slider.jpg",
+            "mobileImage": "assets/img/slider-movil.jpg"
+          }
+        ]
+      }
+  },
+
+  "slider-layout#demo-images": {
     "props": {
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel",
-      "usePagination": true,
-      "infinite": true,
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
-      "fullWidth": false,
-      "marginTop": 3
-    },
-    "children": ["image#1", "image#2", "image#3"]
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
   },
+
+  // "slider-layout#text-test": {
+  //   "props": {
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "carousel",
+  //     "usePagination": true,
+  //     "infinite": true,
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "fullWidth": false,
+  //     "marginTop": 3
+  //   },
+  //   "children": [
+  //     "image#1",
+  //     "image#2",
+  //     "image#3"
+
+  //   ]
+  // },
 
   // Slides
-  "image#1": {
-    "props": {
-      "src": "assets/img/slider.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-  "image#2": {
-    "props": {
-      "src": "assets/img/slider.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-  "image#3": {
-    "props": {
-      "src": "assets/img/slider.jpg",
-      "width": "100%",
-      "blockClass": "sliderImage"
-    }
-  },
-
-
+  // "image#1": {
+  //   "props": {
+  //     "src": "assets/img/slider.jpg",
+  //     "width": "100%",
+  //     "blockClass": "sliderImage"
+  //   }
+  // },
+  // "image#2": {
+  //   "props": {
+  //     "src": "assets/img/slider.jpg",
+  //     "width": "100%",
+  //     "blockClass": "sliderImage"
+  //   }
+  // },
+  // "image#3": {
+  //   "props": {
+  //     "src": "assets/img/slider.jpg",
+  //     "width": "100%",
+  //     "blockClass": "sliderImage"
+  //   }
+  // },
 
   // Barra informaciones
   // "flex-layout.row#info-bar": {

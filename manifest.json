@@ -60,7 +60,8 @@
     "vtex.category-menu": "2.x",
     "vtex.sticky-layout": "0.x",
     "vtex.store-form": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.store-image": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

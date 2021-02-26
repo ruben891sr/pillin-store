@@ -29,20 +29,15 @@
       "schema": "beneficiario" 
     },
     "children": [
-      "rich-text#formTitleBeneficiario"
-      // "form-input.text#nombreBeneficiario",
-      // "form-input.text#apellidoBeneficiario",
-      // "form-input.text#telefonoBeneficiario",
-      // "form-input.dropdown#tipoBeneficiario",
-
-      // "form-input.text#apellido",
-      // "form-input.text#fechaNacimiento",
-      // "form-input.text#idClubPillin",
-      // "form-input.text#nombre",
-      // "form-input.text#sexo",
-      // "form-input.text#id",
-      // "form-input.text#accountName",
-      // "form-input.text#dataEntityId",
+      "rich-text#formTitleBeneficiario",
+      "form-input.text#apellido",
+      "form-input.text#fechaNacimiento",
+      "form-input.text#idClubPillin",
+      "form-input.text#nombre",
+      "form-input.text#sexo",
+      "form-input.text#id",
+      "form-input.text#accountName",
+      "form-input.text#dataEntityId",
 
       // "form-input.text#accountId",
       // "form-input.text#followers",
@@ -52,8 +47,8 @@
       // "form-input.text#updatedIn",
       // "form-input.text#lastInteractionIn",
 
-      // "form-submit#enviarBeneficiario",
-      // "rich-text#nuestrasTiendasBeneficiario"
+      "form-submit#enviarBeneficiario",
+      "rich-text#nuestrasTiendasBeneficiario"
 
 
 
