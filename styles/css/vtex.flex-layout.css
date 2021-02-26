@@ -403,6 +403,25 @@
     z-index: 9;
 }
 
+/*Tiendas*/
+.flexRowContent--rowContentTiendas {
+    position: relative;
+}
+.flexColChild--colFormTiendas {
+    position: absolute;
+    top: 2rem;
+    left: 5%;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #0000002e;
+    padding: 2rem;
+    width: 35%;
+    z-index: 9;
+}
+.flexCol--mapaTiendas {
+    height: 60vh;
+}
+
 
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {
@@ -472,7 +491,6 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
-
 
 }
 
@@ -624,6 +642,26 @@
 
     .flexColChild--col-generalInfo {
         padding: .35rem 0;
+    }
+    
+    .flexRowContent--rowQuantityBuyMobile {
+        background: white;
+        padding: 1rem .5rem .7rem;
+        margin-bottom: 0;
+        border-top: 2px solid #fba05f;
+        display: flex;
+    }
+    .flexCol--btn-Stock {
+        position: relative;
+        margin-bottom: 1.2rem;
+    }
+    .flexColChild--btn-Stock {
+        position: absolute;
+        top: -55px;
+        right: 0;
+    }
+    .flexColChild--btn-GuiaDeTallas {
+        position: initial!important;
     }
 
 }

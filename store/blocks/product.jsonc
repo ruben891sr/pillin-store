@@ -557,6 +557,8 @@
       "flex-layout.row#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
+      // "sandbox.product#Simulador-Flete",
+      // "flex-layout.row#Formulario-Simulador",
       "sandbox.product#Simulador-Flete",
       "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
