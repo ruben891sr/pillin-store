@@ -9,6 +9,7 @@
   // Desktop Version
   "responsive-layout.desktop": {
     "children": [
+      "sraccount",
       "image#info-image",
       // "flex-layout.row#info-bar",
       "list-context.image-list#slider",
