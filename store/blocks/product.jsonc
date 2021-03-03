@@ -52,7 +52,7 @@
       "rowGap": 0,
       "blockClass": "colProductImage"
     },
-    "children": ["product-images", "flex-layout.row#descriptionPDPdesktop"]
+    "children": ["product-images", "flex-layout.row#descriptionPDPdesktop", "vtex.product-highlights@2.x:product-highlights"]
   },
 
   //Imagen del producto

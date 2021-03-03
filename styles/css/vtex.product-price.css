@@ -13,3 +13,11 @@
 .savings--summary {
     display: none !important;
 }
+
+.listPriceValue--summary .currencyContainer--summary {
+    color: #9a9a9a !important;
+    font-size: .85em;
+    display: inline-block;
+    text-decoration: line-through;
+    margin-right: .5rem;
+}

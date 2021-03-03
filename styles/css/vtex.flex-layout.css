@@ -595,6 +595,11 @@
     align-items: center;
 }
 
+.flexRowContent--rowPrices {
+    display: flex;
+    justify-content: end;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 991.1px) {
