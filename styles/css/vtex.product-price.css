@@ -9,3 +9,7 @@
     padding: .5rem 0 .3rem 0;
     padding-left: 0;
 }
+
+.savings--summary {
+    display: none !important;
+}

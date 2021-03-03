@@ -9,7 +9,7 @@
   // Desktop Version
   "responsive-layout.desktop": {
     "children": [
-      "sraccount",
+      // "sraccount",
       "image#info-image",
       // "flex-layout.row#info-bar",
       "list-context.image-list#slider",
@@ -23,7 +23,7 @@
 
 
   // Desktop - Slider Principal
-  "list-context.image-list#slider": {
+  "list-context.image-list#slider": { 
       "children": ["slider-layout#demo-images"],
       "props": {
         "height": 550,
@@ -335,11 +335,19 @@
     }
   },
 
+  "modal-header": {
+    "props":{
+      "iconCloseSize": 25,
+      "blockClass": "cerrarBusTalla"
+    }
+  },
+
 
 
   // Contenido del modal - Vestuario
   "modal-layout#vestuario": {
     "children": [
+      "modal-header",
       "rich-text#titulo-modal-vestuario",
       "tab-layout#vestuario",
       "rich-text#filtrar-vestuario"
@@ -431,6 +439,7 @@
   // Contenido del modal - Calzado
   "modal-layout#calzado": {
     "children": [
+      "modal-header",
       "rich-text#titulo-modal-calzado",
       "tab-layout#calzado",
       "rich-text#filtrar-calzado"
@@ -521,6 +530,7 @@
 
   "modal-layout#accesorios": {
     "children": [
+      "modal-header",
       "rich-text#titulo-modal-accesorios",
       "tab-layout#accesorios",
       "rich-text#filtrar-accesorios"

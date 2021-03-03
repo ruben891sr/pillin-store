@@ -20,6 +20,18 @@
     background: #000 !important;
 }
 
+.closeIcon--cerrarBusTalla {
+    color: #402117;
+}
+
+.closeButton--cerrarBusTalla {
+    padding: 0 !important;
+}
+
+.headerContainer--cerrarBusTalla {
+    border: 0;
+}
+
 @media (max-width: 770px) {
     .paperScrollContent,
     .paper--modalVestuario,

@@ -4,6 +4,7 @@
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,
+      "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
       "blockClass": "vitrinaHome",
       "productList": {
@@ -22,6 +23,7 @@
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,
+      "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
       "blockClass": "vitrinapdp",
       "productList": {
@@ -39,6 +41,7 @@
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,
+      "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
       "blockClass": "vitrinaHome",
       "productList": {

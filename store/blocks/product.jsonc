@@ -630,6 +630,7 @@
   "shelf.relatedProducts": {
     "props": {
       "recommendation": "view",
+      "hideUnavailableItems": true,
       "blockClass": "pdpProductosRelacionados",
       "productList": {
         "titleText": "Productos Recomendados",
