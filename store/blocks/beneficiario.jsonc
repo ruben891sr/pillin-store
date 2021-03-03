@@ -25,8 +25,8 @@
  
   "form#beneficiario": {
     "props": {
-      "entity": "clients",
-      "schema": "clubPillin" 
+      "entity": "clubP",
+      "schema": "beneficiario" 
     },
     "children": [
       "rich-text#formTitleBeneficiario", 
@@ -48,7 +48,7 @@
       // "form-input.text#lastInteractionIn",
 
       "form-submit#enviarBeneficiario", 
-      "rich-text#nuestrasTiendasBeneficiario"
+      "rich-text#nuestrasTiendasBeneficiario" 
 
 
 

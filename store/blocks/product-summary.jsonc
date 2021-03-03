@@ -1,7 +1,6 @@
 {
   "product-summary.shelf#general": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
@@ -15,7 +14,6 @@
   
   "product-summary.shelf#pdp": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
@@ -29,7 +27,6 @@
 
   "product-summary.shelf#NotFound": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
@@ -43,7 +40,6 @@
 
   "product-summary.shelf#outfit": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
@@ -162,7 +158,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights"
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
 
@@ -190,10 +186,9 @@
   //     "message": "{highlightName}"
   //   }
   // }, 
-
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
-      "type": "teaser"
+      "type": "collection"
     },
     "children": ["product-highlight-wrapper"]
   },
