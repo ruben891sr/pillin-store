@@ -6,7 +6,12 @@
 	function srinit ()
 	{
 		const style = document.createElement('style')            
-		style.href = "https://pillin.myvtex.com/files/pillin-custom-account.css"    
+		const link  = document.createElement('link')            
+
+		link.rel  = "stylesheet"
+		link.href = "https://pillin.myvtex.com/files/pillin-custom-account.css"    
+
+		document.head.appendChild(link)    
 		document.head.appendChild(style)    
 		style.sheet.insertRule("nav div > a[href='#/cards'] { display: none; }")
 	}
