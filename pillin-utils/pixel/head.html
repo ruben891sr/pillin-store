@@ -5,9 +5,27 @@
 
 	function srinit ()
 	{
-		const style = document.createElement('style')            
-		document.head.appendChild(style)    
-		style.sheet.insertRule("nav div > a[href='#/cards'] { display: none; }")
+		try
+		{
+			const style = document.createElement('style')            
+			document.head.appendChild(style)    
+			style.sheet.insertRule("nav div > a[href='#/cards'] { display: none; }")
+		}
+		catch (ex)
+		{
+			console.error(ex)
+		}
+
+		try
+		{
+			const metadesc = document.querySelector("meta[name=description]")
+			if (metadesc)
+				document.querySelector("p[class*=--seo-search-banner]").textContent = metadesc.content
+		}
+		catch (ex)
+		{
+			console.error(ex)
+		}
 	}
 </script>
 <link rel="stylesheet" href="https://pillin.myvtex.com/files/pillin-custom-account.css" />
