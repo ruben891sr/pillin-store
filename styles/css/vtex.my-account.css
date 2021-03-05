@@ -12,17 +12,17 @@
 }
 
 
-.menu::after {
+.menu::before {
     content: 'Mi Cuenta';
-    top: 175px;
-    left: 16vw;
+    top: calc(12rem + 175px);
+    left: 5rem;
     color: #402117;
     font-weight: 700;
     position: absolute;
     font-size: 2.2em;
 }
 
-.menu::before {
+.menu::after {
     background-image: url(assets/img/orderplaced.jpg);
     content: "";
     display: block;
@@ -34,13 +34,6 @@
     background-repeat: no-repeat;
     width: 100vw;
     left: 0;
-}
-
-.vtex-account__page {
-    margin-top: 12rem;
-    background: #f7f9f4;
-    padding: 2rem;
-    border-radius: 4px;
 }
 
 .userGreeting {
