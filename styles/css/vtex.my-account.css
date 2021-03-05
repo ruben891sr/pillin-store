@@ -67,11 +67,6 @@
     background: #f6f9f3;
 }
 
-/* .menuLinks :global(.flex.flex-grow-1.w-100.flex-column) {
-    height: 140px;
-    overflow: hidden;
-} */ 
-
 @media (max-width: 991.1px) {
     .menu {
         margin-top: 10rem;
@@ -79,5 +74,15 @@
         border-right: none;
         margin-right: 0;
         padding: 8rem 2rem 0 2rem;
+    }
+
+    .addressBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxContainerBody {
+        padding: 0;
     }
 }
