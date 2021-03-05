@@ -15,7 +15,7 @@
 .menu::before {
     content: 'Mi Cuenta';
     top: calc(12rem + 175px);
-    left: 5rem;
+    margin-left: 5rem;
     color: #402117;
     font-weight: 700;
     position: absolute;
