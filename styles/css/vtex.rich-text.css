@@ -709,6 +709,7 @@
         transform: translate(0, 50%);
     }
 
+    .heading--titleBeneficiario,
     .heading--titleContacto{
         margin-top: 0;
         margin-bottom: 15px;

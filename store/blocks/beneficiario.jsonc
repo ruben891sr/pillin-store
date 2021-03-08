@@ -17,19 +17,19 @@
     "props": {
       "width": "35%",
       "blockClass": "colFormularioBeneficiario"
-    }, 
+    },
     "children": [
       "form#beneficiario"
     ]
   },
- 
+
   "form#beneficiario": {
     "props": {
       "entity": "clubP",
-      "schema": "beneficiario" 
+      "schema": "beneficiario"
     },
     "children": [
-      "rich-text#formTitleBeneficiario", 
+      "rich-text#formTitleBeneficiario",
       "form-input.text#nombre",
       "form-input.text#apellido",
       "form-input.text#fechaNacimiento",
@@ -47,8 +47,8 @@
       // "form-input.text#updatedIn",
       // "form-input.text#lastInteractionIn",
 
-      "form-submit#enviarBeneficiario", 
-      "rich-text#nuestrasTiendasBeneficiario" 
+      "form-submit#enviarBeneficiario",
+      "rich-text#nuestrasTiendasBeneficiario"
 
 
 
@@ -60,7 +60,7 @@
     "children": ["rich-text#successSubmitBeneficiario"]
   },
 
-  "rich-text#successSubmitBeneficiario": { 
+  "rich-text#successSubmitBeneficiario": {
     "props": {
       "text": "¡Datos enviados exitosamente!",
       "textAlignment": "CENTER",
@@ -103,7 +103,7 @@
   // Fin Squema Contacto
 
 
-// Inicio Squema Beneficiario
+  // Inicio Squema Beneficiario
   "form-input.text#apellido": {
     "props": {
       "pointer": "#/properties/apellido",
@@ -131,7 +131,7 @@
   "form-input.dropdown#sexo": {
     "props": {
       "pointer": "#/properties/sexo/properties/selectSexo",
-      "label": "Sexo" 
+      "label": "Sexo"
     }
   },
   // "form-input.text#id": {
@@ -197,7 +197,7 @@
   //     "label": "Apellido"
   //   }
   // },
- 
+
 
 
 

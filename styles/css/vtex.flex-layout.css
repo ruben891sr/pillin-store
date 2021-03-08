@@ -378,6 +378,8 @@
 
 /*Contacto*/
 
+
+.flexRow--rowFormularioBeneficiario,
 .flexRow--rowFormularioContacto {
     width: 100vw;
     height: 60vh;
@@ -390,6 +392,7 @@
     background-position: center center;
 }
 
+.flexColChild--colFormularioBeneficiario,
 .flexColChild--colFormularioContacto {
     position: absolute;
     top: 2rem;
@@ -401,6 +404,10 @@
     width: 35%;
     height: 125% !important;
     z-index: 9;
+}
+
+.flexColChild--colFormularioBeneficiario {
+    height: 100% !important;
 }
 
 /*Tiendas*/
@@ -474,12 +481,14 @@
         background-position: center center;
     }
 
+    .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
         position: initial;
         margin: 0 auto;
         width: 85%;
     }
 
+    .flexRow--rowFormularioBeneficiario,
     .flexRow--rowFormularioContacto {
         width: 100vw;
         height: 100vh;
