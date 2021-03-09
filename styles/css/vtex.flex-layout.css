@@ -429,6 +429,10 @@
     height: 60vh;
 }
 
+.flexRowContent--searchMobileRow {
+    display: flex;
+}
+
 
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {

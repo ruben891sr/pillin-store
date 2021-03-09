@@ -275,6 +275,7 @@
             "drawer",
             "flex-layout.col#logo-mobile",
             "flex-layout.col#spacer",
+            "flex-layout.row#search-mobile-icon",
             "telemarketing",
             "login",
             "minicart.v2"
@@ -308,8 +309,53 @@
         }
     },
 
+    "flex-layout.row#search-mobile-icon": {
+        "children": [
+            "flex-layout.col#icon-search-mob",
+            "flex-layout.col#icon-close-search-mob"
+        ],
+        "props": {
+            "blockClass": "searchMobileRow"
+        }
+    },
+
+    "flex-layout.col#icon-search-mob": {
+        "children":[
+            "image#icon-search-mob"
+        ],
+        "props":{
+            "blockClass": "iconSearchCol"
+        }
+    },
+
+    "flex-layout.col#icon-close-search-mob": {
+        "children":[
+            "image#icon-close-search-mob"
+        ],
+        "props":{
+            "blockClass": "iconCloseSearchCol"
+        }
+    },
+
+    "image#icon-search-mob": {
+        "props": {
+            "src": "assets/img/search-mobile.png",
+            "blockClass": "iconSearchImage"
+        }
+    },
+
+    "image#icon-close-search-mob": {
+        "props": {
+            "src": "assets/img/close-search-mobile.png",
+            "blockClass": "iconCloseSearchImage"
+        }
+    },
+
     "flex-layout.row#search-mobile": {
-        "children": ["search-bar"]
+        "children": ["search-bar"],
+        "props": {
+            "blockClass": "icon-close-search-mob"
+        }
     },
 
     "search-bar": {

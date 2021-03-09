@@ -32,7 +32,7 @@
       "rich-text#formTitleBeneficiario",
       "form-input.text#nombre",
       "form-input.text#apellido",
-      "form-input.text#fechaNacimiento",
+      // "form-input.text#fechaNacimiento",
       // "form-input.text#idClubPillin", //ESTE DA ERROR
       "form-input.dropdown#sexo",
       // "form-input.text#id" //ESTE DA ERROR
