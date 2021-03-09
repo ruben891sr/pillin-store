@@ -29,14 +29,17 @@
 
 		try
 		{
-			document.querySelector("[class*=--iconSearchImage]").addEventListener("click", () =>
+			document.addEventListener("click", (ev) =>
 			{
-				const search = document.querySelector("[class*=--icon-close-search-mob]")
+				if (ev.target.className.match(/--iconSearchImage\s/))
+				{
+					const search = document.querySelector("[class*=--icon-close-search-mob]")
 
-				search.classList.toggle("open")
+					search.classList.toggle("open")
 
-				if (search.classList.contains("open"))
-					search.focus()
+					if (search.classList.contains("open"))
+						search.focus()
+				}
 			})
 		}
 		catch (ex)
