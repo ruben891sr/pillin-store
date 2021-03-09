@@ -26,6 +26,23 @@
 		{
 			console.error(ex)
 		}
+
+		try
+		{
+			document.querySelector("[class*=--iconSearchImage]").addEventListener("click", () =>
+			{
+				const search = document.querySelector("[class*=--icon-close-search-mob]")
+
+				search.classList.toggle("open")
+
+				if (search.classList.contains("open"))
+					search.focus()
+			})
+		}
+		catch (ex)
+		{
+			console.error(ex)
+		}
 	}
 </script>
 <link rel="stylesheet" href="https://pillin.myvtex.com/files/pillin-custom-account.css" />
