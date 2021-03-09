@@ -311,8 +311,8 @@
 
     "flex-layout.row#search-mobile-icon": {
         "children": [
-            "flex-layout.col#icon-search-mob",
-            "flex-layout.col#icon-close-search-mob"
+            "flex-layout.col#icon-search-mob"
+            // "flex-layout.col#icon-close-search-mob"
         ],
         "props": {
             "blockClass": "searchMobileRow"
