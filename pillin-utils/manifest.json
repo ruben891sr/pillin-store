@@ -1,7 +1,7 @@
 {
   "name": "pillin-utils",
   "vendor": "pillin",
-  "version": "0.7.18",
+  "version": "0.7.19",
   "title": "Base Utils",
   "description": "Base utilities for pillin",
   "builders": {
