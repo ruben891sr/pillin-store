@@ -132,7 +132,7 @@
     "props": {
       "pointer": "#/properties/sexo/properties/selectSexo",
       "label": "Sexo"
-    }
+    } 
   },
   // "form-input.text#id": {
   //   "props": {
