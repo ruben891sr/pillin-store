@@ -315,7 +315,7 @@
       "allowSwap": true,
       "allowRemoval": true
     }
-  },
+  }, 
 
   //Wishlist
   "flex-layout.row#wishlist": {

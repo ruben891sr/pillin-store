@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#form"
     ]
-  },
+  }, 
 
   "flex-layout.row#form": {
     "props": {

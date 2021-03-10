@@ -117,7 +117,7 @@
       "blockClass": "bannerPromocional",
       "horizontalAlignment": "center"
     }
-  },
+  }, 
 
   // Search Title
   "flex-layout.col#searchtitle": {
