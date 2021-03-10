@@ -88,7 +88,7 @@
     },
     "form#tcn": {
         "props": {
-            "entity": "clients",
+            "entity": "form2",
             "schema": "trabaja"
         },
         "children": [
@@ -97,7 +97,7 @@
             "form-input.text#apellido-tcn",
             "form-input.text#email-tcn",
             "form-input.text#telefono-tcn",
-            // "form-input.upload",
+             // "form-input.upload",
             "form-input.textarea#mensaje-tcn",
             "form-submit#enviar-tcn"
         ],

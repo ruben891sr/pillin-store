@@ -25,7 +25,7 @@
 
   "form#contacto": {
     "props": {
-      "entity": "clients",
+      "entity": "form",
       "schema": "contacto"
     },
     "children": [
@@ -41,7 +41,6 @@
     ],
     "blocks": ["form-success#contacto"]
   },
-
   "form-success#contacto": {
     "children": ["rich-text#successSubmitContacto"]
   },

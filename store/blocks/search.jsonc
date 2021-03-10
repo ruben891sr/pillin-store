@@ -111,7 +111,6 @@
       "horizontalAlignment": "center"
     }
   },
-
   "search-banner#two": {
     "props": {
       "area": "two",
@@ -124,9 +123,18 @@
   "flex-layout.col#searchtitle": {
     "props": {
       "blockClass": "colSearchTitle",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "50%"
     },
-    "children": ["search-title.v2"]
+    "children": ["search-title.v2","rich-text#seoSearch"]
+  },
+  "rich-text#seoSearch":{
+    "props":{
+      "blockClass": "seo-search-banner",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "."
+    }
   },
   //Search Bread
   "flex-layout.row#searchbread": {
