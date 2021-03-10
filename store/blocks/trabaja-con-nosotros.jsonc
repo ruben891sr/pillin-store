@@ -88,7 +88,7 @@
     },
     "form#tcn": {
         "props": {
-            "entity": "clients",
+            "entity": "form2",
             "schema": "trabaja"
         },
         "children": [

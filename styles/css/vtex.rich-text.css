@@ -284,6 +284,10 @@
     padding: 0 4rem;
 }
 
+.paragraph--seo-search-banner {
+    width: 46%;
+}
+
 .flexCol--linkListMobile .container--topBarList-phone,
 .flexCol--linkListMobile .container--topBarList-faq,
 .flexCol--linkListMobile .container--topBarList-contact,
@@ -720,6 +724,9 @@
     }
     .paragraph--tituloModalGuiaTallas {
         margin: 0;
+    }
+    .paragraph--seo-search-banner {
+        width: 95%;
     }
 
 }
