@@ -5,8 +5,7 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "flex-layout.row#prices",
       "product-installments#summary",
       "product-summary-sku-selector",
       "add-to-cart-button"
@@ -19,8 +18,7 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "flex-layout.row#prices",
       "product-installments#summary",
       "product-summary-sku-selector",
       "add-to-cart-button"
@@ -33,8 +31,7 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "flex-layout.row#prices",
       "product-installments#summary",
       "product-summary-sku-selector",
       "add-to-cart-button"
@@ -47,8 +44,7 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "flex-layout.row#prices",
       "product-installments#summary",
       "product-summary-sku-selector",
       "add-to-cart-button"
@@ -62,6 +58,17 @@
     ],
     "props": {
       "blockClass": "summaryBusqueda"
+    }
+  },
+
+  "flex-layout.row#prices": {
+    "children":[
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings"
+    ],
+    "props": {
+      "blockClass": "rowPrices",
+      "colSizing": "auto"
     }
   },
 
@@ -106,7 +113,7 @@
 
   "flex-layout.col#busquedaButton": {
     "children": [
-      "add-to-cart-button#busqueda"
+      "add-to-cart-button#busqueda" 
     ],
     "props": {
       "blockClass": "summaryBusquedaButton",
@@ -167,10 +174,18 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "blockClass": "imageBusqueda"
+      "blockClass": "imageBusqueda" 
     }
   },
 
+  // "vtex.product-highlights@2.x:product-highlights": {
+  //   "children": ["product-highlight-text"]
+  // },
+  // "product-highlight-text": {
+  //   "props": {
+  //     "message": "{highlightName}"
+  //   }
+  // }, 
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection"

@@ -385,6 +385,8 @@
 
 /*Contacto*/
 
+
+.flexRow--rowFormularioBeneficiario,
 .flexRow--rowFormularioContacto {
     width: 100vw;
     height: 60vh;
@@ -397,6 +399,7 @@
     background-position: center center;
 }
 
+.flexColChild--colFormularioBeneficiario,
 .flexColChild--colFormularioContacto {
     position: absolute;
     top: 2rem;
@@ -408,6 +411,33 @@
     width: 35%;
     height: 125% !important;
     z-index: 9;
+}
+
+.flexColChild--colFormularioBeneficiario {
+    height: 100% !important;
+}
+
+/*Tiendas*/
+.flexRowContent--rowContentTiendas {
+    position: relative;
+}
+.flexColChild--colFormTiendas {
+    position: absolute;
+    top: 2rem;
+    left: 5%;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #0000002e;
+    padding: 2rem;
+    width: 35%;
+    z-index: 9;
+}
+.flexCol--mapaTiendas {
+    height: 60vh;
+}
+
+.flexRowContent--searchMobileRow {
+    display: flex;
 }
 
 
@@ -462,12 +492,14 @@
         background-position: center center;
     }
 
+    .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
         position: initial;
         margin: 0 auto;
         width: 85%;
     }
 
+    .flexRow--rowFormularioBeneficiario,
     .flexRow--rowFormularioContacto {
         width: 100vw;
         height: 100vh;
@@ -582,6 +614,11 @@
 
 .flexRowContent--qttyPrice-row {
     align-items: center;
+}
+
+.flexRowContent--rowPrices {
+    display: flex;
+    justify-content: end;
 }
 
 

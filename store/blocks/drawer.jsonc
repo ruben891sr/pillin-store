@@ -1153,7 +1153,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Faq](#)",
+      "text": "[Faq](/preguntas-frecuentes)",
       "blockClass": "topBarList-faq"
     }
   },
@@ -1162,7 +1162,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Contáctanos](#)",
+      "text": "[Contáctanos](/contacto)",
       "blockClass": "topBarList-contact"
     }
   },
@@ -1171,7 +1171,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Estado de mis pedidos](/)",
+      "text": "[Estado de mis pedidos](/account#/orders)",
       "blockClass": "topBarList-orders"
     }
   },
@@ -1180,7 +1180,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Tiendas](#)",
+      "text": "[Tiendas](/stores)",
       "blockClass": "topBarList-store"
     }
   },
@@ -1189,7 +1189,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Artículos Deseados](/)",
+      "text": "[Artículos Deseados](/account#/wishlist)",
       "blockClass": "topBarList-wishlist"
     }
   },
@@ -1198,7 +1198,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Club Pilln](/)",
+      "text": "[Club Pilln](/beneficiario)",
       "blockClass": "topBarList-club"
     }
   },
@@ -1207,7 +1207,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "[Login](/)",
+      "text": "[Login](/login)",
       "blockClass": "topBarList-login"
     }
   }

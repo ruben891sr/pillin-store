@@ -60,51 +60,60 @@
       "blockClass": "titleContacto"
     }
   },
+
   "form-input.text#nombreContacto": {
     "props": {
       "pointer": "#/properties/nombre",
       "label": "Nombre"
     }
   },
+
   "form-input.text#apellidoContacto": {
     "props": {
       "pointer": "#/properties/apellido",
       "label": "Apellido"
     }
   },
+
   "form-input.text#emailContacto": {
     "props": {
       "pointer": "#/properties/mail",
       "label": "correo electrónico"
     }
   },
+
   "form-input.text#telefonoContacto": {
     "props": {
       "pointer": "#/properties/telefono",
       "label": "Teléfono"
     }
   },
+
   "form-input.dropdown#tipoContacto": {
     "props": {
       "pointer": "#/properties/tipo/properties/selectTipo",
       "label": "Motivo"
     }
   },
+
   "form-input.textarea#mensajeContacto": {
     "props": {
       "pointer": "#/properties/mensaje",
       "label": "Descripción"
     }
   },
+
   "form-submit#enviarContacto": {
     "props": {
       "label": "Enviar"
     }
   },
+
   "rich-text#nuestrasTiendas": {
     "props": {
       "blockClass": "nuestrasTiendas",
       "text": "Revisa nuestras tiendas [Aquí](/stores)"
     }
   }
+
 }

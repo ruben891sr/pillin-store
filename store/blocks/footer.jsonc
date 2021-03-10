@@ -56,6 +56,7 @@
     "children": [
       "rich-text#title-club",
       "rich-text#text-club",
+      // "form#club-pillin-footer"
       "newsletter-form"
     ],
     "props": {
@@ -111,6 +112,68 @@
       "blockClass": "rowButton"
     }
   },
+
+
+  "form#club-pillin-footer": {
+    "props": {
+      "entity": "clients",
+      "schema": "person"
+    },
+    "children": [
+      "form-input.text#firstNameClubPillin",
+      "form-input.text#lastNameClubPillin",
+      "form-field-group#addressClubPillin",
+      "form-input.checkbox#agreementClubPillin",
+      "form-submit#ClubPillin"
+    ],
+    "blocks": ["form-success#ClubPillin"]
+  },
+
+  "form-success#ClubPillin": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#firstNameClubPillin": {
+    "props": {
+      "pointer": "#/properties/firstName"
+    }
+  },
+
+  "form-input.text#lastNameClubPillin": {
+    "props": {
+      "pointer": "#/properties/lastName"
+    }
+  },
+
+  "form-input.checkbox#agreementClubPillin": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Do you agree that this is the best form component in the whole wide world?"
+    }
+  },
+
+  "form-field-group#addressClubPillin": {
+    "props": {
+      "pointer": "#/properties/address"
+    }
+  },
+
+  "form-submit#ClubPillin": {
+    "props": {
+      "label": "Submit"
+    }
+  },
+
 
   "newsletter-form": {
     "children": [
@@ -170,7 +233,7 @@
     "props": {
       "blockClass": "cp-image1",
       "link": "/",
-      "src": "assets/img/club-image-01.png",
+      "src": "assets/img/club-image-01.jpg",
       "alt": "Club Pillin Promo 1",
       "maxWidth": "100%",
       "width": "100%"
@@ -181,7 +244,7 @@
     "props": {
       "blockClass": "cp-image2",
       "link": "/",
-      "src": "assets/img/club-image-02.png",
+      "src": "assets/img/club-image-02.jpg",
       "alt": "Club Pillin Promo 2",
       "maxWidth": "100%",
       "width": "100%"
@@ -192,7 +255,7 @@
     "props": {
       "blockClass": "cp-image3",
       "link": "/",
-      "src": "assets/img/club-image-03.png",
+      "src": "assets/img/club-image-03.jpg",
       "alt": "Club Pillin Promo 3",
       "maxWidth": "100%",
       "width": "100%"

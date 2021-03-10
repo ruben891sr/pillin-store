@@ -12,17 +12,17 @@
 }
 
 
-.menu::after {
+.menu::before {
     content: 'Mi Cuenta';
-    top: 175px;
-    left: 16vw;
+    top: calc(12rem + 175px);
+    margin-left: 5rem;
     color: #402117;
     font-weight: 700;
     position: absolute;
     font-size: 2.2em;
 }
 
-.menu::before {
+.menu::after {
     background-image: url(assets/img/orderplaced.jpg);
     content: "";
     display: block;
@@ -34,13 +34,6 @@
     background-repeat: no-repeat;
     width: 100vw;
     left: 0;
-}
-
-.vtex-account__page {
-    margin-top: 12rem;
-    background: #f7f9f4;
-    padding: 2rem;
-    border-radius: 4px;
 }
 
 .userGreeting {
@@ -74,11 +67,6 @@
     background: #f6f9f3;
 }
 
-/* .menuLinks :global(.flex.flex-grow-1.w-100.flex-column) {
-    height: 140px;
-    overflow: hidden;
-} */ 
-
 @media (max-width: 991.1px) {
     .menu {
         margin-top: 10rem;
@@ -86,5 +74,15 @@
         border-right: none;
         margin-right: 0;
         padding: 8rem 2rem 0 2rem;
+    }
+
+    .addressBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boxContainerBody {
+        padding: 0;
     }
 }
