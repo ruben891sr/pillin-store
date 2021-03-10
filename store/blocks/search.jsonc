@@ -111,7 +111,6 @@
       "horizontalAlignment": "center"
     }
   },
-
   "search-banner#two": {
     "props": {
       "area": "two",

@@ -41,7 +41,6 @@
     ],
     "blocks": ["form-success#contacto"]
   },
-
   "form-success#contacto": {
     "children": ["rich-text#successSubmitContacto"]
   },

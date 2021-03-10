@@ -222,9 +222,11 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .flexCol--colAddToCart{
     width: 60%!important;
 }
+
 .flexRowContent--rowQuantityBuyDesktop .stretchChildrenWidth:nth-child(2n){
     justify-content: flex-start!important;
 }
