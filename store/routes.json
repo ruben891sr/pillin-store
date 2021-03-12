@@ -25,6 +25,10 @@
   
   "store.custom#beneficiario": {
     "path": "/beneficiario"
+  },
+
+  "store.custom#cliente-pillin": {
+    "path": "/cliente-pillin"
   }
   
 }

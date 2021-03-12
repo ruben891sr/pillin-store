@@ -26,7 +26,7 @@
     "form#club-pillin": {
         "props": {
             "entity": "CP",
-            "schema": "club"
+            "schema": "mdv1"
         },
         "children": [
             "rich-text#formTitle-club-pillin",
