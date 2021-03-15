@@ -24,7 +24,7 @@
     },
 
     "form#cliente-pillin": {
-        "props": {
+        "props": { 
             "entity": "cliente",
             "schema": "cliente"
         }, 
