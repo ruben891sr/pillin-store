@@ -31,14 +31,15 @@
         "children": [
             "rich-text#formTitlecliente-pillin",
             "form-input.text#nombrecliente-pillin",  
-            // "form-input.text#apellidocliente-pillin",
-            // "form-input.text#fechanacimientocliente-pillin",
-            // "form-input.text#telefonocliente-pillin",
+            "form-input.text#apellidocliente-pillin",
+            "form-input.text#telefonocliente-pillin",
+            "form-input.text#fechanacimientocliente-pillin",
+            "form-input.dropdown#sexocliente-pillin",
             "form-submit#enviarcliente-pillin"
         ],
         "blocks": ["form-success#cliente-pillin"]
     },
-    "form-success#cliente-pillin": {
+    "form-success#cliente-pillin": { 
         "children": ["rich-text#successSubmitcliente-pillin"]
     },
 
@@ -60,31 +61,39 @@
 
     "form-input.text#nombrecliente-pillin": {
         "props": {
-            "pointer": "#/properties/firstName",
+            "pointer": "#/properties/nombre",
             "label": "Nombre"
         }
     },
 
     "form-input.text#apellidocliente-pillin": {
         "props": {
-            "pointer": "#/properties/lastName",
+            "pointer": "#/properties/apellido",
             "label": "Apellido"
         }
     },
 
     "form-input.text#fechanacimientocliente-pillin": {
         "props": {
-            "pointer": "#/properties/birthDate",
+            "pointer": "#/properties/fechaNacimiento",
             "label": "Fecha nacimiento"
-        }
+        } 
     },
-
+ 
     "form-input.text#telefonocliente-pillin": {
         "props": {
-            "pointer": "#/properties/phone",
+            "pointer": "#/properties/telefono",
             "label": "Teléfono"
         }
     },
+
+    "form-input.dropdown#sexocliente-pillin": {
+        "props": {
+          "pointer": "#/properties/sexo/properties/selectSexo",
+          "label": "Sexo"
+        }
+      },
+
 
     "form-submit#enviarcliente-pillin": {
         "props": {
