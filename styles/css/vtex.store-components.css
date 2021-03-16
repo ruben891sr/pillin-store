@@ -358,6 +358,7 @@
 
 .skuSelectorSubcontainer--color {
     order: 2;
+    display: none;
 }
 
 
@@ -447,7 +448,6 @@
 }
 
 .sellingPriceValue {
-    color: #c1272d;
     font-size: 27px;
 }
 
@@ -457,6 +457,14 @@
 
 .skuSelectorContainer--skuSelectorPDP .skuSelectorName {
     overflow: visible;
+}
+
+.diagonalCross{
+    background: rgba(0, 0, 0, 0.508);
+    border-radius: 50%;
+    cursor: not-allowed;
+    pointer-events: none;
+    z-index: 9;
 }
 
 /*Descripcion*/
