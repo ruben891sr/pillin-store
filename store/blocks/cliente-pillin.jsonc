@@ -33,7 +33,6 @@
             "form-input.text#nombrecliente-pillin",  
             "form-input.text#apellidocliente-pillin",
             "form-input.text#telefonocliente-pillin",
-            "form-input.text#fechanacimientocliente-pillin",
             "form-input.dropdown#sexocliente-pillin",
             "form-submit#enviarcliente-pillin"
         ],
@@ -72,13 +71,6 @@
             "label": "Apellido"
         }
     },
-
-    "form-input.text#fechanacimientocliente-pillin": {
-        "props": {
-            "pointer": "#/properties/fechaNacimiento",
-            "label": "Fecha nacimiento"
-        } 
-    },
  
     "form-input.text#telefonocliente-pillin": {
         "props": {
@@ -93,7 +85,6 @@
           "label": "Sexo"
         }
       },
-
 
     "form-submit#enviarcliente-pillin": {
         "props": {
