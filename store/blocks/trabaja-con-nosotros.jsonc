@@ -97,7 +97,7 @@
             "form-input.text#apellido-tcn",
             "form-input.text#email-tcn",
             "form-input.text#telefono-tcn",
-             // "form-input.upload",
+            "form-input.upload#upload",
             "form-input.textarea#mensaje-tcn",
             "form-submit#enviar-tcn"
         ],
@@ -139,12 +139,11 @@
             "pointer": "#/properties/telefono"
         }
     },
-    // "form-input.upload":{
-    //     "props":{
-    //         "pointer": "#/properties/CV",
-    //         "label": "CV de postulante"
-    //     }
-    // },
+    "form-input.upload#upload": {
+        "props": {
+          "pointer": "#/properties/upload"
+        }
+    },
     "form-input.textarea#mensaje-tcn": {
         "props": {
             "pointer": "#/properties/mensaje",
