@@ -23,22 +23,21 @@
 
 
   // Desktop - Slider Principal
-  "list-context.image-list#slider": { 
-      "children": ["slider-layout#demo-images"],
-      "props": {
-        "height": 550,
-        "blockClass": "sliderImageNew",
-        "images": [
-          { 
-            "image": "assets/img/slider.jpg",
-            "mobileImage": "assets/img/slider-movil.jpg"
-          },
-          {
-            "image": "assets/img/slider.jpg",
-            "mobileImage": "assets/img/slider-movil.jpg"
-          }
-        ]
-      }
+  "list-context.image-list#slider": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 550,
+      "blockClass": "sliderImageNew",
+      "images": [{
+          "image": "assets/img/slider.jpg",
+          "mobileImage": "assets/img/slider-movil.jpg"
+        },
+        {
+          "image": "assets/img/slider.jpg",
+          "mobileImage": "assets/img/slider-movil.jpg"
+        }
+      ]
+    }
   },
 
   "slider-layout#demo-images": {
@@ -336,7 +335,7 @@
   },
 
   "modal-header": {
-    "props":{
+    "props": {
       "iconCloseSize": 25,
       "blockClass": "cerrarBusTalla"
     }
@@ -386,9 +385,9 @@
 
   "tab-list.item#ves-nino": {
     "props": {
-      "tabId": "ves-nino",
-      "label": "Niño",
-      "defaultActiveTab": true,
+      "tabId": "ves-nino", 
+      "label": "Niño", 
+      // "defaultActiveTab": false,
       "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45"
     }
   },
@@ -480,7 +479,7 @@
     "props": {
       "tabId": "cal-nino",
       "label": "Niño",
-      "defaultActiveTab": true,
+      // "defaultActiveTab": false,
       "blockClass": "calzado--mapequalsc---nino--specificationFilter-46"
     }
   },

@@ -15,7 +15,7 @@
     //Formulario cliente-pillin
     "flex-layout.col#form-cliente-pillin": {
         "props": {
-            "width": "35%",
+            "width": "auto",
             "blockClass": "colFormulariocliente-pillin"
         },
         "children": [
@@ -30,8 +30,10 @@
         }, 
         "children": [
             "rich-text#formTitlecliente-pillin",
+            "rich-text#formSubTitlecliente-pillin",
             "form-input.text#nombrecliente-pillin",  
             "form-input.text#apellidocliente-pillin",
+            "form-input.text#emailcliente-pillin",
             "form-input.text#telefonocliente-pillin",
             "form-input.dropdown#sexocliente-pillin",
             "form-submit#enviarcliente-pillin"
@@ -47,14 +49,21 @@
             "text": "¡Datos enviados exitosamente!",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
-        }
+        } 
     },
 
     // Campos de Formulario
-    "rich-text#formTitlecliente-pillin": {
+    "rich-text#formTitlecliente-pillin": { 
         "props": {
-            "text": "## Cliente Pillin",
+            "text": "## ¡Ya eres parte del Club Pillin!",
             "blockClass": "titlecliente-pillin"
+        }
+    },
+
+    "rich-text#formSubTitlecliente-pillin": {
+        "props": { 
+            "text": "Completa tus datos para que tus hijos reciban descuento para su cumpleaños.",
+            "blockClass": "subTitlecliente-pillin" 
         }
     },
 
@@ -69,6 +78,13 @@
         "props": {
             "pointer": "#/properties/apellido",
             "label": "Apellido"
+        }
+    },
+
+    "form-input.text#emailcliente-pillin": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Mail"
         }
     },
  

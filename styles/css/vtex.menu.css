@@ -227,15 +227,15 @@
 }
 
 .styledLinkContent--mainMenu-bb::before {
-    content: 'Desde 18m a 3a';
+    content: 'Desde 18m a 3';
 }
 
 .styledLinkContent--mainMenu-nin::before {
-    content: 'Desde 4a a 12a';
+    content: 'Desde 4a a 12';
 }
 
 .styledLinkContent--mainMenu-tw::before {
-    content: 'Desde 12a a 16a';
+    content: 'Desde 12a a 16';
 }
 
 .menuItem--mainMenu-off-acc,
@@ -445,11 +445,11 @@
 }
 
 .styledLinkContent--mainMenu-vv-acc::before {
-    content: 'Desde 18m a 3a';
+    content: 'Desde 18m a 3';
 }
 
 .styledLinkContent--mainMenu-ninn-acc::before {
-    content: 'Desde 4a a 12a';
+    content: 'Desde 4a a 12';
 }
 
 

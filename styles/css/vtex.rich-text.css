@@ -278,6 +278,16 @@
     line-height: 2;
 }
 
+.headingLevel2--titleBeneficiario {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.paragraph--subTitleBeneficiario {
+    font-size: 13px;
+}
+
+
 .container--texto-seo {
     padding: 0 4rem;
 }
@@ -639,6 +649,10 @@
     z-index: 99;
 }
 
+.heading--titlecliente-pillin {
+    margin-bottom: 0;
+}
+
 @media (max-width: 991.1px) {
  
     .container--texto-seo {
@@ -726,6 +740,13 @@
     }
     .paragraph--seo-search-banner {
         width: 95%;
+    }
+
+    .flexColChild--colFormulariocliente-pillin, 
+    .flexColChild--colFormularioBeneficiario, 
+    .flexColChild--colFormularioContacto {
+        width: 85px;
+        margin: 0 auto;
     }
 
 }

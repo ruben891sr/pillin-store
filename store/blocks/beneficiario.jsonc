@@ -30,12 +30,12 @@
     },
     "children": [
       "rich-text#formTitleBeneficiario",
+      "rich-text#formSubTitleBeneficiario",
       "form-input.text#nombre",
       "form-input.text#apellido",
-      "form-input.text#fechaNacimiento",
       "form-input.dropdown#sexo",
-      "form-submit#enviarBeneficiario",
-      "rich-text#nuestrasTiendasBeneficiario"
+      "flex-layout.row#fechaNacimiento",
+      "form-submit#enviarBeneficiario"
     ],
     "blocks": ["form-success#beneficiario"]
   },
@@ -55,47 +55,86 @@
   // Campos de Formulario
   "rich-text#formTitleBeneficiario": {
     "props": {
-      "text": "## Beneficiario",
+      "text": "## ¡Inscribe a tus hijos para obterner descuentos!",
       "blockClass": "titleBeneficiario"
     }
   },
 
-  // Inicio Squema Beneficiario
-  "form-input.text#apellido": {
+  "rich-text#formSubTitleBeneficiario": {
     "props": {
-      "pointer": "#/properties/apellido",
-      "label": "Apellido"
-    }
-  },
-  "form-input.text#fechaNacimiento": {
-    "props": {
-      "pointer": "#/properties/fechaNacimiento",
-      "label": "Fecha de nacimiento"
+      "text": "En el mes de cumpleaño de tus hijos recibiras un cupón de descuento con el cual podras comprar lo que tu quieras en nuestra tienda.",
+      "blockClass": "subTitleBeneficiario"
     }
   },
 
+  // Input Nombre
   "form-input.text#nombre": {
     "props": {
       "pointer": "#/properties/nombre",
-      "label": "Nombre"
-    }
-  },
-  "form-input.dropdown#sexo": {
-    "props": {
-      "pointer": "#/properties/sexo/properties/selectSexo",
-      "label": "Sexo"
+      "label": "Nombre",
+      "blockClass": "inputForm"
     }
   },
 
+  // Input Apellido
+  "form-input.text#apellido": {
+    "props": {
+      "pointer": "#/properties/apellido",
+      "label": "Apellido",
+      "blockClass": "inputForm"
+    }
+  },
+
+  // Input Sexo
+  "form-input.dropdown#sexo": {
+    "props": {
+      "pointer": "#/properties/sexo/properties/selectSexo",
+      "label": "Sexo",
+      "blockClass": "inputForm"
+    }
+  },
+
+  // Input Fecha de nacimiento
+  "flex-layout.row#fechaNacimiento": {
+    "children": [
+      "form-input.dropdown#dia",
+      "form-input.dropdown#mes",
+      "form-input.text#ano"
+    ],
+    "props":{
+      "blockClass": "rowInputForm"
+    }
+  },
+
+  "form-input.dropdown#dia": {
+    "props": {
+      "pointer": "#/properties/diaNacimiento",
+      "label": "Día",
+      "blockClass": "inputForm" 
+    }
+  },
+
+  "form-input.dropdown#mes": {
+    "props": {
+      "pointer": "#/properties/mesNacimiento",
+      "label": "Mes",
+      "blockClass": "inputForm"
+    }
+  },
+
+  "form-input.text#ano": {
+    "props": {
+      "pointer": "#/properties/anoNacimiento",
+      "label": "Año",
+      "blockClass": "inputForm"
+    }
+  },
+
+  // Input Enviar
   "form-submit#enviarBeneficiario": {
     "props": {
       "label": "Enviar"
     }
-  },
-  "rich-text#nuestrasTiendasBeneficiario": {
-    "props": {
-      "blockClass": "nuestrasTiendas",
-      "text": "Revisa nuestras tiendas [Aquí](/stores)"
-    }
   }
+
 }

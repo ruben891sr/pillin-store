@@ -386,12 +386,13 @@
 /*Contacto*/
 
 
+.flexRow--rowFormulariocliente-pillin,
 .flexRow--rowFormularioBeneficiario,
 .flexRow--rowFormularioContacto {
     width: 100vw;
-    height: 60vh;
-    margin-bottom: 10rem;
+    margin-bottom: 0;
     display: block;
+    padding: 3rem 0;
     position: relative;
     background: url(https://i.ibb.co/wwHgbLd/BN-W-Contacto.jpg);
     background-size: cover;
@@ -399,18 +400,30 @@
     background-position: center center;
 }
 
+.flexRow--rowFormulariocliente-pillin {
+    background-image: url(assets/img/prueba-imagen.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.flexRow--rowFormularioBeneficiario {
+    background-image: url(assets/img/beneficiarios.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right; 
+}
+
+.flexColChild--colFormulariocliente-pillin,
 .flexColChild--colFormularioBeneficiario,
 .flexColChild--colFormularioContacto {
-    position: absolute;
-    top: 2rem;
-    left: auto;
     background: #fff;
     border-radius: 2px;
     box-shadow: 0 0 20px #0000002e;
-    padding: 2rem;
-    width: 35%;
-    height: 125% !important;
+    padding: 3rem 5rem 4.5rem 5rem;
     z-index: 9;
+    margin-left: 2rem;
+    width: 500px;
 }
 
 .flexColChild--colFormularioBeneficiario {
@@ -492,6 +505,7 @@
         background-position: center center;
     }
 
+    .flexColChild--colFormulario,
     .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
         position: initial;
@@ -672,6 +686,19 @@
     .flexCol--colProductQuantity,
     .flexCol--colAddToCart{
         width: 50%;
+    }
+
+    .flexColChild--colFormulariocliente-pillin, 
+    .flexColChild--colFormularioBeneficiario, 
+    .flexColChild--colFormularioContacto {
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 0 20px #0000002e;
+        padding: 3rem 2rem 3.5rem 3rem;
+        z-index: 9;
+        margin-left: 2rem;
+        width: 85%;
+        margin: 0 auto;
     }
 
 }
