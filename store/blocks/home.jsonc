@@ -379,15 +379,15 @@
       "tab-list.item#ves-nina"
     ],
     "props": {
-      "blockClass": "tallaTabList"
+      "blockClass": "tallaTabList" 
     }
   },
 
   "tab-list.item#ves-nino": {
     "props": {
-      "tabId": "ves-nino", 
-      "label": "Niño", 
-      // "defaultActiveTab": false,
+      "tabId": "ves-nino",
+      "label": "Niño",
+      "defaultActiveTab": false,
       "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45"
     }
   },
@@ -396,6 +396,7 @@
     "props": {
       "tabId": "ves-nina",
       "label": "Niña",
+      "defaultActiveTab": false,
       "blockClass": "vestuario--mapequalsc---nina-specificationFilter-45"
     }
   },
@@ -479,7 +480,7 @@
     "props": {
       "tabId": "cal-nino",
       "label": "Niño",
-      // "defaultActiveTab": false,
+      "defaultActiveTab": false,
       "blockClass": "calzado--mapequalsc---nino--specificationFilter-46"
     }
   },
@@ -488,6 +489,7 @@
     "props": {
       "tabId": "cal-nina",
       "label": "Niña",
+      "defaultActiveTab": false,
       "blockClass": "calzado--mapequalsc---nina--specificationFilter-46"
     }
   },
