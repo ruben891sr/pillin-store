@@ -223,19 +223,19 @@
 }
 
 .styledLinkContent--mainMenu-rn::before {
-    content: 'Desde 00 a 12m';
+    content: 'Desde 00 a 12M';
 }
 
 .styledLinkContent--mainMenu-bb::before {
-    content: 'Desde 18m a 3';
+    content: 'Desde 18M a 3';
 }
 
 .styledLinkContent--mainMenu-nin::before {
-    content: 'Desde 4a a 12';
+    content: 'Desde 4 a 12';
 }
 
 .styledLinkContent--mainMenu-tw::before {
-    content: 'Desde 12a a 16';
+    content: 'Desde 12 a 16';
 }
 
 .menuItem--mainMenu-off-acc,
@@ -441,15 +441,15 @@
 
 
 .styledLinkContent--mainMenu-rn-acc::before {
-    content: 'Desde 00 a 12m';
+    content: 'Desde 00 a 12M';
 }
 
 .styledLinkContent--mainMenu-vv-acc::before {
-    content: 'Desde 18m a 3';
+    content: 'Desde 18M a 3';
 }
 
 .styledLinkContent--mainMenu-ninn-acc::before {
-    content: 'Desde 4a a 12';
+    content: 'Desde 4 a 12';
 }
 
 
@@ -458,10 +458,10 @@
 .styledLinkContent--mainMenu-ninn-acc::before {
     position: absolute;
     left: 4rem;
-    top: 56%;
+    top: 56%; 
     font-size: 10px;
     font-weight: 500;
-}
+} 
 
 .styledLinkContainer--subSubMenuItem {
     border-bottom: 1px solid rgb(204 204 204 / 0.3);
