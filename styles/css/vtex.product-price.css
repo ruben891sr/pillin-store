@@ -10,9 +10,9 @@
     padding-left: 0;
 }
 
-.savings--summary {
+/* .savings--summary {
     display: none !important;
-}
+} */
 
 .listPriceValue--summary .currencyContainer--summary {
     color: #9a9a9a !important;

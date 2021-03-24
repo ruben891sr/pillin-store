@@ -404,9 +404,9 @@
     overflow: visible !important;
 }
 
-.productImagesThumbCaret {
+/* .productImagesThumbCaret {
     display: none !important;
-}
+} */
 
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color {

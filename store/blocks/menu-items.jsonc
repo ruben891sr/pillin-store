@@ -2733,6 +2733,7 @@
 
   "vtex.menu@2.x:menu#cal-nino": {
     "children": [
+      // "menu-item#0m",
       "menu-item#0-3m",
       "menu-item#3-6m",
       "menu-item#15-cal",
@@ -2745,7 +2746,7 @@
       "menu-item#22",
       "menu-item#23",
       "menu-item#24",
-      "menu-item#25",
+      "menu-item#25", 
       "menu-item#26",
       "menu-item#27",
       "menu-item#28",
@@ -2766,6 +2767,7 @@
   },
   "vtex.menu@2.x:menu#cal-nina": {
     "children": [
+      // "menu-item#0m",
       "menu-item#0-3m",
       "menu-item#3-6m",
       "menu-item#15-cal",
@@ -3240,20 +3242,37 @@
 
 
   // Tallas Calzado
+  // "menu-item#0m": {
+  //   "props": {
+  //     "id": "menu-item-0-3m",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "blockClass": "0M-specificationFilter_34",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "0m",
+  //       "text": "0m"
+  //     }
+  //   }
+  // },
 
-  "menu-item#0-3m": {
+
+  "menu-item#0-3m": { 
     "props": {
       "id": "menu-item-0-3m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "0-3M-specificationFilter_34",
+      "blockClass": "3M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "0-3m",
-        "text": "0-3m"
+        "tagTitle": "3m",
+        "text": "3m"
       }
     }
   },
@@ -3263,14 +3282,14 @@
       "id": "menu-item-3-6m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "3-6M-specificationFilter_34",
+      "blockClass": "6M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "3-6m",
-        "text": "3-6m"
+        "tagTitle": "6m",
+        "text": "6m"
       }
     }
   },

@@ -369,7 +369,8 @@
       "tab-content#vestuario"
     ],
     "props": {
-      "blockClass": "tabLayout"
+      "blockClass": "tabLayout",
+      "defaultActiveTabId": "ves-nina"
     }
   },
 
@@ -387,7 +388,6 @@
     "props": {
       "tabId": "ves-nino",
       "label": "Niño",
-      "defaultActiveTab": false,
       "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45"
     }
   },
@@ -396,16 +396,16 @@
     "props": {
       "tabId": "ves-nina",
       "label": "Niña",
-      "defaultActiveTab": false,
+      // "defaultActiveTab": true,
       "blockClass": "vestuario--mapequalsc---nina-specificationFilter-45"
     }
   },
 
-  "tab-content#vestuario": {
+  "tab-content#vestuario": {   
     "children": [
       "tab-content.item#ves-nino",
       "tab-content.item#ves-nina"
-    ]
+    ] 
   },
 
   "tab-content.item#ves-nino": {
@@ -413,7 +413,7 @@
       "vtex.menu@2.x:menu#ves-nino"
     ],
     "props": {
-      "tabId": "ves-nino"
+      "tabId": "ves-nino" 
     }
   },
 
