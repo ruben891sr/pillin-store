@@ -1,6 +1,6 @@
 {
   "shelf": {
-    "blocks": ["product-summary.shelf#general"],
+    "blocks": ["product-summary.shelf#pdp"],
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,
@@ -37,7 +37,7 @@
   },
 
   "shelf#NotFounds": {
-    "blocks": ["product-summary.shelf#general"],
+    "blocks": ["product-summary.shelf#pdp"],
     "props": {
       "visibleVariations": ["Talla", "Color"],
       "category": 3,

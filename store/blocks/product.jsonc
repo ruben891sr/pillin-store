@@ -300,7 +300,7 @@
     }
   },
   "product-kit": {
-    "blocks": ["product-summary.shelf#outfit"],
+    "blocks": ["product-summary.shelf#pdp"],
     "props": {
       "showArrows": true,
       "nextArrow": "next",

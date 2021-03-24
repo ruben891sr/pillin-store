@@ -122,6 +122,7 @@
 
 .element{
     width: 100%;
+    position: relative;
 }
 
 .element :global(.vtex-button) { 

@@ -1,5 +1,5 @@
 .installments--summary {
-    display: none!important;
+    display: none !important;
 }
 
 .sellingPriceValue--summary {
@@ -20,10 +20,11 @@
 
 .savings--summary {
     background: #ffab71;
-    border-radius: 30px;
-    padding: 0.5rem;
+    border-radius: 7px;
+    padding: .5rem;
     color: #fff;
     position: absolute;
     top: 0;
     right: 0;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
 }
