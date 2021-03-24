@@ -341,6 +341,29 @@
 } */
 
 /*PLP*/
+.price_listPriceLabel,
+.price_sellingPriceLabel {
+    display: block;
+    font-size: 0;
+    font-weight: 600;
+}
+.price_listPriceLabel{
+    text-decoration: none!important;
+}
+.price_sellingPriceLabel::before {
+    content: "Ahora:";
+    display: block;
+    font-size: 13px;
+}
+.price_listPriceLabel::before {
+    content: "Antes:";
+    display: block;
+    font-size: 13px;
+}
+.price_savings,
+.currencyContainer{
+    font-weight: 600;
+}
 .frameAround--skuSelectorPDP {
     border: none;
     border-radius: 25px;

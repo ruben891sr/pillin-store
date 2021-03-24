@@ -206,6 +206,10 @@
 }
 
 /*PDP*/
+
+.flexCol--btn-Stock{
+    display: none!important;
+}
 .flexRow--Row-BreadCrumb {
     border-bottom: 1px solid #dddddd;
 }
@@ -234,6 +238,11 @@
 /*PLP*/
 .flexRow--rowBreadCrumbDesktop{
     border-bottom: 1px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .flexRowContent--rowBreadCrumbMobile {
