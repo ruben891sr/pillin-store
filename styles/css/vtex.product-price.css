@@ -17,3 +17,13 @@
     text-decoration: line-through;
     margin-right: .5rem;
 }
+
+.savings--summary {
+    background: #ffab71;
+    border-radius: 30px;
+    padding: 0.5rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
