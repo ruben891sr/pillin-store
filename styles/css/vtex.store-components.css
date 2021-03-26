@@ -388,15 +388,15 @@
 /*PDP*/
 
 /* .productImage, */
-.productImagesThumb {
+/* .productImagesThumb {
     position: relative;
     overflow: hidden;
     height: fit-content;
     background: #fff;
-}
+} */
 
 /* .productImage::before, */
-.productImagesThumb::before {
+/* .productImagesThumb::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -407,7 +407,7 @@
     bottom: 0;
     right: 0;
     z-index: 1;
-}
+} */
 
 .productImage :global(.vtex-relative)::before {
     content: "";

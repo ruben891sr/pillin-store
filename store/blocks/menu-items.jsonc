@@ -3257,7 +3257,7 @@
       "id": "menu-item-0-3m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "3M-specificationFilter_34",
+      "blockClass": "3M-specificationFilter_34---0M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -3274,7 +3274,7 @@
       "id": "menu-item-3-6m",
       "type": "custom",
       "iconId": null,
-      "blockClass": "6M-specificationFilter_34",
+      "blockClass": "6M-specificationFilter_34---3M-specificationFilter_34",
       "highlight": false,
       "itemProps": {
         "type": "internal",

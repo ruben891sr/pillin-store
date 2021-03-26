@@ -42,7 +42,10 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#product-image", "flex-layout.col#pdp-right-col"]
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#pdp-right-col"
+    ]
   },
 
   // Imagen del producto
@@ -52,15 +55,22 @@
       "rowGap": 0,
       "blockClass": "colProductImage"
     },
-    "children": ["product-images", "flex-layout.row#descriptionPDPdesktop", "vtex.product-highlights@2.x:product-highlights"]
+    "children": [
+      "product-images",
+      "flex-layout.row#descriptionPDPdesktop",
+      "vtex.product-highlights@2.x:product-highlights"
+    ]
   },
 
   //Imagen del producto
   "product-images": {
     "props": {
-      "displayThumbnailsArrows": true,
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
       "zoomMode": "in-place-hover",
-      "showPaginationDots": false
+      "displayThumbnailsArrows": true
     }
   },
 
@@ -333,7 +343,7 @@
   },
 
   //Formulario Simulador de entrega Sandbox
-  
+
   // "sandbox.product#Simulador-Flete": {
   //   "props": {
   //     "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador' style='margin-top:15px;margin-bottom:5px;'>Simulador de Fletes</h3><ul class='ContainerFormFlete' style='list-style:none;padding-left:0;margin-top:8px;display:flex;justify-content:space-between;align-items:flex-end;'><li id='li_1' style='padding-top:15px;'><label class='description' style='display:flex;margin-bottom:7px;' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' style='height:30px;overflow:visible;' id='element_1' name='region'><option value='' selected='selected' style='border:1px solid #e3e4e6;background:#f1f4f5;border-radius:3px;height:30px;overflow:visible!important;display:block;'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2' style='padding-top:15px;'><label class='description' style='display:flex;margin-bottom:7px;' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' style='height:30px;overflow:visible;' id='element_2' name='comuna'><option value='' selected='selected' style='border:1px solid #e3e4e6;background:#f1f4f5;border-radius:3px;height:30px;overflow:visible!important;display:block;'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'style='padding-top:15px;'><input style='background:#ffab71;border:none;border-radius:3px;padding:10px;color:#fff;font-weight:bold;font-family:inherit;' id='saveForm' class='button_text' type='submit' name='submit' value='Consultar' /></li></ul></form>",
@@ -452,7 +462,7 @@
   //     "blockClass": "colSimuladorEntrega"
   //   },
   //   "children": ["image#icon-despacho", "rich-text#DespachoDomicilio"
-      // "disclosure-layout#despacho"
+  // "disclosure-layout#despacho"
   //   ]
   // },
 
