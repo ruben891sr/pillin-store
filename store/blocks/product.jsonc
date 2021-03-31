@@ -104,6 +104,7 @@
       "product-identifier.product",
       "product-rating-summary",
       "product-price#product-details",
+      "product-price-savings#summary-pdp",
       "product-separator",
       "sku-selector#PDP",
       "flex-layout.col#guia-de-tallas",
@@ -126,6 +127,16 @@
       "showSavings": true
     }
   },
+
+  "product-price-savings#summary-pdp": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary-pdp"
+    }
+  },
+
   "sku-selector#PDP": {
     "props": {
       "blockClass": "skuSelectorPDP",

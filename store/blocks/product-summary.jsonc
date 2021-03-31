@@ -188,7 +188,7 @@
   // }, 
   "vtex.product-highlights@2.x:product-highlights": {
     "props": {
-      "type": "promotion"
+      "type": "collection" 
     },
     "children": ["product-highlight-wrapper"]
   },
