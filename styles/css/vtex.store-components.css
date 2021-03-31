@@ -312,6 +312,10 @@
     text-align: center;
 }
 
+.price_savingsContainer {
+    display: none;
+}
+
 .flexRow--rowDrawer .logoContainer--logoCol {
     padding: 0 !important;
 }
