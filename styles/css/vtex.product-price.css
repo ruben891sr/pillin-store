@@ -24,7 +24,7 @@
     padding: .5rem;
     color: #fff;
     position: absolute;
-    top: 0;
+    top: 2px;
     right: 0;
     box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
 }
