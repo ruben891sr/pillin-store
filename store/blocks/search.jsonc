@@ -456,7 +456,9 @@
       "width": "100%",
       "horizontalAlign": "left"
     },
-    "children": ["rich-text#botonVolver"]
+    "children": [
+      "rich-text#botonVolver"
+    ]
   },
   "rich-text#botonVolver": {
     "props": {
