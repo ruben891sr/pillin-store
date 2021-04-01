@@ -214,7 +214,8 @@
     border-bottom: 1px solid #dddddd;
 }
 
-.flexCol--colSimuladorEntrega {
+.flexCol--colSimuladorEntrega,
+.flexRowContent--Row-BreadCrumb {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -644,6 +645,12 @@
     justify-content: end;
 }
 
+/*Trabaja con Nosotros*/
+.flexRowContent--rowFormulariotcn {
+    width: 50vw;
+    margin: 0 auto;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 991.1px) {
@@ -708,6 +715,9 @@
         margin-left: 2rem;
         width: 85%;
         margin: 0 auto;
+    }
+    .flexRowContent--rowFormulariotcn {
+        width: 100%;
     }
 
 }
