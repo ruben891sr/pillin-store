@@ -1,7 +1,7 @@
 {
   "vendor": "b2bsrconsultores",
   "name": "b2bsrconsultores",
-  "version": "0.2.42-beta.0",
+  "version": "0.3.0-beta.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
