@@ -578,6 +578,7 @@
       "product-identifier.product",
       "product-rating-summary",
       "product-price#product-details",
+      "product-price-savings#summary-pdp",
       "product-separator",
       "sku-selector#PDP",
       "flex-layout.col#guia-de-tallas",
