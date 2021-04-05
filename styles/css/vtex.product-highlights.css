@@ -34,3 +34,28 @@
   width: 67px;
   height: 33px;
 } 
+
+@media (max-width:768px) {
+
+  .productHighlightWrapper--collection[data-highlight-id="145"] {
+    width: 34px;
+    height: 27px;
+  }
+  
+  .productHighlightWrapper--collection[data-highlight-id="144"] {
+    width: 57px;
+    height: 33px;
+  }
+  
+  .productHighlightWrapper--collection[data-highlight-id="143"] {
+    width: 55px;
+    height: 30px;
+  }
+  
+  .productHighlightWrapper--collection[data-highlight-id="142"] {
+    width: 55px;
+    height: 28px;
+  } 
+
+
+}
