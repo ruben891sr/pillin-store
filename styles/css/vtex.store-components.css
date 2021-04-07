@@ -638,4 +638,8 @@
     .skuSelectorItem {
         margin-right: .3rem;
     }
+
+    .skuSelectorSubcontainer {
+        border-bottom: 0 !important;
+    }
 }

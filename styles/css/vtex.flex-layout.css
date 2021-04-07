@@ -720,4 +720,28 @@
         width: 100%;
     }
 
+    .flexColChild--btn-GuiaDeTallas {
+        position: static;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1rem;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth:first-child {
+        width: 40% !important;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth:last-child {
+        width: 60% !important;
+    }
+
+    .flexCol--colAddToCart{
+        width: 90% !important;
+    }
 }

@@ -105,4 +105,29 @@
     .cartIcon {
         width: 12px !important;
     }
+
+    .minicartProductListContainer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .minicartTitle::after {
+        padding-left: 3rem;
+    }
+
+    .minicartTitle::before {
+        padding-left: 3.7rem;
+        font-size: 17px;
+        padding-right: 2rem;
+    }
+
+    .closeIcon {
+        width: 20px;
+    }
+
+    .closeIconButton {
+        margin-top: -3px;
+        padding-right: 0;
+        margin-right: -7px;
+    }
 }
