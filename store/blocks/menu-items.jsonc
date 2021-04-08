@@ -2663,14 +2663,15 @@
   "vtex.menu@2.x:menu#ves-nino": {
     "children": [
       "menu-item#00",
-      "menu-item#1m",
+      // "menu-item#1m",
+      "menu-item#0m",
       "menu-item#3m",
       "menu-item#6m",
       "menu-item#9m",
       "menu-item#12m",
       "menu-item#18m",
-      "menu-item#24m",
-      "menu-item#36m",
+      // "menu-item#24m",
+      // "menu-item#36m",
       "menu-item#2",
       "menu-item#3",
       "menu-item#4",
@@ -2680,11 +2681,12 @@
       "menu-item#12",
       "menu-item#14",
       "menu-item#16",
-      "menu-item#xs",
-      "menu-item#s",
-      "menu-item#m",
-      "menu-item#l",
-      "menu-item#xl"
+      "menu-item#18-v"
+      // "menu-item#xs",
+      // "menu-item#s",
+      // "menu-item#m",
+      // "menu-item#l",
+      // "menu-item#xl"
     ],
     "props": {
       "blockClass": "tabContentMenu"
@@ -2694,14 +2696,15 @@
   "vtex.menu@2.x:menu#ves-nina": {
     "children": [
       "menu-item#00",
-      "menu-item#1m",
+      "menu-item#0m",
+      // "menu-item#1m",
       "menu-item#3m",
       "menu-item#6m",
       "menu-item#9m",
       "menu-item#12m",
       "menu-item#18m",
-      "menu-item#24m",
-      "menu-item#36m",
+      // "menu-item#24m",
+      // "menu-item#36m",
       "menu-item#2",
       "menu-item#3",
       "menu-item#4",
@@ -2711,11 +2714,12 @@
       "menu-item#12",
       "menu-item#14",
       "menu-item#16",
-      "menu-item#xs",
-      "menu-item#s",
-      "menu-item#m",
-      "menu-item#l",
-      "menu-item#xl"
+      "menu-item#18-v"
+      // "menu-item#xs",
+      // "menu-item#s",
+      // "menu-item#m",
+      // "menu-item#l",
+      // "menu-item#xl"
     ],
     "props": {
       "blockClass": "tabContentMenu"
@@ -2858,6 +2862,24 @@
       }
     }
   },
+
+  "menu-item#0m": {
+    "props": {
+      "id": "menu-item-0m",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "0M-specificationFilter_30",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "0m",
+        "text": "Om"
+      }
+    }
+  },
+  
   "menu-item#1m": {
     "props": {
       "id": "menu-item-1m",
@@ -3145,6 +3167,23 @@
         "text": "16"
       }
     }
+  },
+
+  "menu-item#18-v": {
+    "props": {
+      "id": "menu-item-18",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "18-specificationFilter_30",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "18",
+        "text": "18" 
+      }
+    } 
   },
 
   "menu-item#xs": {

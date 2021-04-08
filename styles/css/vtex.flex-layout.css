@@ -505,7 +505,7 @@
     .flexCol--calzado-wrapper,
     .flexCol--accesorios-wrapper {
         margin: .3rem 0;
-        padding: 3rem 2.5rem 3rem 2.5rem;
+        padding: 5rem !important;
     }
 
     .flexColChild--colBannerPrincipal::before {
@@ -649,6 +649,13 @@
 .flexRowContent--rowFormulariotcn {
     width: 50vw;
     margin: 0 auto;
+}
+
+.flexCol--vestuario-wrapper,
+.flexCol--calzado-wrapper,
+.flexCol--accesorios-wrapper {
+    position: relative;
+    padding: 10rem;
 }
 
 
