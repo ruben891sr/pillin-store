@@ -505,7 +505,7 @@
     .flexCol--calzado-wrapper,
     .flexCol--accesorios-wrapper {
         margin: .3rem 0;
-        padding: 3rem 2.5rem 3rem 2.5rem;
+        padding: 5rem !important;
     }
 
     .flexColChild--colBannerPrincipal::before {
@@ -645,6 +645,13 @@
     margin: 0 auto;
 }
 
+.flexCol--vestuario-wrapper,
+.flexCol--calzado-wrapper,
+.flexCol--accesorios-wrapper {
+    position: relative;
+    padding: 10rem;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 991.1px) {
@@ -718,14 +725,34 @@
     .flexRowContent--rowFormulariotcn {
         width: 100%;
     }
-    .flexColChild--btn-GuiaDeTallas {
-        bottom: 0;
-    }
-    .flexCol--colWishList {
-        margin-top: 12px;  
     }
     .flexColChild--orderByMobileCol {
         width: 90%;
         margin: 0 auto;
+
+    .flexColChild--btn-GuiaDeTallas {
+        position: static;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1rem;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth:first-child {
+        width: 40% !important;
+    }
+
+    .flexRowContent--rowQuantityBuy .stretchChildrenWidth:last-child {
+        width: 60% !important;
+    }
+
+    .flexCol--colAddToCart{
+        width: 90% !important;
+
     }
 }

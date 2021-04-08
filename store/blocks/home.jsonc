@@ -100,7 +100,6 @@
     ]
   },
 
-
   "info-card#box": {
     "props": {
       "id": "info-card-box",
@@ -185,7 +184,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-vestuario.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Vestuario",
       "callToActionUrl": "/vestuario",
       "blockClass": "infoCardSearchBy",
@@ -199,7 +198,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-calzado.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Calzado",
       "callToActionUrl": "/calzado",
       "blockClass": "infoCardSearchBy",
@@ -213,7 +212,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-accesorios.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Accesorios",
       "callToActionUrl": "/accesorios",
       "blockClass": "infoCardSearchBy",
@@ -730,7 +729,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-vestuario-mobile.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Vestuario",
       "callToActionUrl": "/vestuario",
       "blockClass": "infoCardSearchBy-mobile",
@@ -744,7 +743,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-calzado-mobile.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Calzado",
       "callToActionUrl": "/calzado",
       "blockClass": "infoCardSearchBy-mobile",
@@ -758,7 +757,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "assets/img/infocard-accesorios-mobile.jpg",
-      "headline": "Buscar por:",
+      "headline": "Buscar por talla:",
       "callToActionText": "Accesorios",
       "callToActionUrl": "/accesorios",
       "blockClass": "infoCardSearchBy-mobile",

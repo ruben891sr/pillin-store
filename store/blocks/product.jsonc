@@ -597,7 +597,8 @@
   // Cantidad y btn Agregar al carro sticky
   "sticky-layout#quantity-buy-button": {
     "props": {
-      "position": "bottom"
+      "position": "bottom",
+      "props": "fixedCartBar"
     },
     "children": ["flex-layout.row#quantity-buy-button-Mobile"]
   },
