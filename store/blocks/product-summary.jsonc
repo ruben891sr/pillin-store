@@ -133,7 +133,8 @@
       "showVariationsErrorMessage": true,
       "showVariationsLabels": true,
       "initialSelection": "empty",
-      "visibleVariations": ["Talla", "Color"]
+      "visibleVariations": ["Talla", "Color"],
+      "maxItems": 14
       // "displayMode": "slider",
       // "sliderDisplayThreshold": 4,
       // "sliderArrowSize": 10,

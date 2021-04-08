@@ -62,6 +62,7 @@
 
 .skuSelectorOptionsList {
     margin-left: 0;
+    min-height: 60px;
 }
 
 .skuSelectorSubcontainer {
