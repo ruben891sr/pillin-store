@@ -725,10 +725,11 @@
     .flexRowContent--rowFormulariotcn {
         width: 100%;
     }
-    }
+    
     .flexColChild--orderByMobileCol {
         width: 90%;
         margin: 0 auto;
+    }
 
     .flexColChild--btn-GuiaDeTallas {
         position: static;
