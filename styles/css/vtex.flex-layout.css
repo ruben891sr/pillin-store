@@ -539,12 +539,6 @@
 
 }
 
-.flexColChild--btn-GuiaDeTallas {
-    position: absolute;
-    right: 25px;
-    bottom: 60px;
-}
-
 
 /* .flexCol {
     position: relative;
@@ -706,9 +700,11 @@
     .flexColChild--col-generalInfo {
         padding: .35rem 0;
     }
-    .flexCol--colProductQuantity,
-    .flexCol--colAddToCart{
+    .flexCol--colProductQuantity{
         width: 50%;
+    }
+    .flexCol--colAddToCart {
+        width: 100%!important;
     }
 
     .flexColChild--colFormulariocliente-pillin, 
@@ -723,9 +719,16 @@
         width: 85%;
         margin: 0 auto;
     }
+    .filterPopupTitle {
+        text-align: center;
+    }
     .flexRowContent--rowFormulariotcn {
         width: 100%;
     }
+    }
+    .flexColChild--orderByMobileCol {
+        width: 90%;
+        margin: 0 auto;
 
     .flexColChild--btn-GuiaDeTallas {
         position: static;
@@ -750,5 +753,6 @@
 
     .flexCol--colAddToCart{
         width: 90% !important;
+
     }
 }

@@ -12,3 +12,9 @@
     width: 28px;
     height: 28px;
 }
+
+@media (max-width:991.1px){
+    .wishlistIconContainer::after {
+        font-size: 12px;
+    }
+}
