@@ -33,7 +33,16 @@
   background-image: url(assets/img/flag-cyber-4.png);
   width: 67px;
   height: 33px;
-} 
+}
+
+.colProductImage .productHighlightWrapper--collection[data-highlight-id="145"] {
+  bottom: auto;
+  right: 0;
+  top: 0 !important;
+  position: absolute;
+}
+
+
 
 @media (max-width:768px) {
 
@@ -41,21 +50,21 @@
     width: 34px;
     height: 27px;
   }
-  
+
   .productHighlightWrapper--collection[data-highlight-id="144"] {
     width: 57px;
     height: 33px;
   }
-  
+
   .productHighlightWrapper--collection[data-highlight-id="143"] {
     width: 55px;
     height: 30px;
   }
-  
+
   .productHighlightWrapper--collection[data-highlight-id="142"] {
     width: 55px;
     height: 28px;
-  } 
+  }
 
 
 }
