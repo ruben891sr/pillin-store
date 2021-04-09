@@ -66,8 +66,8 @@
   // 1.5 PSG - Row Prices
   "flex-layout.row#prices": {
     "children": [
-      "product-price#product-summary",
-      // "product-list-price#summary",
+      // "product-price#product-summary",
+      "product-list-price#summary",
       "flex-layout.row#selling-price-savings"
     ],
     "props": {
