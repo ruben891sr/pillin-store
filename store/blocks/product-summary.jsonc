@@ -1,4 +1,6 @@
 {
+
+  // 1. PRODUCT SUMMARY GENERAL
   "product-summary.shelf#general": {
     "children": [
       "stack-layout#prodsum",
@@ -12,121 +14,116 @@
     ]
   },
 
-  "product-summary.shelf#pdp": {
+  // 1.1 PSG - Stack Layout (Image, flags)
+  "stack-layout#prodsum": {
     "children": [
-      "stack-layout#prodsum",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "flex-layout.row#prices",
-      "product-installments#summary",
-      "product-summary-sku-selector",
-      "add-to-cart-button"
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights"
     ]
   },
-
-  "product-summary.shelf#NotFound": {
-    "children": [
-      "stack-layout#prodsum",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "flex-layout.row#prices",
-      "product-installments#summary",
-      "product-summary-sku-selector",
-      "add-to-cart-button"
-    ]
-  },
-
-  "product-summary.shelf#outfit": {
-    "children": [
-      "stack-layout#prodsum",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "flex-layout.row#prices",
-      "product-installments#summary",
-      "product-summary-sku-selector",
-      "add-to-cart-button"
-    ]
-  },
-
-
-  "product-summary.shelf#busqueda": {
-    "children": [
-      "flex-layout.row#summary-busqueda"
-    ],
+// 1.1.1 PSG - Stack Layout (Image, flags) - Image
+  "product-summary-image#shelf": {
     "props": {
-      "blockClass": "summaryBusqueda"
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+// 1.1.2 PSG - Stack Layout (Image, flags) - Flags
+  "vtex.product-highlights@2.x:product-highlights": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+// 1.1.2.1 PSG - Stack Layout (Image, flags) - Flags - Flag Wrapper
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+// 1.1.2.1.1 PSG - Stack Layout (Image, flags) - Flags - Flag Wrapper - Text
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "markers": [
+        "discount"
+      ]
     }
   },
 
+  // 1.2 PSG - Summary Name
+  "product-summary-name": {
+    "props": {
+      "blockClass": "nombreProdBusqueda"
+    }
+  },
+  
+  // 1.3 PSG - Rating Inline
+  // 1.4 PSG - Summary Space
+
+  // 1.5 PSG - Row Prices
   "flex-layout.row#prices": {
     "children": [
-      "product-list-price#summary",
+      "product-price#product-summary",
+      // "product-list-price#summary",
       "flex-layout.row#selling-price-savings"
     ],
     "props": {
       "blockClass": "rowPrices",
       "colSizing": "auto"
     }
+  }, 
+// 1.5.1 PSG - Row Prices - Summary Price
+  "product-price#product-summary": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
   },
-
-  "flex-layout.row#summary-busqueda": {
+// 1.5.2 PSG - Row Prices - Summary List Price
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+// 1.5.3 PSG - Row Prices - Row Price Savings
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
     "children": [
-      "flex-layout.col#busquedaImagen",
-      "flex-layout.col#busquedaNombrePrice"
-      // "flex-layout.col#busquedaButton"
-    ],
+      "product-selling-price#summary",
+      "product-price-savings#summary"
+    ]
+  },
+// 1.5.3.1 PSG - Row Prices - Selling Price
+  "product-selling-price#summary": {
     "props": {
-      "colSizing": "auto"
+      "blockClass": "summary"
+    }
+  },
+// 1.5 PSG - Row Prices - Price Savings
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
     }
   },
 
-  "flex-layout.col#busquedaImagen": {
-    "children": [
-      "product-summary-image#shelf-busqueda"
-    ],
+  // 1.6 PSG - Summary installments
+  "product-installments#summary": {
     "props": {
-      "blockClass": "summaryBusquedaImagen",
-      "width": "40%"
+      "blockClass": "summary"
     }
   },
-
-  "flex-layout.col#busquedaNombrePrice": {
-    "children": [
-      "product-summary-name",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings"
-    ],
-    "props": {
-      "blockClass": "summaryBusquedaNombrePrice",
-      "width": "60%"
-    }
-  },
-
-  "product-summary-name": {
-    "props": {
-      "blockClass": "nombreProdBusqueda"
-    }
-  },
-
-  "flex-layout.col#busquedaButton": {
-    "children": [ 
-      "add-to-cart-button#busqueda"
-    ],
-    "props": {
-      "blockClass": "summaryBusquedaButton",
-      "width": "30%"
-    }
-  },
-
-  "add-to-cart-button#busqueda": {
-    "props": {
-      "blockClass": "botonComprarBusqueda"
-    }
-  },
-
+  // 1.7 PSG - Summary SKU selector
   "product-summary-sku-selector": {
     "props": {
       "hideImpossibleCombinations": true,
@@ -145,7 +142,6 @@
       // }
     }
   },
-
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": true,
@@ -155,22 +151,66 @@
       "visibleVariations": ["Talla", "Color"]
     }
   },
-
-  "stack-layout#prodsum": {
+  // 1.8 PSG - Add to Cart
+  "flex-layout.col#busquedaButton": {
     "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights"
-    ]
-  },
-
-  "product-summary-image#shelf": {
+      "add-to-cart-button#busqueda"
+    ],
     "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
+      "blockClass": "summaryBusquedaButton",
+      "width": "30%"
+    }
+  },
+// 1.8.1 PSG - Add to Cart - Add to Cart
+  "add-to-cart-button#busqueda": {
+    "props": {
+      "blockClass": "botonComprarBusqueda"
     }
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+  // 2. PRODUCT SUMMARY BÚSQUEDA
+  "product-summary.shelf#busqueda": {
+    "children": [
+      "flex-layout.row#summary-busqueda"
+    ],
+    "props": {
+      "blockClass": "summaryBusqueda"
+    }
+  },
+  // 2.1 PSB - Main Row
+  "flex-layout.row#summary-busqueda": {
+    "children": [
+      "flex-layout.col#busquedaImagen",
+      "flex-layout.col#busquedaNombrePrice"
+      // "flex-layout.col#busquedaButton"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  // 2.1.1 PSB - Main Row - Columna Imagen
+  "flex-layout.col#busquedaImagen": {
+    "children": [
+      "product-summary-image#shelf-busqueda"
+    ],
+    "props": {
+      "blockClass": "summaryBusquedaImagen",
+      "width": "40%"
+    }
+  },
+  // 2.1.1.1 PSB - Main Row - Columna Imagen - Summary Image
   "product-summary-image#shelf-busqueda": {
     "props": {
       "showBadge": false,
@@ -178,69 +218,20 @@
       "blockClass": "imageBusqueda"
     }
   },
-
-  // "vtex.product-highlights@2.x:product-highlights": {
-  //   "children": ["product-highlight-text"]
-  // },
-  // "product-highlight-text": {
-  //   "props": {
-  //     "message": "{highlightName}"
-  //   }
-  // }, 
-  "vtex.product-highlights@2.x:product-highlights": {
-    "props": {
-      "type": "collection" 
-    },
-    "children": ["product-highlight-wrapper"]
-  },
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "collection"
-    },
-    "children": ["product-highlight-text"]
-  },
-  "product-highlight-text": {
-    "props": {
-      "message": "{highlightName}",
-      "markers": [
-        "discount"  
-      ]
-    }
-  },
-
-  "product-list-price#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
-  "flex-layout.row#selling-price-savings": {
-    "props": {
-      "colGap": 2,
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
-      "marginBottom": 4
-    },
+  // 2.1.2 PSB - Main Row - Columna Nombre y precio -
+  "flex-layout.col#busquedaNombrePrice": {
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
-    ]
-  },
-  "product-installments#summary": {
+      "product-summary-name",
+      // "product-list-price#summary",
+      "product-price#product-summary",
+      "flex-layout.row#selling-price-savings"
+    ],
     "props": {
-      "blockClass": "summary"
-    }
-  },
-  "product-selling-price#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
-  "product-price-savings#summary": {
-    "props": {
-      "markers": [
-        "discount"
-      ],
-      "blockClass": "summary"
+      "blockClass": "summaryBusquedaNombrePrice",
+      "width": "60%"
     }
   }
+
+
+
 }

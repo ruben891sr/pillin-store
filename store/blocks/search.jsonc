@@ -211,7 +211,7 @@
   },
 
   "gallery": {
-    "blocks": ["product-summary.shelf#pdp"]
+    "blocks": ["product-summary.shelf#general"]
   },
 
   // Search result Mobile
@@ -376,7 +376,7 @@
   },
 
   "autocomplete-result-list.v2#buscaVacia": {
-    "blocks": ["product-summary.shelf#busqueda"],
+    "blocks": ["product-summary.shelf#general"],
     "props": {
       "blockClass": "motorBuscador"
     }
@@ -491,7 +491,7 @@
         "itemsPerPage": 5
       }
     },
-    "blocks": ["product-summary.shelf#NotFound"]
+    "blocks": ["product-summary.shelf#general"]
   },
 
   "rich-text#not-found": {
