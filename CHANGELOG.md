@@ -219,7 +219,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.17.2] - 2019-11-08
 ### Added
-- Use `skusFilter` `FIRST_AVAILABLE` value.
+- Use `skusFilter` `ALL` value.
 
 ## [3.17.1] - 2019-11-06
 ### Fixed
