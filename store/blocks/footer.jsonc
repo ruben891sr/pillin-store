@@ -4,7 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#club-pillin",
+      // "flex-layout.row#club-pillin",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",
@@ -14,7 +14,7 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#club-pillin-mobile",
+      // "flex-layout.row#club-pillin-mobile",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",

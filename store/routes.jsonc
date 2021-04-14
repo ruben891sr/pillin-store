@@ -23,12 +23,12 @@
     "path": "/tiendas"
   },
   
-  "store.custom#beneficiario": {
-    "path": "/beneficiario"
-  },
+  // "store.custom#beneficiario": {
+  //   "path": "/beneficiario"
+  // },
 
-  "store.custom#cliente-pillin": {
-    "path": "/cliente-pillin"
-  }
+  // "store.custom#cliente-pillin": {
+  //   "path": "/cliente-pillin"
+  // }
   
 }

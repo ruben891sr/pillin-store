@@ -250,7 +250,7 @@
     transform: translateY(-50%);
     right: 83%;
 }
- 
+
 .paragraph--cp-textClub {
     margin-top: 0;
     font-weight: 500;
@@ -399,7 +399,7 @@
     justify-content: center;
     align-items: center;
 }
- 
+
 .paragraph--botonFiltrar {
     color: #fff;
     background: #3f2016;
@@ -418,6 +418,7 @@
     padding: 5px 10px;
     border-radius: 3px;
 }
+
 .paragraph--textGuiadeTallas::before {
     content: "";
     display: inline-block;
@@ -470,9 +471,11 @@
     margin: 10px 0;
     margin-block-end: 0;
 }
+
 .formSimuladorFlete .TituloSimulador {
     margin: 0 0 7px;
 }
+
 .ContainerFormFlete {
     padding-left: 0;
     list-style: none;
@@ -492,20 +495,22 @@
     text-decoration: none;
 }
 
-.paragraph--categoriasBuscaVacia{
+.paragraph--categoriasBuscaVacia {
     display: flex;
     margin: 10px 12px 0 0;
 }
 
-.link--categoriasBuscaVacia{
+.link--categoriasBuscaVacia {
     margin-left: 0;
 }
+
 .heading--MensajePrincipal,
 .paragraph--talVezPuedaInteresar,
 .paragraph--botonVolver {
     color: #fff;
     text-shadow: 0 0 10px #000000;
 }
+
 .link--botonVolver {
     color: #ffab71;
     text-decoration: none;
@@ -527,7 +532,8 @@
     margin-top: 0;
 }
 
-.paragraph--textoContenido, .listItem--textoContenido {
+.paragraph--textoContenido,
+.listItem--textoContenido {
     font-weight: 400;
 }
 
@@ -570,7 +576,7 @@
 .headingLevel2--main-titles,
 .paragraph--tituloBusquedaPorTalla {
     font-size: 19px;
-    color: #402117; 
+    color: #402117;
     font-weight: 500;
     text-align: left;
     justify-content: flex-start;
@@ -604,8 +610,8 @@
     z-index: -1;
     width: 50px;
     height: 45px;
-    position: absolute; 
-    left: 0; 
+    position: absolute;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -639,6 +645,7 @@
 .wrapper--nuestrasTiendas {
     position: relative;
 }
+
 .wrapper--nuestrasTiendas::after {
     content: "";
     display: inline-block;
@@ -658,7 +665,7 @@
 }
 
 @media (max-width: 991.1px) {
- 
+
     .container--texto-seo {
         display: none;
     }
@@ -683,7 +690,7 @@
         margin: 0;
         width: 100%;
     }
-    
+
     .listItem--footer-list-asistida,
     .listItem--footer-list-envio,
     .listItem--footer-list-insta,
@@ -706,10 +713,10 @@
 
     .headingLevel2--main-titles {
         margin-bottom: 2.5rem;
-    } 
+    }
 
     .paragraph--cp-textClub {
-        text-align: center  ;
+        text-align: center;
     }
 
     .headingLevel3--cp-titleClub {
@@ -730,7 +737,7 @@
     }
 
     .heading--titleBeneficiario,
-    .heading--titleContacto{
+    .heading--titleContacto {
         margin-top: 0;
         margin-bottom: 15px;
     }
@@ -739,15 +746,17 @@
         padding-left: 0rem;
         margin-left: 0rem;
     }
+
     .paragraph--tituloModalGuiaTallas {
         margin: 0;
     }
+
     .paragraph--seo-search-banner {
         width: 95%;
     }
 
-    .flexColChild--colFormulariocliente-pillin, 
-    .flexColChild--colFormularioBeneficiario, 
+    .flexColChild--colFormulariocliente-pillin,
+    .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
         width: 85px;
         margin: 0 auto;
