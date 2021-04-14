@@ -656,6 +656,10 @@
     padding: 10rem;
 }
 
+.flexRowContent--titulo-row-insta {
+    margin-top: 3rem;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 991.1px) {
