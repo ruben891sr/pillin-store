@@ -21,7 +21,7 @@
 
   "store.custom#tiendas": {
     "path": "/tiendas"
-  },
+  }
   
   // "store.custom#beneficiario": {
   //   "path": "/beneficiario"
