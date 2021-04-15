@@ -194,15 +194,15 @@
 }
 
 .flexCol--vestuario-wrapper {
-    background-image: url(assets/img/infocard-vestuario.jpg);
+    background-image: url(assets/img/BN_Caluga_vestuario.jpg);
 }
 
 .flexCol--calzado-wrapper {
-    background-image: url(assets/img/infocard-calzado.jpg);
+    background-image: url(assets/img/BN_Caluga_calzado.jpg);
 }
 
 .flexCol--accesorios-wrapper {
-    background-image: url(assets/img/infocard-accesorios.jpg);
+    background-image: url(assets/img/BN_Caluga_accesorios.jpg);
 }
 
 /*PDP*/
@@ -465,6 +465,10 @@
 
 .colProductImage {
     position: relative;
+}
+
+.flexColChild--filterCol {
+    height: auto!important;
 }
 
 
