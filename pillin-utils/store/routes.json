@@ -1,9 +1,9 @@
 {
-  "store.storelocator": {
+  "pixel.storelocator": {
     "path": "/tiendas",
     "isSitemapEntry": true
   },
-  "store.storedetail": {
+  "pixel.storedetail": {
     "path": "/tienda/:slug/:store_id",
     "isSitemapEntry": false
   }
