@@ -3,6 +3,11 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react'
 
+import { canUseDOM } from 'vtex.render-runtime'
+
+import { PixelMessage } from './typings/events'
+ 
+
 const StoreList = ({ }) => {
 
    return (
@@ -19,6 +24,7 @@ const StoreList = ({ }) => {
                 <select id={`address_store`} title={`Seleccionar tienda`} disabled={true}>
                 </select>
                 <table id={`store_info`}>
+				<tbody>
                     <tr>
                         <th>Nombre tienda</th>
                     </tr>
@@ -43,6 +49,7 @@ const StoreList = ({ }) => {
                     <tr>
                         <td id={`slot_contact`}></td>
                     </tr>
+				</tbody>
                 </table>
             </div>
             <div id={`map`}><div></div></div>
@@ -51,4 +58,21 @@ const StoreList = ({ }) => {
 }
 
 export default StoreList
+
+import { PixelMessage } from './typings/events'
+
+export function handleEvents(e: PixelMessage) {
+  switch (e.data.eventName) {
+    case 'vtex:pageView': {
+      break
+    }
+    default: {
+      break
+    }
+  }
+}
+
+if (canUseDOM) {
+  window.addEventListener('message', handleEvents)
+}
 
