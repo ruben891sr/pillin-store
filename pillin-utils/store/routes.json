@@ -1,0 +1,10 @@
+{
+  "store.storelocator": {
+    "path": "/tiendas",
+    "isSitemapEntry": true
+  },
+  "store.storedetail": {
+    "path": "/tienda/:slug/:store_id",
+    "isSitemapEntry": false
+  }
+}
