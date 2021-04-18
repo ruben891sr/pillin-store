@@ -2,9 +2,6 @@
   "pixel.pillin-utils": {
     "component": "index"
   },
-  "store-list": {
-    "component": "List"
-  },
   "pixel.storelocator": 
   {
     "component": "List"

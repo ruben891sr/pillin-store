@@ -59,6 +59,8 @@ const StoreList = ({ }) => {
 export default StoreList
 
 export function handleEvents(e: PixelMessage) {
+  console.log("------------------------------------------")
+  console.log(e)
   switch (e.data.eventName) {
     case 'vtex:pageView': {
       break
