@@ -69,20 +69,3 @@ const StoreList = ({ }) => {
 
 export default StoreList
 
-
-            function srestoresinit ()
-            {
-                if (!document.getElementById("map"))
-                    return
-
-                setTimeout(srvtexinit, 0)
-
-                const script = document.createElement("script")
-
-                script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAKvpKOzDVG8dsSz90L6OQZuUJ0qh0CvSc&v=beta"
-                script.addEventListener("load", srmapinit)
-
-                document.head.appendChild(script)
-            }
-
-
