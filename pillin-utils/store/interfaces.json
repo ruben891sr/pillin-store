@@ -5,6 +5,9 @@
   "store-list": {
     "component": "List"
   },
-  "pixel.storelocator": {},
+  "pixel.storelocator": 
+  {
+    "component": "index"
+  },
   "pixel.storedetail": {}
 }
