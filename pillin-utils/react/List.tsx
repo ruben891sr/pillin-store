@@ -13,10 +13,10 @@ const StoreList = ({ }) => {
                 <select id={`address_region`} title={`Seleccionar región`}>
                 </select>
                 <label>Seleccione la comuna</label>
-                <select id={`address_commune`} title={`Seleccionar comuna`} disabled={`yes`}>
+                <select id={`address_commune`} title={`Seleccionar comuna`} disabled={true}>
                 </select>
                 <label>Seleccione la tienda</label>
-                <select id={`address_store`} title={`Seleccionar tienda`} disabled={`yes`}>
+                <select id={`address_store`} title={`Seleccionar tienda`} disabled={true}>
                 </select>
                 <table id={`store_info`}>
                     <tr>
