@@ -24,15 +24,7 @@ const CSS_HANDLES = [
   'loadAll',
 ] as const
 */
-const StoreList = ({ })
-/*
-  orderForm: { called: ofCalled, loading: ofLoading, orderForm: ofData },
-  googleMapsKeys,
-  filterByTag,
-  icon,
-  iconWidth,
-  iconHeight,
-})*/ => {
+const StoreList = ({ }) => {
 
 
    return (
