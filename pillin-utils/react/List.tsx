@@ -7,6 +7,9 @@ import { graphql, compose, useLazyQuery } from 'react-apollo'
 import { Spinner } from 'vtex.styleguide'
 import { useCssHandles } from 'vtex.css-handles'
 
+import ORDER_FORM from './queries/orderForm.gql'
+import GOOGLE_KEYS from './queries/GetGoogleMapsKey.graphql'
+
 const CSS_HANDLES = [
   'container',
   'storesListCol',
@@ -34,7 +37,19 @@ const StoreList = ({
    )
 }
 
-export default injectIntl()
-
+export default injectIntl(
+  compose(
+    graphql(ORDER_FORM, {
+      name: 'orderForm',
+      options: {
+        ssr: false,
+      },
+    }),
+    graphql(GOOGLE_KEYS, {
+      name: 'googleMapsKeys',
+      options: {
+        ssr: false,
+      },
+    })
   )(StoreList)
 )
