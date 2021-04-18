@@ -10,8 +10,8 @@ import './List.css'
 const StoreList = ({ }) => {
 
    return (
-        <div id={`cont`} className={cont}>
-            <div id={`form`} className={form}>
+        <div id={`cont`} className={`pillin-pillin-utils-0-x-cont`}>
+            <div id={`form`} className={`pillin-pillin-utils-0-x-form`}>
                 <h1>Nuestras Tiendas</h1>
                 <label>Seleccione la región</label>
                 <select id={`address_region`} title={`Seleccionar región`}>
@@ -22,7 +22,7 @@ const StoreList = ({ }) => {
                 <label>Seleccione la tienda</label>
                 <select id={`address_store`} title={`Seleccionar tienda`} disabled={true}>
                 </select>
-                <table id={`store_info`} className={store_info}>
+                <table id={`store_info`} className={`pillin-pillin-utils-0-x-store_info`}>
 				<tbody>
                     <tr>
                         <th>Nombre tienda</th>
@@ -51,7 +51,7 @@ const StoreList = ({ }) => {
 				</tbody>
                 </table>
             </div>
-            <div id={`map`} className={map}><div></div></div>
+            <div id={`map`} className={`pillin-pillin-utils-0-x-map`}><div></div></div>
         </div>
    )
 }
