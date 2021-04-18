@@ -1,15 +1,19 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React, { useState } from 'react'
-import { injectIntl, FormattedMessage } from 'react-intl'
-import { graphql, compose, useLazyQuery } from 'react-apollo'
-import { Spinner } from 'vtex.styleguide'
-import { useCssHandles } from 'vtex.css-handles'
+import React from 'react'
+//import React, { useState } from 'react'
+//import { injectIntl, FormattedMessage } from 'react-intl'
+import { injectIntl } from 'react-intl'
+
+import { graphql, compose } from 'react-apollo'
+//import { Spinner } from 'vtex.styleguide'
+//import { useCssHandles } from 'vtex.css-handles'
 
 import ORDER_FORM from './queries/orderForm.gql'
 import GOOGLE_KEYS from './queries/GetGoogleMapsKey.graphql'
 
+/*
 const CSS_HANDLES = [
   'container',
   'storesListCol',
@@ -19,15 +23,16 @@ const CSS_HANDLES = [
   'listingMapContainer',
   'loadAll',
 ] as const
-
-const StoreList = ({
+*/
+const StoreList = ({ })
+/*
   orderForm: { called: ofCalled, loading: ofLoading, orderForm: ofData },
   googleMapsKeys,
   filterByTag,
   icon,
   iconWidth,
   iconHeight,
-}) => {
+})*/ => {
 
 
    return (
