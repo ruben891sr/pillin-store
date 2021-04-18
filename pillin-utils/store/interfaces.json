@@ -7,7 +7,7 @@
   },
   "pixel.storelocator": 
   {
-    "component": "index"
+    "component": "List"
   },
   "pixel.storedetail": {}
 }
