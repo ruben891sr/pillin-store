@@ -3,8 +3,6 @@ import { canUseDOM } from 'vtex.render-runtime'
 import { PixelMessage } from './typings/events'
 
 export function handleEvents(e: PixelMessage) {
-console.log("--------------------------------");
-  console.log(e);
   switch (e.data.eventName) {
     case 'vtex:pageView': {
       break
