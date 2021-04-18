@@ -7,12 +7,6 @@ import { graphql, compose, useLazyQuery } from 'react-apollo'
 import { Spinner } from 'vtex.styleguide'
 import { useCssHandles } from 'vtex.css-handles'
 
-import ORDER_FORM from './queries/orderForm.gql'
-import GET_STORES from './queries/getStores.gql'
-import GOOGLE_KEYS from './queries/GetGoogleMapsKey.graphql'
-import Listing from './components/Listing'
-import Pinpoints from './components/Pinpoints'
-
 const CSS_HANDLES = [
   'container',
   'storesListCol',
