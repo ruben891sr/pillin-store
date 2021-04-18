@@ -1,5 +1,4 @@
 {
   "pixels > pixel": "pixel.pillin-utils",
-  "pixels > pixel": "pixel.storelocator",
-  "pixels > pixel": "store-list"
+  "pixels > pixel": "pixel.storelocator"
 }
