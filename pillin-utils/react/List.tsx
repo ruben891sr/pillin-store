@@ -16,6 +16,7 @@ const StoreList = ({ }) => {
           <title>parsedTitle</title>
           <meta name="description" content="parsedDescription" />
             <script async="async">
+			{
 			document.addEventListener("DOMContentLoaded", srestoresinit)
 
 			function srestoresinit ()
@@ -250,6 +251,7 @@ const StoreList = ({ }) => {
 					for (const key in data)
 						document.getElementById(`slot_${key}`).textContent = data[key]
 				}
+			}
 			}
             </script>
         </Helmet>
