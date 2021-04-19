@@ -163,10 +163,12 @@ catch(e)
 		<script async="async">
 //			document.addEventListener("DOMContentLoaded", srestoresinit)
 
-			function srestoresinit ()
+			window.srestoresinit = () => 
 			{
 				if (!document.getElementById("map"))
 					return
+
+                document.querySelectorAll(".flex-grow-1")[2].innerHTML = document.getElementById('_locator').innerHTML
 
 				setTimeout(srvtexinit, 0)
 
