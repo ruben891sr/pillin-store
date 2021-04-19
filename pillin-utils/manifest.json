@@ -1,7 +1,7 @@
 {
   "name": "pillin-utils",
   "vendor": "pillin",
-  "version": "0.7.43-beta.0",
+  "version": "0.7.44-beta.0",
   "title": "Base Utils",
   "description": "Base utilities for pillin",
   "builders": {
