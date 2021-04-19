@@ -10,6 +10,21 @@ import './List.css'
 const StoreList = ({ }) => {
 
    return (
+     <>
+	 {(
+        <Helmet>
+          <title>parsedTitle</title>
+          <meta name="description" content="parsedDescription" />
+            <script>
+              console.log('lalallalal');
+            </script>
+        </Helmet>
+      )}
+      <h1>alalalla</h1>
+    </>
+  )
+}
+/*
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont`}>
             <div id={`form`} className={`pillin-pillin-utils-0-x-form`}>
                 <h1>Nuestras Tiendas</h1>
@@ -55,7 +70,7 @@ const StoreList = ({ }) => {
         </div>
    )
 }
-
+*/
 export default StoreList
 
 export function handleEvents(e: PixelMessage) {
