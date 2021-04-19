@@ -3,6 +3,7 @@ import { canUseDOM } from 'vtex.render-runtime'
 import { PixelMessage } from './typings/events'
 
 export function handleEvents(e: PixelMessage) {
+console.log(e)
   switch (e.data.eventName) {
     case 'vtex:pageView': {
 
@@ -23,4 +24,6 @@ export function handleEvents(e: PixelMessage) {
 
 if (canUseDOM) {
   window.addEventListener('message', handleEvents)
+  eval("window.srestoresinit();");
+
 }
