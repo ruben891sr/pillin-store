@@ -1,7 +1,7 @@
 {
-  "storelocator": 
+  "pillin.storelocator": 
   {
-    "component": "List"
+    "component": "locator"
   },
-  "storedetail": {}
+  "pillin.storedetail": {}
 }

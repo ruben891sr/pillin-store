@@ -1,9 +1,9 @@
 {
-  "storelocator": {
+  "pillin.storelocator": {
     "path": "/tiendas",
     "isSitemapEntry": false
   },
-  "storedetail": {
+  "pillin.storedetail": {
     "path": "/tienda/:slug/:store_id",
     "isSitemapEntry": false
   }
