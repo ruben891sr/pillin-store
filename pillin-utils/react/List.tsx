@@ -15,8 +15,7 @@ const StoreList = ({ }) => {
         <Helmet>
           <title>parsedTitle</title>
           <meta name="description" content="parsedDescription" />
-            <script async="async">
-            </script>
+          <script src="https://pillin.myvtex.com/files/pillin-custom.js"></script>
         </Helmet>
       )}
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont`}>
