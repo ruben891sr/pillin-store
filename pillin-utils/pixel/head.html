@@ -234,8 +234,8 @@ catch(e)
 
 			async function srvtexinit ()
 			{
-				const fetched = window.data = await fetch("/api/logistics/pvt/configuration/pickuppoints", { headers: { "X-VTEX-API-AppKey":   "vtexappkey-pillin-KTRDYS", "X-VTEX-API-AppToken": "QHMNBTTFTYSQIBJWBUCRZLKNWZNPYATTCKERYJYDVRUZETBXRIYVUNCFXYRCFDHSEYOXXRXSWZVIRLICXQYQCXYOIZUZRWXRJBUGFEAZKFZVRUNLQPEPFRQHAZPXXXAA"}})
-				const list = fetched.json()
+//				const fetched = window.data = await fetch("/api/logistics/pvt/configuration/pickuppoints", { headers: { "X-VTEX-API-AppKey":   "vtexappkey-pillin-KTRDYS", "X-VTEX-API-AppToken": "QHMNBTTFTYSQIBJWBUCRZLKNWZNPYATTCKERYJYDVRUZETBXRIYVUNCFXYRCFDHSEYOXXRXSWZVIRLICXQYQCXYOIZUZRWXRJBUGFEAZKFZVRUNLQPEPFRQHAZPXXXAA"}})
+				const list = window.vtexlist
 
 				const places  = {}
 				const reglat  = {}
