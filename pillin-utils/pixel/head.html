@@ -160,3 +160,73 @@ catch(e)
 
 </script>
 <script src="https://pillin.myvtex.com/files/pillin-custom.js"></script>
+
+
+
+		<style>
+			.gm-style-iw button {
+				display: none !important;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			#cont {
+				position: relative;
+				overflow: hidden;
+				min-height: 30em;
+			}
+			#form {
+				text-align: left;
+				vertical-align: top;
+
+				position: relative;
+				z-index: 1;
+				padding: 2em;
+				background-color: #F7F1E7;
+				box-shadow: 0 0 1em -0.2em black;
+			}
+			#map {
+				position: relative;
+				height: 20em;
+			}
+			#map > * {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}
+			#form > * {
+				margin: 0;
+				padding: 0.5em;
+			}
+			#form > label {
+				display: block;
+			}
+			#form > select {
+				min-width: 100%;
+			}
+			#store_info {
+				visibility: collapse;
+			}
+			#store_info.populated {
+				visibility: visible;
+			}
+			@media (min-width: 991px)
+			{
+				#form {
+					margin: 4em;
+					width: 30em;
+					border-radius: 0.5em;
+				}
+				#map {
+					position: absolute;
+					height: auto;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+				}
+			}
+		</style>
+
