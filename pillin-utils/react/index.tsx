@@ -25,5 +25,5 @@ console.log(e)
 if (canUseDOM) {
   window.addEventListener('message', handleEvents)
   eval("window.srestoresinit();");
-
+  console.log("done!!!");
 }
