@@ -594,6 +594,10 @@
     margin-right: 1.2rem;
 }
 
+.imageElement--carousel {
+    max-height: 100%;
+}
+
 @media (max-width: 991px) {
     .searchIcon {
         width: 12px;
