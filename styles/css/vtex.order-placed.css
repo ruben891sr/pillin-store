@@ -107,7 +107,7 @@
     border: none;
 }
 
-.noticesList .noticeListItem:nth-child(odd) {
+.noticesList .noticeListItem:nth-child(even) {
     display: none;
 }
 
