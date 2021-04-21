@@ -107,6 +107,10 @@
     border: none;
 }
 
+.noticesList .noticeListItem:nth-child(odd) {
+    display: none;
+}
+
 
 @media (max-width: 991px) {
     .orderNumber {
