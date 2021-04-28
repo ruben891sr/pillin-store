@@ -1,10 +1,13 @@
 /* Logo */
+
 .flexCol--logoCol {
     display: flex;
     justify-content: center;
 }
 
+
 /* Header */
+
 .flexRow--main-header {
     border-bottom: 1px solid #ccc;
     /* box-shadow: 7px 7px 5px 0 rgb(107 107 107 / 15%);*/
@@ -125,8 +128,6 @@
     height: auto !important;
 }
 
-
-
 .flexRow--clubPillin {
     margin: 4rem 0;
     padding: 3rem 0 7rem 0;
@@ -205,11 +206,13 @@
     background-image: url(assets/img/BN_Caluga_accesorios.jpg);
 }
 
+
 /*PDP*/
 
-.flexCol--btn-Stock{
+.flexCol--btn-Stock {
     display: none!important;
 }
+
 .flexRow--Row-BreadCrumb {
     border-bottom: 1px solid #dddddd;
 }
@@ -228,16 +231,18 @@
     align-items: flex-start;
 }
 
-.flexCol--colAddToCart{
+.flexCol--colAddToCart {
     width: 60%!important;
 }
 
-.flexRowContent--rowQuantityBuyDesktop .stretchChildrenWidth:nth-child(2n){
+.flexRowContent--rowQuantityBuyDesktop .stretchChildrenWidth:nth-child(2n) {
     justify-content: flex-start!important;
 }
 
+
 /*PLP*/
-.flexRow--rowBreadCrumbDesktop{
+
+.flexRow--rowBreadCrumbDesktop {
     border-bottom: 1px solid #dddddd;
     margin-left: auto;
     margin-right: auto;
@@ -250,7 +255,9 @@
     margin: 5px 0 10px 0;
 }
 
+
 /*Banner y titulo*/
+
 .flexRowContent--rowBannerSearchTitle {
     justify-content: center;
     align-items: center;
@@ -264,7 +271,9 @@
     top: 0;
 }
 
+
 /*Búsqueda Vacía*/
+
 .flexRow--BuscaVacia {
     background: url(https://pillin.vteximg.com.br/arquivos/BN_W_BuscaVacia.jpg);
     background-repeat: no-repeat;
@@ -294,6 +303,7 @@
     display: inline-flex;
     justify-content: flex-start;
 }
+
 
 /*Páginas Institucionales*/
 
@@ -372,7 +382,6 @@
     margin-top: 1rem;
 }
 
-
 .flexCol--col-generalInfo {
     background: #f9f9f9;
     padding: 3rem;
@@ -393,8 +402,8 @@
     align-items: center;
 }
 
-/*Contacto*/
 
+/*Contacto*/
 
 .flexRow--rowFormulariocliente-pillin,
 .flexRow--rowFormularioBeneficiario,
@@ -421,7 +430,7 @@
     background-image: url(assets/img/beneficiarios.jpg) !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right; 
+    background-position: top right;
 }
 
 .flexColChild--colFormulariocliente-pillin,
@@ -440,10 +449,13 @@
     height: 100% !important;
 }
 
+
 /*Tiendas*/
+
 .flexRowContent--rowContentTiendas {
     position: relative;
 }
+
 .flexColChild--colFormTiendas {
     position: absolute;
     top: 2rem;
@@ -455,6 +467,7 @@
     width: 35%;
     z-index: 9;
 }
+
 .flexCol--mapaTiendas {
     height: 60vh;
 }
@@ -471,35 +484,28 @@
     height: auto!important;
 }
 
-
 @media (max-width:768px) {
     .flexRowContent--rowBannerSearchTitle {
         margin-bottom: 0rem;
     }
-
     .flexRowContent--rowSearchInfo .stretchChildrenWidth {
         border: 1px solid #441e13;
         border-radius: 3px;
         margin: 0 5px;
         height: 45px;
     }
-
     .filterPopupTitle {
         font-weight: 800;
     }
-
     .flexColChild--summaryBusquedaNombrePrice {
         height: auto !important;
     }
-
     .flexRow--row-footer-mobile {
         padding: 0;
     }
-
     .flexRowContent--rowBanners-mobile {
         display: flex;
     }
-
     .flexRow--clubPillin-mobile {
         background-image: url(assets/img/bg-clubPillin.jpg);
         margin: 4rem 0;
@@ -508,21 +514,18 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .flexCol--vestuario-wrapper,
     .flexCol--calzado-wrapper,
     .flexCol--accesorios-wrapper {
         margin: .3rem 0;
         padding: 5rem !important;
     }
-
     .flexColChild--colBannerPrincipal::before {
         background: url(https://pillin.vteximg.com.br/arquivos/BN_W_Categoria_Nino.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
-
     .flexColChild--colFormulario,
     .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
@@ -530,7 +533,6 @@
         margin: 0 auto;
         width: 85%;
     }
-
     .flexRow--rowFormularioBeneficiario,
     .flexRow--rowFormularioContacto {
         width: 100vw;
@@ -543,8 +545,6 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
-
-
 }
 
 
@@ -583,7 +583,6 @@
     position: relative;
 }
 
-
 .flexRow--mantencion-m,
 .flexRow--mantencion-d {
     background-position: center;
@@ -614,10 +613,10 @@
     position: relative;
 }
 
-
 .flexRowContent--busquedaTalla {
     flex-direction: column;
 }
+
 
 /* .minicartProductListContainer .flexRowContent  {
     position: relative;
@@ -631,7 +630,6 @@
 .flexCol--miniCart-colPrice {
     margin-top: 0;
 }
-
 
 .flexColChild--miniCart-colPrice {
     line-height: .7;
@@ -647,7 +645,9 @@
     justify-content: end;
 }
 
+
 /*Trabaja con Nosotros*/
+
 .flexRowContent--rowFormulariotcn {
     width: 50vw;
     margin: 0 auto;
@@ -665,30 +665,33 @@
 }
 
 
+/*Popup*/
+
+.flexRow--row-popup :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+
 /* MEDIA QUERIES */
+
 @media (max-width: 991.1px) {
     .flexRowContent--rowMainFooter {
         padding: 0 2rem;
         flex-direction: column !important;
     }
-
     .flexRow--footer-general {
         padding-top: 5rem;
         background-image: url(assets/img/bg-footer-movil.png);
     }
-
     .flexRowContent--rowSeo {
         margin-top: 0;
     }
-
     .flexCol--colBannersPillin {
         padding: 0;
     }
-
     .flexRowContent--rowMainFooter .stretchChildrenWidth {
         width: 100% !important;
     }
-
     .flexRowContent--rowQuantityBuy {
         display: flex;
         justify-content: center;
@@ -699,28 +702,24 @@
         border-top: 1px solid #ffab71;
         border-bottom: 1px solid #ffab71;
     }
-
     .flexCol--col-generalInfo {
         padding: 1.7rem;
     }
-
     .flexCol--col-resumeInfo {
         margin-left: 0rem;
         margin-top: 2rem;
     }
-
     .flexColChild--col-generalInfo {
         padding: .35rem 0;
     }
-    .flexCol--colProductQuantity{
+    .flexCol--colProductQuantity {
         width: 50%;
     }
     .flexCol--colAddToCart {
         width: 100%!important;
     }
-
-    .flexColChild--colFormulariocliente-pillin, 
-    .flexColChild--colFormularioBeneficiario, 
+    .flexColChild--colFormulariocliente-pillin,
+    .flexColChild--colFormularioBeneficiario,
     .flexColChild--colFormularioContacto {
         background: #fff;
         border-radius: 2px;
@@ -737,35 +736,28 @@
     .flexRowContent--rowFormulariotcn {
         width: 100%;
     }
-    
     .flexColChild--orderByMobileCol {
         width: 90%;
         margin: 0 auto;
     }
-
     .flexColChild--btn-GuiaDeTallas {
         position: static;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid #ccc;
         margin-bottom: 1rem;
     }
-
     .flexRowContent--rowQuantityBuy .stretchChildrenWidth {
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
     }
-
     .flexRowContent--rowQuantityBuy .stretchChildrenWidth:first-child {
         width: 40% !important;
     }
-
     .flexRowContent--rowQuantityBuy .stretchChildrenWidth:last-child {
         width: 60% !important;
     }
-
-    .flexCol--colAddToCart{
+    .flexCol--colAddToCart {
         width: 90% !important;
-
     }
 }

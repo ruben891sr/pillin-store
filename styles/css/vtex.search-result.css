@@ -16,6 +16,7 @@
     border: none;
     padding: 10px;
 }
+
 .orderByOptionsContainer,
 .orderByOptionItem {
     min-width: 180px;
@@ -25,23 +26,29 @@
     font-size: 14px;
     font-display: "fallback";
 }
+
 .orderByOptionItem:hover {
     background: #ede3ce;
 }
-.searchResultContainer{
+
+.searchResultContainer {
     padding-top: 0;
     max-width: 100%;
 }
 
+
 /*PLP*/
+
 .galleryTitle--layout {
     padding-left: 0;
     color: #402117;
     text-shadow: 0px 0px 2px #ece3ce;
 }
-.filterItem{
+
+.filterItem {
     font-weight: 500;
 }
+
 .filter__container--agrupacion,
 .filter__container--category-1,
 .filter__container--category-2,
@@ -49,10 +56,12 @@
 .filter__container--guiatallas {
     display: none!important;
 }
-.filterPopupTitle { 
+
+.filterPopupTitle {
     position: relative
 }
-.filterPopupTitle::after{
+
+.filterPopupTitle::after {
     content: "";
     position: absolute;
     top: -4px;
@@ -62,6 +71,7 @@
     width: 70%;
     height: 24px;
 }
+
 .galleryItem--normal {
     padding-bottom: 0;
     padding-top: 0;
@@ -73,9 +83,15 @@
     display: none !important;
 }
 
+.buttonShowMore--layout {
+    margin-bottom: 30px;
+}
+
+
 /*Media Queries*/
-@media (max-width:768px){
-    .galleryTitle--layout{
+
+@media (max-width:768px) {
+    .galleryTitle--layout {
         font-size: 35px;
         padding-left: 15px;
         padding-top: 35px;
@@ -101,7 +117,7 @@
         align-items: center;
     }
     .filtersWrapperMobile .filterPopupTitle::before {
-        content:"";
+        content: "";
         background: url(assets/img/icon-filter.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -113,7 +129,7 @@
     }
     .orderByDropdown .filterPopupTitle::after {
         position: absolute;
-        content:"";
+        content: "";
         background: url(assets/img/icon-orderBy.svg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -143,7 +159,7 @@
     }
 }
 
-@media (max-width:990px){
+@media (max-width:990px) {
     .filterPopupTitle::after {
         display: none;
     }
@@ -163,7 +179,7 @@
         margin-bottom: 5px;
         width: 10px;
     }
-    .filterBreadcrumbsText{
+    .filterBreadcrumbsText {
         color: #441e13;
     }
     .filterBreadcrumbsItemName {
@@ -200,7 +216,7 @@
         background: #481f14bf;
         color: #fff6e0;
     }
-    .accordionFilterItemTag :global(.vtex-tag){
+    .accordionFilterItemTag :global(.vtex-tag) {
         background: #ede3ce;
         color: #3f2016;
     }

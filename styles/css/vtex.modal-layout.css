@@ -9,9 +9,11 @@
 .paper--ModalGuiaTallas {
     width: 45vw!important;
 }
+
 .paper--ModalStock {
     width: 65%!important;
 }
+
 .paper--ModalGuiaTallas {
     width: 45vw !important;
 }
@@ -43,7 +45,29 @@
     cursor: pointer;
 }
 
-@media (max-width: 770px) { 
+.paper--modal-popup {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 600px !important;
+    height: fit-content !important;
+}
+
+.closeButtonContainer--popup-header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.closeIcon--popup-header {
+    width: 24px;
+    color: #300f04;
+}
+
+.headerContainer--popup-header {
+    border: 0;
+}
+
+@media (max-width: 770px) {
     .paperScrollContent,
     .paper--modalVestuario,
     .paper--modalcalzado,
@@ -52,7 +76,7 @@
         padding: 3rem 1rem;
         margin: 0 !important;
     }
-    .paper--ModalGuiaTallas{
+    .paper--ModalGuiaTallas {
         padding: 1.8rem .5rem;
         height: 95vh!important;
         width: 99vw!important;
@@ -61,4 +85,4 @@
         max-height: calc(100% - 2rem);
         overflow: auto;
     }
-} 
+}

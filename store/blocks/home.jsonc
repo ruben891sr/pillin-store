@@ -1,9 +1,6 @@
 {
   "store.home": {
-    "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
-    ]
+    "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
   },
 
   // Desktop Version
@@ -17,10 +14,10 @@
       //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
       "flex-layout.row#shelf-home",
-      "flex-layout.row#banners"
+      "flex-layout.row#banners",
+      "modal-trigger#popup"
     ]
   },
-
 
   // Desktop - Slider Principal
   "list-context.image-list#slider": {
@@ -28,7 +25,8 @@
     "props": {
       "height": 550,
       "blockClass": "sliderImageNew",
-      "images": [{
+      "images": [
+        {
           "image": "assets/img/slider.jpg",
           "mobileImage": "assets/img/slider-movil.jpg"
         },
@@ -62,7 +60,6 @@
     }
   },
 
-
   // Desktop - Infocards Icons
   "flex-layout.row#infocards-icons": {
     "children": [
@@ -77,27 +74,19 @@
   },
 
   "flex-layout.col#box": {
-    "children": [
-      "info-card#box"
-    ]
+    "children": ["info-card#box"]
   },
 
   "flex-layout.col#truck": {
-    "children": [
-      "info-card#truck"
-    ]
+    "children": ["info-card#truck"]
   },
 
   "flex-layout.col#cards": {
-    "children": [
-      "info-card#cards"
-    ]
+    "children": ["info-card#cards"]
   },
 
   "flex-layout.col#polices": {
-    "children": [
-      "info-card#polices"
-    ]
+    "children": ["info-card#polices"]
   },
 
   "info-card#box": {
@@ -152,9 +141,6 @@
       "textAlignment": "center"
     }
   },
-
-
-
 
   // Desktop - Seccion Infocard
   "flex-layout.row#infocards": {
@@ -220,13 +206,9 @@
     }
   },
 
-
   //Búsqueda por talla
   "flex-layout.row#busquedaTalla": {
-    "children": [
-      "flex-layout.row#rowTitle",
-      "flex-layout.row#rowBus"
-    ],
+    "children": ["flex-layout.row#rowTitle", "flex-layout.row#rowBus"],
     "props": {
       "blockClass": "busquedaTalla",
       "colSizing": "auto"
@@ -234,9 +216,7 @@
   },
 
   "flex-layout.row#rowTitle": {
-    "children": [
-      "rich-text#tituloBusqueda"
-    ]
+    "children": ["rich-text#tituloBusqueda"]
   },
 
   "rich-text#tituloBusqueda": {
@@ -255,57 +235,42 @@
   },
 
   "flex-layout.col#vestuario-wrapper": {
-    "children": [
-      "modal-trigger#vestuario"
-    ],
+    "children": ["modal-trigger#vestuario"],
     "props": {
       "blockClass": "vestuario-wrapper"
     }
   },
 
   "flex-layout.col#calzado-wrapper": {
-    "children": [
-      "modal-trigger#calzado"
-    ],
+    "children": ["modal-trigger#calzado"],
     "props": {
       "blockClass": "calzado-wrapper"
     }
   },
 
   "flex-layout.col#accesorios-wrapper": {
-    "children": [
-      "modal-trigger#accesorios"
-    ],
+    "children": ["modal-trigger#accesorios"],
     "props": {
       "blockClass": "accesorios-wrapper"
     }
   },
 
   "modal-trigger#vestuario": {
-    "children": [
-      "rich-text#boton-vestuario",
-      "modal-layout#vestuario"
-    ],
+    "children": ["rich-text#boton-vestuario", "modal-layout#vestuario"],
     "props": {
       "blockClass": "triggerVestuario"
     }
   },
 
   "modal-trigger#calzado": {
-    "children": [
-      "rich-text#boton-calzado",
-      "modal-layout#calzado"
-    ],
+    "children": ["rich-text#boton-calzado", "modal-layout#calzado"],
     "props": {
       "blockClass": "triggerCalzado"
     }
   },
 
   "modal-trigger#accesorios": {
-    "children": [
-      "rich-text#boton-accesorios",
-      "modal-layout#accesorios"
-    ],
+    "children": ["rich-text#boton-accesorios", "modal-layout#accesorios"],
     "props": {
       "blockClass": "triggerAccesorios"
     }
@@ -340,8 +305,6 @@
     }
   },
 
-
-
   // Contenido del modal - Vestuario
   "modal-layout#vestuario": {
     "children": [
@@ -363,10 +326,7 @@
   },
 
   "tab-layout#vestuario": {
-    "children": [
-      "tab-list#vestuario",
-      "tab-content#vestuario"
-    ],
+    "children": ["tab-list#vestuario", "tab-content#vestuario"],
     "props": {
       "blockClass": "tabLayout",
       "defaultActiveTabId": "ves-nina"
@@ -374,12 +334,9 @@
   },
 
   "tab-list#vestuario": {
-    "children": [
-      "tab-list.item#ves-nino",
-      "tab-list.item#ves-nina"
-    ],
+    "children": ["tab-list.item#ves-nino", "tab-list.item#ves-nina"],
     "props": {
-      "blockClass": "tallaTabList" 
+      "blockClass": "tallaTabList"
     }
   },
 
@@ -388,7 +345,7 @@
       "tabId": "ves-nino",
       "label": "Niño",
       "blockClass": "vestuario--mapequalsc---nino--specificationFilter-45---unisex--specificationFilter-45"
-    } 
+    }
   },
 
   "tab-list.item#ves-nina": {
@@ -400,26 +357,19 @@
     }
   },
 
-  "tab-content#vestuario": {   
-    "children": [
-      "tab-content.item#ves-nino",
-      "tab-content.item#ves-nina"
-    ] 
+  "tab-content#vestuario": {
+    "children": ["tab-content.item#ves-nino", "tab-content.item#ves-nina"]
   },
 
   "tab-content.item#ves-nino": {
-    "children": [
-      "vtex.menu@2.x:menu#ves-nino"
-    ],
+    "children": ["vtex.menu@2.x:menu#ves-nino"],
     "props": {
-      "tabId": "ves-nino" 
+      "tabId": "ves-nino"
     }
   },
 
   "tab-content.item#ves-nina": {
-    "children": [
-      "vtex.menu@2.x:menu#ves-nina"
-    ],
+    "children": ["vtex.menu@2.x:menu#ves-nina"],
     "props": {
       "tabId": "ves-nina"
     }
@@ -431,8 +381,6 @@
       "text": "Filtrar"
     }
   },
-
-
 
   // Contenido del modal - Calzado
   "modal-layout#calzado": {
@@ -455,20 +403,14 @@
   },
 
   "tab-layout#calzado": {
-    "children": [
-      "tab-list#calzado",
-      "tab-content#calzado"
-    ],
+    "children": ["tab-list#calzado", "tab-content#calzado"],
     "props": {
       "blockClass": "tabLayout"
     }
   },
 
   "tab-list#calzado": {
-    "children": [
-      "tab-list.item#cal-nino",
-      "tab-list.item#cal-nina"
-    ],
+    "children": ["tab-list.item#cal-nino", "tab-list.item#cal-nina"],
     "props": {
       "blockClass": "tallaTabList"
     }
@@ -493,25 +435,18 @@
   },
 
   "tab-content#calzado": {
-    "children": [
-      "tab-content.item#cal-nino",
-      "tab-content.item#cal-nina"
-    ]
+    "children": ["tab-content.item#cal-nino", "tab-content.item#cal-nina"]
   },
 
   "tab-content.item#cal-nino": {
-    "children": [
-      "vtex.menu@2.x:menu#cal-nino"
-    ],
+    "children": ["vtex.menu@2.x:menu#cal-nino"],
     "props": {
       "tabId": "cal-nino"
     }
   },
 
   "tab-content.item#cal-nina": {
-    "children": [
-      "vtex.menu@2.x:menu#cal-nina"
-    ],
+    "children": ["vtex.menu@2.x:menu#cal-nina"],
     "props": {
       "tabId": "cal-nina"
     }
@@ -523,7 +458,6 @@
       "text": "Filtrar"
     }
   },
-
 
   // Contenido del modal - Accesorios
 
@@ -547,18 +481,14 @@
   },
 
   "tab-layout#accesorios": {
-    "children": [
-      "tab-content#accesorios"
-    ],
+    "children": ["tab-content#accesorios"],
     "props": {
       "blockClass": "tabLayout"
     }
   },
 
   "tab-content#accesorios": {
-    "children": [
-      "vtex.menu@2.x:menu#otrosaccesorios"
-    ],
+    "children": ["vtex.menu@2.x:menu#otrosaccesorios"],
     "props": {
       "tabId": "otrosaccesorios"
     }
@@ -570,11 +500,6 @@
       "text": "Filtrar"
     }
   },
-
-
-
-
-
 
   // Desktop - Banners
   "flex-layout.row#banners": {
@@ -592,9 +517,7 @@
   },
 
   "flex-layout.col#banner-left": {
-    "children": [
-      "image#banner1"
-    ],
+    "children": ["image#banner1"],
     "props": {
       "horizontalAlign": "center",
       "preventVerticalStretch": true,
@@ -603,10 +526,7 @@
   },
 
   "flex-layout.col#banner-center": {
-    "children": [
-      "image#banner2",
-      "image#banner4"
-    ],
+    "children": ["image#banner2", "image#banner4"],
     "props": {
       "horizontalAlign": "center",
       "width": "50%"
@@ -614,9 +534,7 @@
   },
 
   "flex-layout.col#banner-right": {
-    "children": [
-      "image#banner3"
-    ],
+    "children": ["image#banner3"],
     "props": {
       "horizontalAlign": "center",
       "preventVerticalStretch": true,
@@ -660,16 +578,11 @@
 
   // Desktop - Shelf
   "flex-layout.row#shelf-home": {
-    "children": [
-      "shelf"
-    ],
+    "children": ["shelf"],
     "props": {
       "blockClass": "rowHomeShelf"
     }
   },
-
-
-
 
   // Mobile Version
   "responsive-layout.mobile": {
@@ -680,15 +593,14 @@
       "flex-layout.row#busquedaTalla",
       // "flex-layout.row#infocards-mobile",
       "shelf",
-      "flex-layout.row#banners-mobile"
+      "flex-layout.row#banners-mobile",
+      "modal-trigger#popup"
     ]
   },
 
   // Mobile Info Bar
   "flex-layout.row#info-bar-mobile": {
-    "children": [
-      "image#info-image-mobile"
-    ]
+    "children": ["image#info-image-mobile"]
   },
 
   "image#info-image-mobile": {
@@ -699,7 +611,6 @@
       "blockClass": "info-bar-image-mobile"
     }
   },
-
 
   // Mobile - Seccion Infocard
   "flex-layout.row#infocards-mobile": {
@@ -765,7 +676,6 @@
     }
   },
 
-
   // Mobile - Banners
   "flex-layout.row#banners-mobile": {
     "children": [
@@ -810,8 +720,6 @@
     }
   },
 
-
-
   // Mobile - Infocards Icons
   "flex-layout.row#infocards-icons-mobile": {
     "children": [
@@ -827,9 +735,7 @@
   },
 
   "flex-layout.col#box-mobile": {
-    "children": [
-      "info-card#box-mobile"
-    ],
+    "children": ["info-card#box-mobile"],
     "props": {
       "blockClass": "col-box-mobile",
       "width": "50%"
@@ -837,9 +743,7 @@
   },
 
   "flex-layout.col#truck-mobile": {
-    "children": [
-      "info-card#truck-mobile"
-    ],
+    "children": ["info-card#truck-mobile"],
     "props": {
       "blockClass": "col-truck-mobile",
       "width": "50%"
@@ -847,9 +751,7 @@
   },
 
   "flex-layout.col#cards-mobile": {
-    "children": [
-      "info-card#cards-mobile"
-    ],
+    "children": ["info-card#cards-mobile"],
     "props": {
       "blockClass": "col-cards-mobile",
       "width": "50%"
@@ -857,9 +759,7 @@
   },
 
   "flex-layout.col#polices-mobile": {
-    "children": [
-      "info-card#polices-mobile"
-    ],
+    "children": ["info-card#polices-mobile"],
     "props": {
       "blockClass": "col-polices-mobile",
       "width": "50%"
@@ -917,7 +817,47 @@
       "blockClass": "infoCardIcons-mobile",
       "textAlignment": "center"
     }
+  },
+
+  // Popup
+  "modal-trigger#popup": {
+    "children": ["modal-layout#popup"],
+    "props": {
+      "trigger": "load"
+    }
+  },
+  "modal-layout#popup": {
+    "children": ["modal-header#popup", "flex-layout.row#popup"],
+    "props": {
+      // "fullScreen": true
+      "blockClass": "modal-popup"
+    }
+  },
+  "modal-header#popup": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "popup-header"
+    }
+  },
+  "flex-layout.row#popup": {
+    "children": ["info-card#popup"],
+    "props": {
+      "blockClass": "row-popup"
+    }
+  },
+  "info-card#popup": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/img/popup-desk.jpg",
+      "mobileImageUrl": "assets/img/popup-mob.jpg",
+      "headline": "Ofertas Pillin",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center",
+      "subhead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    }
   }
-
-
 }
