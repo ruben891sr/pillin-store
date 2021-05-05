@@ -67,8 +67,6 @@
       "menu-item#reciennacido-acc",
       "menu-item#bb-acc",
       "menu-item#ninn-acc",
-      // "menu-item#tween-way-acc",
-      // "menu-item#zapatos-acc",
       "menu-item#ofertas-acc"
     ],
     "props": {
@@ -260,7 +258,6 @@
 
   "vtex.menu@2.x:menu#reciennacido-nino-calzado-acc": {
     "children": [
-      // "menu-item#rn-nino-calzado-gateadores",
       "menu-item#rn-nino-calzado-zapatitosreciennacido",
       "menu-item#rn-nino-todo-cal"
     ],
@@ -406,7 +403,6 @@
 
   "vtex.menu@2.x:menu#reciennacido-nina-calzado-acc": {
     "children": [
-      // "menu-item#rn-nina-calzado-gateadores",
       "menu-item#rn-nina-calzado-zapatitosreciennacido",
       "menu-item#rn-nina-todo-cal"
     ],
@@ -430,20 +426,6 @@
       "orientation": "vertical"
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   // Bebé
   "menu-item#bb-acc": {
@@ -602,7 +584,6 @@
       "menu-item#bb-nino-calzado-gateadores",
       "menu-item#bb-nino-calzado-sandalias",
       "menu-item#bb-nino-calzado-zapatillas",
-      // "menu-item#bb-nino-calzado-zapatos",
       "menu-item#bb-nino-todo-cal"
     ],
     "props": {
@@ -624,7 +605,6 @@
       "orientation": "vertical"
     }
   },
-
 
   // Bebé - Niña
   "menu-item#bb-nina-acc": {
@@ -742,7 +722,6 @@
     }
   },
 
-
   "vtex.menu@2.x:menu#bb-nina-calzado-acc": {
     "children": [
       "menu-item#bb-nina-calzado-botasbotinesybototos",
@@ -750,14 +729,12 @@
       "menu-item#bb-nina-calzado-reinasyballerinas",
       "menu-item#bb-nina-calzado-sandalias",
       "menu-item#bb-nina-calzado-zapatillas",
-      // "menu-item#bb-nina-calzado-zapatos",
       "menu-item#bb-nina-todo-cal"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
 
   "vtex.menu@2.x:menu#bb-nina-accesorios-acc": {
     "children": [
@@ -773,15 +750,6 @@
       "orientation": "vertical"
     }
   },
-
-
-
-
-
-
-
-
-
 
   // Kids
   "menu-item#ninn-acc": {
@@ -817,7 +785,6 @@
     }
   },
 
-
   // Kids - Niño
   "menu-item#ninn-nino-acc": {
     "props": {
@@ -850,7 +817,6 @@
       "orientation": "vertical"
     }
   },
-
 
   "menu-item#ninn-nino-vestuario-acc": {
     "props": {
@@ -932,20 +898,17 @@
     }
   },
 
-
   "vtex.menu@2.x:menu#ninn-nino-calzado-acc": {
     "children": [
       "menu-item#ninn-nino-calzado-botasbotinesybototos",
       "menu-item#ninn-nino-calzado-sandalias",
       "menu-item#ninn-nino-calzado-zapatillas",
-      // "menu-item#ninn-nino-calzado-zapatos",
       "menu-item#ninn-nino-todo-cal"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
 
   "vtex.menu@2.x:menu#ninn-nino-accesorios-acc": {
     "children": [
@@ -958,7 +921,6 @@
       "orientation": "vertical"
     }
   },
-
 
   // Kids - Niña
   "menu-item#ninn-nina-acc": {
@@ -992,7 +954,6 @@
       "orientation": "vertical"
     }
   },
-
 
   "menu-item#ninn-nina-vestuario-acc": {
     "props": {
@@ -1073,14 +1034,12 @@
     }
   },
 
-
   "vtex.menu@2.x:menu#ninn-nina-calzado-acc": {
     "children": [
       "menu-item#ninn-nina-calzado-botasbotinesybototos",
       "menu-item#ninn-nina-calzado-reinasyballerinas",
       "menu-item#ninn-nina-calzado-sandalias",
       "menu-item#ninn-nina-calzado-zapatillas",
-      // "menu-item#ninn-nina-calzado-zapatos", 
       "menu-item#ninn-nina-todo-cal"
     ],
     "props": {
@@ -1102,7 +1061,6 @@
     }
   },
 
-
   // Ofertas
   "menu-item#ofertas-acc": {
     "props": {
@@ -1118,10 +1076,6 @@
       }
     }
   },
-
-
-
-
 
   // List Mobile
   "flex-layout.col#link-list-mobile": {

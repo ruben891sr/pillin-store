@@ -241,18 +241,6 @@
     }
   },
 
-  // Recién Nacido - Niño - Calzado
-  // "menu-item#rn-nino-calzado-gateadores": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nino/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-  //       "text": "Gateadores"
-  //     }
-  //   }
-  // },
 
   "menu-item#rn-nino-calzado-zapatitosreciennacido": {
     "props": {
@@ -484,20 +472,6 @@
     }
   },
 
-  // Recién Nacido - Niña - Calzado
-
-
-  // "menu-item#rn-nina-calzado-gateadores": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=category-1,tipo-producto,genero,agrupacion,category-2&operator=and&query=/calzado/cover-shoes/nina/recien-nacido--00-a-12m-/zapatitos-recien-nacido",
-  //       "text": "Gateadores"
-  //     }
-  //   }
-  // },
 
   "menu-item#rn-nina-calzado-zapatitosreciennacido": {
     "props": {
@@ -593,10 +567,6 @@
       "blockClass": "imageMenu"
     }
   },
-
-
-
-
 
 
   // Items Bebé
@@ -889,18 +859,6 @@
     }
   },
 
-  // "menu-item#bb-nino-calzado-zapatos": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nino",
-  //       "text": "Zapatos"
-  //     }
-  //   }
-  // },
-
 
   // Bebé - Niño - Accesorios y Regalos
   "menu-item#bb-nino-accesorios-baberos": {
@@ -1180,18 +1138,6 @@
       }
     }
   },
-
-  // "menu-item#bb-nina-calzado-zapatos": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=agrupacion,category-1,genero&operator=and&query=/bebe--18m-a-3-/calzado/nina",
-  //       "text": "Zapatos"
-  //     }
-  //   }
-  // },
 
 
   // Bebé - Niña - Accesorios y Regalos
@@ -1545,19 +1491,6 @@
     }
   },
 
-  // "menu-item#ninn-nino-calzado-zapatos": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nino/ninos--4-a-16-",
-  //       "text": "Zapatos"
-  //     }
-  //   }
-  // },
-
-
   // Kids - Niño - Accesorios y Regalos
   "menu-item#ninn-nino-accesorios-calcetines": {
     "props": {
@@ -1802,18 +1735,6 @@
     }
   },
 
-  // "menu-item#ninn-nina-calzado-zapatos": {
-  //   "props": {
-  //     "type": "custom",
-  //     "highlight": true,
-  //     "blockClass": "subSubMenuItem",
-  //     "itemProps": {
-  //       "href": "/calzado?fuzzy=0&map=category-1,genero,agrupacion&operator=and&query=/calzado/nina/ninos--4-a-16-",
-  //       "text": "Zapatos"
-  //     }
-  //   }
-  // },
-
 
   // Kids - Niña - Accesorios y Regalos
 
@@ -1885,8 +1806,6 @@
       "blockClass": "imageMenu"
     }
   },
-
-
 
 
 
@@ -2652,26 +2571,16 @@
   },
 
 
-
-
-
-
-
-
   // Búsqueda por talla
-
   "vtex.menu@2.x:menu#ves-nino": {
     "children": [
       "menu-item#00",
-      // "menu-item#1m",
       "menu-item#0m",
       "menu-item#3m",
       "menu-item#6m",
       "menu-item#9m",
       "menu-item#12m",
       "menu-item#18m",
-      // "menu-item#24m",
-      // "menu-item#36m",
       "menu-item#2",
       "menu-item#3",
       "menu-item#4",
@@ -2682,29 +2591,20 @@
       "menu-item#14",
       "menu-item#16",
       "menu-item#18-v"
-      // "menu-item#xs",
-      // "menu-item#s",
-      // "menu-item#m",
-      // "menu-item#l",
-      // "menu-item#xl"
     ],
     "props": {
       "blockClass": "tabContentMenu"
-      // vestuario-map=c__talla-specificationFilter_30__nino-specificationFilter_45
     }
   },
   "vtex.menu@2.x:menu#ves-nina": {
     "children": [
       "menu-item#00",
       "menu-item#0m",
-      // "menu-item#1m",
       "menu-item#3m",
       "menu-item#6m",
       "menu-item#9m",
       "menu-item#12m",
       "menu-item#18m",
-      // "menu-item#24m",
-      // "menu-item#36m",
       "menu-item#2",
       "menu-item#3",
       "menu-item#4",
@@ -2715,21 +2615,14 @@
       "menu-item#14",
       "menu-item#16",
       "menu-item#18-v"
-      // "menu-item#xs",
-      // "menu-item#s",
-      // "menu-item#m",
-      // "menu-item#l",
-      // "menu-item#xl"
     ],
     "props": {
       "blockClass": "tabContentMenu"
-      // vestuario-map=c__talla-specificationFilter_30__nina-specificationFilter_45
     }
   },
 
   "vtex.menu@2.x:menu#cal-nino": {
     "children": [
-      // "menu-item#0m",
       "menu-item#0-3m",
       "menu-item#3-6m",
       "menu-item#15-cal",
@@ -2757,13 +2650,11 @@
     ],
     "props": {
       "blockClass": "tabContentMenu"
-      // calzado-map=c__talla-specificationFilter_34__nino-specificationFilter_46
     }
 
   },
   "vtex.menu@2.x:menu#cal-nina": {
     "children": [
-      // "menu-item#0m",
       "menu-item#0-3m",
       "menu-item#3-6m",
       "menu-item#15-cal",
@@ -2833,7 +2724,6 @@
       "menu-item#calcetines",
       "menu-item#gorros",
       "menu-item#babero",
-      // "menu-item#bandanas",
       "menu-item#peluches",
       "menu-item#pinchesycintillos",
       "menu-item#toallas",
@@ -3270,25 +3160,6 @@
       }
     }
   },
-
-
-  // Tallas Calzado
-  // "menu-item#0m": {
-  //   "props": {
-  //     "id": "menu-item-0-3m",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "blockClass": "0M-specificationFilter_34",
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "#",
-  //       "noFollow": false,
-  //       "tagTitle": "0m",
-  //       "text": "0m"
-  //     }
-  //   }
-  // },
 
 
   "menu-item#0-3m": {

@@ -6,12 +6,9 @@
   // Desktop Version
   "responsive-layout.desktop": {
     "children": [
-      // "sraccount",
       "image#info-image",
-      // "flex-layout.row#info-bar",
       "list-context.image-list#slider",
       "flex-layout.row#infocards-icons",
-      //"flex-layout.row#infocards",
       "flex-layout.row#busquedaTalla",
       "flex-layout.row#shelf-home",
       "flex-layout.row#banners",
@@ -352,7 +349,6 @@
     "props": {
       "tabId": "ves-nina",
       "label": "Niña",
-      // "defaultActiveTab": true,
       "blockClass": "vestuario--mapequalsc---nina-specificationFilter-45---unisex--specificationFilter-45"
     }
   },
@@ -460,7 +456,6 @@
   },
 
   // Contenido del modal - Accesorios
-
   "modal-layout#accesorios": {
     "children": [
       "modal-header",
@@ -591,7 +586,6 @@
       "flex-layout.row#info-bar-mobile",
       "flex-layout.row#infocards-icons-mobile",
       "flex-layout.row#busquedaTalla",
-      // "flex-layout.row#infocards-mobile",
       "shelf",
       "flex-layout.row#banners-mobile",
       "modal-trigger#popup"
@@ -829,7 +823,6 @@
   "modal-layout#popup": {
     "children": ["modal-header#popup", "flex-layout.row#popup"],
     "props": {
-      // "fullScreen": true
       "blockClass": "modal-popup"
     }
   },

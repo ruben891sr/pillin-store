@@ -6,8 +6,6 @@
             "menu-item#recien-nacido",
             "menu-item#bebe",
             "menu-item#ninnos",
-            // "menu-item#tween-way",
-            // "menu-item#zapatos",
             "menu-item#ofertas"
         ],
         "props": {
@@ -58,7 +56,6 @@
     "vtex.menu@2.x:submenu#reciennacido": {
         "children": [
             "flex-layout.row#submenureciennacido"
-            // "flex-layout.row#imagereciennacido"
         ],
         "props": {
             "orientation": "vertical",
@@ -90,7 +87,6 @@
         "children": [
             "flex-layout.col#submenuninovestuarioreciennacido",
             "flex-layout.col#submenuninocalzadoreciennacido"
-            // "flex-layout.col#submenuninoaccesoriosreciennacido"
         ]
     },
 
@@ -110,12 +106,6 @@
             "preventVerticalStretch": false
         }
     },
-
-    // "flex-layout.col#submenuninoaccesoriosreciennacido": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosreciennacido"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuarioreciennacido": {
         "children": [
@@ -140,7 +130,6 @@
     "vtex.menu@2.x:menu#subsubmenuninocalzadoreciennacido": {
         "children": [
             "menu-item#rn-nino-calzado",
-            // "menu-item#rn-nino-calzado-gateadores",
             "menu-item#rn-nino-calzado-zapatitosreciennacido"
         ],
         "props": {
@@ -177,7 +166,6 @@
         "children": [
             "flex-layout.col#submenuninavestuarioreciennacido",
             "flex-layout.col#submenuninacalzadoreciennacido"
-            // "flex-layout.col#submenuninaaccesoriosreciennacido"
         ]
     },
 
@@ -201,11 +189,6 @@
         }
     },
 
-    // "flex-layout.col#submenuninaaccesoriosreciennacido": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosreciennacido"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuarioreciennacido": {
         "children": [
@@ -232,7 +215,6 @@
     "vtex.menu@2.x:menu#subsubmenuninacalzadoreciennacido": {
         "children": [
             "menu-item#rn-nina-calzado",
-            // "menu-item#rn-nina-calzado-gateadores",
             "menu-item#rn-nina-calzado-zapatitosreciennacido"
         ],
         "props": {
@@ -289,7 +271,6 @@
     "vtex.menu@2.x:submenu#bebe": {
         "children": [
             "flex-layout.row#submenubebe"
-            // "flex-layout.row#imagebebe"
         ],
         "props": {
             "orientation": "vertical",
@@ -321,7 +302,6 @@
         "children": [
             "flex-layout.col#submenuninovestuariobebe",
             "flex-layout.col#submenuninocalzadobebe"
-            // "flex-layout.col#submenuninoaccesoriosbebe"
         ]
     },
 
@@ -342,11 +322,6 @@
         }
     },
 
-    // "flex-layout.col#submenuninoaccesoriosbebe": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosbebe"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuariobebe": {
         "children": [
@@ -375,8 +350,6 @@
             "menu-item#bb-nino-calzado-gateadores",
             "menu-item#bb-nino-calzado-sandalias",
             "menu-item#bb-nino-calzado-zapatillas"
-            // "menu-item#bb-nino-calzado-zapatos"
-
         ],
         "props": {
             "orientation": "vertical"
@@ -413,7 +386,6 @@
         "children": [
             "flex-layout.col#submenuninavestuariobebe",
             "flex-layout.col#submenuninacalzadobebe"
-            // "flex-layout.col#submenuninaaccesoriosbebe"
         ]
     },
 
@@ -437,11 +409,6 @@
         }
     },
 
-    // "flex-layout.col#submenuninaaccesoriosbebe": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosbebe"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuariobebe": {
         "children": [
@@ -473,8 +440,6 @@
             "menu-item#bb-nina-calzado-reinasyballerinas",
             "menu-item#bb-nina-calzado-sandalias",
             "menu-item#bb-nina-calzado-zapatillas"
-            // "menu-item#bb-nina-calzado-zapatos"
-
         ],
         "props": {
             "orientation": "vertical"
@@ -533,7 +498,6 @@
     "vtex.menu@2.x:submenu#ninno": {
         "children": [
             "flex-layout.row#submenuninno"
-            // "flex-layout.row#imageninno"
         ],
         "props": {
             "orientation": "vertical",
@@ -565,7 +529,6 @@
         "children": [
             "flex-layout.col#submenuninovestuarioninno",
             "flex-layout.col#submenuninocalzadoninno"
-            // "flex-layout.col#submenuninoaccesoriosninno"
         ]
     },
 
@@ -586,11 +549,6 @@
         }
     },
 
-    // "flex-layout.col#submenuninoaccesoriosninno": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninoaccesoriosninno"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninovestuarioninno": {
         "children": [
@@ -617,8 +575,6 @@
             "menu-item#ninn-nino-calzado-botasbotinesybototos",
             "menu-item#ninn-nino-calzado-sandalias",
             "menu-item#ninn-nino-calzado-zapatillas"
-            // "menu-item#ninn-nino-calzado-zapatos"
-
         ],
         "props": {
             "orientation": "vertical"
@@ -653,7 +609,6 @@
         "children": [
             "flex-layout.col#submenuninavestuarioninno",
             "flex-layout.col#submenuninacalzadoninno"
-            // "flex-layout.col#submenuninaaccesoriosninno"
         ]
     },
 
@@ -677,11 +632,6 @@
         }
     },
 
-    // "flex-layout.col#submenuninaaccesoriosninno": {
-    //     "children": [
-    //         "vtex.menu@2.x:menu#subsubmenuninaaccesoriosninno"
-    //     ]
-    // },
 
     "vtex.menu@2.x:menu#subsubmenuninavestuarioninno": {
         "children": [
@@ -709,7 +659,6 @@
             "menu-item#ninn-nina-calzado-reinasyballerinas",
             "menu-item#ninn-nina-calzado-sandalias",
             "menu-item#ninn-nina-calzado-zapatillas"
-            // "menu-item#ninn-nina-calzado-zapatos"
         ],
         "props": {
             "orientation": "vertical"

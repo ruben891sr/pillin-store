@@ -10,7 +10,6 @@
 
 .flexRow--main-header {
     border-bottom: 1px solid #ccc;
-    /* box-shadow: 7px 7px 5px 0 rgb(107 107 107 / 15%);*/
 }
 
 .flexCol--wrapperMenuNav {
@@ -548,10 +547,6 @@
 }
 
 
-/* .flexCol {
-    position: relative;
-} */
-
 .flexColChild--summaryBusquedaNombrePrice {
     height: auto !important;
 }
@@ -617,10 +612,6 @@
     flex-direction: column;
 }
 
-
-/* .minicartProductListContainer .flexRowContent  {
-    position: relative;
-} */
 
 .flexRow--minicart-footer {
     box-shadow: none !important;

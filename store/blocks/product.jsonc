@@ -10,7 +10,6 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-related"
-      // "store.not-found#product"
     ]
   },
 
@@ -113,9 +112,6 @@
       "availability-subscriber",
       "flex-layout.row#shelf-outfit",
       "flex-layout.row#wishlist",
-      // "sandbox.product#Simulador-Flete",
-      // "flex-layout.row#Formulario-Simulador",
-      // "flex-layout.row#simulador-entrega",
       "product-availability"
     ]
   },
@@ -234,8 +230,6 @@
     "children": [
       "modal-header#Header-Stock",
       "iframe#despligueStock"
-      // "sandbox.product#tablaStock"
-      // "rich-text#modal-content"
     ]
   },
   "modal-header#Header-Stock": {
@@ -253,13 +247,6 @@
       "text": "Stock"
     }
   },
-  // "sandbox.product#tablaStock": {
-  //   "props": {
-  //     "initialContent": "<table style='box-sizing:border-box;width:100%;text-align:left;background-color: #443e13;border:solid 1px #443e13;border-radius:4px;font-size:13px;margin:0 auto;margin-top:12px'><tbody><tr style='background:#f0e9d9;text-align:center'><th>TIENDAS</th><th>STOCK</th></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Plaza Vespucio</td><td style='padding:4px;'>20</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Florida Center</td><td style='padding:4px;'>4</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Mall Arauco Maipú</td><td style='padding:4px;'>+30</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>5</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>5</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>6</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>9</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>0</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr><tr style='background:#ffffff;'><td style='padding:4px;'>Marina Arauco</td><td style='padding:4px;'>7</td></tr></tbody></table>",
-  //     "allowCookies": true,
-  //     "blockClass": "tablaStock"
-  //   }
-  // },
 
   "iframe#despligueStock": {
     "props": {
@@ -312,7 +299,6 @@
   // Shelf Outfit Kit Look
   "flex-layout.row#shelf-outfit": {
     "children": [
-      // "shelf#OutfitPDP",
       "product-kit"
     ],
     "props": {
@@ -352,171 +338,7 @@
     "children": ["add-to-list-btn"]
   },
 
-  //Formulario Simulador de entrega Sandbox
 
-  // "sandbox.product#Simulador-Flete": {
-  //   "props": {
-  //     "initialContent": "<form id='formSimuladorFlete' class='formSimuladorFlete' method='post' action=''><h3 class='TituloSimulador' style='margin-top:15px;margin-bottom:5px;'>Simulador de Fletes</h3><ul class='ContainerFormFlete' style='list-style:none;padding-left:0;margin-top:8px;display:flex;justify-content:space-between;align-items:flex-end;'><li id='li_1' style='padding-top:15px;'><label class='description' style='display:flex;margin-bottom:7px;' for='element_1'>Región </label><div class='ContentRegion'><select class='SelectRegion' style='height:30px;overflow:visible;' id='element_1' name='region'><option value='' selected='selected' style='border:1px solid #e3e4e6;background:#f1f4f5;border-radius:3px;height:30px;overflow:visible!important;display:block;'></option><option value='1'>Región Metropolitana</option></select></div></li><li id='li_2' style='padding-top:15px;'><label class='description' style='display:flex;margin-bottom:7px;' for='element_2'>Comuna </label><div class='ContentComuna'><select class='SelectComuna' style='height:30px;overflow:visible;' id='element_2' name='comuna'><option value='' selected='selected' style='border:1px solid #e3e4e6;background:#f1f4f5;border-radius:3px;height:30px;overflow:visible!important;display:block;'></option><option value='1'>La Florida</option></select></div></li><li class='buttons'style='padding-top:15px;'><input style='background:#ffab71;border:none;border-radius:3px;padding:10px;color:#fff;font-weight:bold;font-family:inherit;' id='saveForm' class='button_text' type='submit' name='submit' value='Consultar' /></li></ul></form>",
-  //     "width": "100%",
-  //     "height": "100%",
-  //     "allowCookies": true,
-  //     "blockClass": "simulaFlete"
-  //   }
-  // },
-
-  // "flex-layout.row#Formulario-Simulador":{
-  //   "props":{
-  //     "blockClass": "rowFormularioSimulador"
-  //   },
-  //   "children":["flex-layout.col#Form-Simulador"]
-  // },
-
-  // "flex-layout.col#Form-Simulador":{
-  //   "children": ["form"]
-  // },
-
-  // "form": {
-  //   "props": {
-  //     "entity": "Simulador Flete",
-  //     "schema": "SF"
-  //   },
-  //   "children":[
-  //     "form-input.dropdown#region",
-  //     "form-input.dropdown#comuna",
-  //     "form-submit"
-  //   ],
-  //   "blocks":["form-success"]
-  // },
-  // "form-success": {
-  //   "children": [
-  //     "rich-text#successSubmit"
-  //   ]
-  // },
-  // "rich-text#successSubmit": {
-  //   "props": {
-  //     "text": "Los datos fueron enviados exitosamente!",
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER"
-  //   }
-  // },
-  // "form-input.dropdown#region":{
-  //   "props":{
-  //     "label": "Región:",
-  //     "pointer": "#/properties/region"
-  //   }
-  // },
-  // "form-input.dropdown#comuna":{
-  //   "props":{
-  //     "label": "Comuna:",
-  //     "pointer": "#/properties/comuna"
-  //   }
-  // },
-  // "form-submit":{
-  //   "props":{
-  //     "label": "Consultar"
-  //   }
-  // },
-
-  //Simula tu entrega
-
-  // "flex-layout.row#simulador-entrega": {
-  //   "props": {
-  //     "horizontalAlign": "left",
-  //     "verticalAlign": "middle",
-  //     "marginTop": 4
-  //   },
-  //   "children": ["flex-layout.col#retiroTienda", "flex-layout.col#despachoDomicilio"]
-  // },
-
-  // "flex-layout.col#retiroTienda": {
-  //   "props": {
-  //     "verticalAlign": "middle",
-  //     "horizontalAlign": "left",
-  //     "preventVerticalStretch": true,
-  //     "borderColor": "#e1e1e1",
-  //     "borderWidth": 1,
-  //     "border": "bottom",
-  //     "blockClass": "colSimuladorEntrega"
-  //   },
-  //   "children": ["image#icon-tienda", "rich-text#retiroEnTienda"]
-  // },
-
-  // "image#icon-tienda": {
-  //   "props": {
-  //     "src": "assets/img/icon-retiroTienda.svg",
-  //     "alt": "Retiro en Tienda",
-  //     "maxWidth": "35px",
-  //     "maxHeight": "35px",
-  //     "link": "#",
-  //     "title": "Retiro en tienda"
-  //   }
-  // },
-
-  // "rich-text#retiroEnTienda": {
-  //   "props": {
-  //     "text": "Retiro en Tienda",
-  //     "textAlignment": "LEFT",
-  //     "textPosition": "CENTER",
-  //     "blockClass": "textSimulador"
-  //   }
-  // },
-
-  // "flex-layout.col#despachoDomicilio": {
-  //   "props": {
-  //     "verticalAlign": "middle",
-  //     "horizontalAlign": "left",
-  //     "preventVerticalStretch": true,
-  //     "borderColor": "#e1e1e1",
-  //     "borderWidth": 1,
-  //     "border": "bottom",
-  //     "blockClass": "colSimuladorEntrega"
-  //   },
-  //   "children": ["image#icon-despacho", "rich-text#DespachoDomicilio"
-  // "disclosure-layout#despacho"
-  //   ]
-  // },
-
-  // //icono despacho a domicilio
-
-  // "image#icon-despacho": {
-  //   "props": {
-  //     "src": "assets/img/icon-despachoDomicilio.svg",
-  //     "alt": "Despacho a domicilio",
-  //     "maxWidth": "35px",
-  //     "maxHeight": "35px",
-  //     "title": "Despacho a Domicilio"
-  //   }
-  // },
-
-  // "rich-text#DespachoDomicilio": {
-  //   "props": {
-  //     "text": "Despacho a Domicilio",
-  //     "textAlignment": "LEFT",
-  //     "textPosition": "CENTER",
-  //     "blockClass": "textSimulador"
-  //   }
-  // },
-
-  //Disclosure-Despacho a domicilio
-  // "disclosure-layout#despacho": {
-  //   "children": [
-  //     "disclosure-trigger#despacho",
-  //     "disclosure-content#despacho"
-  //   ]
-  // },
-  // "disclosure-trigger#despacho": {
-  //   "children": ["rich-text#question"]
-  // },
-  // "rich-text#question": {
-  //   "props": {
-  //     "text": "Despacho a Domicilio"
-  //   }
-  // },
-  // "disclosure-content#despacho": {
-  //   "children": [
-  //     "shipping-simulator"
-  //   ]
-  // },
 
   // MOBILE
   "responsive-layout.mobile#pdpMobile": {
@@ -585,10 +407,6 @@
       "sticky-layout#quantity-buy-button",
       "availability-subscriber",
       "flex-layout.row#wishlist",
-      // "sandbox.product#Simulador-Flete",
-
-      // "flex-layout.row#Formulario-Simulador",
-      // "flex-layout.row#simulador-entrega",
       "flex-layout.row#descriptionPDPmobile",
       "product-availability"
     ]
@@ -636,14 +454,6 @@
     }
   },
 
-  // "rich-text#despachoDomicilio": {
-  //   "props":{
-  //     "text": "Despacho a Domicilio",
-  //     "textAlignment": "LEFT",
-  //     "textPosition": "CENTER",
-  //     "blockClass": "textSimulador"
-  //   }
-  // },
 
   // Productos Relacionados
   "flex-layout.row#shelf-related": {
@@ -668,18 +478,4 @@
     },
     "blocks": ["product-summary.shelf#general"]
   }
-
-  // //Not Found 404
-  // "store.not-found#product":{
-  //   "children":["rich-text#not-found"]
-  // },
-  // "rich-text#not-found": {
-  //   "props": {
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "text": "**Página no encontrada**",
-  //     "font": "t-heading-1",
-  //     "blockClass": "noEncontradaPDP"
-  //   }
-  // }
 }
