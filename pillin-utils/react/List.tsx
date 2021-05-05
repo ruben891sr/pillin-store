@@ -17,7 +17,7 @@ const StoreList = ({ }) => {
           <script src="https://pillin.myvtex.com/files/pillin-custom.js"></script>
         </Helmet>
       )}
-        <div id={`cont`} className={`pillin-pillin-utils-0-x-cont`}>
+        <div id={`cont`} className={`pillin-pillin-utils-0-x-cont srtest0`}>
             <div id={`form`} className={`pillin-pillin-utils-0-x-form`}>
                 <h1>Nuestras Tiendas</h1>
                 <label>Seleccione la región</label>
@@ -59,6 +59,9 @@ const StoreList = ({ }) => {
                 </table>
             </div>
             <div id={`map`} className={`pillin-pillin-utils-0-x-map`}><div></div></div>
+			<script>
+				window.srtest0 = this
+			</script>
         </div>
       </>
    )
