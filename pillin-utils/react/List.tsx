@@ -19,7 +19,7 @@ const StoreList = ({ }) => {
       )}
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont srtest0`}>
             <div id={`form`} className={`pillin-pillin-utils-0-x-form`}>
-                <h1>Nuestras Tiendas</h1>
+                <h1>Nuestras Tiendas 2</h1>
                 <label>Seleccione la región</label>
                 <select id={`address_region`} title={`Seleccionar región`}>
                 </select>
