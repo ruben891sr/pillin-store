@@ -19,34 +19,4 @@
     }
   }
 
-  // "product-summary.shelf#general": {
-  //   "children": [
-  //     // "product-summary-image",
-  //     // "product-summary-add-to-list-button",
-  //     // "product-summary-name",
-  //     // "product-rating-inline",
-  //     // "product-summary-space",
-  //     // "product-summary-price",
-  //     "product-summary-sku-selector"
-  //     // "add-to-cart-button"
-  //   ]
-  // },
-
-  // "add-to-cart-button": {
-  //   "props": {
-  //     "displayBuyButton": "displayButtonHover",
-  //     "buyButtonText": "Agregar al Carro"
-  //   }
-  // },
-
-  // "product-summary-sku-selector": {
-  //   "props": {
-  //     "hideImpossibleCombinations": true,
-  //     "showValueForVariation": "image",
-  //     "showVariationsErrorMessage": true,
-  //     "initialSelection": "complete",
-  //     "visibleVariations": ["Talla", "Color"]
-  //   }
-  // } 
-
 }

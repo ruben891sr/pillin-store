@@ -218,7 +218,6 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-searchtitle",
-      // "flex-layout.row#searchbreadMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -239,15 +238,6 @@
     }
   },
 
-  // "flex-layout.row#searchbreadMobile": {
-  //   "props": {
-  //     "preserveLayoutOnMobile": true,
-  //     "fullWidth": true,
-  //     "horizontalAlign": "center",
-  //     "blockClass": "rowBreadCrumbMobile"
-  //   },
-  //   "children": ["breadcrumb.search"]
-  // },
 
   "flex-layout.row#searchinfomobile": {
     "children": [
@@ -308,7 +298,6 @@
   // Busqueda Vacia
   "search-not-found-layout": {
     "children": [
-      // "flex-layout.row#searchbread",
       "flex-layout.row#notfound"
     ]
   },
@@ -324,7 +313,6 @@
     "blocks": [
       "flex-layout.row#ContentNotSearch",
       "flex-layout.row#shelf-NotFound"
-      // "rich-text#not-found"
     ]
   },
 

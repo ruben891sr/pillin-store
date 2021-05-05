@@ -4,7 +4,6 @@
   },
   "footer-layout.desktop": {
     "children": [
-      // "flex-layout.row#club-pillin",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",
@@ -14,32 +13,16 @@
 
   "footer-layout.mobile": {
     "children": [
-      // "flex-layout.row#club-pillin-mobile",
       "flex-layout.row#titulo-insta",
       "flex-layout.row#insta",
       "flex-layout.row#seo",
       "flex-layout.row#content-footer-general"
-      // "flex-layout.row#footer-mobile"
     ],
     "props": {
       "blockClass": "mainrow-footer-mobile",
       "fullWidth": true
     }
   },
-  // "flex-layout.row#footer-mobile": {
-  //   "children": [
-  //     "flex-layout.row#club-pillin-mobile",
-  //     "flex-layout.row#titulo-insta",
-  //     "flex-layout.row#insta", 
-  //     "flex-layout.row#seo",
-  //     "flex-layout.row#content-footer-general"
-  //   ],
-  //   "props": {
-  //     "blockClass": "row-footer-mobile",
-  //     "fullWidth": true
-
-  //   }
-  // },
 
   "flex-layout.row#club-pillin": {
     "children": [
@@ -56,7 +39,6 @@
     "children": [
       "rich-text#title-club",
       "rich-text#text-club",
-      // "form#club-pillin-footer"
       "newsletter-form"
     ],
     "props": {
@@ -414,7 +396,6 @@
       "flex-layout.col#rrss",
       "flex-layout.col#sac"
       // "flex-layout.col#simulador-despacho"
-      // "flex-layout.col#news"
     ]
   },
   "flex-layout.col#sac": {

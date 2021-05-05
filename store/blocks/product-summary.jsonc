@@ -66,7 +66,6 @@
   // 1.5 PSG - Row Prices
   "flex-layout.row#prices": {
     "children": [
-      // "product-price#product-summary",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings"
     ],
@@ -132,14 +131,6 @@
       "initialSelection": "empty",
       "visibleVariations": ["Talla", "Color"],
       "maxItems": 14
-      // "displayMode": "slider",
-      // "sliderDisplayThreshold": 4,
-      // "sliderArrowSize": 10,
-      // "sliderItemsPerPage": {
-      //   "desktop":4,
-      //   "tablet":4,
-      //   "phone":3
-      // }
     }
   },
   "sku-selector": {
@@ -169,17 +160,6 @@
   },
 
 
-
-
-
-
-
-
-
-
-
-
-
   // 2. PRODUCT SUMMARY BÚSQUEDA
   "product-summary.shelf#busqueda": {
     "children": [
@@ -194,7 +174,6 @@
     "children": [
       "flex-layout.col#busquedaImagen",
       "flex-layout.col#busquedaNombrePrice"
-      // "flex-layout.col#busquedaButton"
     ],
     "props": {
       "colSizing": "auto"
@@ -222,7 +201,6 @@
   "flex-layout.col#busquedaNombrePrice": {
     "children": [
       "product-summary-name",
-      // "product-list-price#summary",
       "product-price#product-summary",
       "flex-layout.row#selling-price-savings"
     ],
@@ -231,7 +209,5 @@
       "width": "60%"
     }
   }
-
-
 
 }

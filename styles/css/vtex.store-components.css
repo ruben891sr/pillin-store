@@ -330,20 +330,6 @@
 }
 
 
-/* .frameAround {
-    margin: 0;
-    position: absolute;
-    width: auto;
-    height: auto;
-    box-shadow: 2px 2px 7px #0000008f;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: inherit;
-} */
-
-
 /*PLP*/
 
 .price_listPriceLabel,
@@ -395,36 +381,6 @@
 }
 
 
-/*PDP*/
-
-
-/* .productImage, */
-
-
-/* .productImagesThumb {
-    position: relative;
-    overflow: hidden;
-    height: fit-content;
-    background: #fff;
-} */
-
-
-/* .productImage::before, */
-
-
-/* .productImagesThumb::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, .05);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-} */
-
 .productImage :global(.vtex-relative)::before {
     content: "";
     position: absolute;
@@ -442,11 +398,6 @@
 .swiperCaretNext .caretIcon {
     overflow: visible !important;
 }
-
-
-/* .productImagesThumbCaret {
-    display: none !important;
-} */
 
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--talla,
 .skuSelectorContainer--skuSelectorPDP .skuSelectorSubcontainer--color {

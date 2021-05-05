@@ -97,17 +97,10 @@
     box-shadow: 0 0 8px #2d2d2d;
 }
 
-/* .skuSelectorInternalBox {
-    width: 25px;
-    height: 25px; 
-    border-radius: 50px;
-    border: 1px solid #3f2016; 
-} */
 .skuSelectorItem--selected {
     border: none;
     box-shadow: 0 0 6px #2a2a2a;
 }
-
 
 .skuSelectorItemImage .skuSelectorInternalBox {
     border: 0 !important;

@@ -106,32 +106,6 @@
         }
     },
 
-
-
-
-
-    // each order header
-    // "flex-layout.row#order-header": {
-    //     "props": {
-    //         "fullWidth": true,
-    //         "colSizing": "auto",
-    //         "colGap": 5,
-    //         "marginBottom": 5
-    //     },
-    //     "children": [
-    //         "flex-layout.col#order-header-info",
-    //         "flex-layout.col#order-header-options"
-    //     ]
-    // },
-    // "flex-layout.col#order-header-info": {
-    //     "children": []
-    // },
-    // "flex-layout.col#order-header-options": {
-    //     "children": ["responsive-layout.desktop#order-options-desktop"]
-    // },
-    // "responsive-layout.desktop#order-options-desktop": {
-    //     "children": ["op-order-options"]
-    // },
     // payment section
     "op-section#payments": {
         "props": {
