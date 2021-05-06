@@ -15,15 +15,15 @@ const StoreList = ({ }) => {
           <title>parsedTitle</title>
           <meta name="description" content="parsedDescription" />
           <script src="https://pillin.myvtex.com/files/pillin-custom.js"></script>
+			<script>
+				window.srtest0 = 42
+				window.srtest1 = this
+			</script>
+			<script type="text/javascript">
+				window.srtest2 = 42
+				window.srtest3 = this
+			</script>
         </Helmet>
-		<script>
-			window.srtest0 = 42
-			window.srtest1 = this
-		</script>
-		<script type="text/javascript">
-			window.srtest2 = 42
-			window.srtest3 = this
-		</script>
       )}
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont srtest0`}>
             <div id={`form`} className={`pillin-pillin-utils-0-x-form`}>
