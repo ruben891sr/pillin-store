@@ -60,7 +60,12 @@ const StoreList = ({ }) => {
             </div>
             <div id={`map`} className={`pillin-pillin-utils-0-x-map`}><div></div></div>
 			<script>
-				window.srtest0 = this
+				window.srtest0 = 42
+				window.srtest1 = this
+			</script>
+			<script type="text/javascript">
+				window.srtest2 = 42
+				window.srtest3 = this
 			</script>
         </div>
       </>
