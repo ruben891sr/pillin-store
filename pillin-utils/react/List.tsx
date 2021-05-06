@@ -14,7 +14,7 @@ var StoreList = ({ }) => {
         <Helmet>
           <title>parsedTitle</title>
           <meta name="description" content="parsedDescription" />
-			<script>
+			<script><![CDATA[
 				document.addEventListener("DOMContentLoaded", srestoresinit);
 
 				function srestoresinit ()
@@ -201,7 +201,7 @@ var StoreList = ({ }) => {
 							document.getElementById(`slot_${key}`).textContent = data[key];
 					}
 				}
-			</script>
+				]]></script>
         </Helmet>
       )}
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont srtest0`}>
