@@ -6,7 +6,7 @@ import { Helmet } from 'vtex.render-runtime'
 import './List.css'
  
 
-const StoreList = ({ }) => {
+var StoreList = ({ }) => {
 
    return (
      <>
@@ -22,17 +22,17 @@ const StoreList = ({ }) => {
 					if (!document.getElementById("map"))
 						return;
 					setTimeout(srvtexinit, 0);
-					const script = document.createElement("script");
+					var script = document.createElement("script");
 					script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAKvpKOzDVG8dsSz90L6OQZuUJ0qh0CvSc&v=beta";
 					script.addEventListener("load", srmapinit);
 					document.head.appendChild(script);
 				}
 
-				let map, geo, mark, info;
+				var map, geo, mark, info;
 
 				function srmapinit (ev)
 				{
-					const div = document.querySelector("#map > div");
+					var div = document.querySelector("#map > div");
 					map = new google.maps.Map(div, {
 						center: { lat: -34.397, lng: 150.644 },
 						zoom:   8,
@@ -61,28 +61,28 @@ const StoreList = ({ }) => {
 						return;
 					mark.setVisible(false);
 					info.close();
-					const component = [ "Chile" ];
-					for (const select of order)
+					var component = [ "Chile" ];
+					for (var select of order)
 					if (select.value != 0)
 						component.unshift(select.value);
 					else break;
 					console.log(component);
-					const ret = await geo.geocode({ address: component.join(",") });
+					var ret = await geo.geocode({ address: component.join(",") });
 					console.log("ret", ret.results.length, ret);
 					map.fitBounds(ret.results[0].geometry.bounds, 10);
 				}
 				async function srvtexinit ()
 				{ 
-				  const fetched = window.data = await fetch("/api/logistics/pvt/configuration/pickuppoints", { headers: { "X-VTEX-API-AppKey":   "vtexappkey-pillin-KTRDYS", "X-VTEX-API-AppToken": "QHMNBTTFTYSQIBJWBUCRZLKNWZNPYATTCKERYJYDVRUZETBXRIYVUNCFXYRCFDHSEYOXXRXSWZVIRLICXQYQCXYOIZUZRWXRJBUGFEAZKFZVRUNLQPEPFRQHAZPXXXAA"}});
-					const list = fetched.json();
-					const places  = {};
-					const reglat  = {};
-					const regarr  = [];
-					const regtree = {};
-					for (const item of list)
+				  var fetched = window.data = await fetch("/api/logistics/pvt/configuration/pickuppoints", { headers: { "X-VTEX-API-AppKey":   "vtexappkey-pillin-KTRDYS", "X-VTEX-API-AppToken": "QHMNBTTFTYSQIBJWBUCRZLKNWZNPYATTCKERYJYDVRUZETBXRIYVUNCFXYRCFDHSEYOXXRXSWZVIRLICXQYQCXYOIZUZRWXRJBUGFEAZKFZVRUNLQPEPFRQHAZPXXXAA"}});
+					var list = fetched.json();
+					var places  = {};
+					var reglat  = {};
+					var regarr  = [];
+					var regtree = {};
+					for (var item of list)
 					{
-						const region  = item.address.state;
-						const commune = item.address.neighborhood;
+						var region  = item.address.state;
+						var commune = item.address.neighborhood;
 						if (places[region] == undefined)
 						{
 							places[region] = {};
@@ -94,31 +94,31 @@ const StoreList = ({ }) => {
 						places[region][commune][item.name] = item;
 					}
 					regarr.sort((a, b) => reglat[b] - reglat[a]);
-					for (const region of regarr)
+					for (var region of regarr)
 						regtree[region] = places[region];
 					console.log("REG", regtree);
-					const order = [
+					var order = [
 						document.getElementById("address_region"),
 						document.getElementById("address_commune"),
 						document.getElementById("address_store")
 					];
 					populate(order[0], regtree);
-					for (const item of order)
+					for (var item of order)
 						item.addEventListener("input", change);
 					function change (ev)
 					{
 						console.log("change", this);
-						const index = order.indexOf(this);
+						var index = order.indexOf(this);
 						if (order[index].options[0].value == 0)
 							order[index].remove(0);
-						for (const select of order.slice(index +1))
+						for (var select of order.slice(index +1))
 						{
 							while (select.options.length)
 								select.remove(0);
 							select.disabled = true;
 						}
-						let tree = regtree;
-						let i    = 0;
+						var tree = regtree;
+						var i    = 0;
 						do
 						{
 							if (order[i] == undefined)
@@ -133,14 +133,14 @@ const StoreList = ({ }) => {
 						while (++i)
 						if (i != undefined)
 						{
-							const select = order[i];
+							var select = order[i];
 							populate(select, tree);
 							fillcard();
 							mappanarray(order);
 						}
 						else
 						{
-							const store = tree;
+							var store = tree;
 							setTimeout(mappancoord, 0, {
 									lat: store.address.location.latitude,
 									lng: store.address.location.longitude },
@@ -151,13 +151,13 @@ const StoreList = ({ }) => {
 					function populate (select, collection)
 					{
 						console.log("populating", select);
-						const option = document.createElement("option");
+						var option = document.createElement("option");
 						option.text  = "Seleccionar";
 						option.value = 0;
 						select.add(option);
-						for (let name in collection)
+						for (var name in collection)
 						{
-							const option = document.createElement("option");
+							var option = document.createElement("option");
 							option.text = name;
 							select.add(option);
 						}
@@ -166,7 +166,7 @@ const StoreList = ({ }) => {
 					function fillcard (store)
 					{
 						console.log("store", store);
-						const data = {
+						var data = {
 							name:     "n/a",
 							address:  "n/a",
 							schedule: "n/a",
@@ -174,10 +174,10 @@ const StoreList = ({ }) => {
 						};
 						if (store != undefined)
 						{
-							let today = (new Date).getDay();
-							let hours;
-							let sched;
-							for (const item of store.businessHours)
+							var today = (new Date).getDay();
+							var hours;
+							var sched;
+							for (var item of store.businessHours)
 							if  (item.dayOfWeek == today)
 							{
 								hours = item;
@@ -197,7 +197,7 @@ const StoreList = ({ }) => {
 						}
 						else
 							document.getElementById("store_info").classList.remove("populated");
-						for (const key in data)
+						for (var key in data)
 							document.getElementById(`slot_${key}`).textContent = data[key];
 					}
 				}
