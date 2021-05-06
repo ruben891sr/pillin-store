@@ -16,6 +16,7 @@ const StoreList = ({ }) => {
           <meta name="description" content="parsedDescription" />
           <script src="/files/pillin-custom.js"></script>
           <link rel="stylesheet" href="/files/pillin-custom.css" />
+		  <script>window.srestoresinit()</script>
         </Helmet>
       )}
         <div id={`cont`} className={`pillin-pillin-utils-0-x-cont srtest0`}>
