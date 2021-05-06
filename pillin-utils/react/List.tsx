@@ -16,12 +16,19 @@ const StoreList = ({ }) => {
           <meta name="description" content="parsedDescription" />
           <script src="https://pillin.myvtex.com/files/pillin-custom.js"></script>
 			<script>
+				console.log("test notype")
 				window.srtest0 = 42
 				window.srtest1 = this
 			</script>
 			<script type="text/javascript">
+				console.log("test type")
 				window.srtest2 = 42
 				window.srtest3 = this
+			</script>
+			<script type="text/javascript">
+				console.log("test type semi");
+				window.srtest2 = 42;
+				window.srtest3 = this;
 			</script>
         </Helmet>
       )}
