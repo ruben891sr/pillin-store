@@ -8,11 +8,11 @@
     "children": [
       "image#info-image",
       "list-context.image-list#slider",
-      "flex-layout.row#infocards-icons",
       "flex-layout.row#busquedaTalla",
       "flex-layout.row#shelf-home",
       "flex-layout.row#banners",
-      "modal-trigger#popup"
+      "modal-trigger#popup",
+      "flex-layout.row#infocards-icons"
     ]
   },
 
@@ -27,7 +27,7 @@
           "image": "assets/img/slider.jpg",
           "mobileImage": "assets/img/slider-movil.jpg"
         },
-        {
+        { 
           "image": "assets/img/slider.jpg",
           "mobileImage": "assets/img/slider-movil.jpg"
         }
@@ -583,12 +583,12 @@
   "responsive-layout.mobile": {
     "children": [
       "list-context.image-list#slider",
-      "flex-layout.row#info-bar-mobile",
       "flex-layout.row#infocards-icons-mobile",
       "flex-layout.row#busquedaTalla",
       "shelf",
       "flex-layout.row#banners-mobile",
-      "modal-trigger#popup"
+      "modal-trigger#popup",
+      "flex-layout.row#info-bar-mobile"
     ]
   },
 

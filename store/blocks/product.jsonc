@@ -473,7 +473,11 @@
       "blockClass": "pdpProductosRelacionados",
       "productList": {
         "titleText": "Productos Recomendados",
-        "itemsPerPage": 5
+        "itemsPerPage": 5,
+        "maxItems": 12,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true
       }
     },
     "blocks": ["product-summary.shelf#general"]

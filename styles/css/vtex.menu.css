@@ -22,19 +22,19 @@
 }
 
 .submenuContainer {
-    position: static !important; 
+    position: static !important;
 }
 
 .submenuWrapper {
     left: 50%;
     transform: translateX(-50%);
-    width: 75x  vw;
+    width: 75x vw;
     top: 64px !important;
-    border-top: 1px solid rgb(204 204 204 / 40%); 
+    border-top: 1px solid rgb(204 204 204 / 40%);
     border-radius: 0 0 6px 6px;
     box-shadow: 2px 4px 13px -6px #33333342;
     padding: 2.5rem 0 5rem 0;
-} 
+}
 
 .submenuWrapper .menuItem {
     display: flex;
@@ -43,8 +43,8 @@
 }
 
 .styledLinkContent--subSubMenuItem {
-    color: #3f2016; 
-    font-size: .85em !important;
+    color: #3f2016;
+    font-size: .9em !important;
     font-weight: 500 !important;
     position: relative;
     padding-left: 1.3rem;
@@ -72,24 +72,31 @@
     z-index: -1;
 }
 
-
 .menuItem--subcatTitulo-acc {
     margin-top: 2rem !important;
 }
-
 
 .styledLinkContent--subcatTitulo-ves-nino,
 .styledLinkContent--subcatTitulo-ves-nina,
 .styledLinkContent--subcatTitulo-cal,
 .styledLinkContent--subcatTitulo-acc {
     font-weight: 800;
-    font-size: .9em;
+    font-size: 1em;
     color: #3f2016;
     margin-bottom: .4rem;
     position: relative;
     padding-left: 1.5rem;
+    transition: all .5s ease;
 }
 
+.styledLinkContent--subcatTitulo-ves-nino:hover,
+.styledLinkContent--subcatTitulo-ves-nina:hover,
+.styledLinkContent--subcatTitulo-cal:hover,
+.styledLinkContent--subcatTitulo-acc:hover {
+    transition: all .5s ease;
+    font-weight: 900;
+    padding-left: 2rem;
+}
 
 .styledLinkContent--subcatTitulo-ves-nino::before,
 .styledLinkContent--subcatTitulo-ves-nina::before,
@@ -122,7 +129,6 @@
 .styledLinkContent--subcatTitulo-acc::before {
     background-image: url(assets/img/menu-icon-acc-2.png);
 }
-
 
 .styledLink--newSeason {
     width: 6em;
@@ -191,7 +197,6 @@
 .styledLinkContainer--mainMenu-ninn-acc::before {
     background-image: url(assets/img/menu-mobile-ninn.jpg);
 }
-
 
 .styledLinkContainer--mainMenu-nin,
 .styledLinkContainer--mainMenu-bb {
@@ -297,7 +302,6 @@
     padding-bottom: .1rem;
 }
 
-
 .styledLinkContainer--mainMenu-off-acc,
 .styledLinkContainer--mainMenu-na-acc,
 .styledLinkContainer--mainMenu-rn-nina-acc,
@@ -315,7 +319,6 @@
     padding-top: .1rem;
     padding-bottom: .1rem;
 }
-
 
 .styledLinkContent--mainMenu-off-acc,
 .styledLinkContent--mainMenu-na-acc,
@@ -367,7 +370,7 @@
 .styledLinkContent--mainMenu-na-acc,
 .styledLinkContent--mainMenu-rn-acc,
 .styledLinkContent--mainMenu-vv-acc,
-.styledLinkContent--mainMenu-ninn-acc { 
+.styledLinkContent--mainMenu-ninn-acc {
     padding: .7rem 1rem 1.3rem 4rem;
     background-color: #f7f7f7;
     border-radius: 4px;
@@ -406,7 +409,6 @@
     padding: 0;
 }
 
-
 .styledLinkContent--mainMenu-rn-todonino-acc,
 .styledLinkContent--mainMenu-vv-todonino-acc,
 .styledLinkContent--mainMenu-ninn-todonino-acc,
@@ -438,8 +440,6 @@
     border-bottom: 1px solid rgb(63 32 22 / 0.3);
 }
 
-
-
 .styledLinkContent--mainMenu-rn-acc::before {
     content: 'Desde 00 a 12M';
 }
@@ -452,16 +452,15 @@
     content: 'Desde 4 a 12';
 }
 
-
 .styledLinkContent--mainMenu-rn-acc::before,
 .styledLinkContent--mainMenu-vv-acc::before,
 .styledLinkContent--mainMenu-ninn-acc::before {
     position: absolute;
     left: 4rem;
-    top: 56%; 
+    top: 56%;
     font-size: 10px;
     font-weight: 500;
-} 
+}
 
 .styledLinkContainer--subSubMenuItem {
     border-bottom: 1px solid rgb(204 204 204 / 0.3);
@@ -534,9 +533,8 @@
 
 .menuContainer--tabContentMenu .menuItem .styledLinkContainer {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
-
 
 .menuContainer--tabContentMenu .menuItem .styledLinkContent {
     padding: .7rem 0;
@@ -555,21 +553,16 @@
         justify-content: flex-end;
         font-size: .8em !important;
     }
-
     .menuContainer--tabContentMenu .menuItem .styledLinkContent {
         padding: .4rem 0;
         margin: 0 .4rem;
     }
-    
-
     .styledLinkContent--subSubMenuItem::before {
         left: auto;
         right: .7rem;
     }
-
     .styledLinkContainer--seoCatList_first,
     .styledLinkContainer--seoCatList {
         padding: .2rem .5rem;
     }
-
 }

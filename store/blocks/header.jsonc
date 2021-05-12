@@ -58,7 +58,6 @@
 
     "flex-layout.col#left-list-topBar": {
         "children": [
-            "rich-text#tiendas",
             "rich-text#fono",
             "rich-text#contacto"
         ],
@@ -70,9 +69,10 @@
 
     "flex-layout.col#right-list-topBar": {
         "children": [
-            "rich-text#faq",
-            "rich-text#mis-pedidos",
-            "rich-text#whishlist"
+            // "rich-text#faq",
+            "rich-text#tiendas",
+            "rich-text#mis-pedidos"
+            // "rich-text#whishlist"
         ],
         "props": {
             "blockClass": "topBar-rightCol",

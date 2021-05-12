@@ -546,7 +546,6 @@
     }
 }
 
-
 .flexColChild--summaryBusquedaNombrePrice {
     height: auto !important;
 }
@@ -610,8 +609,8 @@
 
 .flexRowContent--busquedaTalla {
     flex-direction: column;
+    margin-top: 3rem;
 }
-
 
 .flexRow--minicart-footer {
     box-shadow: none !important;
@@ -634,6 +633,10 @@
 .flexRowContent--rowPrices {
     display: flex;
     justify-content: end;
+}
+
+.flexCol--colProductImage {
+    position: relative;
 }
 
 
@@ -660,6 +663,12 @@
 
 .flexRow--row-popup :global(.vtex-store-components-3-x-container) {
     padding: 0;
+}
+
+.flexCol--colProductImage :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection) {
+    position: absolute;
+    top: 0;
+    z-index: 999;
 }
 
 

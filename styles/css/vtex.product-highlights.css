@@ -1,70 +1,62 @@
 .productHighlightWrapper--collection {
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -6px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -6px;
 }
 
 .productHighlightText {
-  font-size: 0;
+    font-size: 0;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="145"] {
-  background-image: url(assets/img/flag-led-3.png);
-  width: 43px;
-  height: 35px;
-  bottom: 0;
-  position: absolute;
+    background-image: url(assets/img/flag-led-3.png);
+    width: 43px;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="144"] {
-  background-image: url(assets/img/flag-outlet.png);
-  width: 74px;
-  height: 35px;
+    background-image: url(assets/img/flag-outlet.png);
+    width: 74px;
+    height: 35px;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="143"] {
-  background-image: url(assets/img/flag-new.png);
-  width: 70px;
-  height: 35px;
+    background-image: url(assets/img/flag-new.png);
+    width: 70px;
+    height: 35px;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="142"] {
-  background-image: url(assets/img/flag-cyber-4.png);
-  width: 67px;
-  height: 33px;
+    background-image: url(assets/img/flag-cyber-4.png);
+    width: 67px;
+    height: 33px;
 }
 
 .colProductImage .productHighlightWrapper--collection[data-highlight-id="145"] {
-  bottom: auto;
-  right: 0;
-  top: 0 !important;
-  position: absolute;
+    bottom: auto;
+    right: 0;
+    top: 0 !important;
+    position: absolute;
 }
 
-
-
 @media (max-width:768px) {
-
-  .productHighlightWrapper--collection[data-highlight-id="145"] {
-    width: 34px;
-    height: 27px;
-  }
-
-  .productHighlightWrapper--collection[data-highlight-id="144"] {
-    width: 57px;
-    height: 33px;
-  }
-
-  .productHighlightWrapper--collection[data-highlight-id="143"] {
-    width: 55px;
-    height: 30px;
-  }
-
-  .productHighlightWrapper--collection[data-highlight-id="142"] {
-    width: 55px;
-    height: 28px;
-  }
-
-
+    .productHighlightWrapper--collection[data-highlight-id="145"] {
+        width: 34px;
+        height: 27px;
+    }
+    .productHighlightWrapper--collection[data-highlight-id="144"] {
+        width: 57px;
+        height: 33px;
+    }
+    .productHighlightWrapper--collection[data-highlight-id="143"] {
+        width: 55px;
+        height: 30px;
+    }
+    .productHighlightWrapper--collection[data-highlight-id="142"] {
+        width: 55px;
+        height: 28px;
+    }
 }
