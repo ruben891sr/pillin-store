@@ -170,6 +170,7 @@
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
+      "flex-layout.col#total-products",
       "flex-layout.row#fetchmore"
     ],
     "props": {
@@ -189,6 +190,24 @@
       "blockClass": "orderByCol",
       "horizontalAlign": "center",
       "width": "30%"
+    }
+  },
+
+  "flex-layout.row#total-products":{
+    "props":{
+      "blockClass": "totalProductsRow",
+      "horizontalAlign": "center",
+      "width": "100%"
+    },
+    "children":["flex-layout.col#total-products"]
+  },
+
+  "flex-layout.col#total-products":{
+    "children": ["total-products.v2"],
+    "props":{
+      "blockClass": "totalProductsCol",
+      "horizontalAlign": "center",
+      "width": "70%"
     }
   },
   "flex-layout.row#fetchprevious": {
@@ -221,6 +240,7 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
+      "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchmore"
     ],
     "props": {
