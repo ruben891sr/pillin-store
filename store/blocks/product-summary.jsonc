@@ -186,7 +186,7 @@
     ],
     "props": {
       "blockClass": "summaryBusquedaImagen",
-      "width": "40%"
+      "width": "30%"
     }
   },
   // 2.1.1.1 PSB - Main Row - Columna Imagen - Summary Image
@@ -206,7 +206,7 @@
     ],
     "props": {
       "blockClass": "summaryBusquedaNombrePrice",
-      "width": "60%"
+      "width": "70%"
     }
   }
 

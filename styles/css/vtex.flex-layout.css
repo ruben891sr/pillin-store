@@ -205,6 +205,21 @@
     background-image: url(assets/img/BN_Caluga_accesorios.jpg);
 }
 
+.flexColChild--summaryBusquedaNombrePrice :global(.vtex-store-components-3-x-priceContainer) {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0;
+}
+
+.flexColChild--summaryBusquedaNombrePrice :global(.vtex-store-components-3-x-sellingPriceValue) {
+    font-size: 14px;
+}
+
+.flexCol--summaryBusquedaNombrePrice .flexColChild--summaryBusquedaNombrePrice:last-child {
+    display: none;
+}
+
 
 /*PDP*/
 

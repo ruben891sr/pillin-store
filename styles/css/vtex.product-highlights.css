@@ -10,7 +10,7 @@
 }
 
 .productHighlightWrapper--collection[data-highlight-id="145"] {
-    background-image: url(assets/img/flag-led-3.png);
+    background-image: url(assets/img/flag-led-3.svg);
     width: 43px;
     height: 35px;
     bottom: 0;
@@ -18,19 +18,19 @@
 }
 
 .productHighlightWrapper--collection[data-highlight-id="144"] {
-    background-image: url(assets/img/flag-outlet.png);
+    background-image: url(assets/img/flag-outlet.svg);
     width: 74px;
     height: 35px;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="143"] {
-    background-image: url(assets/img/flag-new.png);
+    background-image: url(assets/img/flag-new.svg);
     width: 70px;
     height: 35px;
 }
 
 .productHighlightWrapper--collection[data-highlight-id="142"] {
-    background-image: url(assets/img/flag-cyber-4.png);
+    background-image: url(assets/img/flag-cyber-4.svg);
     width: 67px;
     height: 33px;
 }
