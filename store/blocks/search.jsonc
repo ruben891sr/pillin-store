@@ -25,7 +25,7 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout"], 
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -39,7 +39,7 @@
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
-      "context": {
+      "context": { 
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
         "maxItemsPerPage": 25,
