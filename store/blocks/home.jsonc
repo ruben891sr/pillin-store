@@ -325,8 +325,8 @@
   "tab-layout#vestuario": {
     "children": ["tab-list#vestuario", "tab-content#vestuario"],
     "props": {
-      "blockClass": "tabLayout",
-      "defaultActiveTabId": "ves-nina"
+      "blockClass": "tabLayout"
+      // "defaultActiveTabId": "ves-nina"
     }
   },
 
@@ -416,7 +416,7 @@
     "props": {
       "tabId": "cal-nino",
       "label": "Niño",
-      "defaultActiveTab": false,
+      // "defaultActiveTab": false,
       "blockClass": "calzado--mapequalsc---nino--specificationFilter-46---unisex--specificationFilter-46"
     }
   },
@@ -425,7 +425,7 @@
     "props": {
       "tabId": "cal-nina",
       "label": "Niña",
-      "defaultActiveTab": false,
+      // "defaultActiveTab": false,
       "blockClass": "calzado--mapequalsc---nina--specificationFilter-46---unisex--specificationFilter-46"
     }
   },
@@ -456,10 +456,10 @@
   },
 
   // Contenido del modal - Accesorios
-  "modal-layout#accesorios": {
+  "modal-layout#accesorios": { 
     "children": [
       "modal-header",
-      "rich-text#titulo-modal-accesorios",
+      "rich-text#titulo-modal-accesorios", 
       "tab-layout#accesorios",
       "rich-text#filtrar-accesorios"
     ],
