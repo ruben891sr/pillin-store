@@ -8,20 +8,30 @@
 
 .buttonText {
     position: relative;
-    font-size: 0;
-    height: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff!important;
     text-transform: initial;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .1s ease;
+    opacity: .5;
+    background: #402117;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px solid #402117;
 }
 
-.buttonText::before {
-    content: 'Agregar al carro';
+.buttonDataContainer .buttonText {
+    opacity: 1;
+}
+
+
+/* .buttonText::before {
+    content: 'Indis';
     font-size: 12px;
     font-weight: 700;
     letter-spacing: .04;
     transition: all .5s ease;
-}
+} */

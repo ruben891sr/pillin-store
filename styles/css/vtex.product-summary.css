@@ -122,11 +122,11 @@
      margin-top: .7rem;
      transition: all .5s ease;
      opacity: 0;
-     background-color: #3F2016 !important;
  }
  
  .element :global(.vtex-button):hover {
      transition: all .5s ease;
+     background-color: #3F2016 !important;
  }
  
  .element :global(.vtex-button__label) {
@@ -199,6 +199,20 @@
  
  .spacer {
      display: none;
+ }
+ 
+ .diagonalCross {
+     background: rgb(255 255 255 / 84%);
+     z-index: 991;
+     cursor: not-allowed !important;
+     touch-action: none !important;
+     pointer-events: none !important;
+ }
+ 
+ .diagonalCross:hover {
+     cursor: not-allowed !important;
+     touch-action: none !important;
+     pointer-events: none !important;
  }
  
  @media (max-width: 991px) {

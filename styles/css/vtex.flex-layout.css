@@ -683,7 +683,8 @@
 .flexCol--colProductImage :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection) {
     position: absolute;
     top: 0;
-    z-index: 999;
+    left: 25%;
+    z-index: 991;
 }
 
 

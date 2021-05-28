@@ -75,12 +75,25 @@
     margin-top: 2rem;
 }
 
-.accountOptions :global(.t-action--small) {
+.accountOptions :global(.vtex-button__label .t-action--small) {
     font-weight: 700;
     display: block;
     text-align: center;
     width: 100%;
     padding: .5rem 0;
+    font-size: 0;
+    color: transparent;
+    position: relative;
+}
+
+.accountOptions :global(.vtex-button__label .t-action--small)::before {
+    content: 'Cerrar Sesión';
+    font-size: 14px !important;
+    color: red !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .accountOptions :global(.mv2.o-30) {
@@ -89,7 +102,8 @@
 
 .accountOptions :global(.vtex-button) {
     border: 1px solid red;
-    color: red !important;
+    display: block;
+    width: 100%;
 }
 
 .accountOptions :global(.b--muted-4) {
@@ -111,7 +125,6 @@
     border: none;
     padding: .7rem 0;
 }
-
 
 .googleOptionBtn :global(.vtex-button) {
     background-color: #fff;
@@ -145,33 +158,27 @@
         height: 100vh;
         z-index: -1;
     }
-
     .contentAlwaysWithOptions {
         max-width: 25rem;
         background: #fff;
         z-index: 999999999;
     }
-
     .options {
         background: #fff !important;
         padding: 1rem;
         margin-top: 2rem;
     }
-
     .contentForm {
         width: 100%;
         background: #fff;
         padding: 1rem;
     }
-
 }
-
 
 @media (max-width: 991px) {
     .profileIcon {
         width: 12px;
     }
-
     .buttonLink {
         width: 44px;
         overflow: hidden;

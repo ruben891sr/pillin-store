@@ -115,7 +115,7 @@
       "blockClass": "summary"
     }
   },
-
+ 
   // 1.6 PSG - Summary installments
   "product-installments#summary": {
     "props": {
@@ -125,7 +125,7 @@
   // 1.7 PSG - Summary SKU selector
   "product-summary-sku-selector": {
     "props": {
-      "hideImpossibleCombinations": true,
+      "hideImpossibleCombinations": false,
       "showVariationsErrorMessage": true,
       "showVariationsLabels": true,
       "initialSelection": "empty",
@@ -133,9 +133,10 @@
       "maxItems": 14
     }
   },
+
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": true,
+      "hideImpossibleCombinations": false,
       "showVariationsErrorMessage": true,
       "showVariationsLabels": true,
       "initialSelection": "complete",
