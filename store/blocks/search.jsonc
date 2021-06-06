@@ -6,7 +6,8 @@
         "skusFilter": "ALL",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "facetsBehavior": "dynamic"
       }
     }
   },
@@ -19,7 +20,8 @@
         "maxItemsPerPage": 28,
         "skusFilter": "ALL",
         "simulationBehavior": "default",
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "facetsBehavior": "dynamic"
       }
     }
   },
@@ -31,7 +33,8 @@
         "skusFilter": "ALL",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "facetsBehavior": "dynamic"
       }
     }
   },
@@ -43,7 +46,8 @@
         "skusFilter": "ALL",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "facetsBehavior": "dynamic"
       }
     }
   },
@@ -55,7 +59,8 @@
         "skusFilter": "ALL",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "facetsBehavior": "dynamic"
       }
     }
   },
@@ -92,7 +97,7 @@
       "preventHorizontalStretch": true
     },
     "children": ["flex-layout.col#banner-one", "flex-layout.col#searchtitle"]
-  },
+  }, 
 
   // Banner
   "flex-layout.col#banner-one": {
