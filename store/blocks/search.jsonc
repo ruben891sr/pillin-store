@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
         "hideUnavailableItems": true,
@@ -18,7 +18,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 28,
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",
         "hideUnavailableItems": true,
         "facetsBehavior": "dynamic"
@@ -30,7 +30,7 @@
     "blocks": ["search-result-layout"],  
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
         "hideUnavailableItems": true,
@@ -43,7 +43,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
         "hideUnavailableItems": true,
@@ -51,12 +51,12 @@
       }
     }
   },
-
+ 
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",
         "maxItemsPerPage": 28,
         "hideUnavailableItems": true,
