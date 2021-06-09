@@ -11,7 +11,7 @@
       "flex-layout.row#busquedaTalla",
       "flex-layout.row#shelf-home",
       "flex-layout.row#banners",
-      "modal-trigger#popup",
+      // "modal-trigger#popup",
       "flex-layout.row#infocards-icons"
     ]
   },
@@ -587,7 +587,7 @@
       "flex-layout.row#busquedaTalla",
       "shelf",
       "flex-layout.row#banners-mobile",
-      "modal-trigger#popup",
+      // "modal-trigger#popup",
       "flex-layout.row#infocards-icons-mobile"
     ]
   },
