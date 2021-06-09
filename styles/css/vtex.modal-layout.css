@@ -14,10 +14,6 @@
     width: 65%!important;
 }
 
-.paper--ModalGuiaTallas {
-    width: 45vw !important;
-}
-
 .backdrop {
     background: #000 !important;
 }
@@ -78,11 +74,11 @@
     }
     .paper--ModalGuiaTallas {
         padding: 1.8rem .5rem;
-        height: 95vh!important;
+        height: 99vh!important;
         width: 99vw!important;
     }
     .paperScrollContent {
-        max-height: calc(100% - 2rem);
+        max-height: 100%;
         overflow: auto;
     }
 }
