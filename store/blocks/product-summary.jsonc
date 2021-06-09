@@ -134,6 +134,13 @@
     }
   },
 
+  // PSG - Add to cart Button
+  "add-to-cart-button":{
+    "props":{
+      "unavailableText" : "Agotado"
+    }
+  },
+
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
